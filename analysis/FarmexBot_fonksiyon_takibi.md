@@ -10,12 +10,12 @@ Bu kayıt yalnız güncel Damon/Richard içeriğindeki keşfedilmiş3226yordamı
 | unique_instruction_addresses_verified | 290173 |
 | import_forwarders_with_identity | 356 |
 | functions_with_reference_candidates | 563 |
-| initially_linked_scoped_models | 294 |
+| initially_linked_scoped_models | 295 |
 | full_function_completion_certificates | 0 |
 | functions_without_completion_certificate | 3226 |
 | live_compatibility_certificates | 0 |
 
-Tamamlanma sertifikası0, bütün fonksiyonlarda hiç analiz olmadığı anlamına gelmez. Tam fonksiyon davranışı, tüm ilgili yollar/yardımcılar ve bağımsız doğrulama için sertifika henüz yoktur. Elle eşleme294fonksiyonla sınırlıdır; mevcut diğer analizlerin eşlenmesi bekler.
+Tamamlanma sertifikası0, bütün fonksiyonlarda hiç analiz olmadığı anlamına gelmez. Tam fonksiyon davranışı, tüm ilgili yollar/yardımcılar ve bağımsız doğrulama için sertifika henüz yoktur. Elle eşleme295fonksiyonla sınırlıdır; mevcut diğer analizlerin eşlenmesi bekler.
 
 Otomatik adres referansları yalnız gezinme adayıdır. Önceki150–300tahmini ölçülmüş değer olarak kullanılmadı. Assembly byte doğrulaması, davranış analizi ve canlı uyumluluk ayrı alanlardır.
 
@@ -270,6 +270,7 @@ Otomatik adres referansları yalnız gezinme adayıdır. Önceki150–300tahmini
 - `004d5f60`: Actual three Quest metadata buttons -> selected signed row or fresh signed bulk count -> caption StrToInt32/cleanup -> bounded explicit record data. TakeAll invokes entry0-only4d5e8c, not selected-Take; Cancel uses record+4 then guarded+1c with unused result. Retained normal bodies have no quest enqueue call. Own read prefixes, normal receipts/FIFO/profile verified; native helper/protection/SEH/hook and unchecked read behavior, real database and take/cancel server effects unverified.
 - `004d6000`: Actual three Quest metadata buttons -> selected signed row or fresh signed bulk count -> caption StrToInt32/cleanup -> bounded explicit record data. TakeAll invokes entry0-only4d5e8c, not selected-Take; Cancel uses record+4 then guarded+1c with unused result. Retained normal bodies have no quest enqueue call. Own read prefixes, normal receipts/FIFO/profile verified; native helper/protection/SEH/hook and unchecked read behavior, real database and take/cancel server effects unverified.
 - `004d6040`: Captured give action consumed by actual own button and common append-prefix queue. Native helper/AL/mode/delay/script source distinctions retained. Own retry/cancel policy preserves known prefix, holds conflicting uncertain writes, rejects stale provider/profile/rows. Automatic game acquisition, native C++/FPU/heap/vector/SEH/runtime and delivery unverified.
+- `004d642c`: Captured scan continuation: signed inclusive limits with DWORD wrap; distinct lookup/name-storage and name temp lifetimes; compare AL then fresh nation/class gate/value reads, full-DWORD nation versus lowBYTE class comparison, mode CMP does not return match. Name cleanup, counter continuation and argument cleanup precede pinned FFFFFFFF normal return. Own ordinal/budget policy; helper/read/string/ABI/SEH effects explicit; not yet caller-composed or live verified.
 - `004d6668`: Actual own Refresh button: captured clear/HEPSI/select/erase -> normalized zone ->30001 candidate scan -> prepared record/append -> row/NPC -> explicit sorting policy -> four cleanup returns. Own timers/generation/view-conflict policies; no native allocator/refcount/SEH/control-order or automatic/live acquisition proof.
 - `004d7104`: Null-begin lazy endpoint read, wrapping signed difference/IDIV28 toward zero and rawDWORD extent in owned collection projection. No native vector allocation or runtime pointer validity proof.
 - `004d712c`: Null-begin lazy endpoint read, wrapping signed difference/IDIV28 toward zero and rawDWORD extent in owned collection projection. No native vector allocation or runtime pointer validity proof.

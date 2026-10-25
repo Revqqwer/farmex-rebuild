@@ -1,6 +1,6 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T07:46:06.243196+00:00
+Güncelleme UTC: 2026-10-25T08:02:52.094988+00:00
 
 Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **144**.
 
@@ -25,11 +25,11 @@ Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebi
 | Log | 6 | 2 | 0 | 2 |
 | Gorevler | 15 | 3 | 0 | 3 |
 
-**Güncel yerel GUI/kod doğrulaması:** QUEST_ACTION_UI_VALIDATION.json — 4908 Python testi; 1037 kontrol/11 form/18 sekme.
+**Güncel yerel GUI/kod doğrulaması:** QUEST_LOOKUP_VALIDATION.json — 4923 Python testi; 1037 kontrol/11 form/18 sekme.
 
-Yeni tam yerel GUI çalıştırması.
+Yeni GUI çalıştırılmadı; 4908 testli QUEST_ACTION_UI_VALIDATION.json aşamasındaki tam GUI import closure hashleri değişmedi.
 
-Actual Al/Ver now joins Refresh/NPC/details/metadata through captured observations and common own queue. Native/automatic game observations, delivery, concurrent drain reconciliation and other project flows remain unverified.
+Existing Take/Give/shared queue and Refresh/NPC/details/metadata remain bound with captured observations. New lookup API not yet composed into Take/Give producer; no automatic game provider/native runtime or delivery certificate.
 
 Bu kayıt native/game uyumluluk sertifikası değildir. Aşağıdaki adlandırılmış eski doğrulama notları tarihsel aşamalardır.
 
@@ -38,7 +38,7 @@ Bileşen, düzenlenebilir kontrol ve compiler girişi farklı kümeleri ölçer.
 
 Kaynak yollarının bağlı olması, davranışın yerel model/önizleme tarafından tüketildiğini gösterir. Her alt özelliğin kaynak, UI, native ve canlı kanıt kapsamı kendi raporundadır.
 
-**Fonksiyon takibi:** 294 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
+**Fonksiyon takibi:** 295 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
 
 Son UI genişlemeleri: DC/relog14 alanı(13 yeni compiler girdisi), Genie5 alanı ve Kontrol Ayarları15 alanı(2 yeni girdi). Kupon senkronizasyonu ve kontrol tüketici köprüsü ayrıca API modelleridir. DC Bekle/Manuel Rota kutuları ile Genie NoMob/süre alanları çalışma tüketicisi doğrulanmış yeni girişler olarak sayılmadı. Zone/Town bayraklarında yalnız ayar üreticisi bağlıdır; oyun içi durdurma etkisi kanıtlanmadı.
 

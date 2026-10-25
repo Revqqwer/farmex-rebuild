@@ -2260,7 +2260,9 @@
     "test_quest_action.py": "6692cd43166c5b2d7342475fcb934b46bc75d89df16fd36dcd04a080e734852e",
     "quest_action_worker.py": "7fd4ad9214c0f2e52ce0d7b167781130e059a9d6f37fc812c5f0af2648e31fbd",
     "test_quest_action_worker.py": "e92db5238696884f4ef773a3a6695b07a6c9618a8b89866aa36aa74e9089f7ed",
-    "smoke_quest_action_ui.py": "e9f1add3b561ba6dce4bea565606bc719a9793538340b75f65def85fa1413902"
+    "smoke_quest_action_ui.py": "e9f1add3b561ba6dce4bea565606bc719a9793538340b75f65def85fa1413902",
+    "quest_lookup.py": "6a5aa4ee724e4d1e37042741ce7315dce11bdbd326c9ca32a0bfb12b7fa2a727",
+    "test_quest_lookup.py": "94649cabc6ac8fa62fcf7fa531a6a4f98f4ff264efecc7e4ec362806c6ee092a"
   },
   "live_adapter_completed": false,
   "live_feature_count_verified": 0,
@@ -2427,7 +2429,8 @@
     "route_gate_record": "Captured four004e3144 recording branches:20/01 Delos Gate Open with separate fresh zone32/33, positive WORD ID, lookup/name spans then storage15/exact ANSI name;33 Gate Open DWORD unsigned;4b Gate timestamp before recording flag and DWORD unsigned;55 Delos Gate BYTE. Own row prefix and independent normal gaps. No packet interception/native/game IO; actual recording UI unbound.",
     "upgrade_parameter_frame": "Ordered callback-entry producer API: raw561f55, fresh reached scroll/anvil/wait Unicode texts and independent init/GetText/cleanup normals. Scroll explicit-CP ANSI assignment before scalar lowDWORD writes+8 then+4; accepted RTL Int64 only with helper normal receipt. Invalid scalar requires explicit QWORD, no inferred native fallback0/2000. Prefix retained. Source start reads cached ANSI object member, not fresh combo. UI callbacks/start-worker handoff remain unbound.",
     "quest_details": "Details API now consumed by actual main-list mouse release. Parsed caption record index, fresh level/display/NPC, column headers before Clear and four-row label flow retained; source scalar/Unicode/helper observations remain explicit.",
-    "selected_quest_action": "Captured Take/Give frame consumed by actual own buttons; common owned queue publication preserves append prefixes before helper return. Uncertain writer retry and cancellation are own policies, not source native concurrency proof."
+    "selected_quest_action": "Captured Take/Give frame consumed by actual own buttons; common owned queue publication preserves append prefixes before helper return. Uncertain writer retry and cancellation are own policies, not source native concurrency proof.",
+    "quest_lookup": "Isolated captured004d642c scan API: signed inclusive range/DWORD increment, null lookup skips, name storage signed>=16 vs inline15, separate normal name lifetimes/equality AL, distinct fresh nation/class reads and DWORD-vs-BYTE comparisons, nonbranching mode comparison, full cleanup before pinned FFFFFFFF return. Ordinal tokens and budget are own continuation policies."
   },
   "manual_challenge_boundary": "Other46f33c branch includes exact Captcha yenileniyor... literal. Passive evidence only; bound guard retains unknown AL/manual-handling gap. No challenge solving, refresh workflow or bypass implementation.",
   "route_api_binding_scope": "All10 own panel filename choices and local INI load exposed in RoutePage; not a claim of all library/source integration",
@@ -2873,7 +2876,7 @@
     }
   ],
   "bound_event_buttons_scope": "Explicit panel button registry only; existing dedicated name-list button actions are tracked separately.",
-  "candidate_ui_validation_status": "4908 tests and full hidden GUI1037 controls/11forms/18tabs passed. Prior2002 instruction source evidence remains pinned; new UI and publication policies are locally tested, not fresh native execution.",
-  "current_validation_file": "QUEST_ACTION_UI_VALIDATION.json",
-  "current_UI_scope_summary": "Actual Al/Ver now joins Refresh/NPC/details/metadata through captured observations and common own queue. Native/automatic game observations, delivery, concurrent drain reconciliation and other project flows remain unverified."
+  "candidate_ui_validation_status": "4923 tests passed. No new GUI: all909 previous4908 code sources,381 app/smoke import modules and prior published JSON bytes unchanged. New lookup files outside GUI closure.384 native lookup instructions verified in both pins; prior464 normal-return/caller proof retained.",
+  "current_validation_file": "QUEST_LOOKUP_VALIDATION.json",
+  "current_UI_scope_summary": "Existing Take/Give/shared queue and Refresh/NPC/details/metadata remain bound with captured observations. New lookup API not yet composed into Take/Give producer; no automatic game provider/native runtime or delivery certificate."
 }

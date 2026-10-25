@@ -1,5 +1,16 @@
 # Farmex yeniden yapım — geliştirme sürümü
 
+Son API aşaması:004d642c görev arama taraması, fresh alan okumaları ve ayrı
+name/temp/argument temizlemeleriyle devam modeline eklendi. Eşleşme taramayı
+bitirmez; FFFFFFFF yalnız normal bitişte üretilir.4923 test geçti; iki PE'de384
+lookup instruction kaydı ve önceki464 normal dönüş/caller kaydı dayanak alındı.
+Yeni GUI yok: önceki4908 GUI'nin909 kod kaynağı,381 import modülü ve yayımlanmış
+JSON verileri değişmedi. Yeni API henüz Al/Ver üreticisine bağlanmadı.
+Native helper/runtime ve canlı oyun eşliği açık. QUEST_LOOKUP_VALIDATION.json.
+
+Önceki aşama notları tarihsel kayıttır.
+
+
 Son UI aşaması: gerçek Al/Ver düğmeleri captured frame ve ortak yerel kuyruğa
 bağlandı. Bilinen append öneki outer dönüşten önce yayımlanır; yazım sonrası
 hata tekrar kayıt üretmez. Gizli devam, iptal, stale satır/profil reddi ve

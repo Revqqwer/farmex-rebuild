@@ -812,3 +812,12 @@ seçimsiz/AL!=3 çıkışları doğrulandı. 4908 test ve yeni tam GUI1037 kontr
 11form/18sekme geçti. Otomatik oyun verisi, native/runtime eşlik, belirsiz
 yazım sırasında eşzamanlı drain uzlaştırması ve canlı gönderim hâlâ açık.
 Kapsam QUEST_ACTION_UI_VALIDATION.json ve QUEST_ACTION_WORKER.md.
+
+
+25 Ekim — Son API aşaması:004d642c görev arama taraması, fresh alan okumaları ve ayrı
+name/temp/argument temizlemeleriyle devam modeline eklendi. Eşleşme taramayı
+bitirmez; FFFFFFFF yalnız normal bitişte üretilir.4923 test geçti; iki PE'de384
+lookup instruction kaydı ve önceki464 normal dönüş/caller kaydı dayanak alındı.
+Yeni GUI yok: önceki4908 GUI'nin909 kod kaynağı,381 import modülü ve yayımlanmış
+JSON verileri değişmedi. Yeni API henüz Al/Ver üreticisine bağlanmadı.
+Native helper/runtime ve canlı oyun eşliği açık. QUEST_LOOKUP_VALIDATION.json.

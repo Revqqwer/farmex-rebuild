@@ -1,28 +1,21 @@
 # Güncel durum — 25 Ekim 2026
 
-Son UI aşaması: gerçek Al/Ver düğmeleri captured frame ve ortak yerel kuyruğa
-bağlandı. Bilinen append öneki outer dönüşten önce yayımlanır; yazım sonrası
-hata tekrar kayıt üretmez. Gizli devam, iptal, stale satır/profil reddi ve
-seçimsiz/AL!=3 çıkışları doğrulandı. 4908 test ve yeni tam GUI1037 kontrol/
-11form/18sekme geçti. Otomatik oyun verisi, native/runtime eşlik, belirsiz
-yazım sırasında eşzamanlı drain uzlaştırması ve canlı gönderim hâlâ açık.
-Kapsam QUEST_ACTION_UI_VALIDATION.json ve QUEST_ACTION_WORKER.md.
-
-Yeni statik bulgu: iki pinned Richard PE'sindeki004d642c normal dönüşü,
-helper stack ABI'si korunduğunda FFFFFFFF'dir. Son mode CMP'sini başarı dalı
-izlemez; tek RET, sabit dönüşün save/restore komutları üzerinden geçer.
-464 komut byte kontrolü ve bağımsız decode/normal-CFG kanıtı üretildi.
-Bu bulgu scan/helper etkilerini atlamaya veya canlıda aynı kodun çalıştığı
-sonucuna izin vermez. QUEST_LOOKUP_RETURN.md; yerel test sayısı değişmedi.
+Son API aşaması:004d642c görev arama taraması, fresh alan okumaları ve ayrı
+name/temp/argument temizlemeleriyle devam modeline eklendi. Eşleşme taramayı
+bitirmez; FFFFFFFF yalnız normal bitişte üretilir.4923 test geçti; iki PE'de384
+lookup instruction kaydı ve önceki464 normal dönüş/caller kaydı dayanak alındı.
+Yeni GUI yok: önceki4908 GUI'nin909 kod kaynağı,381 import modülü ve yayımlanmış
+JSON verileri değişmedi. Yeni API henüz Al/Ver üreticisine bağlanmadı.
+Native helper/runtime ve canlı oyun eşliği açık. QUEST_LOOKUP_VALIDATION.json.
 
 Proje tamamlanmadı. Oyun bağlantısını dışarıda bıraksak da davranış birleştirme, eksik özellik akışları ve panel bağlantılarında işler var. Test/kontrol/yordam sayıları tamamlanma yüzdesi değildir.
 
 | Ölçüm | Son doğrulanan değer | Anlamı |
 |---|---:|---|
-| Python testleri | 4908 | Al/Ver UI ve ortak kuyruk, önceki regresyonlar |
+| Python testleri | 4923 | Lookup API, Al/Ver UI ve önceki regresyonlar |
 | Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 4908 Al/Ver UI aşamasında yeniden çalıştırıldı |
 | Keşfedilmiş Richard yordamları | 3226 | Keşfedilmemiş kod/veri bu envanter dışında |
-| Sınırlı modele bağlanan yordamlar | 294 | Kısmi kapsam eşlemesi; bitmiş fonksiyon sayısı değil |
+| Sınırlı modele bağlanan yordamlar | 295 | Kısmi kapsam eşlemesi; bitmiş fonksiyon sayısı değil |
 | Tam fonksiyon sertifikası | 0 | Tüm yollar/native eşlik kanıtlanmadı |
 | Bağlı compiler girişleri | 379 | Yerel giriş envanteri |
 | Dış envanterde kalan düzenlenebilir yollar | 144 | Eksik özellik sayısı değil |
