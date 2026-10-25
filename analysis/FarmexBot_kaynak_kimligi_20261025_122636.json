@@ -1,0 +1,81 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T12:26:36.420487+00:00",
+  "verification_scope": "Installed bot bytes and decoded analysis pins; game profile reported separately",
+  "source_files": [
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\FarmexUS_ST_Loader.exe",
+      "size": 4850688,
+      "sha256": "97d946ddec5df814e0042384b78b711c029f136aa6c43701910fd21cef5a0775",
+      "last_write_utc": "2026-10-13T06:14:10.575178+00:00",
+      "role": "loader",
+      "matches_analysis_pin": true
+    },
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\Data\\Damon.slv",
+      "size": 2024448,
+      "sha256": "ffbe8ad8f8aa06728d6059443eb76b3bc88badbc1e29ffa201549ad50efd26ad",
+      "last_write_utc": "2026-10-18T03:44:50.049747+00:00",
+      "role": "Damon",
+      "matches_analysis_pin": true,
+      "matches_preserved_raw_bytes": true,
+      "decoded_sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "decoded_matches_preserved_bytes": true,
+      "aligned_marker_replacements": 19903
+    },
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\Data\\Richard.slv",
+      "size": 2024448,
+      "sha256": "ffbe8ad8f8aa06728d6059443eb76b3bc88badbc1e29ffa201549ad50efd26ad",
+      "last_write_utc": "2026-10-18T03:44:50.329362+00:00",
+      "role": "Richard",
+      "matches_analysis_pin": true,
+      "matches_preserved_raw_bytes": true,
+      "decoded_sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "decoded_matches_preserved_bytes": true,
+      "aligned_marker_replacements": 19903
+    },
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\Data\\Stephan.slv",
+      "size": 4870144,
+      "sha256": "f2864fc683a5517b6f1fee6a68138fdcb4337a3fa4780339039e577468161944",
+      "last_write_utc": "2026-10-18T03:44:49.768929+00:00",
+      "role": "Stephan",
+      "matches_analysis_pin": true,
+      "matches_preserved_raw_bytes": true,
+      "decoded_sha256": "c3610fbe55bdc69a9e146887487f9103a78ac71b219ceffd2a9cd0b35dbab012",
+      "decoded_matches_preserved_bytes": true,
+      "aligned_marker_replacements": 31606
+    },
+    {
+      "path": "C:\\NTTGame\\KnightOnlineEn\\KnightOnLine.exe",
+      "size": 7018128,
+      "sha256": "ecc420d7c0274ef198c8d174007f51eb954507d25b7226a7082d3ad44493706e",
+      "last_write_utc": "2026-10-19T08:06:22+00:00",
+      "role": "game",
+      "registered_reader_profile": false,
+      "profile_names": [],
+      "matches_historical_game_pin": false,
+      "matches_historical_game_bytes": false
+    }
+  ],
+  "installed_damon_richard_decoded_identical": true,
+  "current_module_analysis_still_source_bound": true,
+  "installed_files_modified": false,
+  "current_game_registered_reader_profile": false,
+  "verifier_sha256": "352e8945bb9f730cd63bbaedc47a226890c709281a92cc82cd0ae0a5b316c370",
+  "game_provider_sha256": "253e6fbd6b616bd2bf9cf39f314811024e863c1376683bb0c29471e3ba0541c4",
+  "process_metadata": null,
+  "process_discovery_performed": false,
+  "target_executions": 0,
+  "game_memory_reads": 0,
+  "game_memory_writes": 0,
+  "network_requests": 0,
+  "live_compatibility_verified": false,
+  "limitations": [
+    "Disk snapshots do not prove loaded image identity, profile, ABI or live values.",
+    "No process discovery is performed and no historical PID observation is promoted to current state.",
+    "A successful bot source comparison does not establish a registered or verified game address profile.",
+    "Unchanged source bytes preserve existing evidence scope; they do not certify any unresolved behavior."
+  ]
+}

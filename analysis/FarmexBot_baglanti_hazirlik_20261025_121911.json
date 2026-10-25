@@ -1,0 +1,224 @@
+{
+  "observed_at_utc": "2026-10-25T12:19:11.934951+00:00",
+  "scope": "disk-only readiness; no process discovery, handles, memory, launcher or UAC",
+  "game_image": {
+    "path": "C:\\NTTGame\\KnightOnlineEn\\KnightOnLine.exe",
+    "size": 7018128,
+    "sha256": "ecc420d7c0274ef198c8d174007f51eb954507d25b7226a7082d3ad44493706e",
+    "machine": "0x14c",
+    "image_base": "0x400000",
+    "dynamic_base": false,
+    "sections": [
+      {
+        "name": "   ",
+        "virtual_address": "0x401000",
+        "virtual_size": 15052800,
+        "raw_size": 4600832,
+        "raw_offset": 4096,
+        "readable": true,
+        "writable": true,
+        "executable": true
+      },
+      {
+        "name": ".rsrc",
+        "virtual_address": "0x125c000",
+        "virtual_size": 734008,
+        "raw_size": 734208,
+        "raw_offset": 4604928,
+        "readable": true,
+        "writable": true,
+        "executable": false
+      },
+      {
+        "name": ".idata  ",
+        "virtual_address": "0x1310000",
+        "virtual_size": 4096,
+        "raw_size": 1024,
+        "raw_offset": 5339136,
+        "readable": true,
+        "writable": true,
+        "executable": false
+      },
+      {
+        "name": "        ",
+        "virtual_address": "0x1311000",
+        "virtual_size": 2674688,
+        "raw_size": 512,
+        "raw_offset": 5340160,
+        "readable": true,
+        "writable": true,
+        "executable": true
+      },
+      {
+        "name": "qgjlnxfv",
+        "virtual_address": "0x159e000",
+        "virtual_size": 1671168,
+        "raw_size": 1670656,
+        "raw_offset": 5340672,
+        "readable": true,
+        "writable": true,
+        "executable": true
+      },
+      {
+        "name": "yhtawguh",
+        "virtual_address": "0x1736000",
+        "virtual_size": 4096,
+        "raw_size": 512,
+        "raw_offset": 7011328,
+        "readable": true,
+        "writable": true,
+        "executable": true
+      }
+    ]
+  },
+  "registered_live_reader_profile": false,
+  "registered_profiles": [
+    {
+      "size": 7009936,
+      "sha256": "adeccdc66814422e47ffc66b9a5659a2f9487aad6d4a5289a78261d94a3e700a",
+      "profiles": [
+        "steam",
+        "us"
+      ]
+    },
+    {
+      "size": 7008392,
+      "sha256": "ca69cecebdefd82b409ca8cf041655da53cb97113b068a086c5f7a6ef7e952a9",
+      "profiles": [
+        "steam",
+        "us"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "game_provider.py": "253e6fbd6b616bd2bf9cf39f314811024e863c1376683bb0c29471e3ba0541c4",
+    "connection_ui.py": "3001e279818fa848f07af5ac3525f857bcbf5496481af506fca41c964a955af0",
+    "native_ipc.py": "f0fd5630e757094b96cf7541dbcabac4a6746c66ce1aee0a267ae9335cf05dfd",
+    "native/vitals_bridge.c": "4114079ed1f8505c4baa704ff4c539e081146a3ce21bc73729ab35319644485c",
+    "current_coordinates.py": "0d69c6d15748d3725da904f153485f6eb6c093a1d4908e131a93c7f78f6521aa",
+    "route_coordinate_click.py": "0701262c36a3dd46751ae85b77efe082638aece7340c0581ab9f7844a05f2346",
+    "panel_ui.py": "b20a7f054d36f82de864ec8c0b26572a2adb2cb744b551cb218fa5fd03e25605"
+  },
+  "memory_bytes_read": 0,
+  "memory_writes": 0,
+  "game_actions": 0,
+  "live_compatibility_verified": false,
+  "findings": [
+    {
+      "id": "current_image_profile",
+      "state": "missing",
+      "evidence": "Exact disk size/SHA lookup in GAME_IMAGE_PROFILES; unknown build is rejected before VM_READ."
+    },
+    {
+      "id": "access_rights",
+      "state": "not_tested_now",
+      "evidence": "Historical error5 is not current-session evidence and does not establish its cause."
+    },
+    {
+      "id": "publisher",
+      "state": "not_implemented_as_game_integration",
+      "evidence": "NativeVitalsProvider only opens an explicitly supplied mapping; it does not create/load a game publisher."
+    },
+    {
+      "id": "coordinates",
+      "state": "synthetic_bridge_only",
+      "evidence": "ConnectionPage exposes HP/MP observations; coordinate UI expects separate typed provider, no automatic game acquisition."
+    },
+    {
+      "id": "actions",
+      "state": "unbound",
+      "evidence": "ReadOnlyGameProvider.submit always returns unavailable; no writable transport ABI is bound."
+    }
+  ],
+  "source_profile_provenance": {
+    "evidence_file": "FarmexBot_yenilenen_profil_kod_kaniti.json",
+    "evidence_sha256": "0c0303f6e2de3168f6d776d3561e11a583e1b866d64a43424b5e814f969577fa",
+    "source_module_sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+    "operand_records_reverified": [
+      {
+        "profile": "us",
+        "address": "004fd647",
+        "bytes": "c74040c0891201",
+        "text": "MOV dword ptr [EAX + 0x40],0x11289c0"
+      },
+      {
+        "profile": "us",
+        "address": "004fda78",
+        "bytes": "c78080010000d4060000",
+        "text": "MOV dword ptr [EAX + 0x180],0x6d4"
+      },
+      {
+        "profile": "us",
+        "address": "004fda85",
+        "bytes": "c7827c010000d8060000",
+        "text": "MOV dword ptr [EDX + 0x17c],0x6d8"
+      },
+      {
+        "profile": "us",
+        "address": "004fdae0",
+        "bytes": "c781880100005c0d0000",
+        "text": "MOV dword ptr [ECX + 0x188],0xd5c"
+      },
+      {
+        "profile": "us",
+        "address": "004fdaed",
+        "bytes": "c78084010000600d0000",
+        "text": "MOV dword ptr [EAX + 0x184],0xd60"
+      },
+      {
+        "profile": "steam",
+        "address": "004e439f",
+        "bytes": "c7404038961e01",
+        "text": "MOV dword ptr [EAX + 0x40],0x11e9638"
+      },
+      {
+        "profile": "steam",
+        "address": "004e47d9",
+        "bytes": "c78180010000d4060000",
+        "text": "MOV dword ptr [ECX + 0x180],0x6d4"
+      },
+      {
+        "profile": "steam",
+        "address": "004e47e6",
+        "bytes": "c7807c010000d8060000",
+        "text": "MOV dword ptr [EAX + 0x17c],0x6d8"
+      },
+      {
+        "profile": "steam",
+        "address": "004e4841",
+        "bytes": "c782880100005c0d0000",
+        "text": "MOV dword ptr [EDX + 0x188],0xd5c"
+      },
+      {
+        "profile": "steam",
+        "address": "004e484e",
+        "bytes": "8b8188010000",
+        "text": "MOV EAX,dword ptr [ECX + 0x188]"
+      },
+      {
+        "profile": "steam",
+        "address": "004e4854",
+        "bytes": "83c004",
+        "text": "ADD EAX,0x4"
+      },
+      {
+        "profile": "steam",
+        "address": "004e485a",
+        "bytes": "898284010000",
+        "text": "MOV dword ptr [EDX + 0x184],EAX"
+      }
+    ],
+    "paired_historical_game_sha256": "ca69cecebdefd82b409ca8cf041655da53cb97113b068a086c5f7a6ef7e952a9",
+    "paired_historical_game_size": 7008392,
+    "paired_game_matches_current_disk": false,
+    "proves_source_constants": true,
+    "proves_current_game_field_semantics": false
+  },
+  "next_steps": [
+    "Validate source address-table provenance for this exact game build before accepting any read profile.",
+    "When user returns, re-identify the actual game session and separately measure access metadata; do not replay consumed one-shot UAC scripts.",
+    "Only after matching profile and available read access: compare bounded HP/MP observations with visible game values.",
+    "Independently validate coordinates before binding the real coordinate provider.",
+    "Select one feature for end-to-end validation after data acquisition works."
+  ]
+}

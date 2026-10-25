@@ -37,3 +37,5 @@ disassembler dökümleri, araç zincirleri ve geçici çalışma dosyaları dahi
 Eski doğrulama belgeleri tarihsel aşamalardır; güncel kapsam
 `farmex_rebuild/QUEST_READ_COMPOSITION_VALIDATION.json` içindedir. Bazı analiz yolları
 yerel çalışma ortamını gösterir; harici orijinal ikililer bu repoda yoktur.
+
+Güncel canlı bağlantı kanıtları ve açık işler: [Canlı bağlantı durumu](analysis/FarmexBot_canli_baglanti_durumu.md).

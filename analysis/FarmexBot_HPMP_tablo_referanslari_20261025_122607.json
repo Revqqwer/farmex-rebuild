@@ -1,0 +1,4343 @@
+{
+  "verification_status": "passed",
+  "observed_at_utc": "2026-10-25T12:26:07.582770+00:00",
+  "producer": "Retained Ghidra discovered instructions checked against decoded PE and Capstone operands; no new REA provider execution",
+  "module_sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+  "retained_assembly_sha256": "2f2fcd17264adf2c477ab49456a73e16c1f3dac63f692098ee8b40ab8904e49e",
+  "auditor_sha256": "567a4c42987dcc43587adaa32154f9ee965176c85f369591a8ce3bed281d91f0",
+  "fields": {
+    "0x553e7c": "root_slot",
+    "0x553fb8": "hp",
+    "0x553fbc": "hp_max",
+    "0x553fc0": "mp",
+    "0x553fc4": "mp_max"
+  },
+  "unique_instructions": 253,
+  "field_reference_counts": {
+    "root_slot": 241,
+    "hp_max": 5,
+    "hp": 5,
+    "mp": 1,
+    "mp_max": 1
+  },
+  "direct_memory_reads": 253,
+  "direct_memory_writes": 0,
+  "address_immediates": 0,
+  "direct_write_records": [],
+  "records": [
+    {
+      "function": "004073dc",
+      "address": "004073ef",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004073dc",
+      "address": "0040740e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040b978",
+      "address": "0040ba6f",
+      "text": "ADD EDX,dword ptr [0x00553fbc]",
+      "bytes": "0315bc3f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "edx, dword ptr [0x553fbc]",
+      "table_operands": [
+        {
+          "field": "hp_max",
+          "slot": "0x553fbc",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040b978",
+      "address": "0040ba83",
+      "text": "ADD ECX,dword ptr [0x00553fb8]",
+      "bytes": "030db83f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "ecx, dword ptr [0x553fb8]",
+      "table_operands": [
+        {
+          "field": "hp",
+          "slot": "0x553fb8",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040d224",
+      "address": "0040d35f",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040d224",
+      "address": "0040d497",
+      "text": "ADD ECX,dword ptr [0x00553fbc]",
+      "bytes": "030dbc3f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "ecx, dword ptr [0x553fbc]",
+      "table_operands": [
+        {
+          "field": "hp_max",
+          "slot": "0x553fbc",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040d224",
+      "address": "0040d4ab",
+      "text": "ADD EAX,dword ptr [0x00553fb8]",
+      "bytes": "0305b83f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "eax, dword ptr [0x553fb8]",
+      "table_operands": [
+        {
+          "field": "hp",
+          "slot": "0x553fb8",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040d554",
+      "address": "0040d7dd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040e200",
+      "address": "0040e213",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040e200",
+      "address": "0040e234",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040e2c0",
+      "address": "0040e2ea",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040e2c0",
+      "address": "0040e307",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040e2c0",
+      "address": "0040e342",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040f274",
+      "address": "0040f30b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040f274",
+      "address": "0040f32c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040fc1c",
+      "address": "0040fc64",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040fc1c",
+      "address": "0040fc85",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040fc1c",
+      "address": "0040fcd5",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040fc1c",
+      "address": "0040fd0a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0040fc1c",
+      "address": "0040fd35",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00412874",
+      "address": "00412976",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0041d580",
+      "address": "0041d593",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0041d580",
+      "address": "0041d5b7",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00420efc",
+      "address": "00420fab",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00420efc",
+      "address": "00420fe2",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004220c8",
+      "address": "0042210c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004220c8",
+      "address": "0042213b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004576ec",
+      "address": "00458682",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00458f98",
+      "address": "004593d5",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0045b7d8",
+      "address": "0045b8ef",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0045bab0",
+      "address": "0045bd95",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00460548",
+      "address": "0046054e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00460548",
+      "address": "0046056d",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004611a0",
+      "address": "004611a3",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004611a0",
+      "address": "004611af",
+      "text": "ADD EAX,dword ptr [0x00553fb8]",
+      "bytes": "0305b83f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "eax, dword ptr [0x553fb8]",
+      "table_operands": [
+        {
+          "field": "hp",
+          "slot": "0x553fb8",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004611c0",
+      "address": "004611c3",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004611c0",
+      "address": "004611cf",
+      "text": "ADD EAX,dword ptr [0x00553fbc]",
+      "bytes": "0305bc3f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "eax, dword ptr [0x553fbc]",
+      "table_operands": [
+        {
+          "field": "hp_max",
+          "slot": "0x553fbc",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004611e0",
+      "address": "004611e3",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004611e0",
+      "address": "004611ef",
+      "text": "ADD EAX,dword ptr [0x00553fc0]",
+      "bytes": "0305c03f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "eax, dword ptr [0x553fc0]",
+      "table_operands": [
+        {
+          "field": "mp",
+          "slot": "0x553fc0",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00461200",
+      "address": "00461203",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00461200",
+      "address": "0046120f",
+      "text": "ADD EAX,dword ptr [0x00553fc4]",
+      "bytes": "0305c43f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "eax, dword ptr [0x553fc4]",
+      "table_operands": [
+        {
+          "field": "mp_max",
+          "slot": "0x553fc4",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00461220",
+      "address": "00461223",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00461240",
+      "address": "00461243",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0046209c",
+      "address": "0046209f",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0046256c",
+      "address": "0046256f",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0046258c",
+      "address": "0046258f",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004625ac",
+      "address": "004625b0",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004625d8",
+      "address": "004625dc",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462604",
+      "address": "00462608",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462630",
+      "address": "00462633",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462650",
+      "address": "00462653",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462670",
+      "address": "00462673",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462690",
+      "address": "00462693",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004626d8",
+      "address": "004626db",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004626f8",
+      "address": "004626fb",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462718",
+      "address": "0046271b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462eb8",
+      "address": "00462ebb",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462ed8",
+      "address": "00462f4e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462ed8",
+      "address": "00462fcd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462ed8",
+      "address": "0046304c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462ed8",
+      "address": "004630cb",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00462ed8",
+      "address": "0046314a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004631c8",
+      "address": "004631cb",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004631e8",
+      "address": "004631eb",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00463208",
+      "address": "0046320b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004632b4",
+      "address": "004632cc",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464678",
+      "address": "00464681",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464678",
+      "address": "00464699",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004646b4",
+      "address": "004646b8",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464714",
+      "address": "00464717",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0046493c",
+      "address": "00464974",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464a20",
+      "address": "00464a73",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464a20",
+      "address": "00464a94",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464a20",
+      "address": "00464ab7",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464a20",
+      "address": "00464adb",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464a20",
+      "address": "00464b13",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464b2c",
+      "address": "00464b50",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464b2c",
+      "address": "00464b70",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464b2c",
+      "address": "00464b94",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464b2c",
+      "address": "00464bb8",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464b2c",
+      "address": "00464bd4",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464b2c",
+      "address": "00464c0f",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464c2c",
+      "address": "00464c3d",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464c2c",
+      "address": "00464c57",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00464c2c",
+      "address": "00464c81",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00465de0",
+      "address": "00465df0",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00465e50",
+      "address": "00465e60",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004677f0",
+      "address": "004677f5",
+      "text": "MOV ECX,dword ptr DS:[0x553e7c]",
+      "bytes": "3e8b0d7c3e5500",
+      "decoded_mnemonic": "mov",
+      "decoded_operands": "ecx, dword ptr ds:[0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0046f520",
+      "address": "0046f787",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00471954",
+      "address": "00471964",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00471954",
+      "address": "00471985",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00471a28",
+      "address": "00471a39",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00471a28",
+      "address": "00471a5a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00471a28",
+      "address": "00471a88",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00471c38",
+      "address": "00471d9f",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00471c38",
+      "address": "00471dca",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00472b90",
+      "address": "00472cb5",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00479698",
+      "address": "0047982e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00479698",
+      "address": "004798bd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0047a61c",
+      "address": "0047b2a4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0047b384",
+      "address": "0047b3f3",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0047b384",
+      "address": "0047b5d5",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0047b384",
+      "address": "0047b600",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0047b7fc",
+      "address": "0047b95b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004994bc",
+      "address": "00499533",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004994bc",
+      "address": "0049955e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499620",
+      "address": "004996e1",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499620",
+      "address": "0049970c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499620",
+      "address": "00499925",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499620",
+      "address": "00499950",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499620",
+      "address": "00499a56",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499620",
+      "address": "00499a81",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499b88",
+      "address": "0049a456",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499b88",
+      "address": "0049a481",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00499b88",
+      "address": "0049a52a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049a564",
+      "address": "0049b289",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049a564",
+      "address": "0049b2b3",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049b318",
+      "address": "0049b37a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049b318",
+      "address": "0049b397",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049b318",
+      "address": "0049b889",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049b928",
+      "address": "0049b939",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049b928",
+      "address": "0049b95a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049b928",
+      "address": "0049b98c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049bad0",
+      "address": "0049bae1",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049bad0",
+      "address": "0049bb02",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049bc9c",
+      "address": "0049d072",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049bc9c",
+      "address": "0049d0cf",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "0049bc9c",
+      "address": "0049d5af",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004ae228",
+      "address": "004ae23d",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004bf9dc",
+      "address": "004bfaaa",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004c54c8",
+      "address": "004c54fd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004c54c8",
+      "address": "004c551e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004c54c8",
+      "address": "004c554c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004ceee2",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cefcd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf0e4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf18c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf24a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf337",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf455",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf4fc",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf600",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf6aa",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf7b0",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cee18",
+      "address": "004cf854",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cf8b8",
+      "address": "004cf9b4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cf8b8",
+      "address": "004cf9df",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cf8b8",
+      "address": "004cfa77",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cf8b8",
+      "address": "004cfb47",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cf8b8",
+      "address": "004cfb72",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cf8b8",
+      "address": "004cfc1d",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004cfda9",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004cfdd4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004cfe6b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004cfefb",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004cff26",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004cffbd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004d0145",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004d0170",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004d021e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004d02f4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004d031f",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004cfc74",
+      "address": "004d03cd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0434",
+      "address": "004d09f6",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0434",
+      "address": "004d0a6b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0434",
+      "address": "004d0a96",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0c18",
+      "address": "004d0c92",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0c18",
+      "address": "004d0d29",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0c18",
+      "address": "004d0dd4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0c18",
+      "address": "004d0e6b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0eb0",
+      "address": "004d0fad",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0eb0",
+      "address": "004d100d",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0eb0",
+      "address": "004d1133",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0eb0",
+      "address": "004d1194",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0eb0",
+      "address": "004d11ee",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d0eb0",
+      "address": "004d1574",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1be4",
+      "address": "004d1bfd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1be4",
+      "address": "004d1c1e",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1be4",
+      "address": "004d1d1c",
+      "text": "ADD ECX,dword ptr [0x00553fbc]",
+      "bytes": "030dbc3f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "ecx, dword ptr [0x553fbc]",
+      "table_operands": [
+        {
+          "field": "hp_max",
+          "slot": "0x553fbc",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1be4",
+      "address": "004d1d32",
+      "text": "ADD EAX,dword ptr [0x00553fb8]",
+      "bytes": "0305b83f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "eax, dword ptr [0x553fb8]",
+      "table_operands": [
+        {
+          "field": "hp",
+          "slot": "0x553fb8",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1d88",
+      "address": "004d1d9d",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1d88",
+      "address": "004d1dff",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1d88",
+      "address": "004d1e20",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1d88",
+      "address": "004d1f93",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1d88",
+      "address": "004d1fb4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1d88",
+      "address": "004d2064",
+      "text": "ADD ECX,dword ptr [0x00553fbc]",
+      "bytes": "030dbc3f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "ecx, dword ptr [0x553fbc]",
+      "table_operands": [
+        {
+          "field": "hp_max",
+          "slot": "0x553fbc",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d1d88",
+      "address": "004d207a",
+      "text": "ADD EAX,dword ptr [0x00553fb8]",
+      "bytes": "0305b83f5500",
+      "decoded_mnemonic": "add",
+      "decoded_operands": "eax, dword ptr [0x553fb8]",
+      "table_operands": [
+        {
+          "field": "hp",
+          "slot": "0x553fb8",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d20b0",
+      "address": "004d267a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004d2aa8",
+      "address": "004d2ab8",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da2d4",
+      "address": "004da34b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da2d4",
+      "address": "004da3c6",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da2d4",
+      "address": "004da48a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da2d4",
+      "address": "004da505",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da568",
+      "address": "004da5ba",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da568",
+      "address": "004da645",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da568",
+      "address": "004da6c3",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da568",
+      "address": "004da747",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da784",
+      "address": "004da7a9",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da784",
+      "address": "004daad7",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da784",
+      "address": "004dabd1",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da784",
+      "address": "004dacef",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da784",
+      "address": "004dadf8",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da784",
+      "address": "004daf28",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004da784",
+      "address": "004db119",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004db864",
+      "address": "004db8e7",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004db864",
+      "address": "004db904",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004db864",
+      "address": "004dbcb6",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc0a0",
+      "address": "004dc0b0",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc0a0",
+      "address": "004dc16b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc0a0",
+      "address": "004dc188",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc544",
+      "address": "004dc555",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc544",
+      "address": "004dc592",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc544",
+      "address": "004dc5c7",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc544",
+      "address": "004dc5e8",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc544",
+      "address": "004dc7cd",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dc852",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dc935",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dcd3c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dce22",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dcf1b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dd00f",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dd103",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dd1bc",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dc820",
+      "address": "004dd29c",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dd2e0",
+      "address": "004dd5dc",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dd2e0",
+      "address": "004dd678",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dd2e0",
+      "address": "004dd6a3",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004dd780",
+      "address": "004dd848",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004de490",
+      "address": "004de4c5",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004de490",
+      "address": "004de4e6",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004eb2c4",
+      "address": "004eb799",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004eb2c4",
+      "address": "004eb7f4",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004eb2c4",
+      "address": "004eb93a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004eb2c4",
+      "address": "004eb987",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004eb2c4",
+      "address": "004eb9c9",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f2971",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f2c27",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f2ddb",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f2eea",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f3042",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f31ac",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f32d7",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f343b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "004f276c",
+      "address": "004f375a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00500700",
+      "address": "005007a6",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00500700",
+      "address": "00500e82",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00501b80",
+      "address": "00501b90",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00501b80",
+      "address": "00501bb1",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00501dd8",
+      "address": "00501de9",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00501dd8",
+      "address": "00501e0a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00501dd8",
+      "address": "00501e38",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "005026b8",
+      "address": "0050275a",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    },
+    {
+      "function": "00503088",
+      "address": "0050313b",
+      "text": "PUSH dword ptr [0x00553e7c]",
+      "bytes": "ff357c3e5500",
+      "decoded_mnemonic": "push",
+      "decoded_operands": "dword ptr [0x553e7c]",
+      "table_operands": [
+        {
+          "field": "root_slot",
+          "slot": "0x553e7c",
+          "kind": "direct_memory",
+          "read": true,
+          "write": false
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Only discovered instructions with these explicit absolute operands are inventoried.",
+    "Constructors initialize fields through object-relative operands; zero direct writes does not mean immutable table state.",
+    "Aliased, indirect, computed, generated or external writes are not excluded.",
+    "Reading a table slot is different from reading the game address stored in that slot.",
+    "No current game build profile or live field semantics are verified by this audit."
+  ],
+  "target_executions": 0,
+  "game_memory_reads": 0,
+  "game_memory_writes": 0,
+  "game_actions": 0,
+  "full_function_certified": false,
+  "live_compatibility_verified": false
+}

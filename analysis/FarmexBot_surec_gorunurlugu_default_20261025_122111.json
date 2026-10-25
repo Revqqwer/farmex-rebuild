@@ -1,0 +1,23 @@
+{
+  "observed_at_utc": "2026-10-25T12:21:11.252953+00:00",
+  "invocation_context": "default",
+  "observer_pid": 9732,
+  "observer_session_id": 1,
+  "scope": "Toolhelp names/PIDs only; no target process handles, memory reads, writes or privileges",
+  "discovery": {
+    "status": "complete",
+    "pids": [],
+    "scanned_count": 4,
+    "enumeration_complete": true,
+    "failed_operation": "",
+    "error_code": 0,
+    "error": ""
+  },
+  "source_sha256": "253e6fbd6b616bd2bf9cf39f314811024e863c1376683bb0c29471e3ba0541c4",
+  "game_handles_opened": 0,
+  "game_memory_reads": 0,
+  "game_memory_writes": 0,
+  "game_actions": 0,
+  "elevation_requested_by_script": false,
+  "live_compatibility_verified": false
+}
