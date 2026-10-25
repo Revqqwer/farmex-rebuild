@@ -1,0 +1,170 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T12:10:01.591449+00:00",
+  "instruction_records_disk_verified": 2034,
+  "versions": [
+    {
+      "binary": "Richard_decoded.bin",
+      "sha256": "12f3e2dd13836b4f9ffec77c71cf04e505e7e92a2d5a527abf78aa566f359a54",
+      "functions": {
+        "0045dca8": 81,
+        "004040bc": 18,
+        "004040f8": 24,
+        "005050c8": 15,
+        "00504e8c": 29,
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004d642c": 192,
+        "00402e18": 11,
+        "00402e30": 11,
+        "00505118": 14,
+        "00505158": 25
+      },
+      "imports": {
+        "guard": {
+          "dll": "KERNEL32.DLL",
+          "name": "IsBadReadPtr"
+        },
+        "copy": {
+          "dll": "CC32260MT.DLL",
+          "name": "_memcpy"
+        },
+        "constructor": {
+          "dll": "rtl260.bpl",
+          "name": "@System@@LStrFromPChar$qqrr27System@%AnsiStringT$us$i0$%pcus"
+        },
+        "assignment": {
+          "dll": "rtl260.bpl",
+          "name": "@System@@LStrAsg$qqrr27System@%AnsiStringT$us$i0$%x27System@%AnsiStringT$us$i0$%"
+        }
+      },
+      "role_thunks": {
+        "guard": [
+          {
+            "address": "0x5074fe",
+            "bytes": "ff25443d5700"
+          }
+        ],
+        "copy": [
+          {
+            "address": "0x50792a",
+            "bytes": "ff25d0425700"
+          }
+        ],
+        "constructor": [
+          {
+            "address": "0x50600b",
+            "bytes": "e93a010000e9"
+          },
+          {
+            "address": "0x50614a",
+            "bytes": "ff25b8265700"
+          }
+        ],
+        "assignment": [
+          {
+            "address": "0x505fe8",
+            "bytes": "e96f010000e9"
+          },
+          {
+            "address": "0x50615c",
+            "bytes": "ff25c4265700"
+          }
+        ]
+      },
+      "zero_template_bytes": 512,
+      "bad_read_literal_hex": "00",
+      "normal_return": "destination object pointer"
+    },
+    {
+      "binary": "Richard_febdac805f370fb3_decoded.bin",
+      "sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "functions": {
+        "0045dca8": 81,
+        "004040bc": 18,
+        "004040f8": 24,
+        "005050e4": 15,
+        "00504ea8": 29,
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004d642c": 192,
+        "00402e18": 11,
+        "00402e30": 11,
+        "00505134": 14,
+        "00505174": 25
+      },
+      "imports": {
+        "guard": {
+          "dll": "KERNEL32.DLL",
+          "name": "IsBadReadPtr"
+        },
+        "copy": {
+          "dll": "CC32260MT.DLL",
+          "name": "_memcpy"
+        },
+        "constructor": {
+          "dll": "rtl260.bpl",
+          "name": "@System@@LStrFromPChar$qqrr27System@%AnsiStringT$us$i0$%pcus"
+        },
+        "assignment": {
+          "dll": "rtl260.bpl",
+          "name": "@System@@LStrAsg$qqrr27System@%AnsiStringT$us$i0$%x27System@%AnsiStringT$us$i0$%"
+        }
+      },
+      "role_thunks": {
+        "guard": [
+          {
+            "address": "0x50751a",
+            "bytes": "ff25443d5700"
+          }
+        ],
+        "copy": [
+          {
+            "address": "0x507946",
+            "bytes": "ff25d0425700"
+          }
+        ],
+        "constructor": [
+          {
+            "address": "0x506027",
+            "bytes": "e93a010000e9"
+          },
+          {
+            "address": "0x506166",
+            "bytes": "ff25b8265700"
+          }
+        ],
+        "assignment": [
+          {
+            "address": "0x506004",
+            "bytes": "e96f010000e9"
+          },
+          {
+            "address": "0x506178",
+            "bytes": "ff25c4265700"
+          }
+        ]
+      },
+      "zero_template_bytes": 512,
+      "bad_read_literal_hex": "00",
+      "normal_return": "destination object pointer"
+    }
+  ],
+  "source_files": {
+    "quest_lookup.py": "67b223bfe248fead6293dc165baa5701f183186f4b5d9f15c550f3169d406eae",
+    "quest_read_string.py": "67ddc7890394b1d8b3a6af8873dbbaa743eb8b5864a0178394d39d5d4e4e9991",
+    "quest_name_compare.py": "9d154eab4817133f6fb36779f27c54d646148ea5505a2aa0eb7c79aba9d60d95",
+    "quest_action.py": "35797f1aae10b62d66ee61584a8515f9e37608df1507545b570e66b3effbb97d",
+    "smoke_quest_action_ui.py": "32fbc77fc09235661782d17d62024ea01fae57b503d44a5a113e893b16918b69",
+    "test_quest_read_string_lookup.py": "57fd45b9aa65d309606cf1d2d26eb40759397dabb821a4f6fab19c76274b862d"
+  },
+  "scope": "Actual Take/Give provider -> lookup read-string -> separate outer return/assignment -> optional owned ANSI operand bridge -> comparison and queue; known prefixes retained",
+  "limits": [
+    "Copy/assignment prefix and outer normal return are distinct captured spans; own bytes do not emulate native heap/refcount/SEH",
+    "Readable counts above512 remain unresolved; a full non-NUL buffer requires explicit constructor result or remains unresolved",
+    "Constructor output is captured by default; C-string derivation opt-in, native codepage/RTL execution unverified",
+    "Read-string composed into lookup and actual own Take/Give provider; no actual memory read or game action"
+  ],
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}

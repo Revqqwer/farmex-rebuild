@@ -1,0 +1,112 @@
+Merchant quick UI passed: actual Tara command, clear-before-provider, unknown lookup hold, four-cache records, explicit CP, filter/search, source lookup/copy producer, scan button gates and profile invalidation; no game provider
+Merchant TXT UI passed: actual save command, missing-context gate, displayed filter/order to own file, stale-row rejection, rerender and profile invalidation
+Merchant scan UI passed: real start/stop/checkbox commands, route prefix errors, cached mode, rerender and profile reset
+Merchant scan timer UI passed: real after callbacks, missing captures, complete owned collection, rerender, stop, stale generation, reentrant provider, invalid captures, route completion and profile invalidation
+Merchant scan reply UI passed: actual timer collection/consume request, explicit reply FIFO, derived table row, partial finish queue, separate parent return, busy clear, interleaved writer and stop/profile invalidation; no game capture or send
+Merchant reply source UI passed: raw actor/coordinate/lookup/name-copy observations, missing codepage hold, explicit1254 derived Turkish seller/item names, preserved ANSI and separate categories, one final queue entry
+Merchant result UI passed: actual filter/focus events, color gate, ordered SetText/SetColor/rebuild, heading sort, own query conversion, raw ANSI metadata names, explicit capture override, invalid-CP recovery and profile reset; no game actions
+Merchant cell UI passed: actual PM/GIT press-release hits, shared own queue, canonical float target, stale-row rejection, invalid-CP recovery, hidden coordinates and profile reset; no native source frame or game delivery
+Flood editor UI passed:3 actual buttons,3 inputs,list mutation/selection,RTL scalar parser and fallback10,profile roundtrip; no worker/game actions
+Flood compilation UI passed:actual list -> explicit Windows codepage byte rows,stale rejection,prefix failure,profile recompile; no native vector/game send
+Flood runtime UI passed:actual toggle/timer,source-shaped single-row packet queue,clock wait,caption/profile persistence,empty start,stop keeps queue; no game send
+Flood selected UI passed:actual button,selection guard,shared local queue,no cycle mutation,stale rejection; no game send
+Item-break settings UI passed:3 actual fields, signed-lowDWORD speed, source reset/toggle prefix, independent HP, stale/override rejection, idempotence and profiles; local only
+Item-break manual UI passed: actual Button5, no implicit provider, rerender, auto-disabled manual action, partial target enqueue, shared writer,200/250ms requests, independent handler return, NPC/gem/mode exits, reentrant FIFO and profile/stale callback invalidation; no game IO
+Item-break automatic UI passed: actual checkbox/after callbacks, missing captures, full NPC/request chain, independent action/post-clock/parent returns, shared manual queue/NPC state, committed cooldown, outer gate, full-inventory guard/fresh work byte, NPC stop/notice and profile/stale callback invalidation; no game IO
+Source route-panel UI passed: actual Koruma shared open, fresh MainTab geometry/order, width600, gate checkbox reset before close, rerender overlay, all16 Draki controls disabled and disabled route button inert; no route drawing or game actions
+Source route-list edits UI passed: actual clear/delete buttons, no selection no-op, duplicate-row identity, refreshed row indices, checked/subitems preserved, close/open/rerender/profile persistence, empty clear and other lists/queue unchanged; no route file/game actions
+Source route-save UI passed: actual KAYDET, selected directory/codepage, real ANSI .R replacement/readback, empty/name/directory guards, path confinement, reached row gap, failed BOOL status, rerender and stale-profile isolation; no game actions
+Source route-load UI passed: actual combo postcommand/change, exact .R choices, real ANSI rows/unknown commands, missing/zero/negative preserve, clear/add row order, partial read/conversion prefixes, rerender/profile/stale isolation and empty placeholder; no game actions
+Source route-command UI passed: actual Town/Gate Skill/Otur/Kalk/Bekle buttons, dash placeholders, append despite selected row, disabled insert mode preserved, signed64/default5 own parse, rerender/profile and actual .R save-clear-load roundtrip; no game actions
+Source route-advanced UI passed: actual camp/speed radios and add buttons, Randomize/lowDWORD/signed32/default1, speed0/1/3/none, rerender/profile and actual .R save-clear-load roundtrip; command data only, no game actions
+Source coordinate-click UI passed: actual conditional button/after callbacks, missing capture no fake zero, X/Y holds, rerender/hidden form, FIFO/reentrant clicks, stable row through reindex, deleted target, profile/provider generation and stale timer; synthetic captured axes only, no game IO
+Source NPC-click UI passed: actual conditional button, real Tk dialog Entry/OK, provider cannot override dialog, rejection/cancel, distinct zero outcomes, delayed capture/hidden form, deleted row, FIFO/reentrant click and profile/modal generation; lower root/guard/name-byte producer and dialog bridge; captured indirect lookup context EAX0/ECX/EDX/pushes; late Unicode child flags0/explicit CP/independent return preserves row prefix; synthetic captures only, no game IO
+Source gate recording UI passed: actual checkbox/list/close, four captured packet branches, provider cannot override flag, timestamp before disabled gate, fresh flag after delayed clock, cached flag before hidden formatter, deleted token, FIFO/reentrant timer and profile generation; no game/network IO
+Upgrade editor UI passed: two actual conditional buttons, raw gate select-only, checked rows without caption parsing/toggle, full target signed32 and unguarded ID AL, getter/format/cleanup gaps, hidden form, chunk/profile cancellation, FIFO/reentrant click and stale provider; no game IO
+Upgrade refresh UI passed: actual conditional button, clear before root, null inventory/final cleanup, full28-slot scan, supplied-pointer name/explicit Unicode, fresh grade/type filter, relative captions, select-all handoff, delayed concat/hidden form, deleted token, FIFO/reentrant/profile; no game IO
+Upgrade parameter UI passed: three actual combo/edit events, unknown/zero gate distinction, cached ANSI and lowDWORD prefix, fresh later fields/FIFO, invalid scalar observation, nested ID AL waits before cleanup, observed minus-one Text/hidden form and profile generation; no game IO
+Upgrade start/stop UI passed: actual buttons, cached parameters, shared runner, checked captions, preserved clocks/queue, gate0, runtime enable/rerender, helper gaps, hidden FIFO stop and stale profile rejection; no game IO
+Upgrade worker UI passed: actual Start/cached fields -> explicit captured timer/initial stamp, late Anvil after getters, shared queue prefix/IDs, pause/resume, guarded writer, unguarded inner Stop UI and pre/post spans, no fabricated clock, stale profile rejection; no game IO
+Armor start UI passed: actual conditional button/raw gate, shared runner source-field prefix, two fresh combo reads across mapping gap/hidden form, blank item early exit, separate message cleanup receipts, queue/clocks/button preservation and profile cancellation; mode2 worker still unbound, no game IO
+Armor worker UI passed: actual startup/cached fields -> explicit raw mode2 timer, unknown stamp hold, shared20/2-byte pair with independent clocks, no duplicate partial enqueue, counter43 notice/cleanup0/mode0/cleanup1 ordering, unchanged UI flags and stale profile rejection; no game IO
+Quest metadata UI passed: three actual buttons, selected caption record index distinct from row, separate entry0/guarded1c read traces, fresh bulk count/hidden form, no-selection and stale profile cancellation; no quest packet or take/cancel ACK invented
+Quest Refresh UI passed: actual button, two accepted candidates among30001, numeric level order, collection captions, NPC options/selection, pending tail and hidden-form resume, no duplicate mutation, metadata exclusion, stale view/profile protection; captured own data only, no native/live verification
+Quest NPC filter UI passed: actual ComboboxSelected, NPC/Other/HEPSI choices, preserved record collection/index captions, numeric sort, clear-before-conversion gap, hidden tail resume, mutual exclusion, filter-provider cancellation and stale profile rejection; owned byte equality and captured data, no native/live certificate
+Quest details UI passed: real mouse-release binding, sorted/filtered caption record index, column headings before Clear, four detail rows including blank, no-selection preservation, hidden resume, conversion retry, competing-action gates and stale heading/profile rejection; captured own data, no native/live certificate
+Quest ANSI comparison composition UI passed: actual Take/Give -> lookup -> separate LStrCmp flag calls -> outer equality return -> filters and common queue; gap/resume and no Unicode fallback, captured local observations only
+Quest read-string composition UI passed: actual Take/Give -> lookup -> guard/copy/constructor/assignment prefix -> pending cleanup -> separate outer return -> owned ANSI comparison -> shared queue; captured source spans, no process reads or game send
+Quest lookup composition UI passed: actual Take/Give provider, five signed-range rows, inner cleanup gap before queue, nested context, resume, FFFF lowWORD and common queue; captured local spans only
+Quest action UI passed: real Take/Give, sorted caption index, shared queue prefixes, hidden timer resume, competing gates, provider cancellation and stale profile rejection; captured local observations only
+Control settings UI passed:15 actual fields, 64bit signed coin threshold, independent HP, prefix/outer/cleanup waits, stale capture rejection, idempotence and profile roundtrip; local only
+Genie settings UI passed:5 actual checkbox fields, source-order shadow, prefix wait/resume, stale capture rejection, idempotence and profile roundtrip; no coupon sync or worker action
+DC settings UI passed:14 actual fields, widget/route Text, raw combo/number, constant manual flag, prefix resume, stale snapshot rejection, idempotence and profile roundtrip; local only
+DC panel UI passed: actual two checkbox widgets, list/scan/disabled routing, four-layer wait/resume, late invalid capture prefix, stale snapshot rejection and profile roundtrip; inert remote records only
+Jail selection UI passed: actual checked captions/order, local Windows conversion, cleanup gap, prefix on late invalid capture, stale snapshot rejection, profile roundtrip; no native/game action
+Common protection UI passed:50 source members, actual widget/route Text, four numeric/string captures, cleanup/error prefix shadow, no-match enum retention, stale snapshot rejection, same-frame idempotence and profile roundtrip; local Windows conversion only, no native game action
+TP protection UI passed: three actual controls ->bounded settings ->14 opcode prefix ->TP plan; notice gap/resume, stop/DC radio mapping, stale panel/packet rejection, same-frame continuation, earlier-branch stop and profile roundtrip; no game action
+Transformation UI passed: four real panel controls ->bounded source producer ->explicit helper ->38byte own queue; parser exception prefix, gate/clock gap, full actor DWORD, no duplicate, stale snapshot rejection, queue seed preservation and profile roundtrip; periodic/native/live remain unverified
+Event join UI passed: six real flags, bounded settings ->worker ->packet ->own queue, clock/helper gaps, target10 before FT17, typed fallback callback gap/resume, no duplicate, changed snapshot rejection/seed preservation, fresh priority, profile roundtrip and stale-result clearing; no native game action
+Allocation consumer UI passed: actual panel snapshot ->producer ->captured consumer ->typed stat query/action, separate query cleanup and callback gaps, resume, argument identity and stale-result clearing; no game action
+Allocation panel UI passed: two real flags/treeview rows, hidden caption/name/threshold mapping, default capture gaps, explicit example, cached invocation, stale-example rejection, fresh rows, profile roundtrip and bad-result clearing; no point/native/game effects
+Achieve MS UI passed: actual source button adapter survives rerender, default missing receipts, pending-click continuation,11 ordered own records without duplicates, completed-click new event preserves queue, reset clears and invalid sample clears stale result; no reward/network/native effects
+Monster Stone UI passed: real enable/alarm/boss widgets, source-disabled all-mob preserved, missing setter gate, own derived WallHack prefix, separate bot-start/return, disable-only MS flag and profile roundtrip; no main-worker/game effects
+Chat skill UI passed: 18 real widgets, all9 requests, fresh flags/exact text, cached prefix, example preserves panel, malformed reset and hidden controls; no skill execution
+Chat command UI passed: real flag/text widgets, exact case, eight typed helper bindings, shared2record queue, detailed Town gap/prefix resume, cached invocation and stale-result clearing; no native actions
+Chat/PM UI passed: real enable/command/list controls, unchecked caption, exact case, unlisted/all mode, partial two-record resume, no duplicate tick and stale-frame clearing; no native actions
+Party invitation UI passed: real enable/all/list/bug widgets, unchecked list row, accept/reject decisions, independent filter gate and stale-result clearing; no network actions
+Follow UI passed: real panel leader/manual/name/enable widgets, default gaps, cached ID and fresh-name invalidation, separate Y, stale-result clearing; no game movement
+BUY bank-route UI passed: fresh failure count distinct from setup, delayed input/outer parent gates, BMerchant file only and no stale repeat handoff
+SELL bank-route UI passed: lazy failure/route inputs, imported file held by outer-return gap, local simulator handoff, missing-file error without stale handoff
+Engine route inputs passed: selected SELL/BUY Unicode and mining1254/UTF8 names, unknown provider retained, unselected panel branch skipped
+All10 route catalogs UI passed: own directory -> actual combo choice -> .R import, persisted dynamic choices and failure isolation
+Name-list panel passed: add/duplicate/empty/case, selected removal, isolated clear and profile roundtrip; own Unicode policy, no native actions
+BUY setup UI passed: explicit observations, cost200 with budget1000/199, full inventory restart and signed threshold; no game actions
+UI smoke passed: 1037 controls across 11 forms, 18 main tabs, detail rendering, search, HP/MP and routes
+Connection UI passed: invalid binding, fixture, unverified candidate and stale result; simulated observations only
+Rogue derived UI effect passed: panel option, normal radio, sibling exclusion and latched choice
+Support panel bridge passed: Priest skill/threshold, Minor speed, Kurian boundary and Mage text/threshold
+Attack parameter panel bridge passed: Provoke waits/flag and Rogue volley distance boundary
+Alternate Rogue bow passed: panel combo radius boundary and explicit selection-only fixture
+Rogue chain passed: head routing, nested selector, 5ms steps, reselection and cycle interval; synthetic observations
+Callback lock passed: persisted lock state, 599/600ms boundary and selector retains old duration/start; synthetic observations
+Combo panel passed: W-only, S-only and both switches reach their source branches; no runtime bit fixture when panel enabled
+Kurian panel passed: normal/special list selection, MP/range limits, nested cycle and R/S flags; synthetic game observations
+Loot panel passed: enable/mode/strict wait, coins first slot and explicit unresolved LIST classifier; synthetic bundle
+Loot classifier passed: panel NPC9999/10000, upgrade7, post-cache0/1 and persisted classification mask; synthetic metadata
+Loot name cache passed: panel TOPLA EVET/HAYIR, exact Unicode names, no-match unknown and classified-mask persistence
+Name byte/codec/cache chain passed: captured inline255 ANSI, explicit Windows1254/65001 and Turkish name; local fixtures only
+Loot lifecycle chain passed: timer-before-helper, frozen missing-producer pass, explicit fixture completion and cached retry without ACK
+Loot DWORD clock passed: UI source timestamp wraps to0 at unsigned1000ms boundary
+Loot serializers passed: explicit synthetic bundle DWORD, open5/take11 bytes and missing custom ID
+Supply panel passed: weight95/94 boundary, panel threshold/alarm and explicit branch gate; route Text unresolved
+Control panel passed: NP/coin/level profile flags, unknown query/stop/Town return gates, inclusive signed64 coin threshold and exact level equality, disabled short-circuit and bounded continuation; no game effects
+Control continuation UI passed: explicit mode/clock/handle/count sequence/Priest comparisons, strict count boundary, missing alarm return, earlier-guard short-circuit and process-termination plan only; no process or game action
+Control full-frame UI passed: JSON observations remain unverified, parent-return short-circuit, unknown help/ANSI/name gates, persisted timers and alarm-prefix freeze/commit, no-loot repeat and mode2 skip; no messaging or game action
+Supply BuyList/stock passed: source Arrow index9, unchecked caption ignored,10/11, desired independence and unresolved index
+Source .R INI import passed: own Windows profile API file -> route UI -> runner; zero count/unsupported rows preserve prior route
+Panel route start passed: source flags/lists -> cyclic/manual fallback -> own INI; independent counters and execution error stop intent
+Other8 route kinds passed:7 direct ANSI stand-ins, Mine third counter and separate check/load directories; no trigger detection or native movement
+Mining scalar panel passed: strict minute60000/60001, Pitman override6035, VIP604c distinct from hammer-stop6039; ore settings projected only
+Mining nested ore passed: panel cadence/WS, fresh slot/name/request, gold/ore/empty, queue delays, missing-name holds and no invented inventory ACK
+Mining scheduler composition passed: explicit outer fixture, exclusive respawn4000/4001 and retry999/1000, persisted stamps, alive route resume; no native action
+Mining speed composition passed: panel Sprint/Swift/LightFeet, missing fixture, failed/success Swift, same-frame persistent lock and Warrior stack gap; no native skill
+Mining callback bridge passed: explicit mode2/prefix/intermediate fixtures, timer clear before mining, preserved duration/start; no real callback or queue effects
+Mining control callback UI passed: bound local control, lazy reached observations, independent timer/post-segment lock and mode, timestamp prefix freeze/commit, seed-once and termination-return gate; no native/game effects
+Interlude callback UI passed: full local control/unlock/interlude/mining binding, source clock and random gaps, ignored legacy completion, lazy parsing, prefix freeze/commit and reset-only seed; no native or pointer effects
+Mining maintenance bridge passed: independent data/post-lock/route gates, mattock, Hammer cadence/missing stop, VIP1000/1001, alarm/crash priority, persisted state,15/23/31 repair rows; no game effects
+Mining effect composition passed: protected start/return helpers, source phase/index/tick writes and extract slot6, candidate producers -> phase7 return, EMC4gap; no native effects or ACK
+NPC profile route bridge passed: independent mode missing/2/1, source repair skip/start, legacy bypass disabled, typed inner steps and VIP wait/explicit worker fixture; no live NPC or ACK
+NPC source entry passed: phase1 missing lookup -> typed candidate -> phase2 missing pointer -> ANSI inline255/indirect long name -> phase3; synthetic observations, no process reads
+NPC child composition passed: typed empty repair inventory, all28 empty sale slots and one disabled buy row through waits/inner phases; no constant completion markers or native/server effects
+Repair reply UI passed: damaged source item100/producer200 request, missing initial ACK and pending reply hold, malformed/truncated/success helper-return gates, status overwrite/slot advance, completed-task rejection; no native or live ACK
+Active bot panel bridge passed: range selection, manual interval and source Mage cap
+Family panel bridge passed: five head pairs, explicit runtime override, normal-only guard and separate states
+Target panel bridge passed: auto radius/wait, checked name-ID list and manual/leader/AutoZ plans
+Pool source-checkbox bridge passed:2/1/0 selector, sibling widget exclusion and synthetic A/B results
+Upgrade panel bridge passed: milliseconds1500, anvil42, checked caption FIFO, unresolved combo Text, explicit synthetic gate and no game effects
+Upgrade source clock passed: signed negative interval, explicit synthetic initial/post-helper stamps, no monotonic-clock substitution
+Upgrade scroll scan passed: owned per-slot ANSI fixtures, last relative slot27, exhaustive missing scroll stops without consuming queue; no live inventory
+Upgrade source start passed: initial scan gates row conversion/start, deferred invalid caption preserves prefix, explicit local clear/UI/append returns; no native startup
+Upgrade execution passed: source start ->57byte serializer -> local queue, independent gate0/nonzero and three distinct fixture clocks; no drain or game send
+Armor execution passed: source startup from owned NPC/coordinate observations, two independent enqueues, helper/caller cleanup/stamp gates,43 local attempts/86 records; no native search/send/ACK
+Armor startup passed: separate combo reads0/1, stable panel6 -> source item, blank5 rejects before second read, NPC0/full startup errors and later fresh bag gate

@@ -853,3 +853,11 @@ normal dönüşler, constructor, temporary cleanup ve destination dönüşüyle 
 Yeni GUI yok: önceki4960 GUI'nin915 kod kaynağı ve385 import modülü değişmedi.
 Yeni API henüz lookup name_read üreticisine bağlı değil. Native/codepage/RTL/SEH
 ve canlı veri/gönderim açık. QUEST_READ_STRING_VALIDATION.json.
+
+
+25 Ekim — Son birleşim: ad okuma child'ı görev araması, ANSI karşılaştırma ve gerçek
+Al/Ver sağlayıcısına bağlandı. İç atama öneki korunur; cleanup, ayrı outer read
+dönüşü ve name assignment bitmeden filtre/kuyruk ilerlemez. Açık owned-byte
+köprüsü atanmış addan karşılaştırma girdisi üretir.4990 test ve yeni tam GUI1037
+kontrol/11form/18sekme geçti; iki PE'de2034 komut doğrulandı. Otomatik oyun
+gözlemleri, native/runtime ve gerçek gönderim açık. QUEST_READ_COMPOSITION_VALIDATION.json.

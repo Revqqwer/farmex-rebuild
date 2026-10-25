@@ -1844,7 +1844,8 @@
     "quest_NPC_filter": "Actual NPC ComboboxSelected dispatches captured filter against existing own records; all/specific branches, original index captions, numeric level order, prefix gaps and profile/provider lifetime validated. UI explicitly uses own exact ANSI bytes, not a native equality certificate. Dynamic choices/selection are runtime state, preserving profile bounds. Competing refresh/metadata actions held; no game acquisition.",
     "quest_details": "Actual main-list mouse release ->captured details frame using current own collection. Sorted/filtered caption record index, runtime headings before Clear, four rows including blank, no-selection preservation, hidden timer resume and conversion retry validated. Main/NPC/detail-heading projections and profile/provider generations prevent stale overwrite. Own snapshot/timer policy, no native VCL/game acquisition or requirement/reward query claim.",
     "selected_quest_action": "Actual Take/Give provider can supply nested lookup captures. Child cleanup gap withholds shared queue additions, provider context exposes nested phase/index/ordinal, timer resumes without repeating calls, FFFFFFFF lowWORD is serialized as FFFF. Captured own execution only; no real game acquisition/delivery.",
-    "quest_name_compare": "Actual Take/Give provider carries nested ANSI comparisons through lookup into common own queue. Equality-return gap withholds filters/queue; context and timer resume preserve child plans without repeated calls. Captured flags or explicitly owned post-load ANSI bytes only; read-string producer and real game acquisition remain open."
+    "quest_name_compare": "Actual Take/Give provider carries nested ANSI comparisons through lookup into common own queue. Equality-return gap withholds filters/queue; context and timer resume preserve child plans without repeated calls. Captured flags or explicitly owned post-load ANSI bytes only; read-string producer and real game acquisition remain open.",
+    "quest_read_string": "Actual Take/Give provider carries typed read samples. Pending inner cleanup retains destination prefix while name assignment/queue wait; timer resumes and assigned name drives explicitly owned ANSI comparison. Common queue remains source-shaped/local only; no game/process read or send."
   },
   "source_files": {
     "app.py": "53c7c7203bdc6e82ff3c709ca169e37db3ea6947ae8984b039df65b158f95d00",
@@ -2261,15 +2262,16 @@
     "test_quest_action.py": "6692cd43166c5b2d7342475fcb934b46bc75d89df16fd36dcd04a080e734852e",
     "quest_action_worker.py": "7fd4ad9214c0f2e52ce0d7b167781130e059a9d6f37fc812c5f0af2648e31fbd",
     "test_quest_action_worker.py": "e92db5238696884f4ef773a3a6695b07a6c9618a8b89866aa36aa74e9089f7ed",
-    "smoke_quest_action_ui.py": "6196768ee2023dec369878fd6208eb6dcad03a9de33b6025280ef2f009a487a9",
-    "quest_lookup.py": "6c8c9e78030a298bf32681d8d3bcd6682706e92941cfc1aba1aef52db60ddb21",
+    "smoke_quest_action_ui.py": "32fbc77fc09235661782d17d62024ea01fae57b503d44a5a113e893b16918b69",
+    "quest_lookup.py": "67b223bfe248fead6293dc165baa5701f183186f4b5d9f15c550f3169d406eae",
     "test_quest_lookup.py": "94649cabc6ac8fa62fcf7fa531a6a4f98f4ff264efecc7e4ec362806c6ee092a",
     "test_quest_lookup_action.py": "ff09eb4f2823173d92db738b983c106d316a5f8337cf16feae1dbb2cde76cd15",
     "quest_name_compare.py": "9d154eab4817133f6fb36779f27c54d646148ea5505a2aa0eb7c79aba9d60d95",
     "test_quest_name_compare.py": "84a6916b2d5eca9dc053fc3004e27b9e5f141bd5ea85e95ecf90b1ea07bfd284",
     "test_quest_name_compare_lookup.py": "4e52f21103d78d73963a8ac0d3b4cf84200e141386b2db067d0a3b6297c6c08d",
     "quest_read_string.py": "67ddc7890394b1d8b3a6af8873dbbaa743eb8b5864a0178394d39d5d4e4e9991",
-    "test_quest_read_string.py": "b37021a3e8c37cd6ec81f569f5ddca029829298c79860b6cc5e92cdf22fa26a7"
+    "test_quest_read_string.py": "b37021a3e8c37cd6ec81f569f5ddca029829298c79860b6cc5e92cdf22fa26a7",
+    "test_quest_read_string_lookup.py": "57fd45b9aa65d309606cf1d2d26eb40759397dabb821a4f6fab19c76274b862d"
   },
   "live_adapter_completed": false,
   "live_feature_count_verified": 0,
@@ -2439,7 +2441,7 @@
     "selected_quest_action": "Captured Take/Give frame consumed by actual own buttons; common owned queue publication preserves append prefixes before helper return. Uncertain writer retry and cancellation are own policies, not source native concurrency proof.",
     "quest_lookup": "Captured lookup is now consumed by selected-action continuation. Reached mode4/3 and sourceIndex-4..sourceIndex child scan, complete cleanup and distinct caller normal receipt precede first enqueue. Per-invocation input mode locks; direct outer capture compatibility remains explicit.",
     "quest_name_compare": "ANSI comparison consumed by nested lookup: distinct LStrCmp calls and SETA/SETC/compare/equality return, then separate outer name_compare receipt before filters. Per-iteration captured/composed mode fixed; raw EAX cannot bypass pending child. No Unicode fallback or native execution.",
-    "quest_read_string": "Captured0045dca8 continuation: explicit guard/return EAX, bad-read empty branch, zero512-template, copy prefix/return, constructor ANSI capture or opt-in own firstNUL, assignment prefix/return, temporary cleanup and destination return. Known destination prefix survives later gaps. Overflow/unterminated own read not guessed."
+    "quest_read_string": "Read child consumed by lookup: reached address/count, known destination prefix before cleanup, child completion then separate outer read return and name assignment. Per-row input source fixed; opaque receipt cannot bypass pending child. Opt-in fixed owned-operand bridge fills missing ANSI bytes from assigned name/argument snapshots, preserves explicit/fresh operand captures."
   },
   "manual_challenge_boundary": "Other46f33c branch includes exact Captcha yenileniyor... literal. Passive evidence only; bound guard retains unknown AL/manual-handling gap. No challenge solving, refresh workflow or bypass implementation.",
   "route_api_binding_scope": "All10 own panel filename choices and local INI load exposed in RoutePage; not a claim of all library/source integration",
@@ -2885,7 +2887,7 @@
     }
   ],
   "bound_event_buttons_scope": "Explicit panel button registry only; existing dedicated name-list button actions are tracked separately.",
-  "candidate_ui_validation_status": "4977 tests passed; no new GUI. All915 previous4960 code sources,385 app/smoke closure modules and previous published JSON bytes unchanged. New read-string files outside closure.334 instructions and IsBadReadPtr/memcpy/LStrFromPChar/LStrAsg chains verified in both pins.",
-  "current_validation_file": "QUEST_READ_STRING_VALIDATION.json",
-  "current_UI_scope_summary": "Existing actual ANSI comparison/lookup/Take/Give/common queue scope preserved. New fine-grained read-string API not yet lookup-composed; native read/RTL/codepage/refcount/SEH/runtime and automatic game acquisition/delivery remain unverified."
+  "candidate_ui_validation_status": "4990 tests and new full hidden GUI1037 controls/11forms/18tabs passed.2034 native instruction records and guard/memcpy/ANSI constructor/assignment identities verified in both pinned images. Own byte/alias/timer policy is not native runtime or live proof.",
+  "current_validation_file": "QUEST_READ_COMPOSITION_VALIDATION.json",
+  "current_UI_scope_summary": "Actual read-string/lookup/ANSI comparison/Take/Give/common queue composed through explicit source observations and separate outer returns. Automatic read/lookup/FPU/game acquisition, native codepage/RTL/refcount/SEH/runtime and real delivery remain open."
 }

@@ -3,9 +3,10 @@
 No game reads, Unicode guessing or native helpers are executed. The pinned
 ordinary return is FFFFFFFF, but it is withheld until the scan and cleanup end.
 """
-from dataclasses import dataclass,field
+from dataclasses import dataclass,field,replace
 from collections.abc import Mapping
-from quest_name_compare import QuestNameCompareFrame,QuestNameCompareObservation
+from quest_name_compare import QuestNameCompareFrame,QuestNameCompareObservation,AnsiCompareSample
+from quest_read_string import QuestReadStringFrame,QuestReadStringObservation
 
 
 def dword(value):
@@ -24,6 +25,8 @@ class QuestLookupObservation:
     values:object=field(default_factory=dict)
     normal_returns:object=field(default_factory=dict)
     name_compares:object=field(default_factory=dict)
+    name_reads:object=field(default_factory=dict)
+    use_read_name_operands:bool=False
 
 
 @dataclass(frozen=True)
@@ -40,6 +43,8 @@ class QuestLookupPlan:
     native_execution_verified:bool=False
     live_compatibility_verified:bool=False
     name_compare_plans:tuple=()
+    name_read_plans:tuple=()
+    owned_name_values:tuple=()
 
 
 class QuestLookupFrame:
@@ -49,18 +54,22 @@ class QuestLookupFrame:
         self.iteration=0;self.phase='entry';self.cache={};self.normal=set();self.called=set()
         self.calls=[];self.reads=[];self.comparisons=[];self.final=None
         self.name_compare_modes={};self.name_compare_frames={};self.name_compare_results={}
+        self.name_operand_bridge_policies={}
+        self.name_read_modes={};self.name_read_frames={};self.name_read_results={};self.name_values={}
 
     def out(self,status,needed=None,complete=False):
         result=QuestLookupPlan(complete,status,self.index,self.iteration,needed,
             0xffffffff if complete else None,tuple(self.calls),tuple(self.reads),tuple(self.comparisons),
-            name_compare_plans=tuple(sorted(self.name_compare_results.items())))
+            name_compare_plans=tuple(sorted(self.name_compare_results.items())),
+            name_read_plans=tuple(sorted(self.name_read_results.items())),
+            owned_name_values=tuple(sorted(self.name_values.items())))
         if complete:self.final=result
         return result
 
     def advance(self,observation=None,*,step_budget=256):
         if self.final is not None:return self.final
         o=QuestLookupObservation() if observation is None else observation
-        if not isinstance(o,QuestLookupObservation) or any(not isinstance(v,Mapping) for v in (o.values,o.normal_returns,o.name_compares)):
+        if not isinstance(o,QuestLookupObservation) or any(not isinstance(v,Mapping) for v in (o.values,o.normal_returns,o.name_compares,o.name_reads)):
             raise ValueError('Typed sparse lookup observations required')
         if type(step_budget) is not int or not 1<=step_budget<=100000:
             raise ValueError('Bounded own continuation budget required')
@@ -123,10 +132,26 @@ class QuestLookupFrame:
                     normal('temp_init','00404148',('owned_indirect_temp' if signed(cached('storage'))>=16 else 'owned_inline_temp',))
                     self.phase='name_read'
                 elif phase=='name_read':
-                    normal('name_read','0045dca8',('owned_name_temp',cached('copy_address'),cached('copy_count')))
+                    ordinal=self.iteration;args=('owned_name_temp',cached('copy_address'),cached('copy_count'))
+                    request('name_read','0045dca8',args)
+                    if ordinal not in self.name_read_modes:
+                        if ordinal in o.name_reads:
+                            if not isinstance(o.name_reads[ordinal],QuestReadStringObservation):raise ValueError('Typed nested read-string capture required')
+                            self.name_read_modes[ordinal]='composed'
+                            self.name_read_frames[ordinal]=QuestReadStringFrame(args[1],args[2])
+                        elif key('name_read') in o.normal_returns:self.name_read_modes[ordinal]='captured'
+                        else:raise Missing(('name_read_input',ordinal))
+                    if self.name_read_modes[ordinal]=='composed':
+                        child=self.name_read_frames[ordinal]
+                        result=child.advance(o.name_reads.get(ordinal));self.name_read_results[ordinal]=result
+                        if not result.complete:raise Missing(('name_read',ordinal,child.phase,result.needed or result.status))
+                        normal('name_read','0045dca8',args)
+                        self.cache[key('name_temp_ansi')]=result.destination_ansi
+                    else:normal('name_read','0045dca8',args)
                     self.phase='name_assign'
                 elif phase=='name_assign':
                     normal('name_assign','managed name assignment span',('owned_name','owned_name_temp'))
+                    if key('name_temp_ansi') in self.cache:self.name_values[self.iteration]=cached('name_temp_ansi')
                     self.phase='temp_cleanup'
                 elif phase=='temp_cleanup':
                     normal('temp_cleanup','004040f8',('owned_name_temp',2));self.phase='name_compare'
@@ -142,7 +167,23 @@ class QuestLookupFrame:
                         else:raise Missing(('name_compare_input',ordinal))
                     if self.name_compare_modes[ordinal]=='composed':
                         child=self.name_compare_frames[ordinal]
-                        result=child.advance(o.name_compares.get(ordinal))
+                        sample=o.name_compares.get(ordinal)
+                        if ordinal not in self.name_operand_bridge_policies:
+                            if type(o.use_read_name_operands) is not bool:raise ValueError('Explicit owned read-name bridge policy required')
+                            self.name_operand_bridge_policies[ordinal]=o.use_read_name_operands
+                        if self.name_operand_bridge_policies[ordinal] and isinstance(sample,QuestNameCompareObservation):
+                            fields={}
+                            for role in ('greater','less'):
+                                operand=getattr(sample,role)
+                                if isinstance(operand,AnsiCompareSample) and operand.use_owned_bytes:
+                                    left=operand.left_bytes
+                                    if left is None:
+                                        if ordinal not in self.name_values:raise Missing(('owned_name_bytes',ordinal))
+                                        left=self.name_values[ordinal]
+                                    right=operand.right_bytes if operand.right_bytes is not None else self.name
+                                    fields[role]=replace(operand,left_bytes=left,right_bytes=right)
+                            sample=replace(sample,**fields)
+                        result=child.advance(sample)
                         self.name_compare_results[ordinal]=result
                         if not result.complete:raise Missing(('name_compare',ordinal,child.phase,result.needed))
                         normal('name_compare','managed ANSI name equality span',args)

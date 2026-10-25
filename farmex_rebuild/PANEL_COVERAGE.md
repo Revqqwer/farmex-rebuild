@@ -1,6 +1,6 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T08:58:19.486841+00:00
+Güncelleme UTC: 2026-10-25T12:16:02.653828+00:00
 
 Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **144**.
 
@@ -25,11 +25,11 @@ Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebi
 | Log | 6 | 2 | 0 | 2 |
 | Gorevler | 15 | 3 | 0 | 3 |
 
-**Güncel yerel GUI/kod doğrulaması:** QUEST_READ_STRING_VALIDATION.json — 4977 Python testi; 1037 kontrol/11 form/18 sekme.
+**Güncel yerel GUI/kod doğrulaması:** QUEST_READ_COMPOSITION_VALIDATION.json — 4990 Python testi; 1037 kontrol/11 form/18 sekme.
 
-Yeni GUI çalıştırılmadı; 4960 testli QUEST_NAME_COMPOSITION_VALIDATION.json aşamasındaki tam GUI import closure hashleri değişmedi.
+Yeni tam yerel GUI çalıştırması.
 
-Existing actual ANSI comparison/lookup/Take/Give/common queue scope preserved. New fine-grained read-string API not yet lookup-composed; native read/RTL/codepage/refcount/SEH/runtime and automatic game acquisition/delivery remain unverified.
+Actual read-string/lookup/ANSI comparison/Take/Give/common queue composed through explicit source observations and separate outer returns. Automatic read/lookup/FPU/game acquisition, native codepage/RTL/refcount/SEH/runtime and real delivery remain open.
 
 Bu kayıt native/game uyumluluk sertifikası değildir. Aşağıdaki adlandırılmış eski doğrulama notları tarihsel aşamalardır.
 

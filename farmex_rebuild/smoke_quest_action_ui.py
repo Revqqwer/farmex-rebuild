@@ -7,6 +7,7 @@ from smoke_quest_details_ui import seed
 from test_quest_action import capture
 from test_quest_lookup import capture as lookup_capture
 from test_quest_name_compare import capture as name_compare_capture,Sample as NameCompareSample
+from test_quest_read_string import capture as read_string_capture
 
 
 def check_quest_action_ui(app):
@@ -137,6 +138,27 @@ def check_quest_action_ui(app):
         p.widgets[GIVE_PATH].invoke()
         assert p.source_quest_refresh_result.complete and len(p.flood_session.queue.records)==start+5
         print('Quest ANSI comparison composition UI passed: actual Take/Give -> lookup -> separate LStrCmp flag calls -> outer equality return -> filters and common queue; gap/resume and no Unicode fallback, captured local observations only')
+        start=len(p.flood_session.queue.records);ready=[False]
+        raw=b'Low quest'+b'\0'*6
+        read_sample=read_string_capture(raw,constructor=b'Low quest')
+        read_normal=dict(read_sample.normal_returns);del read_normal['cleanup']
+        compare=name_compare_capture(NameCompareSample(use_owned_bytes=True),NameCompareSample(use_owned_bytes=True))
+        def read_provider(context):
+            r=read_sample if ready[0] else replace(read_sample,normal_returns=read_normal)
+            lower=replace(inner,name_reads={0:r},name_compares={0:compare},use_read_name_operands=True)
+            return replace(observation(),lookup=lower)
+        p.set_source_quest_action_provider(read_provider);p.widgets[TAKE_PATH].invoke()
+        plan=p.source_quest_refresh_result.action.lookup_plan
+        assert not p.source_quest_refresh_result.complete
+        assert plan.name_read_plans[0][1].destination_ansi==b'Low quest'
+        assert plan.owned_name_values==() and len(p.flood_session.queue.records)==start
+        ready[0]=True;pump(lambda:p.source_quest_refresh_pending is None)
+        plan=p.source_quest_refresh_result.action.lookup_plan
+        assert plan.owned_name_values==((0,b'Low quest'),) and plan.name_compare_plans[0][1].eax==1
+        assert len(p.flood_session.queue.records)==start+3
+        p.widgets[GIVE_PATH].invoke()
+        assert p.source_quest_refresh_result.complete and len(p.flood_session.queue.records)==start+5
+        print('Quest read-string composition UI passed: actual Take/Give -> lookup -> guard/copy/constructor/assignment prefix -> pending cleanup -> separate outer return -> owned ANSI comparison -> shared queue; captured source spans, no process reads or game send')
         print('Quest lookup composition UI passed: actual Take/Give provider, five signed-range rows, inner cleanup gap before queue, nested context, resume, FFFF lowWORD and common queue; captured local spans only')
         print('Quest action UI passed: real Take/Give, sorted caption index, shared queue prefixes, hidden timer resume, competing gates, provider cancellation and stale profile rejection; captured local observations only')
     finally:

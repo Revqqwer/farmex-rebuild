@@ -1,5 +1,15 @@
 # Doğrulama — 18 Ekim 2026
 
+Son birleşim: ad okuma child'ı görev araması, ANSI karşılaştırma ve gerçek
+Al/Ver sağlayıcısına bağlandı. İç atama öneki korunur; cleanup, ayrı outer read
+dönüşü ve name assignment bitmeden filtre/kuyruk ilerlemez. Açık owned-byte
+köprüsü atanmış addan karşılaştırma girdisi üretir.4990 test ve yeni tam GUI1037
+kontrol/11form/18sekme geçti; iki PE'de2034 komut doğrulandı. Otomatik oyun
+gözlemleri, native/runtime ve gerçek gönderim açık. QUEST_READ_COMPOSITION_VALIDATION.json.
+
+Önceki aşama notları tarihsel kayıttır.
+
+
 Son API aşaması:0045dca8 ad okuma helper'ı guard, copy/atama önekleri ve ayrı
 normal dönüşler, constructor, temporary cleanup ve destination dönüşüyle modellendi.
 4977 test geçti. İki PE'de334 komut ve ANSI LStrFromPChar/LStrAsg zincirleri doğrulandı.
