@@ -1,6 +1,6 @@
 {
   "kind": "scoped_UI_compiler_gaps_not_unimplemented_feature_count",
-  "editable_paths_outside_inventory": 144,
+  "editable_paths_outside_inventory": 138,
   "source_disabled_paths_outside_inventory": 47,
   "source_eventless_paths_outside_inventory": 62,
   "known_follow_API_only": 0,
@@ -508,78 +508,6 @@
       "source_disabled_by": [],
       "source_events": {
         "OnClick": "rdUseNormalSkillClick"
-      },
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetBot/GroupBox18/chPetAutoFood",
-      "control_class": "TCheckBox",
-      "caption": "Pet ' i Otomatik Besle % ",
-      "source_disabled_by": [],
-      "source_events": {
-        "OnClick": "chPetAutoFoodClick"
-      },
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetBot/GroupBox18/chAutoPetCall",
-      "control_class": "TCheckBox",
-      "caption": "Otomatik Pet Cıkart",
-      "source_disabled_by": [],
-      "source_events": {
-        "OnClick": "chAutoPetCallClick"
-      },
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetBot/GroupBox18/txtPetAutoFood",
-      "control_class": "TEdit",
-      "caption": null,
-      "source_disabled_by": [],
-      "source_events": {
-        "OnChange": "txtPetAutoFoodChange"
-      },
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetLootMode",
-      "control_class": "TRadioButton",
-      "caption": "Loot Mod",
-      "source_disabled_by": [],
-      "source_events": {
-        "OnClick": "rdPetLootModeClick"
-      },
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetGuardMode",
-      "control_class": "TRadioButton",
-      "caption": "Guard Mod",
-      "source_disabled_by": [],
-      "source_events": {
-        "OnClick": "rdPetGuardModeClick"
-      },
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetAtackMode",
-      "control_class": "TRadioButton",
-      "caption": "Saldırı Modu",
-      "source_disabled_by": [],
-      "source_events": {
-        "OnClick": "rdPetAtackModeClick"
       },
       "scope": "outside_scoped_UI_compiler_inventory",
       "feature_completion_determined": false,
@@ -1736,14 +1664,14 @@
   "known_disconnect_settings_API_only": 0,
   "source_hashes": {
     "outputs\\farmex_rebuild\\ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89",
-    "outputs\\farmex_rebuild\\profiles.py": "048752d3f82dc541b0e43b4a5e3cec9ace873419bb5cde919882c603b0ccec44",
+    "outputs\\farmex_rebuild\\profiles.py": "28a2658f2ac065a68fcd52c4c50d0003911f9cbdcee246f85782a794d8b3a24d",
     "outputs\\farmex_rebuild\\monster_stone.py": "8430f90370b3568c2758841c98d7d551985f7d7bbf455791f45d9a17ac4e2db0",
     "outputs\\farmex_rebuild\\teleport_protection.py": "0b23ab48e34da13f731a0e775e5c71f608aef8152841d2d851632a02646b960d",
     "outputs\\farmex_rebuild\\protection_settings.py": "3f4c2421b9b836cbdd611a0022704232181588ba8be17b08ab4ca69a0a34786a",
     "outputs\\farmex_rebuild\\disconnect_settings.py": "e199596eb1b13087c4d82baebb572f1abd043521b9b86366edfd46195f09d9b7",
     "outputs\\farmex_rebuild\\disconnect_panel_trial.py": "ae9315ba3e9cf410b0fd677c4ca06e0d2a7c00b04f33f736c04f9f0079081b13",
     "outputs\\FarmexBot_koruma_ortak_ayar_kaniti.json": "9f1b41a6778480f6812115ad5753117a07c98dc771260c09c383b409ee7f1fa5",
-    "outputs\\FarmexBot_guncel_ayar_motor_baglari.json": "4408abcfdceec00d80c2ebe6260f3e98bcf71cc55f6c48412d004020b0aa7f73",
+    "outputs\\FarmexBot_guncel_ayar_motor_baglari.json": "a8f9c89631afaa5a9d2946a039693915ccea7a62e4c147fcdbc237d5e236e91e",
     "outputs\\farmex_rebuild\\merchant_scan_runtime.py": "328fabaa322bf2e51bc89f10ace68fdd2c7ba2a4b8bfb3c2419fb66ff03576f5"
   },
   "limitations": [

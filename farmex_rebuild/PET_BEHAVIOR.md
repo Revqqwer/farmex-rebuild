@@ -3,8 +3,10 @@
 Bu aşama Pet bölümüne ait iki yerel API ekler. `pet_settings.py`, ortak ayar
 üreticisinin `0040a3ac..0040a4ad` aralığını; `pet_engine.py`, `0040fc1c`
 yordamının gözlenen normal yollarını planlar. Planlanan çağrılar veya alan
-yazımları oyunda uygulanmaz. Altı gerçek Pet kontrolü ve otomatik gözlem
-sağlayıcısı henüz bu API'lere bağlanmadı; UI compiler sayısı artmaz.
+yazımları oyunda uygulanmaz. Sonraki Pet panel aşaması altı gerçek kontrolü
+bu API'lere bağlar; güncel bağ `PET_PANEL.md` içinde açıklanır. Otomatik oyun
+gözlem sağlayıcısı bağlı değildir. Bu belgenin ilk API aşaması kaydı
+`PET_BEHAVIOR_VALIDATION.json` tarihsel kapsamı korur.
 
 ## Ayarlar
 

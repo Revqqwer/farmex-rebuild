@@ -743,8 +743,8 @@
     },
     {
       "path": "farmex_rebuild/CURRENT_STATUS.md",
-      "size": 10125,
-      "sha256": "03b78233674d5e1ab31cac30fd2d4211804ed8886075301c2c0ded22b8312d9b"
+      "size": 10873,
+      "sha256": "22734033c3545e848e4a0f3c14e70da9fd304d2b066e681c6bba47b414923023"
     },
     {
       "path": "farmex_rebuild/DC_FULL_CHAIN.md",
@@ -2908,8 +2908,8 @@
     },
     {
       "path": "farmex_rebuild/PANEL_COVERAGE.md",
-      "size": 7184,
-      "sha256": "f6413635bbef998a12c3c855c148a19cf69b75f4af735adb41622bdf95b29116"
+      "size": 7354,
+      "sha256": "093d37f8d4b3c54d355f1d1317b6b7b90ddba28f663d30da0e1cc5e2b461c752"
     },
     {
       "path": "farmex_rebuild/panel_ui.py",
@@ -2973,8 +2973,8 @@
     },
     {
       "path": "farmex_rebuild/PET_BEHAVIOR.md",
-      "size": 3831,
-      "sha256": "af3c44bb29d6e8c56553e00d5e0c7c0bdf5981fb80a3a71f146da9a68b1655b1"
+      "size": 3978,
+      "sha256": "f23c9b8db9b43c56cbc909a7d034eb2d5091fe54744b02313eebdcb7a5b4d7ac"
     },
     {
       "path": "farmex_rebuild/PET_BEHAVIOR_VALIDATION.json",
@@ -2987,9 +2987,24 @@
       "sha256": "bae5aa50c5ef9de1ecda35c5bc4929ab8be85b2748c6784313e6ff1904ca27e6"
     },
     {
+      "path": "farmex_rebuild/PET_PANEL.md",
+      "size": 3271,
+      "sha256": "c14affa55b7da3e2024afffda61e785dad50a2f4944ea8dff380347f6bbf8174"
+    },
+    {
+      "path": "farmex_rebuild/PET_PANEL_VALIDATION.json",
+      "size": 95186,
+      "sha256": "dc2fce37b4def3867e749f61b63ebe1d38fd55a0eea2a627dc4c3e6e51ebb9eb"
+    },
+    {
       "path": "farmex_rebuild/pet_settings.py",
       "size": 1110,
       "sha256": "4948994c34be2008b5a473a157ff5872861acee8e4fd78a6cf50f3dde54d0a0d"
+    },
+    {
+      "path": "farmex_rebuild/pet_trial.py",
+      "size": 8485,
+      "sha256": "739741ebf47b9afc43543cb0a24dd4f81329dd387286c7aeb6a06c41ae08a634"
     },
     {
       "path": "farmex_rebuild/policies.py",
@@ -4118,8 +4133,8 @@
     },
     {
       "path": "farmex_rebuild/simulation_ui.py",
-      "size": 182965,
-      "sha256": "1d48eb86935ea56e1baef4644d6099628ec32be71e526ab4433d89d5e3165426"
+      "size": 184911,
+      "sha256": "f5d1e74d0e6e278b831ada819ffef33e1fe741db8a2a7f256a5ad50c4384f175"
     },
     {
       "path": "farmex_rebuild/skill_native_plans.py",
@@ -4287,6 +4302,11 @@
       "sha256": "b0d7666d74e73105fe3548409f65e458b506c64ad69900e7ebc652d87c670e1b"
     },
     {
+      "path": "farmex_rebuild/smoke_pet_ui.py",
+      "size": 4986,
+      "sha256": "81994cc5819685d3e513611dfdf1fc59b3a58f7913a2f208f6f80413fe65b4ff"
+    },
+    {
       "path": "farmex_rebuild/smoke_protection_settings_ui.py",
       "size": 4677,
       "sha256": "d703558bcf60ed99d8e84ff07aef9548da305f5fe2232688b363810d7072a84f"
@@ -4378,8 +4398,8 @@
     },
     {
       "path": "farmex_rebuild/smoke_ui.py",
-      "size": 116104,
-      "sha256": "e4abed858be2b4ad7105f3e085fa20b3c165b23da916787a379721c053673157"
+      "size": 116168,
+      "sha256": "799219d807f8b34c48b69d990c242e2fa21d85fb9f2727a2c0a2466e4a779609"
     },
     {
       "path": "farmex_rebuild/smoke_upgrade_editor_ui.py",
@@ -6187,6 +6207,11 @@
       "sha256": "daceece2de522396f97a066dcfeadf97ce9383cf6a696522f15d29c10f61df64"
     },
     {
+      "path": "farmex_rebuild/test_pet_trial.py",
+      "size": 6018,
+      "sha256": "ea9f79c520f2c08992b8eabb32c175b86d3d2ca9afbf1a56486c3ddaee8cadae"
+    },
+    {
       "path": "farmex_rebuild/test_policies.py",
       "size": 2452,
       "sha256": "65de7822a4793cebca78ca17bfc4eb4f7afff35caf459c3aa9ceb028ef05c753"
@@ -7658,8 +7683,18 @@
     },
     {
       "path": "analysis/FarmexBot_fonksiyon_takibi.md",
-      "size": 162073,
-      "sha256": "c2c561f7ec98b9971777074fd170d5aa717a5838dea7764578fa59d3d5064ce1"
+      "size": 162468,
+      "sha256": "01ce2000b7955b3781d799b30af2e2785366efa614d90a20891ec0918b5ca01a"
+    },
+    {
+      "path": "analysis/FarmexBot_Pet_panel_bagi_kaniti.json",
+      "size": 3018,
+      "sha256": "2f1ead6f8110fe3ac4f66f238a0133ba579f1ce58301213b8cba2caf2393c2bf"
+    },
+    {
+      "path": "analysis/FarmexBot_Pet_panel_paket_dogrulamasi.json",
+      "size": 643,
+      "sha256": "1c1a47de3168b85da7b54e331b60227f0a7a692ce44010818d3dcf053320b364"
     },
     {
       "path": "analysis/FarmexBot_Pet_davranis_kod_kaniti.json",
@@ -7783,13 +7818,13 @@
     },
     {
       "path": "analysis/FarmexBot_guncel_ayar_motor_baglari.json",
-      "size": 264342,
-      "sha256": "da60f46a9986f37baa40ed187c02c3f51b789434a497f2388e07be5381e9cc6c"
+      "size": 265779,
+      "sha256": "a8f9c89631afaa5a9d2946a039693915ccea7a62e4c147fcdbc237d5e236e91e"
     },
     {
       "path": "analysis/FarmexBot_panel_bag_eksikleri.json",
-      "size": 64223,
-      "sha256": "361a6a590b6fab4f6f598b7d6be6087c2350b36c78de7f7b3a4bc9734558d88b"
+      "size": 61720,
+      "sha256": "3d0578518775b451e3feaee2ea08ee91c5f3a8ed1c81d78c09aa69ae7c4d1bd5"
     },
     {
       "path": "verification/quest_action_UI_full_tests_20261025.log",
@@ -7820,6 +7855,16 @@
       "path": "verification/pet_behavior_full_tests_20261025.log",
       "size": 5115,
       "sha256": "91b843c7142befc9fb1f1b037ff544e0e6f2ecb1ae1951583de726d9f17e0657"
+    },
+    {
+      "path": "verification/pet_panel_full_tests_20261025.log",
+      "size": 5128,
+      "sha256": "a44581b84e95e40368ab7c7bd48bf0cc9c17b08c96eb243ca171f67bdaafe073"
+    },
+    {
+      "path": "verification/pet_panel_full_gui_20261025.log",
+      "size": 22033,
+      "sha256": "233d5f324e213ce888c7df23fc12daefcb61b1cff720193e59c325eeaa4b01cc"
     },
     {
       "path": "verification/quest_lookup_full_tests_20261025.log",

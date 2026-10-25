@@ -1,13 +1,13 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T12:51:09.195615+00:00
+Güncelleme UTC: 2026-10-25T13:19:06.215565+00:00
 
-Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **144**.
+Toplam bağlı giriş kontrolü: **385**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **138**.
 
 | Ana sekme | Kaynak bileşen | Düzenlenebilir | Bağlı giriş | Envanter dışında |
 |---|---:|---:|---:|---:|
 | Genel | 74 | 46 | 19 | 27 |
-| Bot | 75 | 48 | 26 | 22 |
+| Bot | 75 | 48 | 32 | 16 |
 | Job | 163 | 100 | 95 | 5 |
 | Item | 26 | 19 | 15 | 4 |
 | Tedarik | 45 | 30 | 26 | 4 |
@@ -25,11 +25,11 @@ Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebi
 | Log | 6 | 2 | 0 | 2 |
 | Gorevler | 15 | 3 | 0 | 3 |
 
-**Güncel yerel GUI/kod doğrulaması:** QUEST_READ_COMPOSITION_VALIDATION.json — 4990 Python testi; 1037 kontrol/11 form/18 sekme.
+**Güncel yerel GUI/kod doğrulaması:** PET_PANEL_VALIDATION.json — 5021 Python testi; 1037 kontrol/11 form/18 sekme.
 
 Yeni tam yerel GUI çalıştırması.
 
-Actual read-string/lookup/ANSI comparison/Take/Give/common queue composed through explicit source observations and separate outer returns. Automatic read/lookup/FPU/game acquisition, native codepage/RTL/refcount/SEH/runtime and real delivery remain open.
+Prior read-string/lookup/ANSI/Take-Give local queue flow retained. Six Pet controls now feed settings shadow and captured summon/mode/feed worker with explicit tickets and document invalidation. Automatic game observations, native runtime equivalence and real delivery remain open.
 
 Bu kayıt native/game uyumluluk sertifikası değildir. Aşağıdaki adlandırılmış eski doğrulama notları tarihsel aşamalardır.
 
@@ -60,4 +60,4 @@ Son izole API düzeltmesi MERCHANT_SCAN_SCHEDULER_VALIDATION.json:4384 Python te
 
 Son own invocation-frame aşaması MERCHANT_SCAN_FRAME_VALIDATION.json:4396 Python testi. Yalnız tüketilmiş gözlemler saklanır; bekleyen normal dönüş istekleri token ile bir kez üretilir, post saat beklemek consume isteğini yinelemez. İstekler native komut/ABI argümanı değildir. Yeni GUI çalıştırılmadı; aynı300 modüllük closure kaynakları4372 full GUI kaydıyla aynıdır. Child executor ve timer/data sağlayıcıları açık.
 
-Pet ayar üreticisi ve çalışma yordamı için bağımsız capture API'leri eklendi. Altı Pet kontrolü henüz bu API'lere bağlanmadı;379 compiler girişi ve144 dış yol sayıları değişmez.18 hedefli Pet testi/toplam5008 Python testi;648 byte-sabit komut kaydı. PET_BEHAVIOR.md kapsamı açıklar. Native Pet yürütmesi, otomatik veri, panel/worker bağlantısı ve oyun etkileri açık.
+Güncel Pet panel aşaması PET_PANEL_VALIDATION.json:5021 Python testi ve yeni tam GUI1037 kontrol/11form/18sekme. Altı gerçek kontrol ayar shadow'una ve yakalanmış çıkarma/mod/besleme karar motoruna bağlı;385 compiler girişi ve138 dış yol vardır. Settings cleanup, worker yazım öneki, artan örnek numarası ve aynı-değer farklı profil document invalidation sınandı.648 komut kaydı yeniden doğrulandı. Otomatik oyun verisi, native Pet çağrıları ve gerçek eylemler açık. Önceki5008 Pet API kaydı ayrı tarihsel aşamadır.

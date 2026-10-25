@@ -1,6 +1,14 @@
 # Güncel durum — 25 Ekim 2026
 
-Son API aşaması: Pet ayar üreticisi ve çıkarma/mod/besleme çalışma yordamı
+Son arayüz aşaması: altı gerçek Pet kontrolü ayar üreticisine ve yakalanmış
+çıkarma/mod/besleme karar motoruna bağlandı. 5021 Python testi ve yeni tam
+GUI1037 kontrol/11form/18sekme geçti. Cleanup ve yazım önekleri korunur;
+tamamlanan örnek tekrar uygulanmaz, aynı-değer farklı profil de eski örneği
+geçersiz kılar.648 komut kaydı yeniden doğrulandı. Otomatik oyun verisi,
+native çağrılar ve gerçek eylemler açık. PET_PANEL_VALIDATION.json ve
+PET_PANEL.md güncel kapsamı açıklar.
+
+Önceki API aşaması: Pet ayar üreticisi ve çıkarma/mod/besleme çalışma yordamı
 ham gözlemlerle modelleniyor. 18 hedefli test ve toplam5008 Python testi
 geçti; iki PE'de648 komut kaydı doğrulandı. Önceki921 kod dosyası değişmedi,
 yeni GUI çalıştırılmadı. Altı Pet kontrolü henüz bu API'lere bağlanmadı;
@@ -26,15 +34,15 @@ Proje tamamlanmadı. Oyun bağlantısını dışarıda bıraksak da davranış b
 
 | Ölçüm | Son doğrulanan değer | Anlamı |
 |---|---:|---|
-| Python testleri | 5008 | Pet API'leri ve önceki regresyonlar |
-| Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 4990 read-string birleşiminde yeniden çalıştırıldı |
+| Python testleri | 5021 | Pet panel/worker bağı ve önceki regresyonlar |
+| Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 5021 Pet panel aşamasında yeniden çalıştırıldı |
 | Keşfedilmiş Richard yordamları | 3226 | Keşfedilmemiş kod/veri bu envanter dışında |
 | Sınırlı modele bağlanan yordamlar | 299 | Kısmi kapsam eşlemesi; bitmiş fonksiyon sayısı değil |
 | Tam fonksiyon sertifikası | 0 | Tüm yollar/native eşlik kanıtlanmadı |
-| Bağlı compiler girişleri | 379 | Yerel giriş envanteri |
-| Dış envanterde kalan düzenlenebilir yollar | 144 | Eksik özellik sayısı değil |
+| Bağlı compiler girişleri | 385 | Yerel giriş envanteri |
+| Dış envanterde kalan düzenlenebilir yollar | 138 | Eksik özellik sayısı değil |
 
-144 yolun47'si kaynak tasarımda disabled,62'si olay metadatası taşımıyor; bu kümeler örtüşebilir. Üç Merchant filtre yolu ve altı tarama yolu compiler envanteri dışında partial UI olarak ayrıca izlenir; bu kümeler de örtüşür.
+138 yolun47'si kaynak tasarımda disabled,62'si olay metadatası taşımıyor; bu kümeler örtüşebilir. Üç Merchant filtre yolu ve altı tarama yolu compiler envanteri dışında partial UI olarak ayrıca izlenir; bu kümeler de örtüşür.
 
 Merchant Kaydet düğmesi artık mevcut filtrelenmiş/sıralanmış tabloyu kaynak başlık ve satır biçiminde kendi dosyasına yazar. Açık identity ANSI byte'ları,9DWORD localtime, çıktı klasörü ve iki kod sayfası gerekir. Eksik bağlamda dosya oluşmaz. Otomatik oyun bağlamı sağlayıcısı henüz bağlı değildir. Kendi codec/IO politikası source managed string/C++ stream/SEH eşliği sayılmaz. Eksik klasör oluşturulmaz; kendi çıktı klasörü sınırı uygulanır. Sonradan dönüşüm/yazma hatasında yazılmış önek korunur, kısa write ve close hatası incomplete bildirilir. Profil yüklemesi sağlayıcıyı geçersiz kılar.
 
@@ -58,6 +66,6 @@ Son frame aşaması: tek scheduler invocation'ında yalnız tüketilen değerler
 4. Kaynak nesne/global kimlikleri, initialization gate, gerçek form/DPI/cursor/CP/FPU ve native gönderim/hareket etkileri.
 5. Bunlardan ayrı gerçek oyun bağlantısı, güncel istemci ve özelliklerin oyunda uçtan uca doğrulanması.
 
-Güncel Python/GUI kaydı QUEST_READ_COMPOSITION_VALIDATION.json dosyasıdır:4990 test ve yeni tam GUI. QUEST_READ_STRING_VALIDATION.json ve QUEST_NAME_COMPOSITION_VALIDATION.json önceki aşamaların kayıtlarıdır. QUEST_NAME_COMPARE_VALIDATION.json ve QUEST_LOOKUP_COMPOSITION_VALIDATION.json önceki aşamaların kayıtlarıdır. Görev arama/Al-Ver kaynak bağı FarmexBot_gorev_arama_birlesimi_kaniti.json, güncel paket denetimi FarmexBot_gorev_ad_okuma_birlesimi_paket_dogrulamasi.json içindedir. QUEST_RECORD_VALIDATION.json ve4744 GUI closure/hash kaydı önceki kayıt üretimi aşamasına aittir. Yukarıdaki eski Merchant/kayıt ve diğer doğrulama notları tarihsel aşamalardır; eski source hashleri güncel kod eşliği iddiası değildir.
+Güncel Python/GUI kaydı PET_PANEL_VALIDATION.json dosyasıdır:5021 test ve yeni tam GUI. PET_BEHAVIOR_VALIDATION.json önceki5008 API aşamasını; QUEST_READ_COMPOSITION_VALIDATION.json önceki4990 görev birleşimini kaydeder. QUEST_READ_STRING_VALIDATION.json ve QUEST_NAME_COMPOSITION_VALIDATION.json önceki aşamaların kayıtlarıdır. QUEST_NAME_COMPARE_VALIDATION.json ve QUEST_LOOKUP_COMPOSITION_VALIDATION.json önceki aşamaların kayıtlarıdır. Görev arama/Al-Ver kaynak bağı FarmexBot_gorev_arama_birlesimi_kaniti.json, önceki görev paketi denetimi FarmexBot_gorev_ad_okuma_birlesimi_paket_dogrulamasi.json içindedir; güncel paket FarmexBot_Pet_panel_paket_dogrulamasi.json ile doğrulanır. QUEST_RECORD_VALIDATION.json ve4744 GUI closure/hash kaydı önceki kayıt üretimi aşamasına aittir. Yukarıdaki eski Merchant/kayıt ve diğer doğrulama notları tarihsel aşamalardır; eski source hashleri güncel kod eşliği iddiası değildir.
 
 Fonksiyon/arayüz envanterleri: FarmexBot_fonksiyon_takibi.json, FarmexBot_guncel_ayar_motor_baglari.json ve FarmexBot_panel_bag_eksikleri.json. Bu aşamada yeni başarılı REA decompile çağrısı yoktur; mevcut Ghidra/PE kanıtları ve kendi standart-runtime fixture'ları kullanılmıştır.

@@ -46,6 +46,12 @@
       "catalog_controls": 75,
       "editable_controls": 48,
       "compiler_input_controls": [
+        "frmMain/MainTab/SheetBot/GroupBox18/chAutoPetCall",
+        "frmMain/MainTab/SheetBot/GroupBox18/chPetAutoFood",
+        "frmMain/MainTab/SheetBot/GroupBox18/rdPetAtackMode",
+        "frmMain/MainTab/SheetBot/GroupBox18/rdPetGuardMode",
+        "frmMain/MainTab/SheetBot/GroupBox18/rdPetLootMode",
+        "frmMain/MainTab/SheetBot/GroupBox18/txtPetAutoFood",
         "frmMain/MainTab/SheetBot/GroupBox34/GroupBox35/chNManuelAtackSpeed",
         "frmMain/MainTab/SheetBot/GroupBox34/GroupBox35/txtNAtackDistance",
         "frmMain/MainTab/SheetBot/GroupBox34/GroupBox35/txtNMobSelectDistance",
@@ -1055,128 +1061,123 @@
     },
     {
       "file": "simulation_ui.py",
-      "line": 586,
+      "line": 596,
       "function": "compile_control_guards"
     },
     {
       "file": "simulation_ui.py",
-      "line": 590,
+      "line": 600,
       "function": "plan_control_guards"
     },
     {
       "file": "simulation_ui.py",
-      "line": 655,
+      "line": 665,
       "function": "parse_sell_failure"
     },
     {
       "file": "simulation_ui.py",
-      "line": 665,
+      "line": 675,
       "function": "parse_buy_failure"
     },
     {
       "file": "simulation_ui.py",
-      "line": 980,
+      "line": 993,
       "function": "compile_class_configuration"
     },
     {
       "file": "simulation_ui.py",
-      "line": 996,
+      "line": 1009,
       "function": "compile_bot_combat"
     },
     {
       "file": "simulation_ui.py",
-      "line": 593,
+      "line": 603,
       "function": "compile_control_continuation"
     },
     {
       "file": "simulation_ui.py",
-      "line": 595,
+      "line": 605,
       "function": "replay_control_chain"
     },
     {
       "file": "simulation_ui.py",
-      "line": 943,
+      "line": 956,
       "function": "plan_merchant_reply"
     },
     {
       "file": "simulation_ui.py",
-      "line": 984,
+      "line": 997,
       "function": "configuration_writer"
     },
     {
       "file": "simulation_ui.py",
-      "line": 599,
+      "line": 609,
       "function": "parse_control_sample"
     },
     {
       "file": "simulation_ui.py",
-      "line": 603,
+      "line": 613,
       "function": "compile_party_help"
     },
     {
       "file": "simulation_ui.py",
-      "line": 604,
+      "line": 614,
       "function": "compile_control_alarms"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1029,
+      "line": 1042,
       "function": "compile_upgrade_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1031,
+      "line": 1044,
       "function": "upgrade_runner_from_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1277,
+      "line": 1304,
       "function": "EventJoinTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1282,
+      "line": 1309,
       "function": "AllocationPanelTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1287,
+      "line": 1314,
       "function": "AchievementTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1292,
+      "line": 1319,
       "function": "MonsterStoneTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1297,
+      "line": 1324,
       "function": "ChatSkillsTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1303,
+      "line": 1330,
       "function": "ChatCommandsTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1309,
+      "line": 1336,
       "function": "ChatPartyTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1315,
+      "line": 1342,
       "function": "PartyInvitationTrial.step"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1320,
+      "line": 1347,
       "function": "FollowTrial.step"
-    },
-    {
-      "file": "simulation_ui.py",
-      "line": 660,
-      "function": "parse_bank_error_returns"
     },
     {
       "file": "simulation_ui.py",
@@ -1185,252 +1186,241 @@
     },
     {
       "file": "simulation_ui.py",
-      "line": 1209,
+      "line": 680,
+      "function": "parse_bank_error_returns"
+    },
+    {
+      "file": "simulation_ui.py",
+      "line": 1231,
       "function": "event_snapshot"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1218,
+      "line": 1240,
       "function": "compile_allocation_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1093,
+      "line": 1106,
       "function": "compile_buy_merchant_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1094,
+      "line": 1107,
       "function": "buy_merchant_settings_from_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1101,
+      "line": 1114,
       "function": "compile_sell_merchant_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1102,
+      "line": 1115,
       "function": "sell_merchant_settings_from_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1429,
+      "line": 1456,
       "function": "sell_coin_alarm_from_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1449,
+      "line": 1476,
       "function": "replay_sell_preparation"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1472,
+      "line": 1499,
       "function": "SellSetupObservation"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1492,
+      "line": 1519,
       "function": "parse_sell_prepare_wait"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1509,
+      "line": 1536,
       "function": "merchant_snapshot_from_reply"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1479,
+      "line": 1506,
       "function": "SellSelectionObservation"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1501,
+      "line": 1528,
       "function": "BuyOpenClockSample"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1504,
+      "line": 1531,
       "function": "BuyMonitorObservation"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1551,
+      "line": 1578,
       "function": "bank_route_consumer"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1554,
+      "line": 1581,
       "function": "buy_bank_route_consumer"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1594,
+      "line": 1621,
       "function": "compile_loot_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1596,
+      "line": 1623,
       "function": "compile_loot_name_cache"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1430,
+      "line": 1457,
       "function": "plan_sell_coin_alarm"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1620,
+      "line": 1647,
       "function": "compile_loot_name_cache"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1625,
+      "line": 1652,
       "function": "compile_loot_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1657,
+      "line": 1684,
       "function": "compile_control_guards"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1664,
+      "line": 1691,
       "function": "plan_control_guards"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1670,
+      "line": 1697,
       "function": "replay_control_chain"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1668,
+      "line": 1695,
       "function": "compile_control_continuation"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1685,
+      "line": 1712,
       "function": "replay_control_frame"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1703,
+      "line": 1730,
       "function": "compile_supply_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1704,
+      "line": 1731,
       "function": "plan_supply_weight"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1706,
+      "line": 1733,
       "function": "compile_supply_list"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1713,
+      "line": 1740,
       "function": "plan_supply_stock"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1677,
+      "line": 1704,
       "function": "parse_control_sample"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1682,
+      "line": 1709,
       "function": "compile_party_help"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1683,
+      "line": 1710,
       "function": "compile_control_alarms"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1753,
+      "line": 1780,
       "function": "compile_target_configuration"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1786,
+      "line": 1813,
       "function": "compile_bot_combat"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1810,
+      "line": 1837,
       "function": "FamilyRunner.tick"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1761,
+      "line": 1788,
       "function": "compile_bot_combat"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1817,
+      "line": 1844,
       "function": "warrior_provoke_settings"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1829,
+      "line": 1856,
       "function": "plan_callback_attack_unlock"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1856,
+      "line": 1883,
       "function": "replay_rogue_chain"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1836,
+      "line": 1863,
       "function": "compile_combo_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1840,
+      "line": 1867,
       "function": "rogue_alternate_bow_ranges"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1863,
+      "line": 1890,
       "function": "apply_lock_write_plans"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1887,
+      "line": 1914,
       "function": "attack_flags",
       "job": "warrior"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1896,
+      "line": 1923,
       "function": "attack_flags",
       "job": "mage"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1907,
+      "line": 1934,
       "function": "attack_flags",
       "job": "kurian"
-    },
-    {
-      "file": "simulation_ui.py",
-      "line": 1911,
-      "function": "compile_combo_panel"
-    },
-    {
-      "file": "simulation_ui.py",
-      "line": 1925,
-      "function": "attack_flags",
-      "job": "rogue"
-    },
-    {
-      "file": "simulation_ui.py",
-      "line": 1936,
-      "function": "rogue_alternate_bow_ranges"
     },
     {
       "file": "simulation_ui.py",
@@ -1439,68 +1429,84 @@
     },
     {
       "file": "simulation_ui.py",
-      "line": 2012,
+      "line": 1952,
+      "function": "attack_flags",
+      "job": "rogue"
+    },
+    {
+      "file": "simulation_ui.py",
+      "line": 1963,
+      "function": "rogue_alternate_bow_ranges"
+    },
+    {
+      "file": "simulation_ui.py",
+      "line": 1965,
+      "function": "compile_combo_panel"
+    },
+    {
+      "file": "simulation_ui.py",
+      "line": 2039,
       "function": "mining_runner_configuration"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2013,
+      "line": 2040,
       "function": "mining_ore_settings"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1962,
+      "line": 1989,
       "function": "attack_flags",
       "job": "priest"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1971,
+      "line": 1998,
       "function": "support_settings_from_config"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2002,
+      "line": 2029,
       "function": "compile_mining_panel"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2134,
+      "line": 2161,
       "function": "replay_mining_callback"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2138,
+      "line": 2165,
       "function": "replay_mining_frame"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2102,
+      "line": 2129,
       "function": "replay_control_callback"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2129,
+      "line": 2156,
       "function": "plan_callback_attack_unlock"
     },
     {
       "file": "simulation_ui.py",
-      "line": 1950,
+      "line": 1977,
       "function": "rogue_volley_ranges"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2105,
+      "line": 2132,
       "function": "replay_control_callback"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2110,
+      "line": 2137,
       "function": "parse_interlude_sample"
     },
     {
       "file": "simulation_ui.py",
-      "line": 2115,
+      "line": 2142,
       "function": "replay_callback_interlude"
     },
     {
@@ -1845,11 +1851,12 @@
     "quest_details": "Actual main-list mouse release ->captured details frame using current own collection. Sorted/filtered caption record index, runtime headings before Clear, four rows including blank, no-selection preservation, hidden timer resume and conversion retry validated. Main/NPC/detail-heading projections and profile/provider generations prevent stale overwrite. Own snapshot/timer policy, no native VCL/game acquisition or requirement/reward query claim.",
     "selected_quest_action": "Actual Take/Give provider can supply nested lookup captures. Child cleanup gap withholds shared queue additions, provider context exposes nested phase/index/ordinal, timer resumes without repeating calls, FFFFFFFF lowWORD is serialized as FFFF. Captured own execution only; no real game acquisition/delivery.",
     "quest_name_compare": "Actual Take/Give provider carries nested ANSI comparisons through lookup into common own queue. Equality-return gap withholds filters/queue; context and timer resume preserve child plans without repeated calls. Captured flags or explicitly owned post-load ANSI bytes only; read-string producer and real game acquisition remain open.",
-    "quest_read_string": "Actual Take/Give provider carries typed read samples. Pending inner cleanup retains destination prefix while name assignment/queue wait; timer resumes and assigned name drives explicitly owned ANSI comparison. Common queue remains source-shaped/local only; no game/process read or send."
+    "quest_read_string": "Actual Take/Give provider carries typed read samples. Pending inner cleanup retains destination prefix while name assignment/queue wait; timer resumes and assigned name drives explicitly owned ANSI comparison. Common queue remains source-shaped/local only; no game/process read or send.",
+    "pet": "Real six Bot/Pet widgets -> Pet settings shadow -> source-shaped summon/mode/feed capture plans in EnginePage Pet case. Own synthetic examples explicitly labeled. Partial cleanup holds worker, pending summon preserves three stores, completed ticket idempotent, stale values and identical-value profile document replacement invalidate old tickets. Compiler inventory includes six paths."
   },
   "source_files": {
     "app.py": "53c7c7203bdc6e82ff3c709ca169e37db3ea6947ae8984b039df65b158f95d00",
-    "simulation_ui.py": "1d48eb86935ea56e1baef4644d6099628ec32be71e526ab4433d89d5e3165426",
+    "simulation_ui.py": "f5d1e74d0e6e278b831ada819ffef33e1fe741db8a2a7f256a5ad50c4384f175",
     "connection_ui.py": "3001e279818fa848f07af5ac3525f857bcbf5496481af506fca41c964a955af0",
     "panel_ui.py": "b20a7f054d36f82de864ec8c0b26572a2adb2cb744b551cb218fa5fd03e25605",
     "configuration.py": "0571af8d24fd874e2f7d9482a02ac2af47508eed98cf3e450a4943e36ff662ec",
@@ -2100,7 +2107,7 @@
     "merchant_windows_sort.py": "44355d1bd074749dd7bc3dce06129a313fc2c2a14d0ee179ee96b03e361e6a26",
     "merchant_results_session.py": "865ff1f382fc926661624f8ccbca36b69270eaadc62a5fecd6a243838f3432bb",
     "smoke_merchant_results_ui.py": "f649b4ad6769b866854cc5a3765187d9b22c9238a96e1f14d123e6c62caf3ff1",
-    "smoke_ui.py": "e4abed858be2b4ad7105f3e085fa20b3c165b23da916787a379721c053673157",
+    "smoke_ui.py": "799219d807f8b34c48b69d990c242e2fa21d85fb9f2727a2c0a2466e4a779609",
     "native/merchant_list_sort_fixture.c": "e87d83baa14d6137bdf531354c9edf7aa4d72cbe82b5fc77c1d9dd6d12526b8b",
     "native/build_merchant_list_sort_fixture.ps1": "5ba32b246ed0ac8e9d376a9c4b2fbf28d6e3f4a0c79e9222c89de94d54332ba6",
     "merchant_search_field.py": "17d883f7f38c274a1d1c65bddf0272a62fa84dc1cdc46b46ab9011e73dde9fee",
@@ -2275,7 +2282,10 @@
     "pet_settings.py": "4948994c34be2008b5a473a157ff5872861acee8e4fd78a6cf50f3dde54d0a0d",
     "pet_engine.py": "bae5aa50c5ef9de1ecda35c5bc4929ab8be85b2748c6784313e6ff1904ca27e6",
     "test_pet_settings.py": "daceece2de522396f97a066dcfeadf97ce9383cf6a696522f15d29c10f61df64",
-    "test_pet_engine.py": "d1545b3c1729386db6adc7449219cda6e787dab92214e39c049ed5cbff067f22"
+    "test_pet_engine.py": "d1545b3c1729386db6adc7449219cda6e787dab92214e39c049ed5cbff067f22",
+    "pet_trial.py": "739741ebf47b9afc43543cb0a24dd4f81329dd387286c7aeb6a06c41ae08a634",
+    "test_pet_trial.py": "ea9f79c520f2c08992b8eabb32c175b86d3d2ca9afbf1a56486c3ddaee8cadae",
+    "smoke_pet_ui.py": "81994cc5819685d3e513611dfdf1fc59b3a58f7913a2f208f6f80413fe65b4ff"
   },
   "live_adapter_completed": false,
   "live_feature_count_verified": 0,
@@ -2446,7 +2456,7 @@
     "quest_lookup": "Captured lookup is now consumed by selected-action continuation. Reached mode4/3 and sourceIndex-4..sourceIndex child scan, complete cleanup and distinct caller normal receipt precede first enqueue. Per-invocation input mode locks; direct outer capture compatibility remains explicit.",
     "quest_name_compare": "ANSI comparison consumed by nested lookup: distinct LStrCmp calls and SETA/SETC/compare/equality return, then separate outer name_compare receipt before filters. Per-iteration captured/composed mode fixed; raw EAX cannot bypass pending child. No Unicode fallback or native execution.",
     "quest_read_string": "Read child consumed by lookup: reached address/count, known destination prefix before cleanup, child completion then separate outer read return and name assignment. Per-row input source fixed; opaque receipt cannot bypass pending child. Opt-in fixed owned-operand bridge fills missing ANSI bytes from assigned name/argument snapshots, preserves explicit/fresh operand captures.",
-    "pet": "Pet settings prefix and captured worker API only. Auto/mode/food/default10, fresh field reads, explicit helper normal returns, unsigned timers/fresh stamps, first food slot and store prefixes modeled. Six controls are not yet connected to these APIs; compiler/UI counts and prior GUI validation remain unchanged. No automatic game capture/native actions or full function certificate."
+    "pet": "Pet source settings prefix and captured worker API composed by own PetTrial. Six panel inputs feed four shadow fields; no radio preserves known prior mode, unknown prior mode holds. Separate compiler cleanup/worker receipts, owned stable config/timer policy, explicit increasing invocation tickets, consumed prefix retention and document identity invalidation. No automatic game/native action or full function certificate."
   },
   "manual_challenge_boundary": "Other46f33c branch includes exact Captcha yenileniyor... literal. Passive evidence only; bound guard retains unknown AL/manual-handling gap. No challenge solving, refresh workflow or bypass implementation.",
   "route_api_binding_scope": "All10 own panel filename choices and local INI load exposed in RoutePage; not a claim of all library/source integration",
@@ -2500,9 +2510,15 @@
     "live_compatibility_verified": false
   },
   "inventory_scope_note": "Current scoped compiler/AST inventory, not an exhaustive event-handler or dynamic-consumption audit. Raw field compilation alone does not prove behavior completion.",
-  "compiler_input_control_count": 379,
+  "compiler_input_control_count": 385,
   "compiled_control_paths": [
     "frmDCWindow/GroupBox1/bancloselist",
+    "frmMain/MainTab/SheetBot/GroupBox18/chAutoPetCall",
+    "frmMain/MainTab/SheetBot/GroupBox18/chPetAutoFood",
+    "frmMain/MainTab/SheetBot/GroupBox18/rdPetAtackMode",
+    "frmMain/MainTab/SheetBot/GroupBox18/rdPetGuardMode",
+    "frmMain/MainTab/SheetBot/GroupBox18/rdPetLootMode",
+    "frmMain/MainTab/SheetBot/GroupBox18/txtPetAutoFood",
     "frmMain/MainTab/SheetBot/GroupBox34/GroupBox35/chNManuelAtackSpeed",
     "frmMain/MainTab/SheetBot/GroupBox34/GroupBox35/txtNAtackDistance",
     "frmMain/MainTab/SheetBot/GroupBox34/GroupBox35/txtNMobSelectDistance",
@@ -2882,7 +2898,7 @@
     "frmReturnRoutes/GroupBox1/ReturnRoutesList",
     "frmSupplyRoutes/GroupBox1/SupplyRoutesList"
   ],
-  "main_tab_compiler_control_count": 375,
+  "main_tab_compiler_control_count": 381,
   "bound_event_buttons": [
     {
       "path": "frmMain/MainTab/sheetMSDraki/GroupBox60/btnAchieveGetMS",
@@ -2892,7 +2908,7 @@
     }
   ],
   "bound_event_buttons_scope": "Explicit panel button registry only; existing dedicated name-list button actions are tracked separately.",
-  "candidate_ui_validation_status": "4990 tests and new full hidden GUI1037 controls/11forms/18tabs passed.2034 native instruction records and guard/memcpy/ANSI constructor/assignment identities verified in both pinned images. Own byte/alias/timer policy is not native runtime or live proof.",
-  "current_validation_file": "QUEST_READ_COMPOSITION_VALIDATION.json",
-  "current_UI_scope_summary": "Actual read-string/lookup/ANSI comparison/Take/Give/common queue composed through explicit source observations and separate outer returns. Automatic read/lookup/FPU/game acquisition, native codepage/RTL/refcount/SEH/runtime and real delivery remain open."
+  "candidate_ui_validation_status": "5021 Python tests and new full GUI1037 controls/11forms/18tabs; actual Pet widgets and profile-load path checked.648 pinned instruction records reverified. Automatic acquisition/native actions and full project parity remain unverified.",
+  "current_validation_file": "PET_PANEL_VALIDATION.json",
+  "current_UI_scope_summary": "Prior read-string/lookup/ANSI/Take-Give local queue flow retained. Six Pet controls now feed settings shadow and captured summon/mode/feed worker with explicit tickets and document invalidation. Automatic game observations, native runtime equivalence and real delivery remain open."
 }

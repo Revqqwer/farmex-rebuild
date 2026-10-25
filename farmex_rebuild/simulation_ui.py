@@ -12,6 +12,7 @@ from tp_protection_trial import TPProtectionTrial,tp_snapshot,example_tp_sample,
 from protection_panel_trial import ProtectionSettingsTrial,example_protection_sample,describe_protection_trial
 from disconnect_panel_trial import DisconnectSettingsTrial,example_disconnect_sample,describe_disconnect_trial
 from genie_settings_trial import GenieSettingsTrial,example_genie_settings_sample,describe_genie_settings_trial
+from pet_trial import PetTrial,example_pet_settings_sample,example_pet_runtime_sample,describe_pet_trial
 from control_settings_trial import ControlSettingsTrial,example_control_settings_sample,describe_control_settings_trial
 from item_break_settings_trial import ItemBreakSettingsTrial,example_item_break_settings_sample,describe_item_break_settings_trial
 from jail_selection_trial import JailSelectionTrial,example_selection_sample,describe_selection_trial
@@ -130,7 +131,7 @@ class EnginePage:
              'Priest Alternatif', 'Rogue Alternatif', 'Warrior Saldırı', 'Mage Saldırı',
              'Rogue Yakın', 'Rogue Yay', 'Rogue Özel', 'Rogue Çoklu', 'Görev Alma', 'Maden',
              'NPC Onarım', 'NPC Enchant', 'NPC Satış', 'NPC Satın Alma', 'Eylem Kuyruğu', 'Warrior Provoke', 'Sınıf Ailesi', 'Hedef Seçimi', 'Rogue Alternatif Yay', 'Rogue Combo Zinciri', 'Kurian Saldırı', 'Kurian Özel', 'Kurian Döngü', 'Loot Filtre')
-    CASES = ('Item Kırma Ayarları',) + CASES
+    CASES = ('Pet', 'Item Kırma Ayarları') + CASES
     def __init__(self, frame, configuration_reader=None, configuration_writer=None,route_configuration_reader=None,
                  bank_route_reader=None,bank_route_consumer=None,buy_bank_route_reader=None,buy_bank_route_consumer=None):
         self.configuration_reader = configuration_reader
@@ -160,6 +161,15 @@ class EnginePage:
         self.protection_trial=ProtectionSettingsTrial(self.configuration_reader,self.route_configuration_reader)
         self.disconnect_trial=DisconnectSettingsTrial(self.configuration_reader,self.route_configuration_reader)
         self.genie_settings_trial=GenieSettingsTrial(self.configuration_reader)
+        self.pet_trial=PetTrial(self.configuration_reader)
+        self.pet_controls=ttk.Frame(settings)
+        self.pet_controls.grid(row=46,column=0,columnspan=6,sticky='ew')
+        ttk.Label(self.pet_controls,text='Bot sekmesindeki Pet ayarlarını ve çıkarma/mod/besleme kararlarını yerel olarak önizler. Oyun eylemi göndermez.',wraplength=950).grid(row=0,column=0,columnspan=2,sticky='w')
+        self.pet_settings_sample=tk.StringVar(value='{}')
+        self.pet_runtime_sample=tk.StringVar(value='{}')
+        ttk.Entry(self.pet_controls,textvariable=self.pet_settings_sample,width=110).grid(row=1,column=0,columnspan=2,sticky='ew')
+        ttk.Entry(self.pet_controls,textvariable=self.pet_runtime_sample,width=110).grid(row=2,column=0,columnspan=2,sticky='ew')
+        ttk.Button(self.pet_controls,text='Panelden sentetik örnek hazırla',command=self.pet_example).grid(row=3,column=0,sticky='w')
         self.control_settings_trial=ControlSettingsTrial(self.configuration_reader)
         self.item_break_settings_trial=ItemBreakSettingsTrial(self.configuration_reader)
         self.item_break_settings_controls=ttk.Frame(settings)
@@ -676,6 +686,7 @@ class EnginePage:
         self.protection_trial.reset()
         self.disconnect_trial.reset()
         self.genie_settings_trial.reset()
+        self.pet_trial.reset()
         self.control_settings_trial.reset()
         self.item_break_settings_trial.reset()
         self.tp_trial.reset()
@@ -816,6 +827,8 @@ class EnginePage:
         else:self.disconnect_controls.grid_remove()
         if self.case.get()=='Genie Ayarları':self.genie_settings_controls.grid()
         else:self.genie_settings_controls.grid_remove()
+        if self.case.get()=='Pet':self.pet_controls.grid()
+        else:self.pet_controls.grid_remove()
         if self.case.get()=='Kontrol Ayarları':self.control_settings_controls.grid()
         else:self.control_settings_controls.grid_remove()
         if self.case.get()=='Item Kırma Ayarları':self.item_break_settings_controls.grid()
@@ -1155,6 +1168,15 @@ class EnginePage:
             self.disconnect_trial.last=None
             self.write('DC ayar önizlemesi hazırlanamadı: '+str(error))
 
+    def pet_example(self):
+        try:
+            snapshot=self.pet_trial.settings.current_snapshot()
+            self.pet_settings_sample.set(example_pet_settings_sample(snapshot))
+            self.pet_runtime_sample.set(example_pet_runtime_sample(snapshot,self.pet_trial))
+        except (ValueError,OSError) as error:
+            self.pet_trial.last=None
+            self.write('Pet örneği hazırlanamadı: '+str(error))
+
     def genie_settings_example(self):
         try:self.genie_settings_sample.set(example_genie_settings_sample(self.genie_settings_trial.current_snapshot()))
         except ValueError as error:
@@ -1232,6 +1254,11 @@ class EnginePage:
 
     def tick(self, elapsed=1000):
         try:
+            if self.case.get()=='Pet':
+                self.now_ms+=elapsed
+                self.pet_trial.step(self.pet_settings_sample.get(),self.pet_runtime_sample.get())
+                self.write('%d ms • Yerel Pet önizlemesi • %s'%(self.now_ms,self.describe(describe_pet_trial(self.pet_trial))))
+                return
             if self.case.get()=='Item Kırma Ayarları':
                 self.now_ms+=elapsed;self.item_break_settings_trial.step(self.item_break_settings_sample.get())
                 self.write('%d ms • Item kırma ayar önizlemesi • %s'%(self.now_ms,self.describe(describe_item_break_settings_trial(self.item_break_settings_trial))))

@@ -1,0 +1,68 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T13:10:39.924991+00:00",
+  "producer": "Reverified retained Pet PE evidence and current owned UI source binding; not new REA provider execution",
+  "instruction_records_disk_verified": 648,
+  "source_dependency": {
+    "file": "FarmexBot_Pet_davranis_kod_kaniti.json",
+    "sha256": "9c10fa92c361ee6a306c0bb25a5caffc14a9cea1c769cac304167f5fdd90eb3b"
+  },
+  "source_files": {
+    "pet_settings.py": "4948994c34be2008b5a473a157ff5872861acee8e4fd78a6cf50f3dde54d0a0d",
+    "pet_engine.py": "bae5aa50c5ef9de1ecda35c5bc4929ab8be85b2748c6784313e6ff1904ca27e6",
+    "pet_trial.py": "739741ebf47b9afc43543cb0a24dd4f81329dd387286c7aeb6a06c41ae08a634",
+    "test_pet_trial.py": "ea9f79c520f2c08992b8eabb32c175b86d3d2ca9afbf1a56486c3ddaee8cadae",
+    "simulation_ui.py": "f5d1e74d0e6e278b831ada819ffef33e1fe741db8a2a7f256a5ad50c4384f175",
+    "smoke_pet_ui.py": "81994cc5819685d3e513611dfdf1fc59b3a58f7913a2f208f6f80413fe65b4ff",
+    "smoke_ui.py": "799219d807f8b34c48b69d990c242e2fa21d85fb9f2727a2c0a2466e4a779609"
+  },
+  "panel_fields": [
+    {
+      "slot": "0xf18",
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/chAutoPetCall"
+    },
+    {
+      "slot": "0xf28",
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetAtackMode"
+    },
+    {
+      "slot": "0xf24",
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetGuardMode"
+    },
+    {
+      "slot": "0xf20",
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetLootMode"
+    },
+    {
+      "slot": "0xf14",
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/chPetAutoFood"
+    },
+    {
+      "slot": "0xf1c",
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/txtPetAutoFood"
+    }
+  ],
+  "panel_inputs": 6,
+  "compiler_input_controls": 385,
+  "editable_paths_outside_inventory": 138,
+  "own_policy": [
+    "Stable config shadow per invocation; native fresh reads are modeled separately in the core API.",
+    "Settings must finish cleanup before the owned worker starts; this is not source thread scheduling proof.",
+    "Explicit increasing capture ticket; pending helper return resumes without replay of accepted stores.",
+    "Owned timer stores persist between captures and setting changes; profile document replacement clears them and rejects old tickets.",
+    "Same values in a different profile document still invalidate old worker captures."
+  ],
+  "pet_panel_bound": true,
+  "pet_worker_capture_bound": true,
+  "pet_automatic_runtime_bound": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_memory_reads": 0,
+  "game_memory_writes": 0,
+  "game_actions": 0,
+  "limitations": [
+    "Tk/synthetic examples are not VCL/getter/RTL/native execution.",
+    "No automatic game Pet observations, dispatcher attachment or summon/mode/feed transport is bound.",
+    "No independent server or game acknowledgment; source exceptional/concurrent paths remain unverified."
+  ]
+}
