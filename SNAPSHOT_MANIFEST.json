@@ -743,8 +743,8 @@
     },
     {
       "path": "farmex_rebuild/CURRENT_STATUS.md",
-      "size": 8811,
-      "sha256": "6b9a46a0be4dd22861e519834ce1750fbf7b58c4a7b0efd9d4c39fddba9648c7"
+      "size": 9295,
+      "sha256": "3a7cd9728798cedaeed6221cfd8c76b97b594c93c332c6c955c2770f8a9f3755"
     },
     {
       "path": "farmex_rebuild/DC_FULL_CHAIN.md",
@@ -3225,6 +3225,11 @@
       "path": "farmex_rebuild/quest_list_emit.py",
       "size": 6808,
       "sha256": "0c5718af6b32df1c0e0186a30f5220320d5362d1dc2edced02f776206e124227"
+    },
+    {
+      "path": "farmex_rebuild/QUEST_LOOKUP_RETURN.md",
+      "size": 2609,
+      "sha256": "2965b832cb0bb082cb1d79fa8d52b3afe6ab34738d7fb24ad4333d3fcf7d55e4"
     },
     {
       "path": "farmex_rebuild/quest_metadata.py",
@@ -7505,6 +7510,11 @@
       "path": "analysis/FarmexBot_gorev_ayrinti_UI_kaniti.json",
       "size": 3214,
       "sha256": "5ddfda8486a19823b9adf6bc49c53354da2d1e6f13bb7652981748184c84b7e9"
+    },
+    {
+      "path": "analysis/FarmexBot_gorev_arama_donus_kaniti.json",
+      "size": 2892,
+      "sha256": "155c7eb8ef3504ef09e471712e378a9ddcf9dee8f1fff40dde66d49454bae0c4"
     },
     {
       "path": "analysis/FarmexBot_guncel_ayar_motor_baglari.json",

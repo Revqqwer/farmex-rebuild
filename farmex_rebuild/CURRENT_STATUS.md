@@ -8,6 +8,13 @@ seçimsiz/AL!=3 çıkışları doğrulandı. 4908 test ve yeni tam GUI1037 kontr
 yazım sırasında eşzamanlı drain uzlaştırması ve canlı gönderim hâlâ açık.
 Kapsam QUEST_ACTION_UI_VALIDATION.json ve QUEST_ACTION_WORKER.md.
 
+Yeni statik bulgu: iki pinned Richard PE'sindeki004d642c normal dönüşü,
+helper stack ABI'si korunduğunda FFFFFFFF'dir. Son mode CMP'sini başarı dalı
+izlemez; tek RET, sabit dönüşün save/restore komutları üzerinden geçer.
+464 komut byte kontrolü ve bağımsız decode/normal-CFG kanıtı üretildi.
+Bu bulgu scan/helper etkilerini atlamaya veya canlıda aynı kodun çalıştığı
+sonucuna izin vermez. QUEST_LOOKUP_RETURN.md; yerel test sayısı değişmedi.
+
 Proje tamamlanmadı. Oyun bağlantısını dışarıda bıraksak da davranış birleştirme, eksik özellik akışları ve panel bağlantılarında işler var. Test/kontrol/yordam sayıları tamamlanma yüzdesi değildir.
 
 | Ölçüm | Son doğrulanan değer | Anlamı |

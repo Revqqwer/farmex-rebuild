@@ -1,0 +1,79 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T07:49:38.845069+00:00",
+  "instruction_records_disk_verified": 464,
+  "versions": [
+    {
+      "binary": "Richard_decoded.bin",
+      "sha256": "12f3e2dd13836b4f9ffec77c71cf04e505e7e92a2d5a527abf78aa566f359a54",
+      "contiguous_instructions": 192,
+      "normal_return_addresses": [
+        "0x4d6667"
+      ],
+      "return_dominators": [
+        "0x4d6642",
+        "0x4d6645",
+        "0x4d6658"
+      ],
+      "mode_compare_has_no_branch": true,
+      "caller_spans": [
+        {
+          "caller": "004d5a8c",
+          "start": "0x4d5cc0",
+          "end": "0x4d5d0d",
+          "records": 20
+        },
+        {
+          "caller": "004d6040",
+          "start": "0x4d6282",
+          "end": "0x4d62cf",
+          "records": 20
+        }
+      ]
+    },
+    {
+      "binary": "Richard_febdac805f370fb3_decoded.bin",
+      "sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "contiguous_instructions": 192,
+      "normal_return_addresses": [
+        "0x4d6667"
+      ],
+      "return_dominators": [
+        "0x4d6642",
+        "0x4d6645",
+        "0x4d6658"
+      ],
+      "mode_compare_has_no_branch": true,
+      "caller_spans": [
+        {
+          "caller": "004d5a8c",
+          "start": "0x4d5cc0",
+          "end": "0x4d5d0d",
+          "records": 20
+        },
+        {
+          "caller": "004d6040",
+          "start": "0x4d6282",
+          "end": "0x4d62cf",
+          "records": 20
+        }
+      ]
+    }
+  ],
+  "method": "Retained Ghidra records matched to pinned PE bytes; independent Capstone instruction boundaries and direct normal-flow dominators",
+  "normal_return_eax": 4294967295,
+  "normal_return_low_word": 65535,
+  "findings": [
+    "No selected index is assigned to the ordinary return; the sole RET is dominated by OR EAX,-1, PUSH EAX and POP EAX around argument cleanup",
+    "The final mode CMP has no conditional branch and its flags are overwritten by the following SUB",
+    "Signed inclusive scan advances even after candidate comparisons; the upper INT32_MAX case has no finite counter exit after DWORD wrap",
+    "Both selected action callers copy the low WORD of EAX to the six-byte request at offset 2"
+  ],
+  "limits": [
+    "Only these two unmodified disk images and ordinary returning helper ABI; runtime-patched code, abnormal exits, nontermination and stack corruption are outside this proof",
+    "Helper side effects, string lifetime and exceptions are not elided; this proof does not authorize skipping the scan",
+    "No actual game or original code was executed; existing non-FFFFFFFF lookup test inputs are synthetic captures, not proof of this helper normal return"
+  ],
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}
