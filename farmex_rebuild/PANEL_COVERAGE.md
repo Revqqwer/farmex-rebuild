@@ -1,6 +1,6 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T08:16:05.731242+00:00
+Güncelleme UTC: 2026-10-25T08:30:55.368826+00:00
 
 Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **144**.
 
@@ -25,11 +25,11 @@ Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebi
 | Log | 6 | 2 | 0 | 2 |
 | Gorevler | 15 | 3 | 0 | 3 |
 
-**Güncel yerel GUI/kod doğrulaması:** QUEST_LOOKUP_COMPOSITION_VALIDATION.json — 4933 Python testi; 1037 kontrol/11 form/18 sekme.
+**Güncel yerel GUI/kod doğrulaması:** QUEST_NAME_COMPARE_VALIDATION.json — 4950 Python testi; 1037 kontrol/11 form/18 sekme.
 
-Yeni tam yerel GUI çalıştırması.
+Yeni GUI çalıştırılmadı; 4933 testli QUEST_LOOKUP_COMPOSITION_VALIDATION.json aşamasındaki tam GUI import closure hashleri değişmedi.
 
-Lookup producer joins actual Take/Give -> common own queue using captured inner spans and a separate outer return. Direct captured-return mode retained and locked per invocation. Automatic game observations, native ABI/strings/FPU/refcount/SEH/runtime and delivery remain unverified.
+Actual nested lookup/Take/Give/common queue UI preserved. New ANSI comparison API not yet connected to lookup name_compare; source read-string producer, automatic game observations, native RTL/SEH/runtime and delivery remain unverified.
 
 Bu kayıt native/game uyumluluk sertifikası değildir. Aşağıdaki adlandırılmış eski doğrulama notları tarihsel aşamalardır.
 
@@ -38,7 +38,7 @@ Bileşen, düzenlenebilir kontrol ve compiler girişi farklı kümeleri ölçer.
 
 Kaynak yollarının bağlı olması, davranışın yerel model/önizleme tarafından tüketildiğini gösterir. Her alt özelliğin kaynak, UI, native ve canlı kanıt kapsamı kendi raporundadır.
 
-**Fonksiyon takibi:** 295 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
+**Fonksiyon takibi:** 298 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
 
 Son UI genişlemeleri: DC/relog14 alanı(13 yeni compiler girdisi), Genie5 alanı ve Kontrol Ayarları15 alanı(2 yeni girdi). Kupon senkronizasyonu ve kontrol tüketici köprüsü ayrıca API modelleridir. DC Bekle/Manuel Rota kutuları ile Genie NoMob/süre alanları çalışma tüketicisi doğrulanmış yeni girişler olarak sayılmadı. Zone/Town bayraklarında yalnız ayar üreticisi bağlıdır; oyun içi durdurma etkisi kanıtlanmadı.
 

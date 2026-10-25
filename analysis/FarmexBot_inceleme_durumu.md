@@ -829,3 +829,11 @@ Composed yolun FFFFFFFF sonucu ilk istekte FFFF alanına dönüşür; eksik chil
 ham EAX ile atlanamaz.4933 test ve yeni tam GUI1037 kontrol/11form/18sekme geçti.
 İki PE'de1578 komut kaydı doğrulandı. Otomatik oyun verisi, native/runtime
 eşlik ve canlı gönderim açık. QUEST_LOOKUP_COMPOSITION_VALIDATION.json.
+
+
+25 Ekim — Son API aşaması: görev adı eşitliğinin ANSI LStrCmp yolu doğrulandı.
+İki ayrı SETA/SETC karşılaştırması, kısmi flag/operand öneği, short circuit ve
+temiz0/1 dönüşü modele eklendi.4950 test geçti; iki PE'de668 komut kaydı denetlendi.
+Yeni GUI yok: önceki4933 GUI'nin912 kod kaynağı ve383 import modülü değişmedi.
+Yeni API henüz lookup name_compare üreticisine bağlı değil; native RTL/read/
+SEH/runtime ve canlı veri/gönderim açık. QUEST_NAME_COMPARE_VALIDATION.json.

@@ -743,8 +743,8 @@
     },
     {
       "path": "farmex_rebuild/CURRENT_STATUS.md",
-      "size": 8854,
-      "sha256": "27af3839276236b0a8983b1882edf77a3ac4a8bd489cd5aee8efe16dc0efea39"
+      "size": 8953,
+      "sha256": "c4fc1b7f2bbea6cf70926f44039ab34e8b9e84fb78c777de9a012e1d5a3e065c"
     },
     {
       "path": "farmex_rebuild/DC_FULL_CHAIN.md",
@@ -2908,8 +2908,8 @@
     },
     {
       "path": "farmex_rebuild/PANEL_COVERAGE.md",
-      "size": 6813,
-      "sha256": "efa6fe2a3ee4e6e092f1bf5be2baf938d83b9bd9ff4406af12f7ea419b434c60"
+      "size": 6866,
+      "sha256": "1230cabd0170d5579041e37f4c69d9edcabfd6d4c29d5382b11fcde736f93bbb"
     },
     {
       "path": "farmex_rebuild/panel_ui.py",
@@ -3228,8 +3228,8 @@
     },
     {
       "path": "farmex_rebuild/QUEST_LOOKUP.md",
-      "size": 2966,
-      "sha256": "ac9c1365dc6751ecd6a01ffdc02b89f48ca2c21198b5784b4cbd4d4681e8cab9"
+      "size": 2967,
+      "sha256": "a5cee477b6e6b24c7bb1f3231430f9d335cb62cfdb69db78d015c23cae56ff49"
     },
     {
       "path": "farmex_rebuild/quest_lookup.py",
@@ -3270,6 +3270,21 @@
       "path": "farmex_rebuild/QUEST_METADATA_UI_VALIDATION.json",
       "size": 90395,
       "sha256": "b32f4d9293657a7b62d31dcd6513d7d2b6ea5f94ebee29ec604b8d7675d5783a"
+    },
+    {
+      "path": "farmex_rebuild/QUEST_NAME_COMPARE.md",
+      "size": 2428,
+      "sha256": "ef9c7516e07462ad572ab15b9723a81b82c004b3927c78861505003402035f89"
+    },
+    {
+      "path": "farmex_rebuild/quest_name_compare.py",
+      "size": 5959,
+      "sha256": "9d154eab4817133f6fb36779f27c54d646148ea5505a2aa0eb7c79aba9d60d95"
+    },
+    {
+      "path": "farmex_rebuild/QUEST_NAME_COMPARE_VALIDATION.json",
+      "size": 160521,
+      "sha256": "cb1d5c5036f34b2dc31c48b9535c5df5ccda4f6ac363753b9e9c603858832159"
     },
     {
       "path": "farmex_rebuild/quest_npc_filter.py",
@@ -3338,8 +3353,8 @@
     },
     {
       "path": "farmex_rebuild/README.md",
-      "size": 190512,
-      "sha256": "c1c4cb04f5ff402fa0fd1b738349c0f7010eb6a985a1b13939964b656625059c"
+      "size": 191076,
+      "sha256": "41eb590a5bbb0c676ee1f306ff3d31ee06dd5858090e920fbd70cfe54b91ad6f"
     },
     {
       "path": "farmex_rebuild/RELOG_CONFIG.md",
@@ -6232,6 +6247,11 @@
       "sha256": "1ff90a630b77ff569ea2f052826d0ae399ef7de7d440f876be08ea74c28b9102"
     },
     {
+      "path": "farmex_rebuild/test_quest_name_compare.py",
+      "size": 6061,
+      "sha256": "84a6916b2d5eca9dc053fc3004e27b9e5f141bd5ea85e95ecf90b1ea07bfd284"
+    },
+    {
       "path": "farmex_rebuild/test_quest_npc_filter.py",
       "size": 6877,
       "sha256": "fb63045679afc7ac11fa93b960f5b5e1fe51a1ea7f70d6fc90c82b0923f27311"
@@ -7123,8 +7143,8 @@
     },
     {
       "path": "farmex_rebuild/VALIDATION.md",
-      "size": 179113,
-      "sha256": "2d4979b0354818017868407974211e13eb65c0a26eafe878933228f018628782"
+      "size": 179677,
+      "sha256": "d0cb9dc35aeb01707bca7f0d42b92ef08183b5ad3c47499b740b8859b69000ec"
     },
     {
       "path": "farmex_rebuild/VCL_LIST_MUTATION.md",
@@ -7528,13 +7548,13 @@
     },
     {
       "path": "analysis/FarmexBot_inceleme_durumu.md",
-      "size": 159846,
-      "sha256": "341c2636f4441bf35b9b4912cbb090b859735f3493c84e387ff3509ec13bc579"
+      "size": 160374,
+      "sha256": "6125fbab1d477e53e07b6eecf6508740d47e5407b7a803c19e7a2f9e3c14816b"
     },
     {
       "path": "analysis/FarmexBot_fonksiyon_takibi.md",
-      "size": 159437,
-      "sha256": "72210666de7e970f9b1374f19d159da4f4ec39a2b5aeabc28d4f25ef41d6c6ce"
+      "size": 161076,
+      "sha256": "a828ba1ad64eb512565642cbd974f40ce2892a8a607f02dd98375286b2f3b64c"
     },
     {
       "path": "analysis/FarmexBot_gorev_Al_Ver_kaniti.json",
@@ -7567,9 +7587,19 @@
       "sha256": "6a23d1b07257f6a398135f0db3f259b39fd0b12584c5a401e0958329ed4eac70"
     },
     {
+      "path": "analysis/FarmexBot_gorev_ad_karsilastirma_kaniti.json",
+      "size": 2813,
+      "sha256": "1bff6420e9e09b4b46cf8c1abeb37aa08cae10b11847389b6d81e80b8a23e8ad"
+    },
+    {
+      "path": "analysis/FarmexBot_gorev_ad_karsilastirma_paket_dogrulamasi.json",
+      "size": 652,
+      "sha256": "3b6b571a323a6abb30b65693de1523d2ba60934e4edf6aba33fcfb1e167a6423"
+    },
+    {
       "path": "analysis/FarmexBot_guncel_ayar_motor_baglari.json",
-      "size": 261546,
-      "sha256": "311e2727e94509385cffaf99462bfe80f510790de3481870c00e818ab6ce5225"
+      "size": 262062,
+      "sha256": "a93b73bcc48c8e68b2fec450437788da21d28c1dead37200baca0f2d12a4954f"
     },
     {
       "path": "analysis/FarmexBot_panel_bag_eksikleri.json",
@@ -7600,6 +7630,11 @@
       "path": "verification/quest_lookup_composition_full_gui_20261025.log",
       "size": 21359,
       "sha256": "77dc8020ec9a70a193c2568ec44e7f7803ea2a0816a809311305d44638c30d8f"
+    },
+    {
+      "path": "verification/quest_name_compare_full_tests_20261025.log",
+      "size": 5057,
+      "sha256": "038d7495891b7dcfcf807faa0b779d954ebe37e66d62d91290588eee5fdb8723"
     }
   ]
 }

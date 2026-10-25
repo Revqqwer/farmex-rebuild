@@ -17,7 +17,7 @@ signed okunur: >=16 ise metadata+10'dan pointer ve raw storage kadar kopya;
 diğer durumda metadata+10 inline adresi ve15 byte istenir. Bu helper'ın inline
 sayısı, başka refresh-display yolundaki50 byte ile karıştırılmaz. Temp init,
 read span, assignment, temp cleanup ve name compare ayrı normal gözlemlerdir.
-Native string okuyucusu, kod sayfası, refcount veya Unicode karşılaştırması
+Native string okuyucusu, kod sayfası, refcount veya ANSI RTL karşılaştırması
 yerine kendi metin eşitliği konmaz; compare EAX/AL açık yakalamadır.
 
 Ad karşılaştırmasının AL'si sıfır değilse nation gate/value iki ayrı fresh

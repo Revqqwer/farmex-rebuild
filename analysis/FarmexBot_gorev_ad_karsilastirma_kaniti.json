@@ -1,0 +1,80 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T08:27:38.331522+00:00",
+  "instruction_records_disk_verified": 668,
+  "versions": [
+    {
+      "binary": "Richard_decoded.bin",
+      "sha256": "12f3e2dd13836b4f9ffec77c71cf04e505e7e92a2d5a527abf78aa566f359a54",
+      "functions": {
+        "004d642c": 192,
+        "0045dca8": 81,
+        "00402e18": 11,
+        "00402e30": 11,
+        "00505118": 14,
+        "00505158": 25
+      },
+      "equality_wrapper": "00505118",
+      "comparison_wrapper": "00505158",
+      "rtl_compare": {
+        "dll": "rtl260.bpl",
+        "name": "@System@@LStrCmp$qqrv"
+      },
+      "guard": {
+        "dll": "KERNEL32.DLL",
+        "name": "IsBadReadPtr"
+      },
+      "copy": {
+        "dll": "CC32260MT.DLL",
+        "name": "_memcpy"
+      },
+      "zero_template_bytes": 512,
+      "bad_read_literal_hex": "00"
+    },
+    {
+      "binary": "Richard_febdac805f370fb3_decoded.bin",
+      "sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "functions": {
+        "004d642c": 192,
+        "0045dca8": 81,
+        "00402e18": 11,
+        "00402e30": 11,
+        "00505134": 14,
+        "00505174": 25
+      },
+      "equality_wrapper": "00505134",
+      "comparison_wrapper": "00505174",
+      "rtl_compare": {
+        "dll": "rtl260.bpl",
+        "name": "@System@@LStrCmp$qqrv"
+      },
+      "guard": {
+        "dll": "KERNEL32.DLL",
+        "name": "IsBadReadPtr"
+      },
+      "copy": {
+        "dll": "CC32260MT.DLL",
+        "name": "_memcpy"
+      },
+      "zero_template_bytes": 512,
+      "bad_read_literal_hex": "00"
+    }
+  ],
+  "source_files": {
+    "quest_name_compare.py": "9d154eab4817133f6fb36779f27c54d646148ea5505a2aa0eb7c79aba9d60d95",
+    "test_quest_name_compare.py": "84a6916b2d5eca9dc053fc3004e27b9e5f141bd5ea85e95ecf90b1ea07bfd284"
+  },
+  "findings": [
+    "The import is ANSI LStrCmp, not UStrCmp; no Unicode conversion is introduced by this own comparison model",
+    "SETA wrapper can short-circuit the second comparison; otherwise a distinct SETC wrapper calls LStrCmp again",
+    "Comparison wrapper produces1/FFFFFFFF/0; equality wrapper SETZ and AND EAX,1 produce a clean0/1",
+    "Read-string helper checks IsBadReadPtr before512-byte zero-template copy and memcpy; bad-read branch constructs empty literal"
+  ],
+  "limits": [
+    "Own unsigned-byte policy is opt-in, not native RTL/locale/alias/refcount execution proof",
+    "Opaque calls/normal returns remain explicit; API not yet composed into lookup name comparison",
+    "Read-string lower producer, native exceptions/SEH and actual game compatibility remain open"
+  ],
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}
