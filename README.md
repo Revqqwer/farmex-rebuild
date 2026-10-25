@@ -5,7 +5,7 @@ bağımsız bir yerel uygulamada yeniden modellenmesi. Geliştirme sürümüdür
 
 ## Güncel durum
 
-4923 yerel test geçti. Önceki4908 aşamasındaki tam arayüz kontrolü (1037 kontrol, 11 form, 18 sekme) korunur;381 GUI modülünün kaynakları değişmedi. Yeni lookup API henüz Al/Ver üreticisine bağlanmadı.
+4933 yerel test ve yeni tam arayüz kontrolü (1037 kontrol, 11 form, 18 sekme) geçti. Görev arama child frame'i Al/Ver sağlayıcısına bağlandı; iç cleanup ve ayrı outer dönüş öncesi kuyruğa kayıt eklenmez.
 Al/Ver düğmeleri açık gözlemlerle ortak yerel kuyruğa bağlıdır. Gerçek oyun veri
 edinimi, gönderim ve uçtan uca uyumluluk doğrulanmadı. Test sayısı tamamlanma
 yüzdesi veya orijinal botla tam eşlik kanıtı değildir.
@@ -35,5 +35,5 @@ ilgili belgelerinde açıklanır.
 Orijinal EXE/DLL/SLV dosyaları, oyun dosyaları, üyelik/giriş bilgileri, büyük
 disassembler dökümleri, araç zincirleri ve geçici çalışma dosyaları dahil edilmez.
 Eski doğrulama belgeleri tarihsel aşamalardır; güncel kapsam
-`farmex_rebuild/QUEST_LOOKUP_VALIDATION.json` içindedir. Bazı analiz yolları
+`farmex_rebuild/QUEST_LOOKUP_COMPOSITION_VALIDATION.json` içindedir. Bazı analiz yolları
 yerel çalışma ortamını gösterir; harici orijinal ikililer bu repoda yoktur.

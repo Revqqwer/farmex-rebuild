@@ -1,5 +1,15 @@
 # Farmex yeniden yapım — geliştirme sürümü
 
+Son birleşim: görev arama child frame'i gerçek Al/Ver sağlayıcı akışına bağlandı.
+İç tarama/cleanup ve ayrı outer normal dönüş bitmeden ilk kuyruk kaydı oluşmaz.
+Composed yolun FFFFFFFF sonucu ilk istekte FFFF alanına dönüşür; eksik child
+ham EAX ile atlanamaz.4933 test ve yeni tam GUI1037 kontrol/11form/18sekme geçti.
+İki PE'de1578 komut kaydı doğrulandı. Otomatik oyun verisi, native/runtime
+eşlik ve canlı gönderim açık. QUEST_LOOKUP_COMPOSITION_VALIDATION.json.
+
+Önceki aşama notları tarihsel kayıttır.
+
+
 Son API aşaması:004d642c görev arama taraması, fresh alan okumaları ve ayrı
 name/temp/argument temizlemeleriyle devam modeline eklendi. Eşleşme taramayı
 bitirmez; FFFFFFFF yalnız normal bitişte üretilir.4923 test geçti; iki PE'de384

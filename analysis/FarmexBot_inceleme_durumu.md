@@ -821,3 +821,11 @@ lookup instruction kaydı ve önceki464 normal dönüş/caller kaydı dayanak al
 Yeni GUI yok: önceki4908 GUI'nin909 kod kaynağı,381 import modülü ve yayımlanmış
 JSON verileri değişmedi. Yeni API henüz Al/Ver üreticisine bağlanmadı.
 Native helper/runtime ve canlı oyun eşliği açık. QUEST_LOOKUP_VALIDATION.json.
+
+
+25 Ekim — Son birleşim: görev arama child frame'i gerçek Al/Ver sağlayıcı akışına bağlandı.
+İç tarama/cleanup ve ayrı outer normal dönüş bitmeden ilk kuyruk kaydı oluşmaz.
+Composed yolun FFFFFFFF sonucu ilk istekte FFFF alanına dönüşür; eksik child
+ham EAX ile atlanamaz.4933 test ve yeni tam GUI1037 kontrol/11form/18sekme geçti.
+İki PE'de1578 komut kaydı doğrulandı. Otomatik oyun verisi, native/runtime
+eşlik ve canlı gönderim açık. QUEST_LOOKUP_COMPOSITION_VALIDATION.json.

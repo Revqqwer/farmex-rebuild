@@ -1,0 +1,43 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T08:10:06.557055+00:00",
+  "instruction_records_disk_verified": 1578,
+  "versions": [
+    {
+      "binary": "Richard_decoded.bin",
+      "sha256": "12f3e2dd13836b4f9ffec77c71cf04e505e7e92a2d5a527abf78aa566f359a54",
+      "functions": {
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004d642c": 192
+      }
+    },
+    {
+      "binary": "Richard_febdac805f370fb3_decoded.bin",
+      "sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "functions": {
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004d642c": 192
+      }
+    }
+  ],
+  "source_files": {
+    "quest_action.py": "35797f1aae10b62d66ee61584a8515f9e37608df1507545b570e66b3effbb97d",
+    "quest_lookup.py": "6a5aa4ee724e4d1e37042741ce7315dce11bdbd326c9ca32a0bfb12b7fa2a727",
+    "quest_action_worker.py": "7fd4ad9214c0f2e52ce0d7b167781130e059a9d6f37fc812c5f0af2648e31fbd",
+    "test_quest_lookup_action.py": "ff09eb4f2823173d92db738b983c106d316a5f8337cf16feae1dbb2cde76cd15",
+    "smoke_quest_action_ui.py": "0259493963a83ba983d73c3386c1350ec87082df6b5b3ba49d8c65e913f26881",
+    "panel_ui.py": "b20a7f054d36f82de864ec8c0b26572a2adb2cb744b551cb218fa5fd03e25605"
+  },
+  "normal_return_proof": "FarmexBot_gorev_arama_donus_kaniti.json",
+  "normal_return_proof_sha256": "155c7eb8ef3504ef09e471712e378a9ddcf9dee8f1fff40dde66d49454bae0c4",
+  "scope": "Actual own Take/Give can consume nested lookup captures: mode4/3, source range, complete scan/cleanup then distinct outer return before first enqueue",
+  "limits": [
+    "Nested model completion is not a native function execution; outer normal-return receipt remains explicit",
+    "Direct captured-return mode retained for observations/legacy synthetic fixtures and fixed per invocation",
+    "Read/string/FPU/refcount/SEH and runtime patch/concurrency/game behavior remain unverified"
+  ],
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}

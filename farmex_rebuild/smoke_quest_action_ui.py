@@ -5,6 +5,7 @@ import quest_refresh
 from quest_action_worker import TAKE_PATH,GIVE_PATH,QuestActionContext
 from smoke_quest_details_ui import seed
 from test_quest_action import capture
+from test_quest_lookup import capture as lookup_capture
 
 
 def check_quest_action_ui(app):
@@ -91,6 +92,31 @@ def check_quest_action_ui(app):
         assert p.source_quest_action_provider is None and p.source_quest_refresh_pending is None
         assert p.source_quest_refresh_after_id is None
         assert len(p.flood_session.queue.records)==count
+        # The actual buttons accept inner lookup observations through the same
+        # provider. Argument cleanup must finish before common queue additions.
+        main();p.set_source_quest_refresh_provider(lambda context:seed())
+        p.widgets[quest_refresh.BUTTON_PATH].invoke();select()
+        o=replace(observation(),lookup=lookup_capture([dict(record=0)]*5))
+        normal=dict(o.lookup.normal_returns);del normal[(-1,'argument_cleanup')]
+        ready=[False];contexts=[]
+        def nested(context):
+            contexts.append(context)
+            return o if ready[0] else replace(o,lookup=replace(o.lookup,normal_returns=normal))
+        p.set_source_quest_action_provider(nested);p.widgets[TAKE_PATH].invoke()
+        assert not p.source_quest_refresh_result.complete
+        assert p.source_quest_refresh_result.action.lookup_plan.eax is None
+        assert len(p.flood_session.queue.records)==count
+        # A timer retry exposes nested phase/index/ordinal in provider context.
+        p.advance_source_quest_refresh()
+        assert contexts[-1].needed[0]=='lookup'
+        ready[0]=True;pump(lambda:p.source_quest_refresh_pending is None)
+        assert len(p.flood_session.queue.records)==count+3
+        assert p.flood_session.queue.records[count].payload==b'\x64\x07\xff\xff\0\0'
+        p.widgets[GIVE_PATH].invoke()
+        assert p.source_quest_refresh_result.complete
+        assert len(p.flood_session.queue.records)==count+5
+        assert p.flood_session.queue.records[count+3].payload==b'\x64\x07\xff\xff\0\0'
+        print('Quest lookup composition UI passed: actual Take/Give provider, five signed-range rows, inner cleanup gap before queue, nested context, resume, FFFF lowWORD and common queue; captured local spans only')
         print('Quest action UI passed: real Take/Give, sorted caption index, shared queue prefixes, hidden timer resume, competing gates, provider cancellation and stale profile rejection; captured local observations only')
     finally:
         p.reset_source_quest_refresh('test_restore');p.reset_source_quest('test_restore')

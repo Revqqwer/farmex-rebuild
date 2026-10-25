@@ -1843,7 +1843,7 @@
     "quest_refresh": "Actual Refresh button binds an explicit captured provider to clear/HEPSI/select-zero/erase, five region comparisons, inclusive30001 candidate scan, prepared records/append, row/NPC emission and tail cleanup. Reallocation end iterator is a separate normal gap. Own stable byte-level numeric sort, timer100ms, hidden-form resume, view/profile generation guards and metadata exclusion validated. No automatic game capture/native sort certificate.",
     "quest_NPC_filter": "Actual NPC ComboboxSelected dispatches captured filter against existing own records; all/specific branches, original index captions, numeric level order, prefix gaps and profile/provider lifetime validated. UI explicitly uses own exact ANSI bytes, not a native equality certificate. Dynamic choices/selection are runtime state, preserving profile bounds. Competing refresh/metadata actions held; no game acquisition.",
     "quest_details": "Actual main-list mouse release ->captured details frame using current own collection. Sorted/filtered caption record index, runtime headings before Clear, four rows including blank, no-selection preservation, hidden timer resume and conversion retry validated. Main/NPC/detail-heading projections and profile/provider generations prevent stale overwrite. Own snapshot/timer policy, no native VCL/game acquisition or requirement/reward query claim.",
-    "selected_quest_action": "Actual Take/Give buttons -> selected visible caption index -> explicit captured frame -> common owned queue. No selection and Give AL!=3 produce no queue additions. Hidden timer resume, competing gates, provider cancellation and stale row/profile rejection verified. Native source behavior and automatic game provider remain open."
+    "selected_quest_action": "Actual Take/Give provider can supply nested lookup captures. Child cleanup gap withholds shared queue additions, provider context exposes nested phase/index/ordinal, timer resumes without repeating calls, FFFFFFFF lowWORD is serialized as FFFF. Captured own execution only; no real game acquisition/delivery."
   },
   "source_files": {
     "app.py": "53c7c7203bdc6e82ff3c709ca169e37db3ea6947ae8984b039df65b158f95d00",
@@ -2256,13 +2256,14 @@
     "quest_details.py": "65148c4274fc26855c7725c3645caa0bf7ec0849705622de2336909b3dea14d2",
     "test_quest_details.py": "2283188f80a639a17fb4e3ebed3fff06627afe392a81ddfd28272bf5c7b9465f",
     "smoke_quest_details_ui.py": "f97196a975f2e6339df6a2a93a79474e82451e2759eb06516dafa30fff1032c5",
-    "quest_action.py": "5c7f52c3f8a796ee93e1b86eb40d82fe73161ad0354fb2e35b9a30d2b1b8826c",
+    "quest_action.py": "35797f1aae10b62d66ee61584a8515f9e37608df1507545b570e66b3effbb97d",
     "test_quest_action.py": "6692cd43166c5b2d7342475fcb934b46bc75d89df16fd36dcd04a080e734852e",
     "quest_action_worker.py": "7fd4ad9214c0f2e52ce0d7b167781130e059a9d6f37fc812c5f0af2648e31fbd",
     "test_quest_action_worker.py": "e92db5238696884f4ef773a3a6695b07a6c9618a8b89866aa36aa74e9089f7ed",
-    "smoke_quest_action_ui.py": "e9f1add3b561ba6dce4bea565606bc719a9793538340b75f65def85fa1413902",
+    "smoke_quest_action_ui.py": "0259493963a83ba983d73c3386c1350ec87082df6b5b3ba49d8c65e913f26881",
     "quest_lookup.py": "6a5aa4ee724e4d1e37042741ce7315dce11bdbd326c9ca32a0bfb12b7fa2a727",
-    "test_quest_lookup.py": "94649cabc6ac8fa62fcf7fa531a6a4f98f4ff264efecc7e4ec362806c6ee092a"
+    "test_quest_lookup.py": "94649cabc6ac8fa62fcf7fa531a6a4f98f4ff264efecc7e4ec362806c6ee092a",
+    "test_quest_lookup_action.py": "ff09eb4f2823173d92db738b983c106d316a5f8337cf16feae1dbb2cde76cd15"
   },
   "live_adapter_completed": false,
   "live_feature_count_verified": 0,
@@ -2430,7 +2431,7 @@
     "upgrade_parameter_frame": "Ordered callback-entry producer API: raw561f55, fresh reached scroll/anvil/wait Unicode texts and independent init/GetText/cleanup normals. Scroll explicit-CP ANSI assignment before scalar lowDWORD writes+8 then+4; accepted RTL Int64 only with helper normal receipt. Invalid scalar requires explicit QWORD, no inferred native fallback0/2000. Prefix retained. Source start reads cached ANSI object member, not fresh combo. UI callbacks/start-worker handoff remain unbound.",
     "quest_details": "Details API now consumed by actual main-list mouse release. Parsed caption record index, fresh level/display/NPC, column headers before Clear and four-row label flow retained; source scalar/Unicode/helper observations remain explicit.",
     "selected_quest_action": "Captured Take/Give frame consumed by actual own buttons; common owned queue publication preserves append prefixes before helper return. Uncertain writer retry and cancellation are own policies, not source native concurrency proof.",
-    "quest_lookup": "Isolated captured004d642c scan API: signed inclusive range/DWORD increment, null lookup skips, name storage signed>=16 vs inline15, separate normal name lifetimes/equality AL, distinct fresh nation/class reads and DWORD-vs-BYTE comparisons, nonbranching mode comparison, full cleanup before pinned FFFFFFFF return. Ordinal tokens and budget are own continuation policies."
+    "quest_lookup": "Captured lookup is now consumed by selected-action continuation. Reached mode4/3 and sourceIndex-4..sourceIndex child scan, complete cleanup and distinct caller normal receipt precede first enqueue. Per-invocation input mode locks; direct outer capture compatibility remains explicit."
   },
   "manual_challenge_boundary": "Other46f33c branch includes exact Captcha yenileniyor... literal. Passive evidence only; bound guard retains unknown AL/manual-handling gap. No challenge solving, refresh workflow or bypass implementation.",
   "route_api_binding_scope": "All10 own panel filename choices and local INI load exposed in RoutePage; not a claim of all library/source integration",
@@ -2876,7 +2877,7 @@
     }
   ],
   "bound_event_buttons_scope": "Explicit panel button registry only; existing dedicated name-list button actions are tracked separately.",
-  "candidate_ui_validation_status": "4923 tests passed. No new GUI: all909 previous4908 code sources,381 app/smoke import modules and prior published JSON bytes unchanged. New lookup files outside GUI closure.384 native lookup instructions verified in both pins; prior464 normal-return/caller proof retained.",
-  "current_validation_file": "QUEST_LOOKUP_VALIDATION.json",
-  "current_UI_scope_summary": "Existing Take/Give/shared queue and Refresh/NPC/details/metadata remain bound with captured observations. New lookup API not yet composed into Take/Give producer; no automatic game provider/native runtime or delivery certificate."
+  "candidate_ui_validation_status": "4933 tests and new full hidden GUI1037 controls/11forms/18tabs passed.1578 Take/Give/lookup instruction records verified in both pinned PE files; explicit helper spans/outer return, no native/live execution certificate.",
+  "current_validation_file": "QUEST_LOOKUP_COMPOSITION_VALIDATION.json",
+  "current_UI_scope_summary": "Lookup producer joins actual Take/Give -> common own queue using captured inner spans and a separate outer return. Direct captured-return mode retained and locked per invocation. Automatic game observations, native ABI/strings/FPU/refcount/SEH/runtime and delivery remain unverified."
 }

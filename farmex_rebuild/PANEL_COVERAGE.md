@@ -1,6 +1,6 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T08:02:52.094988+00:00
+Güncelleme UTC: 2026-10-25T08:16:05.731242+00:00
 
 Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **144**.
 
@@ -25,11 +25,11 @@ Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebi
 | Log | 6 | 2 | 0 | 2 |
 | Gorevler | 15 | 3 | 0 | 3 |
 
-**Güncel yerel GUI/kod doğrulaması:** QUEST_LOOKUP_VALIDATION.json — 4923 Python testi; 1037 kontrol/11 form/18 sekme.
+**Güncel yerel GUI/kod doğrulaması:** QUEST_LOOKUP_COMPOSITION_VALIDATION.json — 4933 Python testi; 1037 kontrol/11 form/18 sekme.
 
-Yeni GUI çalıştırılmadı; 4908 testli QUEST_ACTION_UI_VALIDATION.json aşamasındaki tam GUI import closure hashleri değişmedi.
+Yeni tam yerel GUI çalıştırması.
 
-Existing Take/Give/shared queue and Refresh/NPC/details/metadata remain bound with captured observations. New lookup API not yet composed into Take/Give producer; no automatic game provider/native runtime or delivery certificate.
+Lookup producer joins actual Take/Give -> common own queue using captured inner spans and a separate outer return. Direct captured-return mode retained and locked per invocation. Automatic game observations, native ABI/strings/FPU/refcount/SEH/runtime and delivery remain unverified.
 
 Bu kayıt native/game uyumluluk sertifikası değildir. Aşağıdaki adlandırılmış eski doğrulama notları tarihsel aşamalardır.
 

@@ -7,6 +7,7 @@ from quest_record import QuestRecord
 from quest_row import QuestRow
 from rtl_integer32 import parse_rtl_integer32
 from action_queue import QueueState,enqueue
+from quest_lookup import QuestLookupFrame,QuestLookupObservation
 
 
 @dataclass(frozen=True)
@@ -16,6 +17,7 @@ class QuestActionObservation:
     enqueue_gates:object=field(default_factory=dict)
     enqueue_ticks:object=field(default_factory=dict)
     enqueue_prefix_returns:object=field(default_factory=dict)
+    lookup:object=None
 
 
 @dataclass(frozen=True)
@@ -32,6 +34,7 @@ class QuestActionPlan:
     native_execution_verified:bool=False
     delivery_verified:bool=False
     live_compatibility_verified:bool=False
+    lookup_plan:object=None
 
 
 class QuestActionFrame:
@@ -46,10 +49,11 @@ class QuestActionFrame:
         self.phase='selection';self.cache={};self.normal=set();self.called=set();self.calls=[];self.reads=[]
         self.queue=QueueState();self.queue_calls=[];self.queue_applied=set();self.buffer=b'';self.payloads={}
         self.exit_reason='locally_prepared';self.final=None
+        self.lookup_mode=None;self.lookup_frame=None;self.lookup_result=None
 
     def out(self,status,needed=None,complete=False):
         p=QuestActionPlan(complete,status,self.method,self.cache.get('record_index'),needed,self.queue,
-                          tuple(self.calls),tuple(self.reads),tuple(self.queue_calls))
+                          tuple(self.calls),tuple(self.reads),tuple(self.queue_calls),lookup_plan=self.lookup_result)
         if complete:self.final=p
         return p
 
@@ -200,7 +204,23 @@ class QuestActionFrame:
                     lower=(dword(record_field('lookup_lower_source','source_index',0))-4)&0xffffffff
                     display=record_field('lookup_display','display_bytes',0x14)
                     if type(display) is not bytes:raise ValueError('Immutable lookup display ANSI bytes required')
-                    returned_value('lookup_eax','004d642c',('owned_quest_context',display,4 if self.method=='take' else 3,lower,upper))
+                    args=('owned_quest_context',display,4 if self.method=='take' else 3,lower,upper)
+                    request('lookup_eax','004d642c',args)
+                    if self.lookup_mode is None:
+                        if o.lookup is not None:
+                            if not isinstance(o.lookup,QuestLookupObservation):raise ValueError('Typed nested lookup observations required')
+                            self.lookup_frame=QuestLookupFrame(display,args[2],lower,upper);self.lookup_mode='composed'
+                        elif 'lookup_eax' in o.values:self.lookup_mode='captured'
+                        else:raise Missing(('lookup_input',))
+                    if self.lookup_mode=='composed':
+                        self.lookup_result=self.lookup_frame.advance(o.lookup)
+                        if not self.lookup_result.complete:
+                            child=self.lookup_frame
+                            raise Missing(('lookup',child.phase,child.index,child.iteration,self.lookup_result.needed))
+                        # Inner completion cannot fabricate the caller boundary.
+                        normal('lookup_eax','004d642c',args)
+                        self.cache['lookup_eax']=self.lookup_result.eax
+                    else:returned_value('lookup_eax','004d642c',args)
                     self.payloads[0]=b'\x64\x07'+(self.cache['lookup_eax']&0xffff).to_bytes(2,'little')+b'\0\0';self.phase='first_copy'
                 elif self.phase=='first_copy':normal('first_copy','00507946',(2,));self.phase='queue0'
                 elif self.phase=='queue0':

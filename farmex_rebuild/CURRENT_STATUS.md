@@ -1,19 +1,18 @@
 # Güncel durum — 25 Ekim 2026
 
-Son API aşaması:004d642c görev arama taraması, fresh alan okumaları ve ayrı
-name/temp/argument temizlemeleriyle devam modeline eklendi. Eşleşme taramayı
-bitirmez; FFFFFFFF yalnız normal bitişte üretilir.4923 test geçti; iki PE'de384
-lookup instruction kaydı ve önceki464 normal dönüş/caller kaydı dayanak alındı.
-Yeni GUI yok: önceki4908 GUI'nin909 kod kaynağı,381 import modülü ve yayımlanmış
-JSON verileri değişmedi. Yeni API henüz Al/Ver üreticisine bağlanmadı.
-Native helper/runtime ve canlı oyun eşliği açık. QUEST_LOOKUP_VALIDATION.json.
+Son birleşim: görev arama child frame'i gerçek Al/Ver sağlayıcı akışına bağlandı.
+İç tarama/cleanup ve ayrı outer normal dönüş bitmeden ilk kuyruk kaydı oluşmaz.
+Composed yolun FFFFFFFF sonucu ilk istekte FFFF alanına dönüşür; eksik child
+ham EAX ile atlanamaz.4933 test ve yeni tam GUI1037 kontrol/11form/18sekme geçti.
+İki PE'de1578 komut kaydı doğrulandı. Otomatik oyun verisi, native/runtime
+eşlik ve canlı gönderim açık. QUEST_LOOKUP_COMPOSITION_VALIDATION.json.
 
 Proje tamamlanmadı. Oyun bağlantısını dışarıda bıraksak da davranış birleştirme, eksik özellik akışları ve panel bağlantılarında işler var. Test/kontrol/yordam sayıları tamamlanma yüzdesi değildir.
 
 | Ölçüm | Son doğrulanan değer | Anlamı |
 |---|---:|---|
-| Python testleri | 4923 | Lookup API, Al/Ver UI ve önceki regresyonlar |
-| Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 4908 Al/Ver UI aşamasında yeniden çalıştırıldı |
+| Python testleri | 4933 | Lookup/Al-Ver birleşimi ve önceki regresyonlar |
+| Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 4933 lookup/Al-Ver birleşiminde yeniden çalıştırıldı |
 | Keşfedilmiş Richard yordamları | 3226 | Keşfedilmemiş kod/veri bu envanter dışında |
 | Sınırlı modele bağlanan yordamlar | 295 | Kısmi kapsam eşlemesi; bitmiş fonksiyon sayısı değil |
 | Tam fonksiyon sertifikası | 0 | Tüm yollar/native eşlik kanıtlanmadı |
