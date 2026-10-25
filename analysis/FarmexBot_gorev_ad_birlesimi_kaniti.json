@@ -1,0 +1,87 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T08:37:18.966125+00:00",
+  "instruction_records_disk_verified": 1862,
+  "versions": [
+    {
+      "binary": "Richard_decoded.bin",
+      "sha256": "12f3e2dd13836b4f9ffec77c71cf04e505e7e92a2d5a527abf78aa566f359a54",
+      "functions": {
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004d642c": 192,
+        "0045dca8": 81,
+        "00402e18": 11,
+        "00402e30": 11,
+        "00505118": 14,
+        "00505158": 25
+      },
+      "equality_wrapper": "00505118",
+      "comparison_wrapper": "00505158",
+      "rtl_compare": {
+        "dll": "rtl260.bpl",
+        "name": "@System@@LStrCmp$qqrv"
+      },
+      "guard": {
+        "dll": "KERNEL32.DLL",
+        "name": "IsBadReadPtr"
+      },
+      "copy": {
+        "dll": "CC32260MT.DLL",
+        "name": "_memcpy"
+      },
+      "zero_template_bytes": 512,
+      "bad_read_literal_hex": "00"
+    },
+    {
+      "binary": "Richard_febdac805f370fb3_decoded.bin",
+      "sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "functions": {
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004d642c": 192,
+        "0045dca8": 81,
+        "00402e18": 11,
+        "00402e30": 11,
+        "00505134": 14,
+        "00505174": 25
+      },
+      "equality_wrapper": "00505134",
+      "comparison_wrapper": "00505174",
+      "rtl_compare": {
+        "dll": "rtl260.bpl",
+        "name": "@System@@LStrCmp$qqrv"
+      },
+      "guard": {
+        "dll": "KERNEL32.DLL",
+        "name": "IsBadReadPtr"
+      },
+      "copy": {
+        "dll": "CC32260MT.DLL",
+        "name": "_memcpy"
+      },
+      "zero_template_bytes": 512,
+      "bad_read_literal_hex": "00"
+    }
+  ],
+  "source_files": {
+    "quest_lookup.py": "6c8c9e78030a298bf32681d8d3bcd6682706e92941cfc1aba1aef52db60ddb21",
+    "quest_name_compare.py": "9d154eab4817133f6fb36779f27c54d646148ea5505a2aa0eb7c79aba9d60d95",
+    "quest_action.py": "35797f1aae10b62d66ee61584a8515f9e37608df1507545b570e66b3effbb97d",
+    "smoke_quest_action_ui.py": "6196768ee2023dec369878fd6208eb6dcad03a9de33b6025280ef2f009a487a9",
+    "test_quest_name_compare_lookup.py": "4e52f21103d78d73963a8ac0d3b4cf84200e141386b2db067d0a3b6297c6c08d"
+  },
+  "findings": [
+    "The import is ANSI LStrCmp, not UStrCmp; no Unicode conversion is introduced by this own comparison model",
+    "SETA wrapper can short-circuit the second comparison; otherwise a distinct SETC wrapper calls LStrCmp again",
+    "Comparison wrapper produces1/FFFFFFFF/0; equality wrapper SETZ and AND EAX,1 produce a clean0/1",
+    "Read-string helper checks IsBadReadPtr before512-byte zero-template copy and memcpy; bad-read branch constructs empty literal"
+  ],
+  "limits": [
+    "Own unsigned-byte policy is opt-in, not native RTL/locale/alias/refcount execution proof",
+    "Opaque calls/normal returns remain explicit; Actual Take/Give providers can compose ANSI comparison into lookup; direct capture mode remains explicit per iteration",
+    "Read-string lower producer, native exceptions/SEH and actual game compatibility remain open"
+  ],
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}

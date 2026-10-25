@@ -6,6 +6,7 @@ from quest_action_worker import TAKE_PATH,GIVE_PATH,QuestActionContext
 from smoke_quest_details_ui import seed
 from test_quest_action import capture
 from test_quest_lookup import capture as lookup_capture
+from test_quest_name_compare import capture as name_compare_capture,Sample as NameCompareSample
 
 
 def check_quest_action_ui(app):
@@ -116,6 +117,26 @@ def check_quest_action_ui(app):
         assert p.source_quest_refresh_result.complete
         assert len(p.flood_session.queue.records)==count+5
         assert p.flood_session.queue.records[count+3].payload==b'\x64\x07\xff\xff\0\0'
+        # A non-null lookup row consumes nested ANSI comparison before filters.
+        start=len(p.flood_session.queue.records);ready=[False]
+        cmp=name_compare_capture(NameCompareSample(False,True),NameCompareSample(False))
+        cmp_normal=dict(cmp.normal_returns);del cmp_normal['equal_return']
+        inner=lookup_capture([{},dict(record=0),dict(record=0),dict(record=0),dict(record=0)])
+        def name_provider(context):
+            sample=cmp if ready[0] else replace(cmp,normal_returns=cmp_normal)
+            return replace(observation(),lookup=replace(inner,name_compares={0:sample}))
+        p.set_source_quest_action_provider(name_provider);p.widgets[TAKE_PATH].invoke()
+        assert not p.source_quest_refresh_result.complete
+        plan=p.source_quest_refresh_result.action.lookup_plan
+        assert plan.name_compare_plans[0][1].eax is None and plan.mode_comparisons==()
+        assert len(p.flood_session.queue.records)==start
+        ready[0]=True;pump(lambda:p.source_quest_refresh_pending is None)
+        plan=p.source_quest_refresh_result.action.lookup_plan
+        assert plan.name_compare_plans[0][1].eax==1 and len(plan.mode_comparisons)==1
+        assert len(p.flood_session.queue.records)==start+3
+        p.widgets[GIVE_PATH].invoke()
+        assert p.source_quest_refresh_result.complete and len(p.flood_session.queue.records)==start+5
+        print('Quest ANSI comparison composition UI passed: actual Take/Give -> lookup -> separate LStrCmp flag calls -> outer equality return -> filters and common queue; gap/resume and no Unicode fallback, captured local observations only')
         print('Quest lookup composition UI passed: actual Take/Give provider, five signed-range rows, inner cleanup gap before queue, nested context, resume, FFFF lowWORD and common queue; captured local spans only')
         print('Quest action UI passed: real Take/Give, sorted caption index, shared queue prefixes, hidden timer resume, competing gates, provider cancellation and stale profile rejection; captured local observations only')
     finally:

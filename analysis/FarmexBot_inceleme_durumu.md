@@ -837,3 +837,11 @@ temiz0/1 dönüşü modele eklendi.4950 test geçti; iki PE'de668 komut kaydı d
 Yeni GUI yok: önceki4933 GUI'nin912 kod kaynağı ve383 import modülü değişmedi.
 Yeni API henüz lookup name_compare üreticisine bağlı değil; native RTL/read/
 SEH/runtime ve canlı veri/gönderim açık. QUEST_NAME_COMPARE_VALIDATION.json.
+
+
+25 Ekim — Son birleşim: ANSI ad karşılaştırması görev araması üzerinden gerçek Al/Ver
+sağlayıcısına bağlandı. İç karşılaştırma ve ayrı outer dönüş bitmeden filtreler
+ve kuyruk ilerlemez; bekleme ham EAX ile atlanamaz.4960 test ve yeni tam GUI1037
+kontrol/11form/18sekme geçti. İki PE'de1862 komut kaydı doğrulandı.
+Ad okuma alt üreticisi, native/runtime ve canlı veri/gönderim açık.
+Kapsam QUEST_NAME_COMPOSITION_VALIDATION.json.

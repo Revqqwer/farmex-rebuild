@@ -1,18 +1,18 @@
 # Güncel durum — 25 Ekim 2026
 
-Son API aşaması: görev adı eşitliğinin ANSI LStrCmp yolu doğrulandı.
-İki ayrı SETA/SETC karşılaştırması, kısmi flag/operand öneği, short circuit ve
-temiz0/1 dönüşü modele eklendi.4950 test geçti; iki PE'de668 komut kaydı denetlendi.
-Yeni GUI yok: önceki4933 GUI'nin912 kod kaynağı ve383 import modülü değişmedi.
-Yeni API henüz lookup name_compare üreticisine bağlı değil; native RTL/read/
-SEH/runtime ve canlı veri/gönderim açık. QUEST_NAME_COMPARE_VALIDATION.json.
+Son birleşim: ANSI ad karşılaştırması görev araması üzerinden gerçek Al/Ver
+sağlayıcısına bağlandı. İç karşılaştırma ve ayrı outer dönüş bitmeden filtreler
+ve kuyruk ilerlemez; bekleme ham EAX ile atlanamaz.4960 test ve yeni tam GUI1037
+kontrol/11form/18sekme geçti. İki PE'de1862 komut kaydı doğrulandı.
+Ad okuma alt üreticisi, native/runtime ve canlı veri/gönderim açık.
+Kapsam QUEST_NAME_COMPOSITION_VALIDATION.json.
 
 Proje tamamlanmadı. Oyun bağlantısını dışarıda bıraksak da davranış birleştirme, eksik özellik akışları ve panel bağlantılarında işler var. Test/kontrol/yordam sayıları tamamlanma yüzdesi değildir.
 
 | Ölçüm | Son doğrulanan değer | Anlamı |
 |---|---:|---|
-| Python testleri | 4950 | ANSI karşılaştırma API ve önceki regresyonlar |
-| Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 4933 lookup/Al-Ver birleşiminde yeniden çalıştırıldı |
+| Python testleri | 4960 | ANSI ad/lookup/Al-Ver birleşimi ve önceki regresyonlar |
+| Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 4960 ANSI karşılaştırma birleşiminde yeniden çalıştırıldı |
 | Keşfedilmiş Richard yordamları | 3226 | Keşfedilmemiş kod/veri bu envanter dışında |
 | Sınırlı modele bağlanan yordamlar | 298 | Kısmi kapsam eşlemesi; bitmiş fonksiyon sayısı değil |
 | Tam fonksiyon sertifikası | 0 | Tüm yollar/native eşlik kanıtlanmadı |
@@ -43,6 +43,6 @@ Son frame aşaması: tek scheduler invocation'ında yalnız tüketilen değerler
 4. Kaynak nesne/global kimlikleri, initialization gate, gerçek form/DPI/cursor/CP/FPU ve native gönderim/hareket etkileri.
 5. Bunlardan ayrı gerçek oyun bağlantısı, güncel istemci ve özelliklerin oyunda uçtan uca doğrulanması.
 
-Güncel Python/API kaydı QUEST_NAME_COMPARE_VALIDATION.json dosyasıdır:4950 test; önceki4933 tam GUI kaynakları değişmedi. QUEST_LOOKUP_COMPOSITION_VALIDATION.json önceki tam GUI kaydıdır. Görev arama/Al-Ver kaynak bağı FarmexBot_gorev_arama_birlesimi_kaniti.json, güncel paket denetimi FarmexBot_gorev_ad_karsilastirma_paket_dogrulamasi.json içindedir. QUEST_RECORD_VALIDATION.json ve4744 GUI closure/hash kaydı önceki kayıt üretimi aşamasına aittir. Yukarıdaki eski Merchant/kayıt ve diğer doğrulama notları tarihsel aşamalardır; eski source hashleri güncel kod eşliği iddiası değildir.
+Güncel Python/GUI kaydı QUEST_NAME_COMPOSITION_VALIDATION.json dosyasıdır:4960 test ve yeni tam GUI. QUEST_NAME_COMPARE_VALIDATION.json ve QUEST_LOOKUP_COMPOSITION_VALIDATION.json önceki aşamaların kayıtlarıdır. Görev arama/Al-Ver kaynak bağı FarmexBot_gorev_arama_birlesimi_kaniti.json, güncel paket denetimi FarmexBot_gorev_ad_birlesimi_paket_dogrulamasi.json içindedir. QUEST_RECORD_VALIDATION.json ve4744 GUI closure/hash kaydı önceki kayıt üretimi aşamasına aittir. Yukarıdaki eski Merchant/kayıt ve diğer doğrulama notları tarihsel aşamalardır; eski source hashleri güncel kod eşliği iddiası değildir.
 
 Fonksiyon/arayüz envanterleri: FarmexBot_fonksiyon_takibi.json, FarmexBot_guncel_ayar_motor_baglari.json ve FarmexBot_panel_bag_eksikleri.json. Bu aşamada yeni başarılı REA decompile çağrısı yoktur; mevcut Ghidra/PE kanıtları ve kendi standart-runtime fixture'ları kullanılmıştır.

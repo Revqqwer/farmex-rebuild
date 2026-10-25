@@ -1,6 +1,6 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T08:30:55.368826+00:00
+Güncelleme UTC: 2026-10-25T08:43:00.973208+00:00
 
 Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **144**.
 
@@ -25,11 +25,11 @@ Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebi
 | Log | 6 | 2 | 0 | 2 |
 | Gorevler | 15 | 3 | 0 | 3 |
 
-**Güncel yerel GUI/kod doğrulaması:** QUEST_NAME_COMPARE_VALIDATION.json — 4950 Python testi; 1037 kontrol/11 form/18 sekme.
+**Güncel yerel GUI/kod doğrulaması:** QUEST_NAME_COMPOSITION_VALIDATION.json — 4960 Python testi; 1037 kontrol/11 form/18 sekme.
 
-Yeni GUI çalıştırılmadı; 4933 testli QUEST_LOOKUP_COMPOSITION_VALIDATION.json aşamasındaki tam GUI import closure hashleri değişmedi.
+Yeni tam yerel GUI çalıştırması.
 
-Actual nested lookup/Take/Give/common queue UI preserved. New ANSI comparison API not yet connected to lookup name_compare; source read-string producer, automatic game observations, native RTL/SEH/runtime and delivery remain unverified.
+Actual Take/Give ->lookup ->ANSI comparison ->separate equality return ->filters/common queue is locally bound. Source read-string producer, automatic game captures, native RTL/refcount/SEH/FPU/runtime and actual delivery remain open.
 
 Bu kayıt native/game uyumluluk sertifikası değildir. Aşağıdaki adlandırılmış eski doğrulama notları tarihsel aşamalardır.
 
