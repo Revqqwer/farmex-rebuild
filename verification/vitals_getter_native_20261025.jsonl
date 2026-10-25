@@ -1,0 +1,14 @@
+{"kind":"templates","source_bytes":168,"relocated_dword_operands":17,"nonrelocated_bytes_unchanged":true,"own_code_rx":true}
+{"kind":"case","case":"hp","value":1234,"protect_attempts":2,"real_owned_protect_calls":2,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"hp_max","value":4321,"protect_attempts":2,"real_owned_protect_calls":2,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"mp","value":5678,"protect_attempts":2,"real_owned_protect_calls":2,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"mp_max","value":8765,"protect_attempts":2,"real_owned_protect_calls":2,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"raw_high_bits","value":4294967295,"protect_attempts":2,"real_owned_protect_calls":2,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"null_slot_still_adds_offset","value":0,"protect_attempts":1,"real_owned_protect_calls":0,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"zero_root_still_adds_offset","value":0,"protect_attempts":2,"real_owned_protect_calls":1,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"root_protect_failure_continues","value":0,"protect_attempts":2,"real_owned_protect_calls":0,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"field_protect_failure","value":0,"protect_attempts":2,"real_owned_protect_calls":1,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"address_wraps_to_null","value":0,"protect_attempts":1,"real_owned_protect_calls":1,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"unsigned_offset_wraps_to_owned","value":999,"protect_attempts":2,"real_owned_protect_calls":2,"address_order_matches":true,"passed":true}
+{"kind":"case","case":"next_getter_rereads_root","value":6678,"protect_attempts":4,"real_owned_protect_calls":4,"address_order_matches":true,"passed":true}
+{"kind":"summary","passed":12,"external_process_access":false,"original_dll_loaded":false,"game_memory_reads":0,"game_memory_writes":0,"game_actions":0,"live_compatibility_verified":false}

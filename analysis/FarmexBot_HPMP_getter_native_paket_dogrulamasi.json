@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-25T12:36:21.885674+00:00",
+  "manifest_files": 1524,
+  "archive_entries": 1525,
+  "exact_member_set": true,
+  "every_member_matches_disk": true,
+  "current_helper_validation_hashes_match": true,
+  "integration_source_hashes_match": true,
+  "archive_size": 6014293,
+  "archive_sha256": "9303b1df6fb7f20b5fcc44fdd3e7f58a975c3087e17fb13f753e2897549912a1",
+  "source_audit_sha256": "1ba086de45ac25ee1fdf15485fb8c424649652d09ae9613a5f8fd3d300c2f020",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "validation_file": "VITALS_GETTER_NATIVE_VALIDATION.json"
+}

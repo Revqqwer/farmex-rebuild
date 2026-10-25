@@ -1,0 +1,123 @@
+............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E.................................................................................................................................................................................................................................................................................................................................................................................................................................E.EE.....................................................................................................................................................................................................................................................................................................................................EE............................................................................................................................................................................................................................................................................................................................................................................................................................................................................E..E....EE...............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+======================================================================
+ERROR: test_own_atomic_file_roundtrip_and_loss_preserves_old_file (test_name_cfg_codec.NameCfgCodecTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_name_cfg_codec.py", line 47, in test_own_atomic_file_roundtrip_and_loss_preserves_old_file
+    p=write_name_cfg(path,Doc(('ABC','�sim'),65001));self.assertTrue(p.complete)
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\name_cfg_codec.py", line 116, in write_name_cfg
+    os.replace(scratch,str(p))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpju62qx8w\\.name-cfg-ttwbjlhf' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpju62qx8w\\own.cfg'
+
+======================================================================
+ERROR: test_invalid_list_does_not_replace_profile (test_profile_lists.ListProfileTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_profile_lists.py", line 38, in test_invalid_list_does_not_replace_profile
+    self.profiles.save(path, self.profiles.defaults, {})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 202, in save
+    atomic_json_write(path, {'version': 2, 'values': values, 'lists': validated_lists})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpjk0e6ggj\\.profile-9hewtfv4' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpjk0e6ggj\\profile.json'
+
+======================================================================
+ERROR: test_v1_migration_and_default_list_independence (test_profile_lists.ListProfileTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_profile_lists.py", line 28, in test_v1_migration_and_default_list_independence
+    self.profiles.save(path, self.profiles.defaults)
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 199, in save
+    atomic_json_write(path, {'version': 1, 'values': values})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmp0udq3o21\\.profile-vcopy66v' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmp0udq3o21\\v1.json'
+
+======================================================================
+ERROR: test_version_two_roundtrip_with_changed_selection_and_rows (test_profile_lists.ListProfileTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_profile_lists.py", line 20, in test_version_two_roundtrip_with_changed_selection_and_rows
+    self.profiles.save(path, self.profiles.defaults, lists)
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 202, in save
+    atomic_json_write(path, {'version': 2, 'values': values, 'lists': validated_lists})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmp8gukuhzt\\.profile-od5mizsq' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmp8gukuhzt\\profile.json'
+
+======================================================================
+ERROR: test_bad_combo_does_not_overwrite_saved_profile (test_rebuild.ProfileTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_rebuild.py", line 78, in test_bad_combo_does_not_overwrite_saved_profile
+    profiles.save(path, profiles.defaults)
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 199, in save
+    atomic_json_write(path, {'version': 1, 'values': values})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmp2qi7phy7\\.profile-r7pog069' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmp2qi7phy7\\profile.json'
+
+======================================================================
+ERROR: test_catalog_integrity_and_profile_roundtrip (test_rebuild.ProfileTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_rebuild.py", line 57, in test_catalog_integrity_and_profile_roundtrip
+    profiles.save(path, profiles.defaults)
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 199, in save
+    atomic_json_write(path, {'version': 1, 'values': values})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpljsexapd\\.profile-pr39_2ld' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpljsexapd\\�rnek.json'
+
+======================================================================
+ERROR: test_codepage_only_profile_persists_without_choices_or_directory (test_route_profile_choices.RouteProfileChoicesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_route_profile_choices.py", line 24, in test_codepage_only_profile_persists_without_choices_or_directory
+    path=Path(d)/'cp.json';self.p.save(path,self.values)
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 196, in save
+    atomic_json_write(path,dict(version=3,values=values,lists=validated_lists,
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpsgomz1sn\\.profile-0iniq28k' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpsgomz1sn\\cp.json'
+
+======================================================================
+ERROR: test_invalid_save_preserves_existing_profile_bytes (test_route_profile_choices.RouteProfileChoicesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_route_profile_choices.py", line 72, in test_invalid_save_preserves_existing_profile_bytes
+    path=Path(d)/'p.json';self.p.save(path,self.values,{})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 196, in save
+    atomic_json_write(path,dict(version=3,values=values,lists=validated_lists,
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmphi08ddfi\\.profile-9ntt5mr6' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmphi08ddfi\\p.json'
+
+======================================================================
+ERROR: test_source_editor_choices_index_and_route_list_roundtrip (test_route_profile_choices.RouteProfileChoicesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_route_profile_choices.py", line 92, in test_source_editor_choices_index_and_route_list_roundtrip
+    path=Path(directory)/'editor.json';self.p.save(path,self.values,rows)
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 196, in save
+    atomic_json_write(path,dict(version=3,values=values,lists=validated_lists,
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpoo0md3uj\\.profile-y2howmj5' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmpoo0md3uj\\editor.json'
+
+======================================================================
+ERROR: test_v3_roundtrip_preserves_items_index_directory_and_lists (test_route_profile_choices.RouteProfileChoicesTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\test_route_profile_choices.py", line 37, in test_v3_roundtrip_preserves_items_index_directory_and_lists
+    path=Path(d)/'profile.json';self.p.save(path,self.values,{})
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 196, in save
+    atomic_json_write(path,dict(version=3,values=values,lists=validated_lists,
+  File "C:\Users\90546\Documents\Codex\2026-10-13\rea-reverse-engineer-anything\outputs\farmex_rebuild\profiles.py", line 21, in atomic_json_write
+    os.replace(scratch, str(destination))
+PermissionError: [WinError 5] Eri�im engellendi: 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmphoyeat77\\.profile-gaq8dlez' -> 'C:\\Users\\90546\\AppData\\Local\\Packages\\sandbox.{20e01ee3-cb71-4bab-a5a7-b7dabbb9246f}\\AC\\Temp\\tmphoyeat77\\profile.json'
+
+----------------------------------------------------------------------
+Ran 4990 tests in 17.294s
+
+FAILED (errors=10)

@@ -1,5 +1,13 @@
 # Güncel durum — 25 Ekim 2026
 
+Son native doğrulama: dört HP/MP getter'ı ve ortak DWORD yardımcısının
+168 kaynak baytı kendi ayrılan belleğimizde çalıştırıldı; 12 senaryo geçti.
+İki PE'de 140 komut ve VirtualProtect import kimliği doğrulandı. Python
+regresyonu tekrar 4990 test geçti. Önceki 918 kod dosyası değişmedi; yeni üç
+native fixture dosyası eklendi. Önceki tam GUI kaydı korunur, yeni GUI veya
+canlı oyun testi yapılmadı. VITALS_GETTER_NATIVE_VALIDATION.json ve
+VITALS_GETTER_NATIVE.md kapsamı açıklar. Güncel oyun profili hâlâ eksik.
+
 Son birleşim: ad okuma child'ı görev araması, ANSI karşılaştırma ve gerçek
 Al/Ver sağlayıcısına bağlandı. İç atama öneki korunur; cleanup, ayrı outer read
 dönüşü ve name assignment bitmeden filtre/kuyruk ilerlemez. Açık owned-byte

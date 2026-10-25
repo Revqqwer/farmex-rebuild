@@ -67,6 +67,21 @@ Bu aşama uygulama kaynaklarını değiştirmez. Önceki 4.990 test ve 1.037
 kontrollük arayüz kaydı kendi kapsamlarında korunur; yeni canlı test yapılmış
 sayılmaz. Önceki oturumlara ait tek seferlik yönetici testleri tekrarlanmadı.
 
+Sonraki yerel native aşamada dört getter ve ortak DWORD yardımcısının 168
+kaynak baytı, yalnız kendi ayrılan belleğimizde 12 senaryoda çalıştırıldı.
+Kökün sıfır olması, API başarısızlığı ve 32 bit adres toplaması sınandı.
+Bu sonuç eksik oyun profili veya gerçek veri edinimi için kanıt değildir.
+Uygulamanın önceki 918 kod dosyası değişmedi; üç native fixture dosyası
+eklendi. Ayrıntı `farmex_rebuild/VITALS_GETTER_NATIVE_VALIDATION.json` ve
+`farmex_rebuild/VITALS_GETTER_NATIVE.md` içindedir.
+
+Python regresyonunda ilk denemede yalıtılmış Temp altında 10 atomik dosya
+değiştirme testi WinError5 verdi. Uygulama kodunu değiştirmeden geçici
+klasörü çalışma dizinine taşıyan ikinci denemede 4.990 test geçti. Başarısız
+ve başarılı kayıtlar ayrı korunur. Native derleyicinin yalıtılmış ortamdaki
+sistem DLL konum hatası sonrası yalnız kendi derleme/testimiz masaüstü
+ortamında çalıştırıldı; oyun erişimi veya UAC başlatılmadı.
+
 ## Kanıt dosyaları
 
 - `FarmexBot_kaynak_kimligi_20261025_122636.json`
