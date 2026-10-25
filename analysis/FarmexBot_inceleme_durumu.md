@@ -845,3 +845,11 @@ ve kuyruk ilerlemez; bekleme ham EAX ile atlanamaz.4960 test ve yeni tam GUI1037
 kontrol/11form/18sekme geçti. İki PE'de1862 komut kaydı doğrulandı.
 Ad okuma alt üreticisi, native/runtime ve canlı veri/gönderim açık.
 Kapsam QUEST_NAME_COMPOSITION_VALIDATION.json.
+
+
+25 Ekim — Son API aşaması:0045dca8 ad okuma helper'ı guard, copy/atama önekleri ve ayrı
+normal dönüşler, constructor, temporary cleanup ve destination dönüşüyle modellendi.
+4977 test geçti. İki PE'de334 komut ve ANSI LStrFromPChar/LStrAsg zincirleri doğrulandı.
+Yeni GUI yok: önceki4960 GUI'nin915 kod kaynağı ve385 import modülü değişmedi.
+Yeni API henüz lookup name_read üreticisine bağlı değil. Native/codepage/RTL/SEH
+ve canlı veri/gönderim açık. QUEST_READ_STRING_VALIDATION.json.

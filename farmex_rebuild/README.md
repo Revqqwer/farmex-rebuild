@@ -1,5 +1,15 @@
 # Farmex yeniden yapım — geliştirme sürümü
 
+Son API aşaması:0045dca8 ad okuma helper'ı guard, copy/atama önekleri ve ayrı
+normal dönüşler, constructor, temporary cleanup ve destination dönüşüyle modellendi.
+4977 test geçti. İki PE'de334 komut ve ANSI LStrFromPChar/LStrAsg zincirleri doğrulandı.
+Yeni GUI yok: önceki4960 GUI'nin915 kod kaynağı ve385 import modülü değişmedi.
+Yeni API henüz lookup name_read üreticisine bağlı değil. Native/codepage/RTL/SEH
+ve canlı veri/gönderim açık. QUEST_READ_STRING_VALIDATION.json.
+
+Önceki aşama notları tarihsel kayıttır.
+
+
 Son birleşim: ANSI ad karşılaştırması görev araması üzerinden gerçek Al/Ver
 sağlayıcısına bağlandı. İç karşılaştırma ve ayrı outer dönüş bitmeden filtreler
 ve kuyruk ilerlemez; bekleme ham EAX ile atlanamaz.4960 test ve yeni tam GUI1037
