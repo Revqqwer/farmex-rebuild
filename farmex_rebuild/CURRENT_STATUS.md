@@ -1,5 +1,12 @@
 # Güncel durum — 25 Ekim 2026
 
+Son API aşaması: Pet ayar üreticisi ve çıkarma/mod/besleme çalışma yordamı
+ham gözlemlerle modelleniyor. 18 hedefli test ve toplam5008 Python testi
+geçti; iki PE'de648 komut kaydı doğrulandı. Önceki921 kod dosyası değişmedi,
+yeni GUI çalıştırılmadı. Altı Pet kontrolü henüz bu API'lere bağlanmadı;
+otomatik oyun verisi ve native Pet eylemleri açık. PET_BEHAVIOR.md ve
+PET_BEHAVIOR_VALIDATION.json güncel API kapsamını kaydeder.
+
 Son native doğrulama: dört HP/MP getter'ı ve ortak DWORD yardımcısının
 168 kaynak baytı kendi ayrılan belleğimizde çalıştırıldı; 12 senaryo geçti.
 İki PE'de 140 komut ve VirtualProtect import kimliği doğrulandı. Python
@@ -19,10 +26,10 @@ Proje tamamlanmadı. Oyun bağlantısını dışarıda bıraksak da davranış b
 
 | Ölçüm | Son doğrulanan değer | Anlamı |
 |---|---:|---|
-| Python testleri | 4990 | Read/lookup/ANSI/Al-Ver birleşimi ve önceki regresyonlar |
+| Python testleri | 5008 | Pet API'leri ve önceki regresyonlar |
 | Son tam yerel GUI | 1037 kontrol / 11 form / 18 sekme | 4990 read-string birleşiminde yeniden çalıştırıldı |
 | Keşfedilmiş Richard yordamları | 3226 | Keşfedilmemiş kod/veri bu envanter dışında |
-| Sınırlı modele bağlanan yordamlar | 298 | Kısmi kapsam eşlemesi; bitmiş fonksiyon sayısı değil |
+| Sınırlı modele bağlanan yordamlar | 299 | Kısmi kapsam eşlemesi; bitmiş fonksiyon sayısı değil |
 | Tam fonksiyon sertifikası | 0 | Tüm yollar/native eşlik kanıtlanmadı |
 | Bağlı compiler girişleri | 379 | Yerel giriş envanteri |
 | Dış envanterde kalan düzenlenebilir yollar | 144 | Eksik özellik sayısı değil |

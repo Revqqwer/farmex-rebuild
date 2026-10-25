@@ -1,6 +1,6 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T12:16:02.653828+00:00
+Güncelleme UTC: 2026-10-25T12:51:09.195615+00:00
 
 Toplam bağlı giriş kontrolü: **379**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **144**.
 
@@ -38,7 +38,7 @@ Bileşen, düzenlenebilir kontrol ve compiler girişi farklı kümeleri ölçer.
 
 Kaynak yollarının bağlı olması, davranışın yerel model/önizleme tarafından tüketildiğini gösterir. Her alt özelliğin kaynak, UI, native ve canlı kanıt kapsamı kendi raporundadır.
 
-**Fonksiyon takibi:** 298 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
+**Fonksiyon takibi:** 299 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
 
 Son UI genişlemeleri: DC/relog14 alanı(13 yeni compiler girdisi), Genie5 alanı ve Kontrol Ayarları15 alanı(2 yeni girdi). Kupon senkronizasyonu ve kontrol tüketici köprüsü ayrıca API modelleridir. DC Bekle/Manuel Rota kutuları ile Genie NoMob/süre alanları çalışma tüketicisi doğrulanmış yeni girişler olarak sayılmadı. Zone/Town bayraklarında yalnız ayar üreticisi bağlıdır; oyun içi durdurma etkisi kanıtlanmadı.
 
@@ -59,3 +59,5 @@ Güncel kaynak üretici aşaması MERCHANT_QUICK_SOURCE_VALIDATION.json:4372 Pyt
 Son izole API düzeltmesi MERCHANT_SCAN_SCHEDULER_VALIDATION.json:4384 Python testi. Zamanlayıcı ikinci/fresh tüketim saatini, koleksiyon sonrası fresh rota boyutunu,554020 actor alanını ve bağımsız helper dönüşlerini kullanır. Yeni GUI çalıştırılmadı; app/smoke_ui300 modül closure kaynakları4372 tam GUI kaydıyla aynı, değişen scheduler/test closure dışında. Gerçek timer/helper/data bağlantısı açık.
 
 Son own invocation-frame aşaması MERCHANT_SCAN_FRAME_VALIDATION.json:4396 Python testi. Yalnız tüketilmiş gözlemler saklanır; bekleyen normal dönüş istekleri token ile bir kez üretilir, post saat beklemek consume isteğini yinelemez. İstekler native komut/ABI argümanı değildir. Yeni GUI çalıştırılmadı; aynı300 modüllük closure kaynakları4372 full GUI kaydıyla aynıdır. Child executor ve timer/data sağlayıcıları açık.
+
+Pet ayar üreticisi ve çalışma yordamı için bağımsız capture API'leri eklendi. Altı Pet kontrolü henüz bu API'lere bağlanmadı;379 compiler girişi ve144 dış yol sayıları değişmez.18 hedefli Pet testi/toplam5008 Python testi;648 byte-sabit komut kaydı. PET_BEHAVIOR.md kapsamı açıklar. Native Pet yürütmesi, otomatik veri, panel/worker bağlantısı ve oyun etkileri açık.
