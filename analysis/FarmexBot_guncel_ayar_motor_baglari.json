@@ -8,6 +8,8 @@
       "catalog_controls": 74,
       "editable_controls": 46,
       "compiler_input_controls": [
+        "frmMain/MainTab/SheetGenel/GroupBox11/txtGoXKord",
+        "frmMain/MainTab/SheetGenel/GroupBox11/txtGoYKord",
         "frmMain/MainTab/SheetGenel/GroupBox12/chFollow",
         "frmMain/MainTab/SheetGenel/GroupBox12/rdFollowPartyLeader",
         "frmMain/MainTab/SheetGenel/GroupBox12/txtFollowNick",
@@ -1022,6 +1024,10 @@
       "frmMain/MainTab/SheetGenel/GroupBox40/chKnightRoyaleJoin",
       "frmMain/MainTab/SheetGenel/GroupBox40/chJRJoin",
       "frmMain/MainTab/SheetGenel/GroupBox40/chBDWJoin"
+    ],
+    "manual_coordinate": [
+      "frmMain/MainTab/SheetGenel/GroupBox11/txtGoXKord",
+      "frmMain/MainTab/SheetGenel/GroupBox11/txtGoYKord"
     ]
   },
   "compiler_output_ui_effects": {
@@ -1852,13 +1858,14 @@
     "selected_quest_action": "Actual Take/Give provider can supply nested lookup captures. Child cleanup gap withholds shared queue additions, provider context exposes nested phase/index/ordinal, timer resumes without repeating calls, FFFFFFFF lowWORD is serialized as FFFF. Captured own execution only; no real game acquisition/delivery.",
     "quest_name_compare": "Actual Take/Give provider carries nested ANSI comparisons through lookup into common own queue. Equality-return gap withholds filters/queue; context and timer resume preserve child plans without repeated calls. Captured flags or explicitly owned post-load ANSI bytes only; read-string producer and real game acquisition remain open.",
     "quest_read_string": "Actual Take/Give provider carries typed read samples. Pending inner cleanup retains destination prefix while name assignment/queue wait; timer resumes and assigned name drives explicitly owned ANSI comparison. Common queue remains source-shaped/local only; no game/process read or send.",
-    "pet": "Real six Bot/Pet widgets -> Pet settings shadow -> source-shaped summon/mode/feed capture plans in EnginePage Pet case. Own synthetic examples explicitly labeled. Partial cleanup holds worker, pending summon preserves three stores, completed ticket idempotent, stale values and identical-value profile document replacement invalidate old tickets. Compiler inventory includes six paths."
+    "pet": "Real six Bot/Pet widgets -> Pet settings shadow -> source-shaped summon/mode/feed capture plans in EnginePage Pet case. Own synthetic examples explicitly labeled. Partial cleanup holds worker, pending summon preserves three stores, completed ticket idempotent, stale values and identical-value profile document replacement invalidate old tickets. Compiler inventory includes six paths.",
+    "manual_coordinate": "Actual Git button and X/Y Text widgets consumed on demand; one pending invocation, explicit captured helper provider, generation/invocation tokens and parse-text binding. Tk timer resumes accepted prefixes; profile load/provider replacement clears pending work. Button requires provider; synthetic UI smoke is not automatic game data or movement."
   },
   "source_files": {
     "app.py": "53c7c7203bdc6e82ff3c709ca169e37db3ea6947ae8984b039df65b158f95d00",
     "simulation_ui.py": "f5d1e74d0e6e278b831ada819ffef33e1fe741db8a2a7f256a5ad50c4384f175",
     "connection_ui.py": "3001e279818fa848f07af5ac3525f857bcbf5496481af506fca41c964a955af0",
-    "panel_ui.py": "b20a7f054d36f82de864ec8c0b26572a2adb2cb744b551cb218fa5fd03e25605",
+    "panel_ui.py": "1e56312779966c6544e59e886b82180e2a476ac18d2ac0ad2a012390eabadc31",
     "configuration.py": "0571af8d24fd874e2f7d9482a02ac2af47508eed98cf3e450a4943e36ff662ec",
     "class_configuration.py": "5636beba82cf5514b991916c7cf6134ae7b32198213fc80f42a34b351e6ebc6f",
     "support_configuration.py": "f7ee7572c722e192ee2b8c5815e177b2e5bf26652dbd22ef7937bf244a948363",
@@ -2107,7 +2114,7 @@
     "merchant_windows_sort.py": "44355d1bd074749dd7bc3dce06129a313fc2c2a14d0ee179ee96b03e361e6a26",
     "merchant_results_session.py": "865ff1f382fc926661624f8ccbca36b69270eaadc62a5fecd6a243838f3432bb",
     "smoke_merchant_results_ui.py": "f649b4ad6769b866854cc5a3765187d9b22c9238a96e1f14d123e6c62caf3ff1",
-    "smoke_ui.py": "799219d807f8b34c48b69d990c242e2fa21d85fb9f2727a2c0a2466e4a779609",
+    "smoke_ui.py": "9ab48b4794db5a56790bcf6b0d8913e7eb31d1425dbd93229802b151f9acf76f",
     "native/merchant_list_sort_fixture.c": "e87d83baa14d6137bdf531354c9edf7aa4d72cbe82b5fc77c1d9dd6d12526b8b",
     "native/build_merchant_list_sort_fixture.ps1": "5ba32b246ed0ac8e9d376a9c4b2fbf28d6e3f4a0c79e9222c89de94d54332ba6",
     "merchant_search_field.py": "17d883f7f38c274a1d1c65bddf0272a62fa84dc1cdc46b46ab9011e73dde9fee",
@@ -2285,7 +2292,12 @@
     "test_pet_engine.py": "d1545b3c1729386db6adc7449219cda6e787dab92214e39c049ed5cbff067f22",
     "pet_trial.py": "739741ebf47b9afc43543cb0a24dd4f81329dd387286c7aeb6a06c41ae08a634",
     "test_pet_trial.py": "ea9f79c520f2c08992b8eabb32c175b86d3d2ca9afbf1a56486c3ddaee8cadae",
-    "smoke_pet_ui.py": "81994cc5819685d3e513611dfdf1fc59b3a58f7913a2f208f6f80413fe65b4ff"
+    "smoke_pet_ui.py": "81994cc5819685d3e513611dfdf1fc59b3a58f7913a2f208f6f80413fe65b4ff",
+    "manual_coordinate.py": "fa5c68bc5f334097e47441b199428a70c6259e2f4b54dbefdfa6a29e8de0afe6",
+    "test_manual_coordinate.py": "aa676eddf84d4bfb3eb11a84e9cd0a03921d7314945907d5c3369de73c2a0be2",
+    "manual_coordinate_runtime.py": "26422192cac71ad90a66c3c99e0b86d6340e0067da6db78a0765f64f6fddf1a3",
+    "test_manual_coordinate_runtime.py": "10a278035eb05ce58194983984094945e369c2a4cf12f0c3fbd16c56a90d2965",
+    "smoke_manual_coordinate_ui.py": "cd7bcc6afb8332094547ad61591ac317a5c892760b98f64203e5f2112fc23ca0"
   },
   "live_adapter_completed": false,
   "live_feature_count_verified": 0,
@@ -2456,7 +2468,8 @@
     "quest_lookup": "Captured lookup is now consumed by selected-action continuation. Reached mode4/3 and sourceIndex-4..sourceIndex child scan, complete cleanup and distinct caller normal receipt precede first enqueue. Per-invocation input mode locks; direct outer capture compatibility remains explicit.",
     "quest_name_compare": "ANSI comparison consumed by nested lookup: distinct LStrCmp calls and SETA/SETC/compare/equality return, then separate outer name_compare receipt before filters. Per-iteration captured/composed mode fixed; raw EAX cannot bypass pending child. No Unicode fallback or native execution.",
     "quest_read_string": "Read child consumed by lookup: reached address/count, known destination prefix before cleanup, child completion then separate outer read return and name assignment. Per-row input source fixed; opaque receipt cannot bypass pending child. Opt-in fixed owned-operand bridge fills missing ANSI bytes from assigned name/argument snapshots, preserves explicit/fresh operand captures.",
-    "pet": "Pet source settings prefix and captured worker API composed by own PetTrial. Six panel inputs feed four shadow fields; no radio preserves known prior mode, unknown prior mode holds. Separate compiler cleanup/worker receipts, owned stable config/timer policy, explicit increasing invocation tickets, consumed prefix retention and document identity invalidation. No automatic game/native action or full function certificate."
+    "pet": "Pet source settings prefix and captured worker API composed by own PetTrial. Six panel inputs feed four shadow fields; no radio preserves known prior mode, unknown prior mode holds. Separate compiler cleanup/worker receipts, owned stable config/timer policy, explicit increasing invocation tickets, consumed prefix retention and document identity invalidation. No automatic game/native action or full function certificate.",
+    "manual_coordinate": "Normal004a8478 callback: opaque setup, constructor/getter/StrToFloat/cleanup returns, separate post-FSTP bits, source X-before-Y, physical Y/X push, explicit movement return. Old canonical helper addresses; seven refreshed CALL relocations separately verified. Exceptional/native paths remain open."
   },
   "manual_challenge_boundary": "Other46f33c branch includes exact Captcha yenileniyor... literal. Passive evidence only; bound guard retains unknown AL/manual-handling gap. No challenge solving, refresh workflow or bypass implementation.",
   "route_api_binding_scope": "All10 own panel filename choices and local INI load exposed in RoutePage; not a claim of all library/source integration",
@@ -2510,7 +2523,7 @@
     "live_compatibility_verified": false
   },
   "inventory_scope_note": "Current scoped compiler/AST inventory, not an exhaustive event-handler or dynamic-consumption audit. Raw field compilation alone does not prove behavior completion.",
-  "compiler_input_control_count": 385,
+  "compiler_input_control_count": 387,
   "compiled_control_paths": [
     "frmDCWindow/GroupBox1/bancloselist",
     "frmMain/MainTab/SheetBot/GroupBox18/chAutoPetCall",
@@ -2581,6 +2594,8 @@
     "frmMain/MainTab/SheetDiger/grpAutoSkillStat/LwAutoStat",
     "frmMain/MainTab/SheetDiger/grpAutoSkillStat/chAutoSkill",
     "frmMain/MainTab/SheetDiger/grpAutoSkillStat/chAutoStat",
+    "frmMain/MainTab/SheetGenel/GroupBox11/txtGoXKord",
+    "frmMain/MainTab/SheetGenel/GroupBox11/txtGoYKord",
     "frmMain/MainTab/SheetGenel/GroupBox12/chFollow",
     "frmMain/MainTab/SheetGenel/GroupBox12/rdFollowPartyLeader",
     "frmMain/MainTab/SheetGenel/GroupBox12/txtFollowNick",
@@ -2898,17 +2913,23 @@
     "frmReturnRoutes/GroupBox1/ReturnRoutesList",
     "frmSupplyRoutes/GroupBox1/SupplyRoutesList"
   ],
-  "main_tab_compiler_control_count": 381,
+  "main_tab_compiler_control_count": 383,
   "bound_event_buttons": [
     {
       "path": "frmMain/MainTab/sheetMSDraki/GroupBox60/btnAchieveGetMS",
       "source_event": "btnAchieveGetMSClick",
       "adapter": "Application->EnginePage.start_ms_achievement->AchievementTrial",
       "live_actions_verified": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox11/btnGoKordNormal",
+      "source_event": "btnGoKordNormalClick",
+      "adapter": "ConfigurationPanel->OwnedManualCoordinate->ManualCoordinateFrame",
+      "live_actions_verified": false
     }
   ],
   "bound_event_buttons_scope": "Explicit panel button registry only; existing dedicated name-list button actions are tracked separately.",
-  "candidate_ui_validation_status": "5021 Python tests and new full GUI1037 controls/11forms/18tabs; actual Pet widgets and profile-load path checked.648 pinned instruction records reverified. Automatic acquisition/native actions and full project parity remain unverified.",
-  "current_validation_file": "PET_PANEL_VALIDATION.json",
-  "current_UI_scope_summary": "Prior read-string/lookup/ANSI/Take-Give local queue flow retained. Six Pet controls now feed settings shadow and captured summon/mode/feed worker with explicit tickets and document invalidation. Automatic game observations, native runtime equivalence and real delivery remain open."
+  "candidate_ui_validation_status": "5039 Python tests and new full GUI1037 controls/11forms/18tabs; actual Git/X/Y widgets, Tk continuation and profile-load invalidation checked.136 source instruction records verified; no native/game movement.",
+  "current_validation_file": "MANUAL_COORDINATE_PANEL_VALIDATION.json",
+  "current_UI_scope_summary": "Prior Pet and Quest local bindings retained; actual manual coordinate button now consumes reached panel Text and explicit helper/float captures. Automatic runtime acquisition, native helper semantics, exception paths and real game effects remain open."
 }

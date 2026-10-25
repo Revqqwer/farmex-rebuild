@@ -1,0 +1,30 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T13:30:38.076872+00:00",
+  "producer": "Offline retained source-byte reverification plus owned UI source binding; no new REA provider execution",
+  "instruction_records_disk_verified": 136,
+  "source_files": {
+    "manual_coordinate.py": "fa5c68bc5f334097e47441b199428a70c6259e2f4b54dbefdfa6a29e8de0afe6",
+    "test_manual_coordinate.py": "aa676eddf84d4bfb3eb11a84e9cd0a03921d7314945907d5c3369de73c2a0be2",
+    "manual_coordinate_runtime.py": "26422192cac71ad90a66c3c99e0b86d6340e0067da6db78a0765f64f6fddf1a3",
+    "test_manual_coordinate_runtime.py": "10a278035eb05ce58194983984094945e369c2a4cf12f0c3fbd16c56a90d2965",
+    "panel_ui.py": "1e56312779966c6544e59e886b82180e2a476ac18d2ac0ad2a012390eabadc31",
+    "smoke_manual_coordinate_ui.py": "cd7bcc6afb8332094547ad61591ac317a5c892760b98f64203e5f2112fc23ca0",
+    "smoke_ui.py": "9ab48b4794db5a56790bcf6b0d8913e7eb31d1425dbd93229802b151f9acf76f"
+  },
+  "source_dependency": {
+    "file": "FarmexBot_koordinata_git_normal_kod_kaniti.json",
+    "sha256": "baad7fb64cefe3e6de9cad46a5dc98ff4487c98044878dd70810955d25d1e22a"
+  },
+  "panel_bound": true,
+  "automatic_game_acquisition": false,
+  "native_execution_verified": false,
+  "exceptional_paths_verified": false,
+  "live_compatibility_verified": false,
+  "own_policy": [
+    "One pending click; button disabled during continuation; not source concurrent VCL proof.",
+    "Text read on demand after explicit getter receipt; already accepted X is retained across Y/cleanup waits.",
+    "Increasing invocation and generation tokens reject stale captures; float bits attest acquired text.",
+    "Profile/provider replacement cancels pending state and Tk callbacks; no movement executor exists."
+  ]
+}

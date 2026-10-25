@@ -7,6 +7,8 @@ root = tk.Tk()
 root.withdraw()
 try:
     app = Application(root)
+    from smoke_manual_coordinate_ui import check_manual_coordinate_ui
+    check_manual_coordinate_ui(app)
     from smoke_pet_ui import check_pet_ui
     check_pet_ui(app)
     from smoke_merchant_quick_ui import check_merchant_quick_ui

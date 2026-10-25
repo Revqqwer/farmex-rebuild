@@ -29,6 +29,8 @@ import route_save_runtime
 import route_load_runtime
 import route_command_runtime
 import route_coordinate_click as coordinate_click
+import manual_coordinate_runtime as manual_coordinate_runtime
+from manual_coordinate import BUTTON_PATH as MANUAL_COORDINATE_BUTTON
 import route_npc_click as npc_click
 from route_npc_source import NpcSourceFrame
 from route_gate_runtime import OwnedGateRecording,OWN_TIMER_PERIOD_MS as GATE_RECORD_TIMER_MS
@@ -101,6 +103,9 @@ class ConfigurationPanel:
         self.source_coordinate_result=None;self.source_coordinate_generation=0;self.source_coordinate_invocation=0
         self.source_coordinate_after_id=None;self.source_coordinate_stepping=False
         self.button_handlers[coordinate_click.BUTTON_PATH]=self.start_source_coordinate
+        self.manual_coordinate=manual_coordinate_runtime.OwnedManualCoordinate(lambda:self.values)
+        self.manual_coordinate_provider=None;self.manual_coordinate_after_id=None
+        self.button_handlers[MANUAL_COORDINATE_BUTTON]=self.start_manual_coordinate
         self.source_npc_provider=None;self.source_npc_pending=[]
         self.source_npc_result=None;self.source_npc_generation=0;self.source_npc_invocation=0
         self.source_npc_after_id=None;self.source_npc_stepping=False
@@ -236,6 +241,7 @@ class ConfigurationPanel:
         self.reset_source_quest_refresh('profile_change')
         self.reset_source_quest('profile_change')
         self.reset_source_coordinates('profile_change')
+        self.reset_manual_coordinate()
         self.reset_source_npcs('profile_change')
         self.reset_source_gates('profile_change')
         self.reset_source_upgrade_editor('profile_change')
@@ -652,6 +658,61 @@ class ConfigurationPanel:
             try:self.canvas.after_cancel(self.merchant_scan_after_id)
             except tk.TclError:pass
             self.merchant_scan_after_id=None
+
+    def cancel_manual_coordinate_timer(self):
+        if self.manual_coordinate_after_id is not None:
+            try:self.canvas.after_cancel(self.manual_coordinate_after_id)
+            except tk.TclError:pass
+            self.manual_coordinate_after_id=None
+
+    def manual_coordinate_availability(self):
+        widget=self.widgets.get(MANUAL_COORDINATE_BUTTON)
+        node=next(n for n in self.catalog if n['path']==MANUAL_COORDINATE_BUTTON)
+        enabled=(callable(self.manual_coordinate_provider) and not self.manual_coordinate.pending
+                 and node['properties'].get('Enabled') is not False and not node['disabled_by'])
+        if widget is not None and widget.winfo_exists():widget.state(['!disabled'] if enabled else ['disabled'])
+
+    def reset_manual_coordinate(self):
+        self.cancel_manual_coordinate_timer();self.manual_coordinate.reset()
+        self.manual_coordinate_provider=None;self.manual_coordinate_availability()
+
+    def set_manual_coordinate_provider(self,provider):
+        if provider is not None and not callable(provider):raise ValueError('Coordinate provider must be callable or None')
+        self.reset_manual_coordinate();self.manual_coordinate_provider=provider
+        self.manual_coordinate_availability()
+
+    def start_manual_coordinate(self):
+        if not callable(self.manual_coordinate_provider):
+            self.list_help.set('Koordinat dönüşüm bağlantısı gerekli.');return None
+        if self.manual_coordinate.pending or self.manual_coordinate.busy:return self.manual_coordinate.result
+        self.manual_coordinate.start();self.manual_coordinate_availability()
+        return self.advance_manual_coordinate()
+
+    def advance_manual_coordinate(self,generation=None):
+        runtime=self.manual_coordinate
+        if generation is not None and generation!=runtime.generation:return None
+        if runtime.busy:return None
+        self.cancel_manual_coordinate_timer()
+        if not runtime.pending or not callable(self.manual_coordinate_provider):return runtime.result
+        current_generation=runtime.generation
+        result=runtime.tick(self.manual_coordinate_provider)
+        if current_generation!=runtime.generation:
+            # A replacement provider may have started a new generation from
+            # inside the callback; ensure its pending continuation is retained.
+            if runtime.pending and self.manual_coordinate_after_id is None:
+                next_generation=runtime.generation
+                self.manual_coordinate_after_id=self.canvas.after(manual_coordinate_runtime.OWN_TIMER_PERIOD_MS,
+                    lambda:self.advance_manual_coordinate(next_generation))
+            return None
+        self.manual_coordinate_availability()
+        if result is not None and result.complete:
+            self.list_help.set('Koordinat çağrı akışı doğrulandı; oyun hareketi yürütülmedi.')
+        elif runtime.error:self.list_help.set('Koordinat gözlemi reddedildi: '+runtime.error)
+        else:self.list_help.set('Koordinat çağrı sonucu bekleniyor; oyun hareketi yürütülmedi.')
+        if runtime.pending:
+            self.manual_coordinate_after_id=self.canvas.after(manual_coordinate_runtime.OWN_TIMER_PERIOD_MS,
+                lambda:self.advance_manual_coordinate(current_generation))
+        return result
 
     def cancel_source_coordinate_timer(self):
         if self.source_coordinate_after_id is not None:
@@ -1123,6 +1184,7 @@ class ConfigurationPanel:
         self.cancel_manual_item_break_timer();self.manual_item_break.reset()
         self.cancel_auto_item_break_timer();self.auto_item_break.reset()
         self.reset_source_coordinates('panel_destroyed')
+        self.reset_manual_coordinate()
         self.reset_source_npcs('panel_destroyed')
         self.reset_source_gates('panel_destroyed')
         self.reset_source_upgrade_editor('panel_destroyed')
@@ -1952,6 +2014,7 @@ class ConfigurationPanel:
         self.apply_source_route_panel()
         self.source_coordinate_availability()
         self.source_npc_availability()
+        self.manual_coordinate_availability()
         self.source_upgrade_availability()
 
         self.source_quest_availability()

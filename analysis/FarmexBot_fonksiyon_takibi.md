@@ -9,13 +9,13 @@ Bu kayıt yalnız güncel Damon/Richard içeriğindeki keşfedilmiş3226yordamı
 | instruction_records_verified | 290173 |
 | unique_instruction_addresses_verified | 290173 |
 | import_forwarders_with_identity | 356 |
-| functions_with_reference_candidates | 572 |
-| initially_linked_scoped_models | 299 |
+| functions_with_reference_candidates | 573 |
+| initially_linked_scoped_models | 300 |
 | full_function_completion_certificates | 0 |
 | functions_without_completion_certificate | 3226 |
 | live_compatibility_certificates | 0 |
 
-Tamamlanma sertifikası0, bütün fonksiyonlarda hiç analiz olmadığı anlamına gelmez. Tam fonksiyon davranışı, tüm ilgili yollar/yardımcılar ve bağımsız doğrulama için sertifika henüz yoktur. Elle eşleme300fonksiyonla sınırlıdır; mevcut diğer analizlerin eşlenmesi bekler.
+Tamamlanma sertifikası0, bütün fonksiyonlarda hiç analiz olmadığı anlamına gelmez. Tam fonksiyon davranışı, tüm ilgili yollar/yardımcılar ve bağımsız doğrulama için sertifika henüz yoktur. Elle eşleme301fonksiyonla sınırlıdır; mevcut diğer analizlerin eşlenmesi bekler.
 
 Otomatik adres referansları yalnız gezinme adayıdır. Önceki150–300tahmini ölçülmüş değer olarak kullanılmadı. Assembly byte doğrulaması, davranış analizi ve canlı uyumluluk ayrı alanlardır.
 
@@ -171,6 +171,7 @@ Otomatik adres referansları yalnız gezinme adayıdır. Önceki150–300tahmini
 - `0049e8c8`:  Scoped direct TP/Priest common/wrapper packet builder and own two-enqueue frame: exact48/34 or48/26 source bytes, low32 prefix, actorDWORD/targetDWORD-orWORD fields and0/1500delays. Priest zeroWORD skip after getters, cached prefix and separate enqueue/return-span receipts. No native delivery/helperEAX/consumer binding/live proof. Later optional typed direct-child binding covers nine caller sites with exact source arguments, preserved consumed getter/queue/gate prefixes, separate parent normal, Priest pre-clear versus Mage/Rogue post-clear. Child result retained through six class heads; UI/shared producer lifecycle/native effects/live equivalence still open.
 - `0049f061`: Only reached0049f470..0049f4c0 profile selector: detector child/parent return, mode AL store, independent fresh Steam2 and US1 reads, 553e48 tag stores and two-field constructor projection. Explicit stable owned-mode contract separate from raw reads; full initializer/runtime effects unverified
 - `004a199c`: Only reached FileExists/cleanup return tail: lowAL nonzero2 else1, candidate cleanup and final branch cleanup separate. Full path/ANSI/RTL pipeline and live filesystem result remain outside owned model
+- `004a8478`: Captured normal Go-coordinate callback; source X/getter/parse/post-FSTP/cleanup before Y, then physical Y/X movement call and separate normal return. Own actual button/text/timer binding with captured helper provider and profile generation. Exceptional/native/game paths remain unverified.
 - `004aae6c`: Route close normal callback: named gate-recording checkbox VMT134 setter with EDX0 then panel visible0. Retained VCL slot maps SetChecked; own checkbox state and hide order bound. Gate recorder game callback, native runtime identity/side effects/exception/lifetime unverified.
 - `004aaea0`: Actual own source route add Town: blank Add then caption and two subitems; constants use literal dash placeholders and append despite selection. Wait reads fresh text after caption, own pinned scalar/default5 and signed64 format policy; native catch/CRT/VCL/SEH unverified. Own row prefix and profile persistence; data only, no game execution.
 - `004aaf90`: Actual own source route add Gate Skill: blank Add then caption and two subitems; constants use literal dash placeholders and append despite selection. Wait reads fresh text after caption, own pinned scalar/default5 and signed64 format policy; native catch/CRT/VCL/SEH unverified. Own row prefix and profile persistence; data only, no game execution.

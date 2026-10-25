@@ -1,12 +1,12 @@
 # Panel bağlantı kapsamı
 
-Güncelleme UTC: 2026-10-25T13:19:06.215565+00:00
+Güncelleme UTC: 2026-10-25T13:38:35.802502+00:00
 
-Toplam bağlı giriş kontrolü: **385**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **138**.
+Toplam bağlı giriş kontrolü: **387**. Envanter dışında kalan düzenlenebilir ana sekme kontrolü: **136**.
 
 | Ana sekme | Kaynak bileşen | Düzenlenebilir | Bağlı giriş | Envanter dışında |
 |---|---:|---:|---:|---:|
-| Genel | 74 | 46 | 19 | 27 |
+| Genel | 74 | 46 | 21 | 25 |
 | Bot | 75 | 48 | 32 | 16 |
 | Job | 163 | 100 | 95 | 5 |
 | Item | 26 | 19 | 15 | 4 |
@@ -25,11 +25,11 @@ Toplam bağlı giriş kontrolü: **385**. Envanter dışında kalan düzenlenebi
 | Log | 6 | 2 | 0 | 2 |
 | Gorevler | 15 | 3 | 0 | 3 |
 
-**Güncel yerel GUI/kod doğrulaması:** PET_PANEL_VALIDATION.json — 5021 Python testi; 1037 kontrol/11 form/18 sekme.
+**Güncel yerel GUI/kod doğrulaması:** MANUAL_COORDINATE_PANEL_VALIDATION.json — 5039 Python testi; 1037 kontrol/11 form/18 sekme.
 
 Yeni tam yerel GUI çalıştırması.
 
-Prior read-string/lookup/ANSI/Take-Give local queue flow retained. Six Pet controls now feed settings shadow and captured summon/mode/feed worker with explicit tickets and document invalidation. Automatic game observations, native runtime equivalence and real delivery remain open.
+Prior Pet and Quest local bindings retained; actual manual coordinate button now consumes reached panel Text and explicit helper/float captures. Automatic runtime acquisition, native helper semantics, exception paths and real game effects remain open.
 
 Bu kayıt native/game uyumluluk sertifikası değildir. Aşağıdaki adlandırılmış eski doğrulama notları tarihsel aşamalardır.
 
@@ -38,7 +38,7 @@ Bileşen, düzenlenebilir kontrol ve compiler girişi farklı kümeleri ölçer.
 
 Kaynak yollarının bağlı olması, davranışın yerel model/önizleme tarafından tüketildiğini gösterir. Her alt özelliğin kaynak, UI, native ve canlı kanıt kapsamı kendi raporundadır.
 
-**Fonksiyon takibi:** 299 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
+**Fonksiyon takibi:** 300 sınırlı eşleme; tam fonksiyon sertifikası0; canlı uyumluluk sertifikası0.
 
 Son UI genişlemeleri: DC/relog14 alanı(13 yeni compiler girdisi), Genie5 alanı ve Kontrol Ayarları15 alanı(2 yeni girdi). Kupon senkronizasyonu ve kontrol tüketici köprüsü ayrıca API modelleridir. DC Bekle/Manuel Rota kutuları ile Genie NoMob/süre alanları çalışma tüketicisi doğrulanmış yeni girişler olarak sayılmadı. Zone/Town bayraklarında yalnız ayar üreticisi bağlıdır; oyun içi durdurma etkisi kanıtlanmadı.
 
@@ -61,3 +61,5 @@ Son izole API düzeltmesi MERCHANT_SCAN_SCHEDULER_VALIDATION.json:4384 Python te
 Son own invocation-frame aşaması MERCHANT_SCAN_FRAME_VALIDATION.json:4396 Python testi. Yalnız tüketilmiş gözlemler saklanır; bekleyen normal dönüş istekleri token ile bir kez üretilir, post saat beklemek consume isteğini yinelemez. İstekler native komut/ABI argümanı değildir. Yeni GUI çalıştırılmadı; aynı300 modüllük closure kaynakları4372 full GUI kaydıyla aynıdır. Child executor ve timer/data sağlayıcıları açık.
 
 Güncel Pet panel aşaması PET_PANEL_VALIDATION.json:5021 Python testi ve yeni tam GUI1037 kontrol/11form/18sekme. Altı gerçek kontrol ayar shadow'una ve yakalanmış çıkarma/mod/besleme karar motoruna bağlı;385 compiler girişi ve138 dış yol vardır. Settings cleanup, worker yazım öneki, artan örnek numarası ve aynı-değer farklı profil document invalidation sınandı.648 komut kaydı yeniden doğrulandı. Otomatik oyun verisi, native Pet çağrıları ve gerçek eylemler açık. Önceki5008 Pet API kaydı ayrı tarihsel aşamadır.
+
+Güncel Koordinata Git panel aşaması MANUAL_COORDINATE_PANEL_VALIDATION.json:5039 Python testi ve yeni tam GUI1037 kontrol/11form/18sekme. Gerçek Git düğmesi, X/Y Text alanları ve Tk timer açık helper/float gözlemlerine bağlıdır. X cleanup beklerken kabul edilen X korunur, henüz alınmayan Y fresh kalır; stale capture ve profil yüklemesi sınandı.387 giriş ve136 dış yol vardır; tamamlanmış özellik sayıları değildir.136 kaynak komut kaydı doğrulandı. Kaynak exception/native/runtime ve gerçek hareket açık.

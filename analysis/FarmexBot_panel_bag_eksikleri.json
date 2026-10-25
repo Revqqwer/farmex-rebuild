@@ -1,8 +1,8 @@
 {
   "kind": "scoped_UI_compiler_gaps_not_unimplemented_feature_count",
-  "editable_paths_outside_inventory": 138,
+  "editable_paths_outside_inventory": 136,
   "source_disabled_paths_outside_inventory": 47,
-  "source_eventless_paths_outside_inventory": 62,
+  "source_eventless_paths_outside_inventory": 60,
   "known_follow_API_only": 0,
   "rows": [
     {
@@ -81,26 +81,6 @@
       "source_events": {
         "OnClick": "rdFollowManuelNickClick"
       },
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetGenel/GroupBox11/txtGoXKord",
-      "control_class": "TEdit",
-      "caption": null,
-      "source_disabled_by": [],
-      "source_events": {},
-      "scope": "outside_scoped_UI_compiler_inventory",
-      "feature_completion_determined": false,
-      "known_merchant_scan_partial_UI": false
-    },
-    {
-      "path": "frmMain/MainTab/SheetGenel/GroupBox11/txtGoYKord",
-      "control_class": "TEdit",
-      "caption": null,
-      "source_disabled_by": [],
-      "source_events": {},
       "scope": "outside_scoped_UI_compiler_inventory",
       "feature_completion_determined": false,
       "known_merchant_scan_partial_UI": false
@@ -1671,7 +1651,7 @@
     "outputs\\farmex_rebuild\\disconnect_settings.py": "e199596eb1b13087c4d82baebb572f1abd043521b9b86366edfd46195f09d9b7",
     "outputs\\farmex_rebuild\\disconnect_panel_trial.py": "ae9315ba3e9cf410b0fd677c4ca06e0d2a7c00b04f33f736c04f9f0079081b13",
     "outputs\\FarmexBot_koruma_ortak_ayar_kaniti.json": "9f1b41a6778480f6812115ad5753117a07c98dc771260c09c383b409ee7f1fa5",
-    "outputs\\FarmexBot_guncel_ayar_motor_baglari.json": "a8f9c89631afaa5a9d2946a039693915ccea7a62e4c147fcdbc237d5e236e91e",
+    "outputs\\FarmexBot_guncel_ayar_motor_baglari.json": "ee06b575aa1f2ce45a858dd285b1880762ec27da843b36fe539ec6cb85a76608",
     "outputs\\farmex_rebuild\\merchant_scan_runtime.py": "328fabaa322bf2e51bc89f10ace68fdd2c7ba2a4b8bfb3c2419fb66ff03576f5"
   },
   "limitations": [

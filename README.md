@@ -5,7 +5,7 @@ bağımsız bir yerel uygulamada yeniden modellenmesi. Geliştirme sürümüdür
 
 ## Güncel durum
 
-5021 Python testi ve yeni tam arayüz kontrolü (1037 kontrol, 11 form, 18 sekme) geçti. Altı Pet kontrolü ayar shadow'una ve yakalanmış çıkarma/mod/besleme karar motoruna bağlandı.385 compiler girişi ve138 dış düzenlenebilir yol vardır; bunlar tamamlanmış özellik sayısı değildir. Otomatik oyun gözlemleri ve gerçek eylemler doğrulanmadı. Ayrıntı: farmex_rebuild/PET_PANEL.md.
+5039 Python testi ve yeni tam arayüz kontrolü (1037 kontrol, 11 form, 18 sekme) geçti. Koordinata Git düğmesi gerçek X/Y metinlerine ve açık yardımcı/float gözlemlerine bağlıdır. Önceki Pet ve görev bağları korunur.387 giriş yolu ve136 dış düzenlenebilir yol, özellik tamamlanma sayısı değildir. Oyun hareketi yürütülmedi; otomatik gözlem ve canlı uyumluluk açık. Ayrıntı: farmex_rebuild/MANUAL_COORDINATE_PANEL.md.
 Al/Ver düğmeleri açık gözlemlerle ortak yerel kuyruğa bağlıdır. Gerçek oyun veri
 edinimi, gönderim ve uçtan uca uyumluluk doğrulanmadı. Test sayısı tamamlanma
 yüzdesi veya orijinal botla tam eşlik kanıtı değildir.
@@ -35,7 +35,7 @@ ilgili belgelerinde açıklanır.
 Orijinal EXE/DLL/SLV dosyaları, oyun dosyaları, üyelik/giriş bilgileri, büyük
 disassembler dökümleri, araç zincirleri ve geçici çalışma dosyaları dahil edilmez.
 Eski doğrulama belgeleri tarihsel aşamalardır; güncel kapsam
-`farmex_rebuild/PET_PANEL_VALIDATION.json` içindedir. Bazı analiz yolları
+`farmex_rebuild/MANUAL_COORDINATE_PANEL_VALIDATION.json` içindedir. Bazı analiz yolları
 yerel çalışma ortamını gösterir; harici orijinal ikililer bu repoda yoktur.
 
 Güncel canlı bağlantı kanıtları ve açık işler: [Canlı bağlantı durumu](analysis/FarmexBot_canli_baglanti_durumu.md).

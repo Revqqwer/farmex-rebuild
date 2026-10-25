@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-25T13:39:22.002822+00:00",
+  "manifest_files": 1544,
+  "archive_entries": 1545,
+  "exact_member_set": true,
+  "every_member_matches_disk": true,
+  "current_helper_validation_hashes_match": true,
+  "integration_source_hashes_match": true,
+  "archive_size": 6254203,
+  "archive_sha256": "edefc9608c2cf5e39cb6f3a36688e23348a64ab5efc1f514c8488e7282efdaa9",
+  "source_audit_sha256": "680072aa521da937acf2db44adece8fe1fc736a22484a5839b6a74e715c59584",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "validation_file": "MANUAL_COORDINATE_PANEL_VALIDATION.json"
+}

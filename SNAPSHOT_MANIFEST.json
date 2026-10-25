@@ -743,8 +743,8 @@
     },
     {
       "path": "farmex_rebuild/CURRENT_STATUS.md",
-      "size": 10873,
-      "sha256": "22734033c3545e848e4a0f3c14e70da9fd304d2b066e681c6bba47b414923023"
+      "size": 12344,
+      "sha256": "de35fb5c62c000af2c75b75d190976086021bfa33a347db8a1383bc949aa8408"
     },
     {
       "path": "farmex_rebuild/DC_FULL_CHAIN.md",
@@ -1755,6 +1755,36 @@
       "path": "farmex_rebuild/MAIN_WORKER_VALIDATION.json",
       "size": 2252,
       "sha256": "8b35f70a60a1ac7d9cce88be4d6d892cfde894299ad46e75d804909100687f14"
+    },
+    {
+      "path": "farmex_rebuild/MANUAL_COORDINATE.md",
+      "size": 2851,
+      "sha256": "6677752ce8312ffd6dfdace2829c1b206d8ec7d17340d314a3defe6bcdf86110"
+    },
+    {
+      "path": "farmex_rebuild/manual_coordinate.py",
+      "size": 5439,
+      "sha256": "fa5c68bc5f334097e47441b199428a70c6259e2f4b54dbefdfa6a29e8de0afe6"
+    },
+    {
+      "path": "farmex_rebuild/MANUAL_COORDINATE_PANEL.md",
+      "size": 2646,
+      "sha256": "9855e54dc2f91b6f5d920bbdef88143347df8e0ac0b1496b9d37906fa4e6293a"
+    },
+    {
+      "path": "farmex_rebuild/MANUAL_COORDINATE_PANEL_VALIDATION.json",
+      "size": 94783,
+      "sha256": "8f3416ad22717829e13c3b12732107e53b52a4a2f5d5dbb7346e9adf226e6e15"
+    },
+    {
+      "path": "farmex_rebuild/manual_coordinate_runtime.py",
+      "size": 4443,
+      "sha256": "26422192cac71ad90a66c3c99e0b86d6340e0067da6db78a0765f64f6fddf1a3"
+    },
+    {
+      "path": "farmex_rebuild/MANUAL_COORDINATE_VALIDATION.json",
+      "size": 94427,
+      "sha256": "0087810bf725b01d28c0f11bb814a026af0c10fb84badb5ca3e62df28ecfc75c"
     },
     {
       "path": "farmex_rebuild/MERCHANT_ACTOR_METADATA.md",
@@ -2908,13 +2938,13 @@
     },
     {
       "path": "farmex_rebuild/PANEL_COVERAGE.md",
-      "size": 7354,
-      "sha256": "093d37f8d4b3c54d355f1d1317b6b7b90ddba28f663d30da0e1cc5e2b461c752"
+      "size": 7883,
+      "sha256": "a5b334358aaa837ec0663ef7e01cfc141e6fe33f380526129ed1ae17f6e4a120"
     },
     {
       "path": "farmex_rebuild/panel_ui.py",
-      "size": 132505,
-      "sha256": "b20a7f054d36f82de864ec8c0b26572a2adb2cb744b551cb218fa5fd03e25605"
+      "size": 136427,
+      "sha256": "1e56312779966c6544e59e886b82180e2a476ac18d2ac0ad2a012390eabadc31"
     },
     {
       "path": "farmex_rebuild/party_help.py",
@@ -4247,6 +4277,11 @@
       "sha256": "26ca770c1e463d24e9c1f1c87c4293e3fe39a0df9b134340331d4de689a9cfa8"
     },
     {
+      "path": "farmex_rebuild/smoke_manual_coordinate_ui.py",
+      "size": 4408,
+      "sha256": "cd7bcc6afb8332094547ad61591ac317a5c892760b98f64203e5f2112fc23ca0"
+    },
+    {
       "path": "farmex_rebuild/smoke_merchant_cells_ui.py",
       "size": 6055,
       "sha256": "f61289a13ddd86179b0ffbf151257deab7f0cffb9bdc323b77b646f7155a5da5"
@@ -4398,8 +4433,8 @@
     },
     {
       "path": "farmex_rebuild/smoke_ui.py",
-      "size": 116168,
-      "sha256": "799219d807f8b34c48b69d990c242e2fa21d85fb9f2727a2c0a2466e4a779609"
+      "size": 116274,
+      "sha256": "9ab48b4794db5a56790bcf6b0d8913e7eb31d1425dbd93229802b151f9acf76f"
     },
     {
       "path": "farmex_rebuild/smoke_upgrade_editor_ui.py",
@@ -5615,6 +5650,16 @@
       "path": "farmex_rebuild/test_main_worker.py",
       "size": 9009,
       "sha256": "aa9dff6d0e06f0f03b8d4262333d6c058a54c4949f053455769cc93fee99f30a"
+    },
+    {
+      "path": "farmex_rebuild/test_manual_coordinate.py",
+      "size": 4712,
+      "sha256": "aa676eddf84d4bfb3eb11a84e9cd0a03921d7314945907d5c3369de73c2a0be2"
+    },
+    {
+      "path": "farmex_rebuild/test_manual_coordinate_runtime.py",
+      "size": 4562,
+      "sha256": "10a278035eb05ce58194983984094945e369c2a4cf12f0c3fbd16c56a90d2965"
     },
     {
       "path": "farmex_rebuild/test_merchant_actor_metadata.py",
@@ -7683,8 +7728,23 @@
     },
     {
       "path": "analysis/FarmexBot_fonksiyon_takibi.md",
-      "size": 162468,
-      "sha256": "01ce2000b7955b3781d799b30af2e2785366efa614d90a20891ec0918b5ca01a"
+      "size": 162773,
+      "sha256": "c547f08b01b374f0ccb3b59876d8d87524b8ad3486801c2f199494959c069e35"
+    },
+    {
+      "path": "analysis/FarmexBot_koordinata_git_normal_kod_kaniti.json",
+      "size": 28926,
+      "sha256": "baad7fb64cefe3e6de9cad46a5dc98ff4487c98044878dd70810955d25d1e22a"
+    },
+    {
+      "path": "analysis/FarmexBot_koordinata_git_panel_bagi_kaniti.json",
+      "size": 1799,
+      "sha256": "680072aa521da937acf2db44adece8fe1fc736a22484a5839b6a74e715c59584"
+    },
+    {
+      "path": "analysis/FarmexBot_koordinata_git_panel_paket_dogrulamasi.json",
+      "size": 657,
+      "sha256": "140b04e1db2da6119d2e689679d04bfdc63af1e6ac4da1f55bd280a8d35e4808"
     },
     {
       "path": "analysis/FarmexBot_Pet_panel_bagi_kaniti.json",
@@ -7818,13 +7878,13 @@
     },
     {
       "path": "analysis/FarmexBot_guncel_ayar_motor_baglari.json",
-      "size": 265779,
-      "sha256": "a8f9c89631afaa5a9d2946a039693915ccea7a62e4c147fcdbc237d5e236e91e"
+      "size": 267606,
+      "sha256": "ee06b575aa1f2ce45a858dd285b1880762ec27da843b36fe539ec6cb85a76608"
     },
     {
       "path": "analysis/FarmexBot_panel_bag_eksikleri.json",
-      "size": 61720,
-      "sha256": "3d0578518775b451e3feaee2ea08ee91c5f3a8ed1c81d78c09aa69ae7c4d1bd5"
+      "size": 61020,
+      "sha256": "5cd9f8f61b3e32f852c1c3b6c10f82ddefecffcc6fc472eeccb68cfdd0b52859"
     },
     {
       "path": "verification/quest_action_UI_full_tests_20261025.log",
@@ -7865,6 +7925,21 @@
       "path": "verification/pet_panel_full_gui_20261025.log",
       "size": 22033,
       "sha256": "233d5f324e213ce888c7df23fc12daefcb61b1cff720193e59c325eeaa4b01cc"
+    },
+    {
+      "path": "verification/manual_coordinate_full_tests_20261025.log",
+      "size": 5138,
+      "sha256": "749531666ef766b6a72b4f0f7b68b3e62286c46aa65893cae0fe9ea1f70167f2"
+    },
+    {
+      "path": "verification/manual_coordinate_panel_full_tests_20261025.log",
+      "size": 5146,
+      "sha256": "24f7e30a3d01f1206643b91521968376f81891c512c79c1bf155b31b102ae3ab"
+    },
+    {
+      "path": "verification/manual_coordinate_panel_full_gui_20261025.log",
+      "size": 22247,
+      "sha256": "f7c161aa236ba9a94c87ae1e11641d9f23b756e6cd7482756f5e69a37f99ba31"
     },
     {
       "path": "verification/quest_lookup_full_tests_20261025.log",
