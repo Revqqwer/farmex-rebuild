@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T04:00:16.772593+00:00",
+  "new_tests": 16,
+  "full_tests": 2509,
+  "full_test_seconds": 7.18,
+  "source_instruction_records_reverified": 172,
+  "instruction_scopes_overlap_prior_audits": true,
+  "typed_inn_cleanup_bound": true,
+  "ui_changed": false,
+  "ui_regression_scope": "Existing UI paths passed; process began before final bound-close API return gate edit. Final typed API gates verified by full unit suite, no new UI binding claimed.",
+  "separate_count_and_close_normal_returns_required": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "source_inn_cleanup.py": "9083b8bc6a062a91b188aef97c0aff50594d9c8dc62306d038fc1a546ff35fce",
+    "storage_workers.py": "770dcf44474d46aee8e50293bde7cdb9403fd9577592f9929d9c0c33e5be6c91",
+    "test_inn_cleanup_binding.py": "08baead36337e9fa2c18024193e768824aafab0d0378ac87c3470268e714e79f",
+    "source_bank_item.py": "9ee07361d790f2e166b957c887f21f55414c3aebfdca3fc449709ef100a1c7b3",
+    "merchant_bank_count.py": "b9cf833892dcc4408a287790aeb95e85c595ba4233e85c27aad796c1ceb95428"
+  }
+}

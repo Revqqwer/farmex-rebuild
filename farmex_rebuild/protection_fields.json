@@ -1,0 +1,258 @@
+{
+  "schema_version": 1,
+  "source_function": "0046b928",
+  "source_module_sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+  "scope": "owned control-slot/path projection; no original executable content",
+  "fields": [
+    {
+      "slot": 2856,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chAntiCRDeadIgnore",
+      "name": "chAntiCRDeadIgnore"
+    },
+    {
+      "slot": 1864,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticr",
+      "name": "chanticr"
+    },
+    {
+      "slot": 1876,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticralarm",
+      "name": "chanticralarm"
+    },
+    {
+      "slot": 1868,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/txtanticr",
+      "name": "txtanticr"
+    },
+    {
+      "slot": 1872,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticrblacklistdc",
+      "name": "chanticrblacklistdc"
+    },
+    {
+      "slot": 1888,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/cmbanticr",
+      "name": "cmbanticr"
+    },
+    {
+      "slot": 1896,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticrtssil",
+      "name": "chanticrtssil"
+    },
+    {
+      "slot": 1880,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/rdAntiCRDisconnect",
+      "name": "rdAntiCRDisconnect"
+    },
+    {
+      "slot": 1884,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/rdanticrroute",
+      "name": "rdanticrroute"
+    },
+    {
+      "slot": 1900,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/rdanticrtown",
+      "name": "rdanticrtown"
+    },
+    {
+      "slot": 1904,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/rdanticrslot",
+      "name": "rdanticrslot"
+    },
+    {
+      "slot": 1908,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticrclosewh",
+      "name": "chanticrclosewh"
+    },
+    {
+      "slot": 1912,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticrclosesh",
+      "name": "chanticrclosesh"
+    },
+    {
+      "slot": 1916,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticrlegalmod",
+      "name": "chanticrlegalmod"
+    },
+    {
+      "slot": 1920,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticropengenie",
+      "name": "chanticropengenie"
+    },
+    {
+      "slot": 1924,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticrwaitclosegenie",
+      "name": "chanticrwaitclosegenie"
+    },
+    {
+      "slot": 1928,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/txtanticrwaitclosegenie",
+      "name": "txtanticrwaitclosegenie"
+    },
+    {
+      "slot": 1932,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiCRSlot/chanticrgenienobotatack",
+      "name": "chanticrgenienobotatack"
+    },
+    {
+      "slot": 2008,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/chantienemy",
+      "name": "chantienemy"
+    },
+    {
+      "slot": 2012,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/txtenemycontroldist",
+      "name": "txtenemycontroldist"
+    },
+    {
+      "slot": 2016,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/chenemycontrolalarm",
+      "name": "chenemycontrolalarm"
+    },
+    {
+      "slot": 2032,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/cmbantienemy",
+      "name": "cmbantienemy"
+    },
+    {
+      "slot": 2036,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/chAntiEnemyInRouteEscape",
+      "name": "chAntiEnemyInRouteEscape"
+    },
+    {
+      "slot": 2028,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/rdantienemyroute",
+      "name": "rdantienemyroute"
+    },
+    {
+      "slot": 2020,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/rdantienemydc",
+      "name": "rdantienemydc"
+    },
+    {
+      "slot": 2024,
+      "path": "frmMain/MainTab/SheetKoruma/grpAntiEnemy/rdantienemytown",
+      "name": "rdantienemytown"
+    },
+    {
+      "slot": 1944,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/chbnk",
+      "name": "chbnk"
+    },
+    {
+      "slot": 1948,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/chbnkalarm",
+      "name": "chbnkalarm"
+    },
+    {
+      "slot": 1960,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/chbnkremovets",
+      "name": "chbnkremovets"
+    },
+    {
+      "slot": 1968,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/cmbnoticerota",
+      "name": "cmbnoticerota"
+    },
+    {
+      "slot": 1980,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/txtbnkgenieclosetime",
+      "name": "txtbnkgenieclosetime"
+    },
+    {
+      "slot": 1984,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/chbnkingenienobotatack",
+      "name": "chbnkingenienobotatack"
+    },
+    {
+      "slot": 1988,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/chbannamecheck",
+      "name": "chbannamecheck"
+    },
+    {
+      "slot": 1952,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/rdbnkdc",
+      "name": "rdbnkdc"
+    },
+    {
+      "slot": 1996,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/rdBNKCloseGame",
+      "name": "rdBNKCloseGame"
+    },
+    {
+      "slot": 1956,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/rdbnktownandstop",
+      "name": "rdbnktownandstop"
+    },
+    {
+      "slot": 1964,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/rdbnkrota",
+      "name": "rdbnkrota"
+    },
+    {
+      "slot": 1976,
+      "path": "frmMain/MainTab/SheetKoruma/grpNoticeKontrol/rdbnkgenie",
+      "name": "rdbnkgenie"
+    },
+    {
+      "slot": 2044,
+      "path": "frmMain/MainTab/SheetKoruma/grpPMKontrol/chpmkontrol",
+      "name": "chpmkontrol"
+    },
+    {
+      "slot": 2068,
+      "path": "frmMain/MainTab/SheetKoruma/grpPMKontrol/chPMControlAlarm",
+      "name": "chPMControlAlarm"
+    },
+    {
+      "slot": 2060,
+      "path": "frmMain/MainTab/SheetKoruma/grpPMKontrol/cmbpmkontrol",
+      "name": "cmbpmkontrol"
+    },
+    {
+      "slot": 2048,
+      "path": "frmMain/MainTab/SheetKoruma/grpPMKontrol/rdPMControlTownBotStop",
+      "name": "rdPMControlTownBotStop"
+    },
+    {
+      "slot": 2056,
+      "path": "frmMain/MainTab/SheetKoruma/grpPMKontrol/rdPMControlRoute",
+      "name": "rdPMControlRoute"
+    },
+    {
+      "slot": 2072,
+      "path": "frmMain/MainTab/SheetKoruma/grpPMKontrol/rdPMControlDC",
+      "name": "rdPMControlDC"
+    },
+    {
+      "slot": 2052,
+      "path": "frmMain/MainTab/SheetKoruma/grpPMKontrol/rdPMControlCloseGame",
+      "name": "rdPMControlCloseGame"
+    },
+    {
+      "slot": 2828,
+      "path": "frmMain/MainTab/SheetKoruma/GroupBox1/chtpkontrol",
+      "name": "chtpkontrol"
+    },
+    {
+      "slot": 2832,
+      "path": "frmMain/MainTab/SheetKoruma/GroupBox1/rdtpkontrolstop",
+      "name": "rdtpkontrolstop"
+    },
+    {
+      "slot": 2840,
+      "path": "frmMain/MainTab/SheetKoruma/GroupBox1/chhapiskapat",
+      "name": "chhapiskapat"
+    },
+    {
+      "slot": 2844,
+      "path": "frmMain/MainTab/SheetKoruma/GroupBox1/chdckapat",
+      "name": "chdckapat"
+    },
+    {
+      "slot": 2848,
+      "path": "frmMain/MainTab/SheetKoruma/GroupBox1/chdchkapatlist",
+      "name": "chdchkapatlist"
+    }
+  ]
+}

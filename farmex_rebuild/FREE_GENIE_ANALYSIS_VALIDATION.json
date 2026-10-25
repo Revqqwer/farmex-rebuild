@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T22:10:00.896209+00:00",
+  "full_tests": 3025,
+  "full_tests_rerun": false,
+  "new_tests": 0,
+  "instruction_records_verified": 224,
+  "new_binary_coverage": false,
+  "analysis_only": true,
+  "profile_key": "GENEL/FREEGENIE",
+  "ui_changed": false,
+  "ui_retested": false,
+  "actual_memory_writes": 0,
+  "protection_changes": 0,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "source_files": {
+    "FREE_GENIE_ANALYSIS.md": "2d75c65373e749854976d85b582150e61793f5135fa082d05b821d637cd6813e",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89"
+  },
+  "audit_sha256": "637e223964a483845cd55f4e99d6e83e22fbfa18352d1f5d44426ac995e31307",
+  "test_log_sha256": "a03d8e61e49de25e514092fffb35e7cbddf15c08adf15f518e078b7a27da3c27"
+}

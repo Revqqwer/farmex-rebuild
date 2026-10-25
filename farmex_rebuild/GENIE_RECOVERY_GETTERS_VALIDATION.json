@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T22:01:33.317052+00:00",
+  "full_tests": 3012,
+  "full_test_seconds": 7.055,
+  "new_tests": 8,
+  "instruction_records_verified": 1106,
+  "new_binary_coverage": false,
+  "typed_name_and_fresh_item_binding": true,
+  "bound_gap_blocks_raw_fallback": true,
+  "consumed_prefix_retained": true,
+  "consistent_capture_extension": true,
+  "UI_changed": false,
+  "UI_retested": false,
+  "native_execution_verified": false,
+  "packet_delivery_verified": false,
+  "Genie_effect_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "genie_recovery.py": "1f2ac9f03f41c385076edbb0b11fb3de5f3627706384f218128d0b52b5fd84d1",
+    "inventory_getter_frames.py": "b5120ff18ffe5fbac01b88bda57c4bf52cba7120f43a3c34afc1ac55a9331b0c",
+    "mining_slot_name.py": "da423893e5ba314a4038f4f2fde7514c5a60a380e6fed4c696b70833a908cf04",
+    "item_name.py": "68cc12213c771a12451fc7e866b82d0cca7485a8770fc125300ec95eb19c88f1",
+    "upgrade_packets.py": "3ee654e404f1d7a6fd71d9e1b14e841edb23dabc40b10d4f6c6aceabedd32293",
+    "genie_worker.py": "7db02b5fb770cabe8e2fc8e676394b229fc4b28453a4bf3ec98d6b45e3fde96d",
+    "test_genie_recovery_getters.py": "7722084ee2f8ed73d8c408fd59af7b1e9b01b7095bd7fce55e2ad7cc3470b4b1"
+  },
+  "source_audits": {
+    "FarmexBot_yenileme_envanter_okuyucu_kaniti.json": "6e87e154d5e0c9858ba635d687b092955112849bb8cd1bf4721922a2512af8df",
+    "FarmexBot_genie_yenileme_kaniti.json": "410461ee21524741b1b04e9cac7286c867c3bb5db9a76244c687726cb6e71d78"
+  },
+  "audit_sha256": "6e87e154d5e0c9858ba635d687b092955112849bb8cd1bf4721922a2512af8df",
+  "test_log_sha256": "29d5a05218cbeae5a6af0e53ed4b87088446b6b5281fb09b84febdfaeb26b5cd"
+}

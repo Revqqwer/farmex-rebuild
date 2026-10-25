@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T05:11:24.572744+00:00",
+  "full_tests": 3860,
+  "full_test_seconds": 13.136,
+  "full_tests_reexecuted": false,
+  "new_tests": 0,
+  "application_python_runtime_unchanged": true,
+  "changed_python_build_tools": [
+    "native/prepare_bootstrap_child.py"
+  ],
+  "instruction_records_verified": 152,
+  "source_module": "Loader",
+  "source_entry": "0041e558",
+  "source_bytes": 431,
+  "source_code_patches": 0,
+  "owned_child_original_worker_executed": true,
+  "native_cases": 4,
+  "negative_pin_generator_verified": true,
+  "Richard_scoped_models": 173,
+  "Loader_scoped_worker_functions": 1,
+  "ui_changed": false,
+  "ui_retested": false,
+  "retained_ui_controls": 1037,
+  "retained_ui_forms": 11,
+  "retained_ui_tabs": 18,
+  "source_files": {
+    "native/local_bootstrap_fixture.c": "77b20852d88b4b65e1085840ae3393176a1ae3d65a5b8c15bcc79cdf22958251",
+    "native/source_remote_child.h": "b6ca9ae1d63b93f6e5e2e301112f52a02473cec4dc46999565b61c94e74e8f52",
+    "native/source_remote_context.h": "4c800cf31847990334ef67a1bb6d4f66f7fea633df12e0c054349d89f3a38a05",
+    "native/source_loader_worker_template.h": "8f11fad57a3fe5bded3c0249e2085804cfc72578d0ae7e9afd7c7e6aee7b9d2a",
+    "native/suspended_bootstrap_parent.c": "4df5419dc18b7cac228bd14830fb098de0b6e986f292367ce778ae6179dc07a2",
+    "native/build_suspended_bootstrap_fixture.ps1": "4b5216cf5bf530526de22c37b6a0b4781059815bd0383d2b259d0a0e84b2ac0f",
+    "native/prepare_bootstrap_child.py": "83c64e7305fdcad693af5b58d4288ab54f6a7d9f9144569a2c70f0ebb5c61b60",
+    "native/image_identity.c": "e1d8298767692072dca038607b2dd6b8e8cb72b273dfafd66dd9efd201295580",
+    "native/shared_vitals.h": "b3a117d78988be6d9d5b53e12f754977a5e621432f489a8bc8096c92b1a228b5",
+    "native/vitals_bridge.h": "6343293d7f6939121c2c4ea65295aa010afd7ae439fb1497b733d362f1a00d8d",
+    "SOURCE_REMOTE_WORKER_NATIVE.md": "052d59df9413193c17baef320c2505b9c213478af9ba24208db92c27738f058d"
+  },
+  "source_audits": {
+    "FarmexBot_source_remote_positive_b58e98c617d1f4e1.json": "cafe21831950270a28dcddbc5fcc044ef410bf0fccb4ff6c4c82f3ecd8ee4692",
+    "FarmexBot_source_remote_bad-image_a3c104ebe0bba7c1.json": "a8dce99768e6fe06f88dcfa95ac1a915c59f0a22db6f3a33420f91548d774553",
+    "FarmexBot_source_remote_bad-api_b1d35b229dae477b.json": "3927e1ee7563e919b0c10a3b67b41bc1dfb5ac99873d3c8c93575c9322b471c9",
+    "FarmexBot_source_remote_baseline_9720ac6e823d1b41.json": "8d90e8320684260a91a91083d73c7506f554169336ceb4af8324839dcf008926",
+    "FarmexBot_ozgun_loader_worker_sablon_kaniti.json": "c5969fa06cc88b5343b52fcc80fcb6e1e8d5d4c04c733047f5a5abf6279626a5",
+    "FarmexBot_source_child_pin_ret_kontrolu.json": "84f116858736befcc7518bdac1022b451d629260f8885814d9ad9d1240f19319",
+    "FarmexBot_loader_worker_fonksiyon_kapsami.json": "ab74c94270073f0f5dd39dfcac319f6600bd11e8df0bdb40a848a8bfbecb18f1",
+    "FarmexBot_fonksiyon_takibi.json": "c7c81e0bc50aa70007d03e48b53930ac542001df066d3cffea4492ca9a6b2cde"
+  },
+  "audit_sha256": "0d091fa90cb1acc2254628803e335a09103c6788ee5b42e77d4f326d5252256e",
+  "test_log_sha256": "3658788b43047a9378db98baa804747e7b862195ceefbf2a88311925ae423ab8",
+  "additional_logs": {
+    "work/control_settings_panel_full_ui.log": "e22298d1a7bdeaf42d82158bd991fda5349db43cc7bca72a98da25979d5c2768",
+    "work/control_settings_ui_targeted.log": "262a04b71af7cd9da9e1a55b4a2de0c344e4481d5ce56663885605bac773f940",
+    "work/native_source_loader_worker_fixture/run.log": "e44c113740ff0db34bb7658b5bdd6082ae9df6a5a182c2dd00412168d4f598e5"
+  },
+  "new_live_checks_performed": false,
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

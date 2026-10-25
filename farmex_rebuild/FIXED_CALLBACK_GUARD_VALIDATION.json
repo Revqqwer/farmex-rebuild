@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T16:40:02.411737+00:00",
+  "full_tests": 2600,
+  "full_test_seconds": 6.836,
+  "new_tests": 14,
+  "source_instruction_records_reverified": 86,
+  "zero_mode_fixed_guard_and_queue_reachability_API": true,
+  "other_guard_branch_unmodeled": true,
+  "unsigned_dword_clock": true,
+  "independent_post_cast_tick": true,
+  "mov_al_preserves_high_eax": true,
+  "work_helper_return_and_post_queue_separate": true,
+  "local_new_record_skips_same_callback_drain": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "fixed_callback_guard.py": "914acb72bb783b84b6f84ff660430e9c7ecea09b77f2a513359bedb6ceb97fc9",
+    "transformation.py": "ee15f541ed964a023e4491869ea8a6ae162bf908125f32620d8e56940824d642",
+    "action_queue.py": "01a3be16d4d95837908ec11dde6812317354c29e7d28ff1ed0cd8594dda4aef9",
+    "test_fixed_callback_guard.py": "5e9ce4b31326ffd350819700d40c91ebe47501b5b9ebb834962f60ee13eb7df1"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "validation_scope": "immutable ValLong scalar and optional own quantity comparison, finite own x86 EAX/Code/stack equality only",
+  "verified_at_utc": "2026-10-23T16:00:04.829125+00:00",
+  "full_tests": 4184,
+  "new_tests": 8,
+  "full_test_seconds": 14.478,
+  "test_log": {
+    "path": "work\\rtl_integer32_full_tests.log",
+    "sha256": "11ce62592e994792315a41ff4c12eefc0fb20a4ddd12bfdce04ad76c33e499d3"
+  },
+  "source_files": {
+    "rtl_integer32.py": "af0defffbf6b921b04c90ba656ffb92682cd5a0cd1eeff64ea95fe008f9df94c",
+    "test_rtl_integer32.py": "a862d71130df4636f2676643abbd88ca024e385b438b6ed14956a5381eb43bd3",
+    "merchant_result_compare.py": "f59d305a998f08f35bf73cec13c094c55956c085ac6cbec657c9efe2e7f6111f",
+    "native/rtl_integer32_fixture.c": "c727deed208873c1a9fa1d26a5eb9cd2d304ca3d1107945efed7dc181b1b6870",
+    "native/build_rtl_integer32_fixture.ps1": "605144555f34d6581a6f57ad8202b79a3e60153bb9e9dc3d2c7b936e21389680",
+    "native/rtl_integer_fixture.c": "6eff2a8b83565f126e07820efd18c26f970dd1bb10169c8961ba01e10c19c343",
+    "RTL_INTEGER32.md": "f9c747b05bbbd8170ac3e5979008c95eb845eff17bed4264b292ac1ede683732",
+    "native/RTL_INTEGER32_FIXTURE.md": "a7d31fa893da1cd2de49b7c978f644a1aca746d18e4c5144dd6798f7e0528675"
+  },
+  "evidence": {
+    "outputs\\FarmexBot_RTL_Int32_native_model_kaniti.json": "71ec866cc78848d7ff42d9a96f3e440eab0583f671c54b2d4b17a6adc056dc2c",
+    "outputs\\FarmexBot_RTL_Int32_kaynak_kaniti.json": "8aa83fee92bc5158e86a8464dafd18cb04601a96a222be8bdd2b1102ab08dae0",
+    "outputs\\FarmexBot_RTL_metin_Int32_sonrasi_kaniti.json": "80351b75b409ebb6e26644d733117fa3951d2ee03261c49837cf6e293d6509ed"
+  },
+  "native_scalar_cases": 2000,
+  "native_accepted": 312,
+  "native_rejected": 1688,
+  "mismatches": 0,
+  "prior_StrToInt_cases": 27,
+  "text_reference_cases_rechecked": 50,
+  "new_REA_analyses": 0,
+  "source_bot_callback_executed": false,
+  "bot_exception_dispatch_verified": false,
+  "live_compatibility_verified": false,
+  "actual_panel_changed": false,
+  "release_updated": false,
+  "preserved_release": {
+    "python_tests": 4159,
+    "controls": 1037,
+    "forms": 11,
+    "tabs": 18,
+    "sha256": "35b14ff542b37f44d283de6f691075171ef2fc7173a472b769a0491576992d8e"
+  }
+}

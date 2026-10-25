@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "focused_tests": 18,
+  "new_tests": 10,
+  "full_tests": 2414,
+  "full_test_seconds": 7.21,
+  "exported_methods": 8,
+  "instruction_records_disk_verified": 190,
+  "ui_changed": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

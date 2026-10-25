@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T09:49:56.609976+00:00",
+  "full_tests": 3133,
+  "full_test_seconds": 8.417,
+  "new_tests": 6,
+  "instruction_records_verified": 162,
+  "binary_evidence_reused": true,
+  "new_binary_coverage": false,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "UI_button_bound": true,
+  "compiler_controls": 293,
+  "button_registry_bindings": 1,
+  "source_disabled_controls_preserved": true,
+  "pending_click_resumes": true,
+  "completed_click_new_event_preserves_queue": true,
+  "reached_only_JSON": true,
+  "default_missing_returns": true,
+  "committed_records_not_duplicated": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "delivery_verified": false,
+  "reward_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "ms_achievement_trial.py": "e19efa09def5a617697c01d17524a524a33f25e5c31b99e6c351fb5edaab1a18",
+    "test_ms_achievement_trial.py": "3db6f09a6d7900b367208920d2c7da0936b67cf4b2f9b3d7b7d98427e48a0270",
+    "ms_achievement.py": "f00d5ce6d26382fffbe4f7566f6df7f0ea8bc4b451c0f353351c7b258b85f121",
+    "smoke_ms_achievement_ui.py": "99e3e67757609cd22458c37718ce17a10229cfbc9d1af7ee8fb48d996945d8b4",
+    "smoke_ui.py": "e52e08f34cf54d2eb1423c734e0a535174a973ea9fab9b5d69fa0ee6a75759f3",
+    "app.py": "37103835d26feb2222d820e6727301de30a8c89da37ae4b2792c56bda09cd303",
+    "panel_ui.py": "6f6421e337cc692092d5ef9837a47971d0780f27da6724c5bf180b43e2d0007c",
+    "simulation_ui.py": "2176474378c0502cecdc1c92da34f310c9cfda1f6b7ea17197e0b04b747f6c8a"
+  },
+  "live_metadata_observed_at_utc": "2026-10-21T09:49:39.9428741Z",
+  "live_process_name_PID_metadata": [],
+  "source_audits": {
+    "FarmexBot_MS_achieve_panel_bag_kaniti.json": "1497be0cb0461419efcabf4b9dea3e5a738445846112b88be0d74209558277d9",
+    "FarmexBot_MS_achieve_istek_kaniti.json": "4b3ad9e178bf3f5732ae72574ac8b30ab3aa76feda0955639a08ecc608bd9a0c",
+    "FarmexBot_canli_surec_achieve_panel_20261021.json": "0abc0c6a615f6a514eb4ed2244ea9ef0392d1280c9552cbfd2addb6e731675d5"
+  },
+  "additional_logs": {
+    "work\\ms_achievement_panel_full_ui.log": "b54f93e8baf5fd600be4be916f5f7588b4d10b6b40cba217a1e05a558745bfb6",
+    "work\\ms_achievement_ui_targeted.log": "551fb990e6d31c15c69651299ca5e75f1d8361c1cc2db151cc62b9aca724c96b"
+  },
+  "audit_sha256": "1497be0cb0461419efcabf4b9dea3e5a738445846112b88be0d74209558277d9",
+  "test_log_sha256": "6280ecbd2a21cb479d0bd26170e11bed3fe09dba07e86ddf3685fe2ffe139a4c"
+}

@@ -1,0 +1,19 @@
+{
+  "verification_status": "passed",
+  "date": "2026-10-18",
+  "full_unit_tests": 2305,
+  "full_unit_seconds": 7.613,
+  "new_tests": 13,
+  "disk_instruction_records": 718,
+  "ui_code_changed": true,
+  "ui_smoke_repeated": true,
+  "ui_controls": 1037,
+  "ui_forms": 11,
+  "ui_main_tabs": 18,
+  "name_list_widget_profile_assertions": "passed",
+  "native_fixture_repeated": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "evidence": "FarmexBot_isim_ekleme_caller_kod_kaniti.json",
+  "limitations": ["Own UI uses stable UTF16 policy; native ANSI/RTL/locale and changing getters remain separate.", "Source duplicate scan internals and VCL clear/remove virtual target identities are not certified.", "Original CFG persistence and target-character capture remain incomplete."]
+}

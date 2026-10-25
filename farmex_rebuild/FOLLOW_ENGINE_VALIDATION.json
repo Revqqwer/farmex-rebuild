@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T04:23:10.061393+00:00",
+  "full_tests": 2564,
+  "full_test_seconds": 6.766,
+  "new_tests": 13,
+  "source_instruction_records_reverified": 572,
+  "follow_compiler_and_reached_tail_API": true,
+  "ui_binding": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "earlier_entry_reachability_observed_not_inferred": true,
+  "normal_returns_and_float_bits_separate": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "follow_engine.py": "135441892a5249f5175d7bdf5dcb7835a7171b93ac1fc87f8d03747aa5d0b23d",
+    "source_unicode.py": "932fa87ecd2c17465bc2179ae6623fe40c98bf3c688672fff5458f55df4a0534",
+    "test_follow_engine.py": "07d5318e7419bff7c606da6b352ffcd1626b5fa6928286b3045066d3a165326f"
+  }
+}

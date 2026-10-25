@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T19:19:45.711500+00:00",
+  "validation_scope": "standalone normal own source click intents and bounded resumable PM request/own queue; not real cells/native sends",
+  "full_tests": 4249,
+  "new_tests": 26,
+  "cell_tests": 14,
+  "private_request_tests": 12,
+  "full_test_seconds": 13.547,
+  "source_code_precedes_test_creation": true,
+  "test_log": {
+    "path": "work\\merchant_cell_actions_full_tests.log",
+    "sha256": "d9e116b9b180b5a47a9ddb9d8ce0aa963aebe0a1685dc7b58da84f8087c3a4ea"
+  },
+  "source_files": {
+    "merchant_cell_actions.py": "8766bae74fad69defa8ab61f3a37c2e325d4734bee7d680a01abd526b9029dbf",
+    "test_merchant_cell_actions.py": "221c77e23af045ac358314b33d95918c8144000395b12e008c65ef3c5299693c",
+    "private_chat_request.py": "79adabf26f4040fc6a60d17002072cf768fbb6a36110864cae1957e860e18d59",
+    "test_private_chat_request.py": "47fac1a23e1448c0a1ee79b81d643484db9711e81dc6977e6541f18283d5b0e5",
+    "event_packets.py": "abd259d4369ac3f53a46d34b15907e12915e6e24b2aa41535982abdfb7e7c271",
+    "action_queue.py": "eadf9393a7a1e2b2ed73a6e5392f222ca0c2a0c99ee79547359876b1633206f5",
+    "direct_chat_packets.py": "d00ab25249041a6998985924fbadaaeb9aa22dbcfd3421d7ef3891ea9e95b25b",
+    "MERCHANT_CELL_ACTIONS.md": "52ce343f1768d957ee0b9fe3060fa36f3b9b186af8cf67f7f3064728fb1de9d6",
+    "PRIVATE_CHAT_REQUEST.md": "2a13a5cf6eb7c819946ed689dcb8bc4395ef9f210b940a8168dcdb332f75a614"
+  },
+  "evidence": {
+    "path": "outputs\\FarmexBot_merchant_hucre_PM_kaniti.json",
+    "sha256": "d1ba0f2d04bf1850776f7ea99d42d2de1fc098d31a4386a41dac88181dfe895a",
+    "source_records": 930,
+    "VCL_records": 51
+  },
+  "actual_cell_UI_changed": false,
+  "parent_child_binding_complete": false,
+  "previous_GUI": {
+    "python_tests": 4223,
+    "controls": 1037,
+    "forms": 11,
+    "tabs": 18,
+    "all_prior_source_files_unchanged": true
+  },
+  "preserved_release": {
+    "path": "outputs\\Farmex_yeniden_yapim_kod.zip",
+    "sha256": "174b740bbef1b77921f127bc17a77cdebfa7b01d9b82eff4b403083277d59145",
+    "python_tests": 4223,
+    "every_member_matches_embedded_manifest": true,
+    "current_worktree_parity_claimed": false
+  },
+  "function_inventory": {
+    "scoped": 216,
+    "full_certificates": 0,
+    "live_certificates": 0
+  },
+  "compiler_inventory": {
+    "inputs": 379,
+    "outside_paths": 144
+  },
+  "new_successful_REA_analyses": 0,
+  "actual_messages_sent": 0,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "open_work": [
+    "cell parent/PM request/motion child composition",
+    "actual own cell UI and source form/DPI hit regions",
+    "source native string/float/cleanup/lifetime/SEH",
+    "scan session/dispatch/runtime data source",
+    "remaining feature scopes"
+  ]
+}

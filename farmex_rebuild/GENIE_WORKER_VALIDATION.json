@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T21:20:43.442338+00:00",
+  "full_tests": 2958,
+  "full_test_seconds": 11.104,
+  "new_tests": 12,
+  "instruction_records_verified": 594,
+  "new_instruction_coverage_claimed": false,
+  "new_prefix_branch_properties": true,
+  "recovery_5000_inclusive": true,
+  "cached_AL_and_post_stamp_separate": true,
+  "no_same_pass_alarm_after_probe": true,
+  "always_on_exits_before_notice": true,
+  "general_start_activity_tick_separate": true,
+  "resume_delay_strict": true,
+  "derived_general_flag_bound_to_notice": true,
+  "consumed_prefix_retained": true,
+  "API_only": true,
+  "whole_worker_verified": false,
+  "Genie_effect_verified": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "last_UI_test_count": 2924,
+  "native_C_changed": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "genie_worker.py": "8f5a96bdf805d69ec4af99251788e8a8d7af2fc6176b08e13cb0ccddfc2457e0",
+    "test_genie_worker.py": "7f0b3f2c84cad4cefc646e515ed4a6708621c5c04f9d5c582e2487b16aa6c7a4",
+    "notice_genie_window.py": "c38137cce715e99d5fcfe6dd56d5ed3e41b0babed69e0a3d0247daf7b389e8f5"
+  },
+  "audit_sha256": "5b2a1d530653cf6baafceb49244b4bf70562590cee4714b28a5d9bf67701071e",
+  "test_log_sha256": "2c2e7cff23261e9a9054da803d77a23c5ca5b04992b23e4799f6b1f7ba028afb",
+  "source_audits": {
+    "FarmexBot_notice_genie_pencere_kaniti.json": "e8afa608629d1110ea4795ad746b47a8a0c79f9981638477796c7453915f5e4e"
+  },
+  "additional_logs": {
+    "outputs/FarmexBot_canli_onkontrol_20261021_0015.json": "7d67f1da963a7ef064306756b66183d76832ec2bce6e8e31b2b40543060e8b95"
+  }
+}

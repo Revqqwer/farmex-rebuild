@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T18:21:46.111226+00:00",
+  "full_tests": 3540,
+  "full_test_seconds": 7.989,
+  "new_tests": 23,
+  "instruction_records_verified": 998,
+  "bounded_records_per_version": 122,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 2,
+  "scoped_models": 155,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "source_files": {
+    "relog_countdown.py": "0cee238af92e4c1897afc53398414c1ef099693feac7325014d00d06c1c53bc5",
+    "test_relog_countdown.py": "5672f7dbce678600813a919dd0c808cd1cdab288a63aa04da40a9de1165f512a",
+    "disconnect_action.py": "244b913906cac5ca71f53fe3f5ba6960ff8916a41aee41a5fb6c1fbf63e21a8a",
+    "test_disconnect_action.py": "222462ee17b208cfd1bad63dbb21fd169dedf9d689ca1765feda28e8416adcfc",
+    "source_math64.py": "f3003e0f30693180299beb6126bc85cd478040afcd644a856189b496fb34fea4",
+    "jail_preload.py": "a265ebd4651563f69691f17def949a8cad50d6cb9a9a6e4200aa3e1b6b298b2d",
+    "jail_protection.py": "818a9476bb1a7667ed0bb1dac5e38db66d31094f64d9b0b7d949b4d2992fc74f",
+    "RELOG_COUNTDOWN.md": "6c95213432ea86554617c133e751702832446407962cd9b4c5f0407688f9d3b6"
+  },
+  "source_audits": {
+    "REA_koruma_DC_cagiran_20261022.json": "9c0c49324a65bb0579b548d6456847a0da44e7fec20f5a1f21e6fba203764154",
+    "REA_oturum_bolme64_20261021.json": "ee46209fcb474a18916e37ea991862d7cec9a85a704eb1307ab66712ab2200c8",
+    "FarmexBot_DC_islem_yollari_kaniti.json": "943eba55647c36b6d3a4f5dff9af7012ea6d4953cae42a1e0f0102db97035526",
+    "FarmexBot_oturum_oran64_kaniti.json": "7a15a4b3d811ff8160a8fd4f04179f0c24f7cbf828d295f10692108be397a22d",
+    "FarmexBot_fonksiyon_takibi.json": "1bb43472564c05fa40ed1dcb3d3730caa6427e7bf41751d6e8017f9c2efb27cb"
+  },
+  "audit_sha256": "8d95c26829c14c0db5960529e30325b2c54e3d1d96b7232267876dd5e157ef5a",
+  "test_log_sha256": "76e05534e104345ba38f773caee4ed41c29d74e9c366eb991c1f6308084fd18e",
+  "live_work_deferred_by_user": true,
+  "no_live_or_process_checks_performed": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "external_actions_executed": 0
+}

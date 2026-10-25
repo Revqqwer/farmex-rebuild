@@ -1,0 +1,34 @@
+{
+  "source_function": "004576ec",
+  "entry": "004580ac",
+  "exit": "00458143",
+  "fields": [
+    {
+      "slot": 3024,
+      "path": "frmMain/MainTab/SheetKontrol/grpGenie/chGenieWithBot",
+      "offset": 184
+    },
+    {
+      "slot": 3444,
+      "path": "frmMain/MainTab/SheetKontrol/grpGenie/chGenieStopWithBot",
+      "offset": 185
+    },
+    {
+      "slot": 3028,
+      "path": "frmMain/MainTab/SheetKontrol/grpGenie/chAutoGenieCoupon",
+      "offset": 186
+    },
+    {
+      "slot": 3044,
+      "path": "frmMain/MainTab/SheetKontrol/grpGenie/chNoRemainGenieTimeTown",
+      "offset": 187
+    },
+    {
+      "slot": 3048,
+      "path": "frmMain/MainTab/SheetKontrol/grpGenie/chNoRemainGenieTimeAlarm",
+      "offset": 188
+    }
+  ],
+  "no_mob_runtime_consumer_verified": false,
+  "following_coupon_sync_verified": false
+}

@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T03:54:52.806002+00:00",
+  "full_tests": 2493,
+  "full_test_seconds": 6.745,
+  "new_tests": 10,
+  "full_hidden_ui_passed": true,
+  "source_instruction_records_reverified": 960,
+  "instruction_scope_previously_counted": true,
+  "typed_bank_item_counter_buy_binding": true,
+  "ui_bank_item_binding": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "source_bank_item.py": "9ee07361d790f2e166b957c887f21f55414c3aebfdca3fc449709ef100a1c7b3",
+    "merchant_bank_count.py": "b9cf833892dcc4408a287790aeb95e85c595ba4233e85c27aad796c1ceb95428",
+    "test_source_bank_item.py": "2f09375b1758bdd7930e2ad08fb7a1092193c222479f74944685c2fc057e3b00",
+    "merchant_buy_failure.py": "225b3292f207a5e72eb5bc251f186597440e529cbf6cfb3f765e8baf4c509508"
+  }
+}

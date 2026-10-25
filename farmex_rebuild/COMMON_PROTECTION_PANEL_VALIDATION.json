@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T21:19:18.890896+00:00",
+  "full_tests": 3394,
+  "full_test_seconds": 11.634,
+  "new_tests": 10,
+  "instruction_records_verified": 1310,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 2,
+  "scoped_models": 145,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_ui_controls": 1037,
+  "full_ui_forms": 11,
+  "main_tabs": 18,
+  "compiled_control_count": 354,
+  "editable_controls_outside_inventory": 168,
+  "partial_invalid_capture_prefix_preserved": true,
+  "local_windows_conversion_exercised": true,
+  "source_RTL_conversion_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "protection_panel_trial.py": "73a9796ef2a8a0501605fa6af00cf41e6ba66b40fe0a2e8a6ffa293bf4c879ec",
+    "test_protection_panel_trial.py": "a32bf8eb5f421d5c67c0c53c619e5909b949ab3c22cc25d654cdddb71b9b6404",
+    "smoke_protection_settings_ui.py": "d703558bcf60ed99d8e84ff07aef9548da305f5fe2232688b363810d7072a84f",
+    "protection_fields.json": "d7ce7da0217a177140696ff99200e7ccddc0f91357b7c17815e03744fa8a2c77",
+    "simulation_ui.py": "3fac1ee54381696c32dc427141eb52436ae2f1ad6efd61da3ec75da73e4a1bb6",
+    "smoke_ui.py": "bf59c9cb2b8495499506d139944526c1c4ff8b4176c07c2b27ce7d4ecfd04c65",
+    "PROTECTION_PANEL.md": "6e5bd06b234631e0f27ea9eac75a1b2382840937c96d578d742edaf6e496263e",
+    "protection_settings.py": "502157d14998641f94c32db32be7e886e9dcf96079b9d3425040dc7b1b167d8d",
+    "source_integer.py": "9ad0a4623715e4e35eed1d35a95215827da980923adc9a4b84a34bb21da9f238",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89"
+  },
+  "source_audits": {
+    "REA_TP_koruma_ayar_uretici_20261021.json": "6ced206f36a4ea33d43836677bbfeeee779cda8516bd51d47e03b7ef5e260b99",
+    "REA_otomatik_dagitim_sayi_donusumu_20261021.json": "0b1cfd7e56757f34f177bacf84d8d03bf6035f28dde2ce0aab809d566255e52b",
+    "FarmexBot_koruma_ortak_ayar_kaniti.json": "9f1b41a6778480f6812115ad5753117a07c98dc771260c09c383b409ee7f1fa5"
+  },
+  "additional_logs": {
+    "work/common_protection_panel_full_ui.log": "07fa3fcf4564d7a7b1bd01c9ab8a6f52ef590ae4ed84941e632b44b58222382e",
+    "work/protection_panel_smoke.log": "270d70e8facf20561f647f887551252aa414c7b54e7688ba6fbf5c715a5eda17"
+  },
+  "audit_sha256": "d4598ad19971a041cb791738669295d758afd98cdb763b86e3dc5450b2380911",
+  "test_log_sha256": "7638c9c2e73dd40a6def95dfaf2fc02a38c100779d67c52cd5dba6a39d781c5a"
+}

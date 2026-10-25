@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "new_tests": 10,
+  "full_tests": 2424,
+  "full_test_seconds": 8.194,
+  "richard_instruction_records_disk_verified": 1196,
+  "crt_instruction_records_disk_verified": 223,
+  "ui_changed": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

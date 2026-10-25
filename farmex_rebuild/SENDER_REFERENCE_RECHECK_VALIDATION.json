@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T04:16:31.218817+00:00",
+  "full_tests": 3025,
+  "full_tests_rerun": false,
+  "new_tests": 0,
+  "instruction_records_verified": 1375,
+  "new_binary_coverage": false,
+  "analysis_only": true,
+  "absolute_slot_mentions": 15,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "source_files": {
+    "SENDER_REFERENCE_RECHECK.md": "ed1369e579fadb767aa1613ff5f6e32f6970335de0d23724bde299d5a61535e2",
+    "native_sender.py": "73797778c2789acea887f4e722ba4afd04ceaf090a833c25ac267543d57da513",
+    "source_profile_selection.py": "dc6a3d8d4b353fdd5848170ac498fa6ac5ac76e043e0e368b717729044cc095d"
+  },
+  "source_audits": {
+    "FarmexBot_kaynak_profil_tam_referans_kaniti.json": "e870b00911ef315ebc2fb324cf48711627d8a381be4ad821b8ed8e77f8fc678c",
+    "FarmexBot_oyun_profil_dosya_onkontrol_20261021_0113.json": "dcc53b79192856144b82beab6d44f960b17eeb016cb43d17742cce4ed1ce9f24"
+  },
+  "audit_sha256": "e870b00911ef315ebc2fb324cf48711627d8a381be4ad821b8ed8e77f8fc678c",
+  "test_log_sha256": "a03d8e61e49de25e514092fffb35e7cbddf15c08adf15f518e078b7a27da3c27"
+}

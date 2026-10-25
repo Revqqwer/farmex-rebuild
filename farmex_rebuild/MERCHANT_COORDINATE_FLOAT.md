@@ -1,0 +1,9 @@
+# Kaynak koordinat sütunu → kendi binary32 hedef politikası
+
+Kaynak sonuç satırı DWORD X/Y değerlerini signed32 `%i` metni olarak yazar. GİT yolu subitem5/6'yı `StrToFloat` üzerinden okuyup ayrı FSTP32 yapar. `merchant_coordinate_float.py`, yalnız bu kanonik signed32 metin kümesi için integer aritmetiğiyle IEEE754 en yakına/eşitlikte çift mantissaya yuvarlama bitlerini üretir. Python float veya genel locale parser'ı kullanılmaz. Genel `StrToFloat`, kaynak x87 kontrol sözcüğü veya native extended değer modeli değildir.
+
+4110 kanonik örnek kendi x86 standart RTL StrToFloat+FSTP32 çağrısıyla eşleşti;0 fark, stack dengeli ve kontrol sözcüğü değişmedi. Ölçülen x87 kontrol sözcüğü4991/0x137f, ACP1254 ve thread/user LCID1055'tir. Örnekler signed32 uçları, bütün exponent çevrelerinde yarım-adım/taşma değerleri ve3072 seeded random girdiyi kapsar. Native uzayın tümü exhaustively çalıştırılmadı. Modelin nearest-even politikası, oyundaki güncel FPU durumunun gözlemi sayılmaz.
+
+12 kapsam dışı biçim ayrıca ölçüldü:8'i native normal döndü,4'ü ilk native exception verdi. `-0`, artı işareti, baştaki sıfırlar, boşluk veya decimal/exponent yazımları native tarafından kabul edilebilse de kendi API bunları kaynak `%i` sütunundan üretilmeyen kapsam eksiği olarak bırakır. Bu ret, RTL parse hatası diye etiketlenmez. İlk exception probe'u kendi process'ini bitirir; unwind/continuation sertifikası yoktur.
+
+Ham girdiler/izler `work/merchant_coordinate_float_inputs.json`, `work/merchant_coordinate_float_trace.jsonl` ve `work/merchant_coordinate_float_outside_probes.json` içindedir. Native kanıt `FarmexBot_merchant_koordinat_float_native_kaniti.json`; kaynak formatter/caller ve iki standart RTL wrapper gövdesi `FarmexBot_merchant_hucre_yerel_arayuz_kaniti.json` kapsamında976 talimat kaydıyla izlenir. Yeni başarılı REA analizi yoktur.

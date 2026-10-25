@@ -1,0 +1,24 @@
+{
+  "stage": "quest_action_worker_local_API",
+  "recorded_at_utc": "2026-10-25T07:36:22.959773+00:00",
+  "verification_status": "passed",
+  "tests": 4908,
+  "new_targeted_tests": 11,
+  "test_process_exit_code": 0,
+  "test_log": "C:\\Users\\90546\\Documents\\Codex\\2026-10-13\\rea-reverse-engineer-anything\\work\\quest_action_worker_full_tests_20261025.log",
+  "test_log_sha256": "a6dbb18eb842736f888869b7030e723d9f5be66ee11ebec1e0ec86c17fff7d29",
+  "sources": {
+    "quest_action_worker.py": "1699349175a8b164ce1ce983db02f9fd3300258360d0648cc2b2d2b1bd0d1660",
+    "test_quest_action_worker.py": "e92db5238696884f4ef773a3a6695b07a6c9618a8b89866aa36aa74e9089f7ed",
+    "quest_action.py": "5c7f52c3f8a796ee93e1b86eb40d82fe73161ad0354fb2e35b9a30d2b1b8826c",
+    "action_queue.py": "ea8542849ae46c208293776b2b63b519e91ab19d960f59f7ae1befb26cf1e366"
+  },
+  "scope": "Owned append-prefix publication and regression tests; not native behavior proof",
+  "new_GUI_run": false,
+  "actual_buttons_bound": false,
+  "automatic_game_provider": false,
+  "native_execution_verified": false,
+  "delivery_verified": false,
+  "live_compatibility_verified": false,
+  "release_archive_updated": false
+}

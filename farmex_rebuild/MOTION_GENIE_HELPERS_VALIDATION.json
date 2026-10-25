@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T03:40:32.662750+00:00",
+  "full_tests": 2742,
+  "full_test_seconds": 6.72,
+  "new_tests": 13,
+  "source_helpers": 5,
+  "instruction_records_verified": 290,
+  "API_only": true,
+  "ordered_fresh_direct_chain": true,
+  "both_genie_options_before_choice": true,
+  "motion_write_receipts_separate": true,
+  "consumed_prefix_retained": true,
+  "exact_chat_helper_arguments_bound": true,
+  "parent_helper_return_separate": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "protection_side_effects_emulated": false,
+  "game_actions": 0,
+  "source_files": {
+    "motion_genie_helpers.py": "c5f5e7a6ccb8d4507f220689646ef58df4b3c1340ff987cb34899b019fec6523",
+    "test_motion_genie_helpers.py": "a8c77aaeea19e2a574ed32032024595a28df139f2c29c8af9a60ce1ab501b5ef",
+    "chat_commands.py": "4684cd9930dbb56250907cba649d21406a88bb832a13bba25d569756ee5746ac",
+    "command_helpers.py": "554fc5a1cf04b461448161ed3f2ebe3a9df5bdcc49ac1daaae69a689d1344041"
+  },
+  "audit_sha256": "21bdb672a41dc3abadcf30ca005b227538e4f051cb94f5e061028f138d39ae5e",
+  "test_log_sha256": "640a1a82fd9f777e3936c786adc1512962f8f99211eab99b8bbe52c4af8fdbcf"
+}

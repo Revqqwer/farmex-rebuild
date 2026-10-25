@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T10:35:29.192066+00:00",
+  "full_tests": 3178,
+  "full_test_seconds": 7.447,
+  "new_tests": 3,
+  "instruction_records_verified": 268,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "transformation.py": "5916bf558a3eebb24b80bf19905aec813d638c9a8a054f8b2ccaff08ccb1c2c1",
+    "test_transformation.py": "01dd3107f0ad3a4491b2455e504b641c117e3269b9a6315613e651fba36eb23a",
+    "TRANSFORMATION_QUEUE_PREFIX.md": "597fb89549622e8ee5ee220212fc96ef749091ec2f281dabb11dfab74ce9b3f0"
+  },
+  "audit_sha256": "668d7ecc1bd283d5c4aec1f34bc45dc2bb64a665f0b1f38d04cb397528646a0a",
+  "test_log_sha256": "3c157a26db553dc7d1403dc5bbb8999beadbda1dfcb3aebf76e7c3d9dfe4ecea"
+}

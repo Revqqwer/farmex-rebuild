@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T20:33:37.739229+00:00",
+  "full_tests": 3356,
+  "full_test_seconds": 8.699,
+  "new_tests": 12,
+  "instruction_records_verified": 3582,
+  "modeled_span_records_included": 272,
+  "new_REA_analyses": 4,
+  "reused_REA_analyses": 0,
+  "scoped_models": 145,
+  "scoped_model_count_increased": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "TP_API_only_controls": 3,
+  "whole_handler_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "teleport_protection.py": "0b23ab48e34da13f731a0e775e5c71f608aef8152841d2d851632a02646b960d",
+    "test_teleport_protection.py": "966a7a8faa86d77f522a1d1c8b0f691a7ebed302c7a86f1f9eabaa42eaa1f1c7",
+    "TELEPORT_PROTECTION.md": "750786ee83a3d3e80e82e2596c92b7abf6e3a3ee24a10adf0f81693f35396da4"
+  },
+  "source_audits": {
+    "REA_TP_koruma_ayar_uretici_20261021.json": "6ced206f36a4ea33d43836677bbfeeee779cda8516bd51d47e03b7ef5e260b99",
+    "REA_TP_koruma_gelen_olay_20261021.json": "5d97425241debe30fef7e698193d824201456c9ee8eb1c8e2be2a4a6edc1ac6e",
+    "REA_TP_koruma_panel_callback_20261021.json": "53899a6875769f507bdef5e48c16dbd7c3f41f4183ee2ae40a38da6cfed741d9",
+    "REA_TP_koruma_dc_yardimci_20261021.json": "7527250c9b8b4ee48d4f2a4504679d610348a3bf18c6dcb5217267eb70e3ba07",
+    "FarmexBot_form_alan_eslemesi.json": "4420b57a75f0818ecd76b2e4776a074a52206013c96ad8e2f07821af26ca095e"
+  },
+  "audit_sha256": "fc7d0854ba731727aa93f880b1b5d79b468fcf0f56bbfd6984a9bd531e8d5d90",
+  "test_log_sha256": "c793b80b08a1a7690cd70115a8414d9e98ab07022aade318fd1d757b99dbef44"
+}

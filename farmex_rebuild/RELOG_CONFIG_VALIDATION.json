@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T22:55:33.609590+00:00",
+  "full_tests": 3728,
+  "full_test_seconds": 11.949,
+  "new_tests": 16,
+  "instruction_records_verified": 768,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 2,
+  "scoped_models": 168,
+  "new_scoped_functions": [
+    "00412f48"
+  ],
+  "loader_control_model_implemented": true,
+  "managed_string_spans_opaque": true,
+  "startup_config_typed_binding": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "source_files": {
+    "relog_config.py": "0009a415f3ae741d74b7a1eaeec3667d9161e87d18b874fcea2320d1b651d4ad",
+    "test_relog_config.py": "e32df34deb052ab2272cdd035a85cea4c3ac3c5c1d658083b31fb46db4719b85",
+    "relog_config_fields.json": "31f9a4b5afc6d68997b7673a95093be7304115b31ca71cadf1894e666741d089",
+    "jail_preload.py": "a265ebd4651563f69691f17def949a8cad50d6cb9a9a6e4200aa3e1b6b298b2d",
+    "jail_protection.py": "818a9476bb1a7667ed0bb1dac5e38db66d31094f64d9b0b7d949b4d2992fc74f",
+    "RELOG_CONFIG.md": "a01370cb3ef24621baa653b6b5d511ec2bcc7029b451e5c83dcbf7b9c644d9ce"
+  },
+  "source_audits": {
+    "REA_relog_ayar_yukleme_20261022.json": "d9378f3fed8f405c54fb5369d965e2fe487d8ecf3e3429f108e4eb936e8591e6",
+    "REA_relog_detector_baslangic_20261022.json": "879d1fe635b1571d6455d0818f5a1ad4ce80b3b203cf1fb15af75a36f71488ca",
+    "FarmexBot_relog_ayar_alanlari_kaniti.json": "046c3c9ce536d2acfafebe49f7faee1cefbfa8e7bee53734cceac841c17e6a5a",
+    "FarmexBot_fonksiyon_takibi.json": "035c397e7de414853233d3e2b22d8ec47f56e72ac18b2f08c8ba09be91df0296"
+  },
+  "audit_sha256": "8303a530444b4aedc23131f984b59251630d83b6ea871215589ecab6a36a4199",
+  "test_log_sha256": "bfda8d192a3365402b75b32bf2492062740732e3b955172555033f66a15a5076",
+  "config_files_opened": 0,
+  "credentials_read": false,
+  "new_live_checks_performed": false,
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "external_actions_executed": 0
+}

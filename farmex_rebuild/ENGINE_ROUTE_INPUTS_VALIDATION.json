@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T03:10:57.801816+00:00",
+  "new_tests": 8,
+  "full_tests": 2454,
+  "full_test_seconds": 6.979,
+  "full_hidden_ui_passed": true,
+  "engine_route_consumer_count": 3,
+  "compiler_input_controls": 244,
+  "source_instruction_records_reverified": 1082,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "bank_factory_io": false,
+  "bank_outer_return_gate_preserved": true,
+  "bank_factory_automatic_ui_dispatch": false,
+  "source_files": {
+    "simulation_ui.py": "afb7703c4ee4934f14d45dfb04631272ab183b7e553a0e577636e50320a7782b",
+    "app.py": "d75d09d19610a893e9a783bb14b30c90079c566e558ab49161bd2a446a30e043",
+    "merchant_bank_route.py": "132931473f8409b40643a82fe903dce5fda80081e840c340124f13dd96bbf3fe",
+    "test_engine_route_inputs.py": "5e69f4d6cc0217ae0bee18abf55bbba834f0f42f47901b9c44eb502b35ed8d13",
+    "smoke_engine_route_inputs.py": "56066b7c609d6c48e85b2e1a35fff915a138632231ed18dab9d448118994f6b8",
+    "smoke_ui.py": "3e559e7777631413aac2ea91379a54e3266c1d26e77b4d8e1a41bfcc334e691b"
+  }
+}

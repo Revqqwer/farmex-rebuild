@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "new_tests": 12,
+  "full_tests": 2436,
+  "full_test_seconds": 8.829,
+  "full_hidden_ui_passed": true,
+  "focused_application_load_ui_passed": true,
+  "catalog_controls": 1037,
+  "forms": 11,
+  "main_tabs": 18,
+  "compiler_input_controls": 238,
+  "profile_versions_read": [
+    1,
+    2,
+    3
+  ],
+  "dynamic_combo_count": 2,
+  "source_files": {
+    "profiles.py": "048752d3f82dc541b0e43b4a5e3cec9ace873419bb5cde919882c603b0ccec44",
+    "route_catalog.py": "69f44f4ac6b329e039440ba6b9eb89769e8761b25b7c4f564a4b5e4b8a17a4c0",
+    "panel_ui.py": "19481990c44dafbb7ee70dfc816b8e060efb73a4e44210b75f932532c43a754c",
+    "route_ui.py": "4b001347d37e3c43884c406a82df19dcc5654126397d3f15be96c15fea0441b5",
+    "app.py": "97e283cb4fc7af3e7dfaa7f1af72c8e0771d5a7d080290bee43ec879fae476f8",
+    "test_route_profile_choices.py": "64d82ae9f9e52e4d18b75f4bec5a807ab81573b1e86b4c7236c9ef6eb8b6ef3d",
+    "smoke_route_catalog.py": "fe64778280ffc63da94b63016c2c3f89fe4b120203653ef8b666e9ce954b3ea4",
+    "smoke_ui.py": "df5924c2ff311b13a97ea704a9fe60f8353f37901a20e88fbd9c9660b5584d53"
+  },
+  "local_adapter_policy": "Explicit user directory and Windows codepage; rejects lossy names/budget/OS errors preserving prior own choices. Not native opendir-null behavior.",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

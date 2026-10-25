@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T18:15:20.651227+00:00",
+  "full_tests": 3517,
+  "full_test_seconds": 8.032,
+  "new_tests": 14,
+  "instruction_records_verified": 892,
+  "bounded_records_per_version": 105,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 1,
+  "scoped_models": 155,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "source_files": {
+    "disconnect_action.py": "244b913906cac5ca71f53fe3f5ba6960ff8916a41aee41a5fb6c1fbf63e21a8a",
+    "test_disconnect_action.py": "222462ee17b208cfd1bad63dbb21fd169dedf9d689ca1765feda28e8416adcfc",
+    "jail_preload.py": "a265ebd4651563f69691f17def949a8cad50d6cb9a9a6e4200aa3e1b6b298b2d",
+    "jail_protection.py": "818a9476bb1a7667ed0bb1dac5e38db66d31094f64d9b0b7d949b4d2992fc74f",
+    "DISCONNECT_ACTION.md": "774b81a48cb9b0fdc6ffd9eb4be615dc0b9b7ed19630d38ac627404591840dd0"
+  },
+  "source_audits": {
+    "REA_koruma_DC_cagiran_20261022.json": "9c0c49324a65bb0579b548d6456847a0da44e7fec20f5a1f21e6fba203764154",
+    "FarmexBot_fonksiyon_takibi.json": "f1af80dbd2ccbcdfdf9c692f14fb6e1e6a0d10f005512176835abd9d8282c628"
+  },
+  "audit_sha256": "943eba55647c36b6d3a4f5dff9af7012ea6d4953cae42a1e0f0102db97035526",
+  "test_log_sha256": "91bebfd3a029cc1a386e6505c92a94ea83481d5bed7ec5acc7b0944f3fba8ca2",
+  "live_work_deferred_by_user": true,
+  "no_live_or_process_checks_performed": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "external_actions_executed": 0
+}

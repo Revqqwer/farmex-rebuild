@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T00:08:26.710769+00:00",
+  "full_tests": 3834,
+  "full_test_seconds": 12.353,
+  "new_tests": 12,
+  "instruction_records_verified": 2568,
+  "scoped_models": 172,
+  "newly_tracked_scoped_functions": [
+    "00458f98"
+  ],
+  "expanded_scope": "004576ec",
+  "modeled_span_instructions": 191,
+  "panel_field_paths": 15,
+  "local_scalar_stores": 16,
+  "new_compiler_inputs": 0,
+  "ui_changed": false,
+  "ui_retested": false,
+  "retained_ui_controls": 1037,
+  "retained_ui_forms": 11,
+  "retained_ui_tabs": 18,
+  "source_files": {
+    "control_settings.py": "b658140b529bcb8e4968956eedb827b0e9f86d8cfd504fcee455fdf8c2ee973d",
+    "control_settings_trial.py": "d4d41ae7018c07949ee374cf5dd7ef451fd32ec8c9f6d271f17a0da287535ddc",
+    "test_control_settings.py": "ed6deefa5d8f57680f2dd71be710fea33613a2753984847f3c219c189f8adf83",
+    "protection_settings.py": "3f4c2421b9b836cbdd611a0022704232181588ba8be17b08ab4ca69a0a34786a",
+    "protection_panel_trial.py": "a71b57c9f426c54bcdf7825d13ff69e335b0267a6db293f42168e4891aa26461",
+    "source_integer.py": "9ad0a4623715e4e35eed1d35a95215827da980923adc9a4b84a34bb21da9f238",
+    "control_guards.py": "ac9da064cf3b0d47446a01e9303f3d3bcde31175a1167532c43889962660babb",
+    "control_continuation.py": "d100c0fb575b242dc8c8c0d7b0120333e587b143a6aed7d0a7229ee6158e0521",
+    "CONTROL_SETTINGS.md": "f81a27f501c62cbc5b26cd3f16f93655d884129cfc63e37cb5974d00dd8e84ec"
+  },
+  "source_audits": {
+    "FarmexBot_form_alan_eslemesi.json": "4420b57a75f0818ecd76b2e4776a074a52206013c96ad8e2f07821af26ca095e",
+    "REA_DC_kontrol_ayar_uretici_20261023.json": "708b97622d171aa93fcc9c2a3cde0c43d4e577e3f5f3b8144aabea17c60d3c57",
+    "FarmexBot_kontrol_np_coin_level_kod_kaniti.json": "3dc56a0b99fa3ed25fd7e00035fc4577d630fd6573242d48407ea504a1382469",
+    "FarmexBot_kontrol_saat_party_kod_kaniti.json": "46a0fd21415181126bd3b517bc5f677f9847119e5e2470275d8ad983af1c5365",
+    "FarmexBot_guncel_ayar_motor_baglari.json": "8e5eab3ee010e94b2eb9db2840cfc93e4ce7a4b2464057c4563bfcf4a432a96d",
+    "FarmexBot_fonksiyon_takibi.json": "2e81d42ed5a38bd0f52a3167e80a6e878cb097e50e18d5ab1c3cce71fcf7b3b5"
+  },
+  "audit_sha256": "1e1b9ecee0e1930428b823c3c0644572c9cfd2bcd0f72e9c80b7db29cc34c0ed",
+  "test_log_sha256": "93ac59be876193178ff62c88d2d3b951985470cf4356c902b36a30dc1adae4ef",
+  "additional_logs": {
+    "work/genie_settings_panel_full_ui.log": "73a4ec1d85cac20fb44cdfaf4663be8af5f93b07d0e86994101441f443b9412a",
+    "work/genie_settings_ui_targeted.log": "b0a026dda7b7c52238ca9e5caa5ddd2a0d4eb8fb6efa5bcf64c646d3f3c1a5cc"
+  },
+  "new_live_checks_performed": false,
+  "new_native_checks_performed": false,
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

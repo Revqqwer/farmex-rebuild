@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T16:10:07.732063+00:00",
+  "full_tests": 3296,
+  "full_test_seconds": 7.77,
+  "new_tests": 3,
+  "instruction_records_verified": 2428,
+  "new_REA_analyses": 2,
+  "own_native_cases": 12,
+  "own_native_execution_verified": true,
+  "scoped_models": 136,
+  "ui_changed": false,
+  "ui_retested": false,
+  "game_profile_verified": false,
+  "native_execution_verified": false,
+  "game_native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "native_profile_versions.py": "16f1010927526ab229f34ffcc66eba08784c262939c7572c5751c1295d31daa6",
+    "test_callback_profiles.py": "1b9c782fdded1b315ec67753721a26d59a9fec3acb9d2a5d28e4d4e6797dafec",
+    "native/callback_slot_fixture.c": "ce70e47abce359732e09755cbb60004c33f76ab2004dfc288083aa1da416d622",
+    "native/context_callback_fixture.c": "f14f382fe5efc0dbadcb02c9ac990d319c403b84c52be1d14702089d13b6a324",
+    "native/build_callback_slot_fixture.ps1": "5b4b2cc865136abb937c5dcc77c53f2a597c020fbe4bf007372130301fe2a5b7",
+    "CALLBACK_SLOT.md": "5899bca83785edd36431a05e31f509821331d4ee7e56e68f0876e6d558efceea"
+  },
+  "source_audits": {
+    "FarmexBot_callback_slot_native_testi.json": "d48c3efd94fb6b9a366951ea2b5e6a6c68049ac7701a8458b8eb3ad057f02f72",
+    "REA_callback_baglanti_kurulum_20261021.json": "a84de9c11bae1e3c0b5fef0375b58b91df8c2a667e2b71c91c44f84a7fe33f17",
+    "REA_callback_pointer_degisim_20261021.json": "09129770ccac0bb51aa79671fae570dcc1d579ceabbb6892c9de21b7d916fe19"
+  },
+  "additional_logs": {
+    "work\\callback_slot_native.log": "d7f252b6ad04cfe948cc49d179c26cfd52f20d4edd4322fdc1c61bd9fd4d93cd"
+  },
+  "audit_sha256": "9112c0f6e9475aa17e6208fd5c852de941cc7cc8a320516b3f52b29e93769707",
+  "test_log_sha256": "c0dd64502f6f148587e1bada757c22969f007df54e74bc307960f23d4676d02c"
+}

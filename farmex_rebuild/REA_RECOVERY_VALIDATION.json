@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T04:47:29.323806+00:00",
+  "full_tests": 3030,
+  "full_tests_rerun": false,
+  "new_tests": 0,
+  "instruction_records_verified": 240,
+  "new_binary_coverage": false,
+  "actual_REA_Evidence_functions": 3,
+  "temporary_REA_bridge_working": true,
+  "permanent_config_changed": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_memory_reads": 0,
+  "game_memory_writes": 0,
+  "source_files": {
+    "REA_RECOVERY.md": "26c7230e1a251bdeb492ff54a583e1005f4c2be8d972705c0d4cd792b446ea08"
+  },
+  "source_audits": {
+    "FarmexBot_REA_yeni_kanit_dogrulamasi_20261021.json": "117d887f3a16bd33a9b738b230848bfa16843f1524e5bdaba86506903d1598bf",
+    "REA_calisan_statiksesyon_20261021.json": "c154e65ee903002537829a3a6c5d4511ac169bdc34f9e5f65d76760db37cc335",
+    "REA_loopback_ortam_tanisi_20261021.json": "d0ee73359f79e992c33962ccdf3bacc02aec1b904600d5d5caaea51efa31a9d0",
+    "REA_loopback_izinli_tani_20261021.json": "af9544b1199796695431b9a932f72ab689dbf6858e8f712aee7226553ad72a4e",
+    "REA_guncel_profil_dedektoru_izinli_20261021.json": "66b0fe1fa3703799aa0b8e9f495fee478fc86556e877eafc6da727461a6ff655",
+    "REA_MS_ayar_uretici_20261021.json": "a4c32ec9bdba3d1afe9fe39f783d02c33f6fcb2cf4fbb950f65435b89b6098c0",
+    "REA_MS_etkinlestirme_20261021.json": "da5a896104430642844498cd30ebbdb2e8e7260ff961d963ae7e47c2a63bd0e6"
+  },
+  "audit_sha256": "117d887f3a16bd33a9b738b230848bfa16843f1524e5bdaba86506903d1598bf",
+  "test_log_sha256": "46a1d08f9fec945decf52b5419e82ed253062a82a00452a950803b22740afa9c"
+}

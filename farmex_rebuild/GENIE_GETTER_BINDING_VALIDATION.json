@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T21:33:06.729193+00:00",
+  "full_tests": 2976,
+  "full_test_seconds": 7.235,
+  "new_tests": 11,
+  "new_binary_audit": false,
+  "instruction_records_verified": 184,
+  "instruction_records_note": "Existing getter audit reused, no new binary coverage claimed.",
+  "bound_worker_call_sites": 7,
+  "generated_snapshot_revalidated": true,
+  "incomplete_child_blocks_outer_raw_fallback": true,
+  "separate_parent_normal_and_raw_eax_required": true,
+  "reached_helper_identity_checked": true,
+  "reached_source_profile_consistency": true,
+  "prefix_to_notice_identity_bound": true,
+  "consumed_operand_prefix_retained": true,
+  "completed_child_retained": true,
+  "other_chat_bot_getter_consumers_bound": false,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "last_UI_test_count": 2924,
+  "native_C_changed": false,
+  "native_execution_verified": false,
+  "protection_changes": 0,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "genie_getters.py": "dff021df115c17de0f66967ed7fe7fe84b6d56b6e96967833af4c1b588591056",
+    "genie_worker.py": "994feaadcd704caafa76483bcd7619a13be691f218f902c257c81b7976d22d17",
+    "notice_genie_window.py": "6fabd9ee9b7ce10e3373327d97c05f30f00ef01c95440f92b59690733c052653",
+    "test_genie_getter_binding.py": "dcd53f6ffbeea2d6df9afc7d8ea343c9cd841271995e5daa65f75dccdc17b4f3"
+  },
+  "audit_sha256": "f1e06473b915d31c4a22fc80a36b75c69b34fec93040c8d5353ae3eb91bd6696",
+  "test_log_sha256": "751fcd6029cda95f7de2146f6d4a914fbe6c47fe12d190c65435372b544b1f5a",
+  "source_audits": {
+    "FarmexBot_genie_genel_giris_kaniti.json": "5b2a1d530653cf6baafceb49244b4bf70562590cee4714b28a5d9bf67701071e"
+  }
+}

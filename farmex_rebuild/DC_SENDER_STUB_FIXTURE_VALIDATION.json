@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T03:37:40.755454+00:00",
+  "full_tests": 3474,
+  "full_tests_rerun": false,
+  "full_test_seconds": 8.195,
+  "new_tests": 0,
+  "owned_native_cases_passed": 6,
+  "owned_native_execution_verified": true,
+  "instruction_records_verified": 238,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 2,
+  "scoped_models": 154,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "native_receiver_contract": "Own RET8 only; actual game ABI unverified",
+  "source_files": {
+    "native/dc_sender_stub_fixture.c": "eb2c8cdbf46b4e0176a78280b4d71604c7e096ce8813606201ea719e09af066e",
+    "native/build_dc_sender_stub_fixture.ps1": "3e27d929f605127dcc253e3b118ca4be27bf2f9bc6f3410cb60cb6188ad2dbf5",
+    "DC_SENDER_STUB_FIXTURE.md": "8613665f02163fb57d306db413c959a061353aab173b9514d2b151fdd3487f71"
+  },
+  "source_audits": {
+    "REA_koruma_DC_eylem_yardimcisi_20261022.json": "479387e3308daa280747d69f7fc5d679093c860bfa5e3dd351e728abea661a3b",
+    "REA_koruma_DC_thread_yardimcisi_20261022.json": "25e18f23a3ec175b878c6217e24f86c895630e98eeb11a269ec6f1ee18eaf4b4"
+  },
+  "additional_logs": {
+    "work/native_dc_sender_fixture/run.log": "6d1f98fd68ce59ae6e18ebc2fa2a396b2e1826f3f1cc484e853e6b534d0c2747"
+  },
+  "audit_sha256": "d9c71dea82bb6e81d6a6c719958b6fd811def3f9c12232b6b53ce2889badb49d",
+  "test_log_sha256": "e651ae8f09df637ccaaeff819389b43e60d769013417bf27215e2a3cc6e51b20",
+  "native_execution_verified": false,
+  "game_native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T10:39:26.135561+00:00",
+  "full_tests": 3187,
+  "full_test_seconds": 7.866,
+  "new_tests": 9,
+  "instruction_records_verified": 380,
+  "helper_records_both_versions": 126,
+  "REA_functions": 2,
+  "scoped_models": 125,
+  "ui_changed": false,
+  "ui_retested": false,
+  "panel_detailed_action_children_bound": false,
+  "native_execution_verified": false,
+  "allocation_effect_verified": false,
+  "callback_ABI_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "allocation_actions.py": "f952a7dab2899d0895bc24125988eb0f4a9477c1ac04aa3dab69b751e02c432c",
+    "auto_allocation.py": "6733d7a0bc7ef754106005d6f56ea0b8c86359c49d1eb260fabe11ecf7c7e0ff",
+    "test_allocation_actions.py": "daf5e217962197727510da5f51a7a384525034bf90619786fde96904160e3b37",
+    "ALLOCATION_ACTIONS.md": "54b6e67416fb77ddb3ad2a9b9561f204766c2cd2d65afc5398c260310845c4a0"
+  },
+  "source_audits": {
+    "REA_stat_eylem_bagli_operand_20261021.json": "771a5b4b1a3f68741b625ea8edb353d0192c8cdbfcd7ab6f345ef143fb5a5445",
+    "REA_skill_eylem_bagli_operand_20261021.json": "c24b492f3ffb286556fc374284e1eb453f3b77fbe49ae431e56073ae1a7af14c"
+  },
+  "audit_sha256": "7dd545661e1863c621c69ae4469608337209948ed226aeb33e3f9a621631ac9e",
+  "test_log_sha256": "3b8a71a4ffa0b72f370eedd8cb74f70124972456b8815f4853ca11f7bc360af4"
+}

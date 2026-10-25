@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T15:14:35.696702+00:00",
+  "full_tests": 3233,
+  "full_test_seconds": 7.6,
+  "new_tests": 11,
+  "instruction_records_verified": 670,
+  "new_REA_analyses": 3,
+  "reused_REA_analyses": 2,
+  "scoped_models": 131,
+  "generated_first_group_helpers": 3,
+  "generated_direct_enqueue_sites": 4,
+  "shared_own_queue": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "UI_compiler_bound": false,
+  "native_execution_verified": false,
+  "queue_effect_verified": false,
+  "event_admission_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "event_join.py": "24d6f4ad269fa22ca9f79302c64cf30460273c37d4d5c76ba71ab317dedb15c8",
+    "event_packets.py": "0b0a26599b2132f65197a2350b52d83654386db36e76e579f0e16dbf11b126e6",
+    "test_event_packets.py": "21cd43ed41a907d41ee0c2c3fed0213d1d5eff45f7999ec2907b991448265319",
+    "EVENT_PACKETS.md": "db8059b41c9c16b0a8e481c5ac99990829db74d0cc505f5ea348a2b2d1e1eed6",
+    "EVENT_JOIN.md": "696dcc0208a888c5bda7056c1e8ca2913516112590b260467c07cf2a6239e2c0"
+  },
+  "source_audits": {
+    "FarmexBot_etkinlik_katilim_kaniti.json": "591195b72aa6752155e6aca2fa75c09d959595f11308b695dc021b679dae652f",
+    "REA_etkinlik_Chaos_kuyruk_20261021.json": "5867b2c077056c809531008d8f3f5be5bc05496198726226eb389f80828777cf",
+    "REA_etkinlik_BDW_kuyruk_20261021.json": "7d013010e8806c8e81ae29cecc660107b2b514b97f515cf4ad745dd3da623b8d",
+    "REA_etkinlik_Royale_kuyruk_20261021.json": "ef5bdb7d52cd9f0bf0a7217477293411b6a0757614c08e7ae99f6075e6536c1d",
+    "REA_etkinlik_katilim_calisma_20261021.json": "8fc7261b7f03866860b779189e1ccc2b53794d22f8cd4e94855fe553b69b0811",
+    "REA_ortak_kuyruk_ekleme_sirasi_20261021.json": "7cd1ac2a0c8145390e9f6bcf8f446048cde6d557a28c27afbc8f7fe180ca1365"
+  },
+  "audit_sha256": "ef80fb6611bc8157c0f9220cd54c2dfdb58258ee207ed4e0cd3af458dd4eba30",
+  "test_log_sha256": "662d42ce78bbfe4bfc32484a84463efcf4ab9c7566ccd6b0390d08232662f27e"
+}

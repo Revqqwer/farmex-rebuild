@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T21:10:10.349706+00:00",
+  "instruction_records_verified": 510,
+  "passive_only": true,
+  "new_tests": 0,
+  "full_tests_rerun": false,
+  "last_full_tests": 2938,
+  "previous_runtime_sources_unchanged": true,
+  "previous_runtime_validation_sha256": "bfc400d0c73dbe547f2023ac8eba7e433d73b358aa42872f7086f9bedad73a0d",
+  "source_files": {
+    "chat_handler_segments.py": "89517db914615b80a4740b01cb1769f90a7c99192e9ffe7df52ba10372192e5e",
+    "chat_cleanup.py": "475321f47dce7cb7ff06e70a09a704049844c4599cfbae014717940aedca5141",
+    "chat_skill_requests.py": "eaa17310827c419845da575e05a7e088a7639976fd6981be51329da1b3d9ca21"
+  },
+  "audit_sha256": "a5b9180ed33b2e24afac06ce49c3cc991413818994cf81142fc816c0b6ed4604",
+  "test_log_sha256": "e62a55e1b850a6adae72a5f16890bf0e9c96f71c403251bc7d99918d6276d76c",
+  "additional_logs": {
+    "work/audit_chat_notice_tail.py": "69e0cdb9b9f50d8883738c4cb2f6885ad0ea8f742133396df59aad078d7c2b35"
+  },
+  "notice_response_implemented": false,
+  "notice_tail_still_blocks_composition": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "target_executions": 0,
+  "game_actions": 0
+}

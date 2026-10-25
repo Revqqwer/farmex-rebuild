@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T16:42:17.583944+00:00",
+  "full_tests": 2857,
+  "full_test_seconds": 7.015,
+  "new_tests": 12,
+  "instruction_records_verified": 96,
+  "new_binary_instruction_audit": false,
+  "generic_call_sites_bound": 9,
+  "exact_relative_actor_EAX": true,
+  "parent_normal_return_separate": true,
+  "incomplete_child_blocks_parent": true,
+  "stable_snapshot_enrichment": true,
+  "changed_prior_values_rejected": true,
+  "completed_child_retained": true,
+  "metadata_retained": true,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "native_execution_verified": false,
+  "skill_effect_verified": false,
+  "producer_lifecycle_bound": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "generic_chat_skill.py": "c98bd33e9afd8e542b5443878fbac8dcc0b7025827c825117241650603bdaa57",
+    "chat_skill_consumers.py": "f06a8c8b9e2b28579d2889638d9737b3e60428ab5d1c900d2abca4ee0d56f512",
+    "priest_chat_consumer.py": "8edeebb34297bc56c032f2ea50c22ca76f142f276cfa1140d7369f220fe32541",
+    "test_generic_consumer_binding.py": "1a7e09c6861255af83f5d16da06c034b11dd8514b2b1138fd5a49ab08f5b9044",
+    "skill_native_plans.py": "16d4010030ce81fc295a3a2de89aee6603bcbc60f791ee6314460eecaa3ec49d"
+  },
+  "source_audits": {
+    "FarmexBot_generic_chat_skill_kaniti.json": "5c307465473e65e3ca8113b88adbcdda3535f6fa4a191bace3abd9ff6a9d5476",
+    "FarmexBot_mage_rogue_chat_tuketici_kaniti.json": "20f3798d2b141471176cc65f76d7b57a56a94d9ec3465467750dc84167919828",
+    "FarmexBot_priest_chat_tuketici_kaniti.json": "980d99e0f2a13e2ee042f2938a11f73bc210a8ce0e9236f5d36c35038cf00686"
+  },
+  "audit_sha256": "5c307465473e65e3ca8113b88adbcdda3535f6fa4a191bace3abd9ff6a9d5476",
+  "test_log_sha256": "56f6992df9de6b98e10504025d502db6fcf37c93d8a859e1aa89cfd3228fa0ed"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T16:35:46.396711+00:00",
+  "full_tests": 2845,
+  "full_test_seconds": 7.025,
+  "new_tests": 10,
+  "instruction_records_verified": 96,
+  "low32_class_prefix": true,
+  "exact_computed_action_actor_binding": true,
+  "source_helper_identity_preserved": true,
+  "no_fictional_465640_call": true,
+  "separate_helper_normals_and_raw_EAX": true,
+  "explicit_versioned_fixture_metadata": true,
+  "consumer_binding": false,
+  "stable_operand_map_contract": true,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "native_execution_verified": false,
+  "skill_effect_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "generic_chat_skill.py": "fff2daa48ffb73add92557ecd16a91016639f1d2a3f29d522d1bf1fce1bcf174",
+    "test_generic_chat_skill.py": "b03e492edd3dd0e1b70762c238bdbf618c344aac2134db6b460ca184de2c5391",
+    "skill_native_plans.py": "16d4010030ce81fc295a3a2de89aee6603bcbc60f791ee6314460eecaa3ec49d",
+    "native_profile_versions.py": "58356c89de1a150b9000997d9662e1e5cb3cf826cde6c4ffff19bb9a53b1e2c1"
+  },
+  "audit_sha256": "5c307465473e65e3ca8113b88adbcdda3535f6fa4a191bace3abd9ff6a9d5476",
+  "test_log_sha256": "4bc129bde06827431773085a04877d62e9ad7a1694e13ba8f2d089b66e23a7b6"
+}

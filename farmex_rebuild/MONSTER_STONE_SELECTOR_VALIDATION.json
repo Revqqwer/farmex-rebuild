@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T05:23:35.582981+00:00",
+  "full_tests": 3075,
+  "full_test_seconds": 7.924,
+  "new_tests": 13,
+  "instruction_records_verified": 578,
+  "new_binary_coverage": false,
+  "REA_functions_used": 1,
+  "generated_selector_child": true,
+  "parent_normal_separate": true,
+  "parent_fullEAX_agreement": true,
+  "stack_ID_source_verified": false,
+  "iterator_ABI_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "ui_changed": false,
+  "ui_retested": false,
+  "source_files": {
+    "monster_stone_selector.py": "d0bc300e0611aa9c20ffbb46b0c8713374d971d9984caeec4a9b3796d5765fca",
+    "test_monster_stone_selector.py": "54755729cf46bfaeeaeb38881f89d8f6d08d549469e0533e1b2b8299d24bd8c9",
+    "monster_stone_combat.py": "d4421167e1c3a6e124fe065a8f69101887bc6c92d59daa0ca6caf62c16dd8d59",
+    "test_monster_stone_combat.py": "b229ebdebd978ca6db63caea2949d9cc01abeb10af66d9ec51fe612a567a273d"
+  },
+  "source_audits": {
+    "FarmexBot_MS_hedef_secici_kaniti.json": "ee38e1224ccddb2b604f8573b24a8d36a57f8981d992090d66e6d06d12a25742",
+    "REA_MS_hedef_secici_20261021.json": "479bfee5e83a5a3357187e6d016776c5d86f6660d889241a7708d327d6e88bb5"
+  },
+  "audit_sha256": "ee38e1224ccddb2b604f8573b24a8d36a57f8981d992090d66e6d06d12a25742",
+  "test_log_sha256": "47dba85b96bbbfda4a6de4c814b0f3a9506457d178daaa3b571cb4d3f2f095e3"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T22:12:14.142036+00:00",
+  "full_tests": 3025,
+  "full_tests_rerun": false,
+  "new_tests": 0,
+  "instruction_records_verified": 2820,
+  "new_binary_coverage": false,
+  "analysis_only": true,
+  "negative_scan_scope": "direct bd8/bdc operands in pinned assembly exports",
+  "runtime_consumer_identified": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "source_files": {
+    "GENIE_NO_MOB_ANALYSIS.md": "803ddbb0543b131a71e45ee5a581f5aaecdeb0ef0929ee6a97c3302a27e31969",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89"
+  },
+  "audit_sha256": "eb69247f50dc1d2917a417bc0711d5eacb01a8db06cfe6b3778392a08b851aad",
+  "test_log_sha256": "a03d8e61e49de25e514092fffb35e7cbddf15c08adf15f518e078b7a27da3c27"
+}

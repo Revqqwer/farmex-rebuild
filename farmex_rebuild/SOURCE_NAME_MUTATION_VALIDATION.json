@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "focused_tests": 8,
+  "full_tests": 2404,
+  "full_test_seconds": 7.319,
+  "instruction_records_disk_verified": 1444,
+  "mutation_instruction_subset": 128,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

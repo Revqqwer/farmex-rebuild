@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "validation_scope": "own AlphaSort request/return plan and pinned VCL instruction decoding only",
+  "verified_at_utc": "2026-10-23T14:58:22.574857+00:00",
+  "full_tests": 4121,
+  "new_tests": 3,
+  "full_test_seconds": 12.506,
+  "test_log": {
+    "path": "work\\merchant_vcl_sort_full_tests.log",
+    "sha256": "ee47df49711ba63e0faf34df4d2caa505e7b2f3f51a1b50bddfa2087a9ced91c"
+  },
+  "source_files": {
+    "merchant_result_compare.py": "8d5e3de1ccb47967a78fdb6b189d9e9f4c292fe59bce2df5c3d60d83611dc205",
+    "test_merchant_result_compare.py": "60ff6ba095ed604a2cc896f5aaee5bdd872e4282e3abe87df8bb60f05f51e487",
+    "MERCHANT_RESULT_COMPARE.md": "c043c7d3d73c3ecf1cf40550d4fa0145855bac0ffc891096c38bfef4929ccdef"
+  },
+  "source_audit": {
+    "path": "outputs\\FarmexBot_merchant_VCL_siralama_kaniti.json",
+    "sha256": "7c13834d6278fa7ef76d3b423f6ed87d72f53185b66c8c4848bdf6b01e2fcbbb"
+  },
+  "new_REA_analyses": 0,
+  "ui_changed": false,
+  "sorting_verified": false,
+  "native_execution_verified": false,
+  "loaded_game_module_identity_verified": false,
+  "release_updated": false,
+  "preserved_release_sha256": "c534f89fe9357692660c596500a12c83a3d7100e067656bc1f6060b2cef8bbca",
+  "full_GUI_candidate_status": "pending_selected_message_UI_due_to_approval_review_usage_limit"
+}

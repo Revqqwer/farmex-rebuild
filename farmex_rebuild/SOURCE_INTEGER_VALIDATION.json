@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T22:07:50.744410+00:00",
+  "full_tests": 3025,
+  "full_test_seconds": 7.158,
+  "new_tests": 13,
+  "instruction_records_verified": 96,
+  "landing_raw_bytes": 22,
+  "new_binary_coverage": false,
+  "full_QWORD_retained": true,
+  "default_sign_extended": true,
+  "producer_lowDWORD_only": true,
+  "explicit_catch_route_required": true,
+  "lexical_conversion_verified": false,
+  "EH_dispatch_verified": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "source_integer.py": "9ad0a4623715e4e35eed1d35a95215827da980923adc9a4b84a34bb21da9f238",
+    "genie_duration.py": "e22eb469c54cde6e7815134d03c9e5621da1a9c0bf80ed637a8043d572e3c3de",
+    "test_source_integer.py": "1a8b0e8c358ea97fcf8156665f691490fbc588db78ad2585e8adde80925c2ac6",
+    "test_genie_duration.py": "b6822506e130839dea130cd61e3acab64dbde9ea3bbef27c0ce3185e19b5aa72"
+  },
+  "source_audits": {
+    "FarmexBot_sayisal_donusum_yardimci_kaniti.json": "8d8f1c8f6f6794f9fd7b42c5365fec346227324e539daab31aa6c376e12965d1",
+    "FarmexBot_genie_panel_uretici_kaniti.json": "ffa70ccf882d4a342b81c4f45044b7d3f1230270f99330c16962de7ed305cd60"
+  },
+  "audit_sha256": "8d8f1c8f6f6794f9fd7b42c5365fec346227324e539daab31aa6c376e12965d1",
+  "test_log_sha256": "a03d8e61e49de25e514092fffb35e7cbddf15c08adf15f518e078b7a27da3c27"
+}

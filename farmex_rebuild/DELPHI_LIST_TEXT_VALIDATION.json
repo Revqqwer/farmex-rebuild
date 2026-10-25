@@ -1,0 +1,20 @@
+{
+  "verification_status": "passed",
+  "date": "2026-10-18",
+  "full_unit_tests": 2325,
+  "full_unit_seconds": 8.256,
+  "focused_tests": 20,
+  "new_tests": 12,
+  "disk_instruction_records": 704,
+  "ghidra_methods_exported": 13,
+  "ghidra_missing": 0,
+  "ghidra_failed": 0,
+  "ghidra_process_terminal_success": true,
+  "ui_code_changed": false,
+  "ui_smoke_repeated": false,
+  "runtime_executed": false,
+  "full_runtime_semantics_verified": false,
+  "file_format_verified": false,
+  "live_compatibility_verified": false,
+  "evidence": "FarmexBot_RTL_liste_metin_kod_kaniti.json"
+}

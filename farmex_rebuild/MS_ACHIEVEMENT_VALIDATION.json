@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T09:43:35.901777+00:00",
+  "full_tests": 3127,
+  "full_test_seconds": 7.61,
+  "new_tests": 8,
+  "instruction_records_verified": 162,
+  "new_binary_coverage": false,
+  "REA_functions_used": 2,
+  "ordered_request_attempts": 11,
+  "independent_queue_gate_and_tick": true,
+  "payload_bytes": 6,
+  "fullDWORD_offset": 2,
+  "delay": 0,
+  "separate_child_outer_event_normals": true,
+  "committed_records_not_duplicated": true,
+  "zero_gate_continues": true,
+  "UI_button_bound": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "delivery_verified": false,
+  "reward_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "ms_achievement.py": "f00d5ce6d26382fffbe4f7566f6df7f0ea8bc4b451c0f353351c7b258b85f121",
+    "test_ms_achievement.py": "4ffa9f0b0f0b8c994cd4f859a18cacda82c8ec2b8adb1956e0a195c3a7151064",
+    "action_queue.py": "eadf9393a7a1e2b2ed73a6e5392f222ca0c2a0c99ee79547359876b1633206f5",
+    "direct_chat_packets.py": "d00ab25249041a6998985924fbadaaeb9aa22dbcfd3421d7ef3891ea9e95b25b"
+  },
+  "source_audits": {
+    "FarmexBot_MS_achieve_istek_kaniti.json": "4b3ad9e178bf3f5732ae72574ac8b30ab3aa76feda0955639a08ecc608bd9a0c",
+    "REA_MS_achieve_dugme_20261021.json": "7fdebcf96ac413b8b7b97c2821db02884e481d975704f8113f5bd530cf6f7118",
+    "REA_MS_achieve_paket_20261021.json": "649122d351cac1d59063df995771febd8c5e507fb44b755cf1e71952fa2be4af"
+  },
+  "audit_sha256": "4b3ad9e178bf3f5732ae72574ac8b30ab3aa76feda0955639a08ecc608bd9a0c",
+  "test_log_sha256": "904c3d22e95c8f6ce5f0b9863b1dde7c33e3f9ab09eb2368341d9f32b9a62432"
+}

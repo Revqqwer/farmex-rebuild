@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T22:04:31.905469+00:00",
+  "full_tests": 3012,
+  "full_tests_rerun": false,
+  "new_tests": 0,
+  "controls_audited": 13,
+  "instruction_records_verified": 260,
+  "new_binary_coverage": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "source_files": {
+    "GENIE_PANEL_PRODUCERS.md": "a47deecdf887ec1fc37f63da5eb06a023c85c6794fbc13a6e765e6f4e5eba778",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89",
+    "genie_worker.py": "7db02b5fb770cabe8e2fc8e676394b229fc4b28453a4bf3ec98d6b45e3fde96d",
+    "notice_genie_window.py": "6fabd9ee9b7ce10e3373327d97c05f30f00ef01c95440f92b59690733c052653"
+  },
+  "audit_sha256": "ffa70ccf882d4a342b81c4f45044b7d3f1230270f99330c16962de7ed305cd60",
+  "test_log_sha256": "29d5a05218cbeae5a6af0e53ed4b87088446b6b5281fb09b84febdfaeb26b5cd"
+}

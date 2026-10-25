@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T10:29:01.573367+00:00",
+  "full_tests": 3175,
+  "full_test_seconds": 8.794,
+  "new_tests": 7,
+  "instruction_records_verified": 3188,
+  "binary_evidence_reused": true,
+  "new_binary_coverage": false,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "panel_controls_bound": 4,
+  "compiler_controls": 297,
+  "main_tab_compiler_controls": 294,
+  "editable_paths_outside_inventory": 225,
+  "own_snapshot_getter_adapter": true,
+  "reached_only_JSON": true,
+  "snapshot_bound_example": true,
+  "checked_metadata_ignored": true,
+  "explicit_ASCII_decimal64_example_subset": true,
+  "profile_roundtrip_verified": true,
+  "native_execution_verified": false,
+  "allocation_effect_verified": false,
+  "codec_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "allocation_panel_trial.py": "435f3cd79e4473b6ef9125cda5e1159e0b17bf2a43ee130504981a83c745a012",
+    "test_allocation_panel_trial.py": "0d2c1582a4438a1e648f85ed39479641535790ec0d91aca9781857a647e06082",
+    "allocation_producer.py": "ca5122440c7724cc49a561d734bd5553cab5ebc3d4310ba6ce5ae28c2a6bfbbb",
+    "source_integer.py": "9ad0a4623715e4e35eed1d35a95215827da980923adc9a4b84a34bb21da9f238",
+    "smoke_allocation_panel_ui.py": "693dced780e9a40bbd2fb6b7bb7a0288079146ad3af37edad355c1f93bb49cff",
+    "smoke_ui.py": "0ab79f0f055fa4819c159cf875a5ffae87d2057b9c9eae204d9bfb0282ea39ce",
+    "simulation_ui.py": "3894512621648fc2dd3e0b99b6c9019a22990bf3b795c7ecd9a79d7b3f6162e8",
+    "panel_ui.py": "6f6421e337cc692092d5ef9837a47971d0780f27da6724c5bf180b43e2d0007c",
+    "profiles.py": "048752d3f82dc541b0e43b4a5e3cec9ace873419bb5cde919882c603b0ccec44"
+  },
+  "source_audits": {
+    "FarmexBot_dagitim_panel_bag_kaniti.json": "f08efd62362c9a9ddc1eabfd97cdbaf088263defe313c060e7874fea2f5dd381",
+    "FarmexBot_otomatik_dagitim_satir_uretici_kaniti.json": "f52773e9c1bbda7d3772d6ff6a0727f8b7993d81bc1577943726befac2dcc628"
+  },
+  "additional_logs": {
+    "work\\allocation_panel_full_ui.log": "570a8be043d0398ce5f0c5095c7cc403954c5811dfdfb63633e139425fcc3d04",
+    "work\\allocation_panel_ui_targeted.log": "01deef535dc8e785f517854426ffb8196b6d7f7776b8e05fe000dcad4e4f8e8e"
+  },
+  "audit_sha256": "f08efd62362c9a9ddc1eabfd97cdbaf088263defe313c060e7874fea2f5dd381",
+  "test_log_sha256": "07a28098f0b2caf8e00fd671b75be30a4aac30f4092ad04d568366aa5933657f"
+}

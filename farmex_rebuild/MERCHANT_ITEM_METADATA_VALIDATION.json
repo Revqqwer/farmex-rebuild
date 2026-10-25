@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "validation_scope": "own lookup-observation/name-byte/decoder/metadata/result composition only",
+  "verified_at_utc": "2026-10-23T15:22:37.878602+00:00",
+  "full_tests": 4159,
+  "new_tests": 9,
+  "full_test_seconds": 14.068,
+  "test_log": {
+    "path": "work\\merchant_item_metadata_full_tests.log",
+    "sha256": "688993e8d672041187faf3196417ef9d6ae136a1b0ff8c270044dd034faac540"
+  },
+  "source_files": {
+    "merchant_item_metadata.py": "ee4dfe59f6795bc8f908b4afb12b0f3c5495ee4d8d3ca5da72128f0d921cc1a9",
+    "test_merchant_item_metadata.py": "178c7bccef2dad42b605a476d92bc04f8527d4ae4ccb12651b84de18126b9fab",
+    "item_lookup.py": "00f24810723734a111cd3f98d5563a63b11f64da68e821f5f16aac1c2cb53fc9",
+    "item_name.py": "68cc12213c771a12451fc7e866b82d0cca7485a8770fc125300ec95eb19c88f1",
+    "merchant_scan_results.py": "a3a35f73a9f6cce253caad0ce8caa8e3a90bcde52cf1acc03f25db7e171d53e6",
+    "MERCHANT_ITEM_METADATA.md": "17b9246775fb24bcffd25e4c39367cbbdf15f5c5d48b96789724e28ba8ad5724"
+  },
+  "source_audit": {
+    "path": "outputs\\FarmexBot_merchant_item_metadata_bagi_kaniti.json",
+    "sha256": "249a7c113017124f18a24ed3f6f5782cb90acef69866731cdf074679c7d9c9da"
+  },
+  "scoped_models": 211,
+  "new_REA_analyses": 0,
+  "native_execution_verified": false,
+  "native_text_conversion_verified": false,
+  "source_parser_return_verified": false,
+  "ui_changed": false,
+  "release_updated": false,
+  "preserved_release_sha256": "c534f89fe9357692660c596500a12c83a3d7100e067656bc1f6060b2cef8bbca",
+  "full_GUI_candidate_status": "pending_selected_message_UI_due_to_approval_review_usage_limit"
+}

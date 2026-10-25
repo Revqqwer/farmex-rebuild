@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T21:27:15.191765+00:00",
+  "full_tests": 3412,
+  "full_test_seconds": 7.988,
+  "new_tests": 18,
+  "instruction_records_verified": 1218,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 7,
+  "scoped_models": 147,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 354,
+  "editable_controls_outside_inventory": 168,
+  "typed_TP_child_bound": true,
+  "outer_normal_return_separate": true,
+  "source_files": {
+    "jail_protection.py": "818a9476bb1a7667ed0bb1dac5e38db66d31094f64d9b0b7d949b4d2992fc74f",
+    "tp_jail_protection.py": "5436197cf18be04494b200cbb178b8559446352dac90364372a9d68f1a65f665",
+    "test_jail_protection.py": "9444b4a50ba6c71368c9aebbf7281f8e75d26ca575e0bc7cc08f38af5551a101",
+    "teleport_protection.py": "0b23ab48e34da13f731a0e775e5c71f608aef8152841d2d851632a02646b960d",
+    "JAIL_PROTECTION.md": "e6a7fd6450a2f43c4b88b3c0b1dcf2163b35b3f85c09eb693dc7d54a81f4c06f"
+  },
+  "source_audits": {
+    "REA_koruma_jail_birinci_20261022.json": "c835570dd98bf3ba4a0f909cd278e0eccb3b0b87963af3283faf14e71758e419",
+    "REA_koruma_jail_ikinci_20261022.json": "90b221d67cacd957544aead8796827b86d827e9650fd530c594c0c839a592d63",
+    "REA_koruma_jail_ad_eslesme_20261022.json": "bcf28b586cb99f8dcb0e23579f728004e738427eb574fd287d14ca8fb2488c90",
+    "REA_koruma_jail_handle_metni_20261022.json": "700e865b50b7acc011b3f893313df96c646ff9fd984bba5e6142a9659ba41420",
+    "REA_koruma_jail_metin_karsilastirma_20261022.json": "002640adeef7388484b3c8bc8a856ead1581a517cce818482f9d551cb0971f16",
+    "REA_koruma_jail_baslangic_metni_20261022.json": "1e0b6f0713dd304db571c513e4e0b314f2c04c658f32c1388cb6fbb05f8615ca",
+    "REA_TP_koruma_gelen_olay_20261021.json": "5d97425241debe30fef7e698193d824201456c9ee8eb1c8e2be2a4a6edc1ac6e",
+    "FarmexBot_koruma_jail_yardimcilari_kaniti.json": "e84dd5a7391d91bb20000c0f382363b0bdb9009fa5cb01f738bc0c82b8941cef"
+  },
+  "additional_logs": {},
+  "audit_sha256": "36bc49ebaa9f18e5f48d0fc37b5f447787eac9557bb91bd5f6d420d732e159cf",
+  "test_log_sha256": "c03a0231a8055689e8dd869f8969d9bf40e8c538471f807e51d588c6cbb32bd9",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

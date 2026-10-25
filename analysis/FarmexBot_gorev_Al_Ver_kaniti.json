@@ -1,0 +1,86 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T07:24:18.499211+00:00",
+  "versions": [
+    {
+      "binary": "Richard_decoded.bin",
+      "sha256": "12f3e2dd13836b4f9ffec77c71cf04e505e7e92a2d5a527abf78aa566f359a54",
+      "instruction_counts": {
+        "004b4818": 17,
+        "004b4910": 17,
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004038e4": 51,
+        "004d4e73": 15,
+        "004d4f1c": 27,
+        "004c7710": 85,
+        "004d642c": 192
+      },
+      "imports": {
+        "cstring_length": {
+          "dll": "CC32260MT.DLL",
+          "name": "@std@%char_traits$c%@length$qpxc"
+        },
+        "copy": {
+          "dll": "CC32260MT.DLL",
+          "name": "_memcpy"
+        },
+        "clock": {
+          "dll": "KERNEL32.DLL",
+          "name": "GetTickCount"
+        }
+      }
+    },
+    {
+      "binary": "Richard_febdac805f370fb3_decoded.bin",
+      "sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "instruction_counts": {
+        "004b4818": 17,
+        "004b4910": 17,
+        "004d5a8c": 300,
+        "004d6040": 297,
+        "004038e4": 51,
+        "004d4e73": 15,
+        "004d4f1c": 27,
+        "004c7710": 85,
+        "004d642c": 192
+      },
+      "imports": {
+        "cstring_length": {
+          "dll": "CC32260MT.DLL",
+          "name": "@std@%char_traits$c%@length$qpxc"
+        },
+        "copy": {
+          "dll": "CC32260MT.DLL",
+          "name": "_memcpy"
+        },
+        "clock": {
+          "dll": "KERNEL32.DLL",
+          "name": "GetTickCount"
+        }
+      }
+    }
+  ],
+  "instruction_records_disk_verified": 2002,
+  "source_files": {
+    "quest_action.py": "5c7f52c3f8a796ee93e1b86eb40d82fe73161ad0354fb2e35b9a30d2b1b8826c",
+    "test_quest_action.py": "6692cd43166c5b2d7342475fcb934b46bc75d89df16fd36dcd04a080e734852e"
+  },
+  "facts": [
+    "Take stores status AL without using it for a branch; Give requires AL3",
+    "lookup mode Take4/Give3 and upper/sourceIndex-minus4 range are separate inputs",
+    "Take queue delays500/1000/1500 with finalff; Give1000/2000 with final02",
+    "both six-byte first packet templates are6407 followed by four zero bytes before lowWORD ID copy",
+    "two float32 bounds are0 and10; retarget argument is NPC pointer",
+    "C++ char_traits<char>::length is called; script copy uses full length while header uses lowBYTE",
+    "enqueue queries gate before allocation/copy/clock/vector append; each call is independent"
+  ],
+  "limits": [
+    "owned scalar/C-string/FPU/queue projections do not certify native control-word/allocator/alias/refcount/SEH effects",
+    "lookup internals remain opaque; explicit helper result required",
+    "API only; actual Al/Ver button binding, automatic provider and game delivery unverified",
+    "no new REA decompilation or native game execution"
+  ],
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T04:30:39.910087+00:00",
+  "full_tests": 3030,
+  "full_test_seconds": 8.198,
+  "new_tests": 5,
+  "instruction_records_verified": 1375,
+  "new_binary_coverage": false,
+  "generated_child_revalidated": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "source_files": {
+    "source_profile_selection.py": "56277c3c673aabf0ebc647a94b846ef0ae27be13799bdda279c514382fd2f770",
+    "test_source_profile_child.py": "740d3a0fc2f9be774aa55e6c4ad14fe54e591db9633e34d8cd7ed93fa44f03a5",
+    "SOURCE_PROFILE_CHILD.md": "7755b6aefcdf69ba18cf087b108dedc5443c8677c253e687cdcc7086e2a3ea4b"
+  },
+  "source_audits": {
+    "FarmexBot_kaynak_profil_tam_referans_kaniti.json": "e870b00911ef315ebc2fb324cf48711627d8a381be4ad821b8ed8e77f8fc678c",
+    "FarmexBot_panel_bag_eksikleri.json": "38089c45007ea4ac5a320b7ff5067308ae469792c8aab5605286c39f15e7e3e4"
+  },
+  "audit_sha256": "e870b00911ef315ebc2fb324cf48711627d8a381be4ad821b8ed8e77f8fc678c",
+  "test_log_sha256": "46a1d08f9fec945decf52b5419e82ed253062a82a00452a950803b22740afa9c"
+}

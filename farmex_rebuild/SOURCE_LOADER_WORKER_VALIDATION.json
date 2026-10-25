@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T04:49:33.179780+00:00",
+  "full_tests": 3860,
+  "full_test_seconds": 13.136,
+  "full_tests_reexecuted": false,
+  "new_tests": 0,
+  "retained_python_files": 631,
+  "python_runtime_unchanged": true,
+  "instruction_records_verified": 152,
+  "source_module": "Loader",
+  "source_entry": "0041e558",
+  "source_bytes": 431,
+  "source_code_patches": 0,
+  "owned_original_worker_execution_verified": true,
+  "owned_native_scenarios": 15,
+  "original_module_loaded": false,
+  "Richard_scoped_models": 173,
+  "Loader_scoped_worker_functions": 1,
+  "ui_changed": false,
+  "ui_retested": false,
+  "retained_ui_controls": 1037,
+  "retained_ui_forms": 11,
+  "retained_ui_tabs": 18,
+  "source_files": {
+    "native/source_loader_worker_fixture.c": "982f92a0f46568beb418a749a7e606c2fef60e9df8af8d666a6579124f17eaa4",
+    "native/source_loader_worker_template.h": "8f11fad57a3fe5bded3c0249e2085804cfc72578d0ae7e9afd7c7e6aee7b9d2a",
+    "native/build_source_loader_worker_fixture.ps1": "1e18e3c0b2365b5b94593df40ac36d08ef2274b5dc5e0594fc26c19b4c19bbf6",
+    "SOURCE_LOADER_WORKER_NATIVE.md": "b004d633511717b3ff1808df0cbb11ef3703e9da07ed2e018b2c9170de47f115",
+    "NATIVE_BOOTSTRAP.md": "7171c07a0a333a1e29de21efa0011e33a33929594a4f116b0c070a52681c673a",
+    "COPIED_WORKER.md": "12dcdb59fbf539b2b2ef6aff0f68803e11638f95427b78cddb37d480e0f64f30"
+  },
+  "source_audits": {
+    "FarmexBot_ozgun_loader_worker_sablon_kaniti.json": "c5969fa06cc88b5343b52fcc80fcb6e1e8d5d4c04c733047f5a5abf6279626a5",
+    "Ghidra_Loader_baglanti_ek_zincir.json": "4187ed7778d163bf73a95cfd3c39292d3cc51dc68357929e66044e8e5735184a",
+    "FarmexBot_zone_town_durdurma_paket_dogrulamasi.json": "b4be6fce3535c28099683a1f6893107422c433c21b85491c2f7f319ad92cbd0c",
+    "FarmexBot_loader_worker_fonksiyon_kapsami.json": "3268a614a1439d5515e1bf101ca888fab02f7ed1c6d3a0e53796bfae54a45d34",
+    "FarmexBot_fonksiyon_takibi.json": "c7c81e0bc50aa70007d03e48b53930ac542001df066d3cffea4492ca9a6b2cde"
+  },
+  "audit_sha256": "12f2fd319e439c008c069a4c112e565440589e9be9ae404b23333377d9f503a5",
+  "test_log_sha256": "3658788b43047a9378db98baa804747e7b862195ceefbf2a88311925ae423ab8",
+  "additional_logs": {
+    "work/control_settings_panel_full_ui.log": "e22298d1a7bdeaf42d82158bd991fda5349db43cc7bca72a98da25979d5c2768",
+    "work/control_settings_ui_targeted.log": "262a04b71af7cd9da9e1a55b4a2de0c344e4481d5ce56663885605bac773f940",
+    "work/native_source_loader_worker_fixture/run.log": "e44c113740ff0db34bb7658b5bdd6082ae9df6a5a182c2dd00412168d4f598e5"
+  },
+  "native_artifacts": {
+    "executable_sha256": "326273676610a875f2f48311f17498ee913d958db3ece015c45989a9101e528a",
+    "log_sha256": "e44c113740ff0db34bb7658b5bdd6082ae9df6a5a182c2dd00412168d4f598e5",
+    "compiler_sha256": "11b86934bb2833f57fa0453a605ca342aee9207e193faea9b973baa2b2b4c35b"
+  },
+  "new_live_checks_performed": false,
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

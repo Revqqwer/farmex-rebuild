@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T10:53:42.020308+00:00",
+  "full_tests": 3213,
+  "full_test_seconds": 8.981,
+  "new_tests": 8,
+  "instruction_records_verified": 846,
+  "binary_evidence_reused": true,
+  "new_binary_coverage": false,
+  "REA_functions": 1,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "compiler_controls": 297,
+  "scoped_models": 127,
+  "panel_detailed_query_children_bound": true,
+  "unsupported_skill_caller_EAX": "low32(3*row_index)",
+  "reached_only_JSON": true,
+  "skill_query_argument_matches_produced_action": true,
+  "native_execution_verified": false,
+  "name_pointer_identity_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "allocation_consumer_trial.py": "19b9b92066e40b817c5d28e8d5863f9c5861dca6ca4402d7778b96b42ec31c32",
+    "auto_allocation.py": "81efb309231075de46aaff36dde093cf5a15c2b6473907a278a6fc7a62ebc122",
+    "allocation_queries.py": "32726002969ab6a0f1f43f5f8f5291cc6719d1f506dbf95f627c6dd9a0d6797d",
+    "test_allocation_query_panel.py": "5c75555c17672d43011bf9918397f6502d7491b9618868aae0e4fec7db27cbb8",
+    "smoke_allocation_panel_ui.py": "a8b8bb0272a333e733095bd891cf2ce129776a387e0916e2b8edbd4267fddbe8",
+    "ALLOCATION_QUERY_PANEL.md": "6d131175bf26e504be759009ec5586e0ffb53d1945300da469be351d53831381",
+    "ALLOCATION_QUERIES.md": "27eb76dac14f902fc3c3f07fbecc93ec5896d00bcf34455cd9f648426af072eb"
+  },
+  "source_audits": {
+    "FarmexBot_dagitim_sorgu_alani_kaniti.json": "799e6731cf85b259b2012d29c882a1c6098049a4595d76ea05fdc94f585ea602",
+    "REA_skill_sorgu_EAX_cagri_bagi_20261021.json": "1674b7fda1cd9c156dc08fa7c7b1952e59d5d286c48f73b6eab1bd891087367b"
+  },
+  "additional_logs": {
+    "work\\allocation_query_panel_full_ui.log": "ed2ac9fe76a6f7c5cd53414ed228116b533083a4ff5d31499f2538aabcc22873"
+  },
+  "audit_sha256": "6a94b5bb91cd0e37c288dbcaf9a9bbb59ba5c42d52875665dc872c55519c8940",
+  "test_log_sha256": "3af93d5f5d613ba06e095fa5cd271e858f16222234be7d5ab2b476858e391bd8"
+}

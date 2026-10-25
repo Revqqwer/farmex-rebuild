@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T16:16:09.927338+00:00",
+  "full_tests": 2808,
+  "full_test_seconds": 7.141,
+  "new_tests": 12,
+  "instruction_records_verified": 1844,
+  "published_fields_verified": 18,
+  "request_kinds": 9,
+  "pending_stores_only": true,
+  "signed_priest_buff_gate": true,
+  "exclusive_fresh_family_probes": true,
+  "enabled_only_first_match": true,
+  "source_candidate_reference_instructions": 79,
+  "candidate_consumer_semantics_verified": false,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "compiler_input_controls": 271,
+  "editable_paths_outside_inventory": 251,
+  "known_chat_skill_API_only": 18,
+  "native_execution_verified": false,
+  "skill_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "chat_skill_requests.py": "eaa17310827c419845da575e05a7e088a7639976fd6981be51329da1b3d9ca21",
+    "test_chat_skill_requests.py": "7d6a4810453cc68b1358954524159589d094938ff36e40a241f82e3d4eddb7c9"
+  },
+  "source_audits": {
+    "FarmexBot_chat_skill_istek_kaniti.json": "223a07ce78890030151374d0997c3f3912462e050d6c69c977d0a80baf5c4c79",
+    "FarmexBot_chat_skill_tuketici_adaylari.json": "264b0e3dc41770f8df00385b0adff9900088fd6aac5acd8a356e1afe4243c8b2"
+  },
+  "audit_sha256": "223a07ce78890030151374d0997c3f3912462e050d6c69c977d0a80baf5c4c79",
+  "test_log_sha256": "668a1d3c539a230813eb08711660f7295beebb48fd13a21656dc7392c890337c"
+}

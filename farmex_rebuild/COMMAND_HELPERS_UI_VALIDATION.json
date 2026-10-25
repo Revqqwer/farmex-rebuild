@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T15:54:04.557147+00:00",
+  "full_tests": 2772,
+  "full_test_seconds": 6.945,
+  "new_adapter_tests": 14,
+  "full_hidden_ui_passed": true,
+  "hidden_ui_controls": 1037,
+  "hidden_ui_forms": 11,
+  "hidden_ui_main_tabs": 18,
+  "eight_typed_helper_bindings": true,
+  "reached_only_nested_JSON": true,
+  "shared_invocation_queue": true,
+  "parent_normal_return_does_not_bypass_child": true,
+  "consumed_prefix_retained": true,
+  "invalid_reached_input_clears_helpers_queue": true,
+  "detailed_mode_change_resets_invocation": true,
+  "ui_changed": true,
+  "ui_retested": true,
+  "native_C_changed": false,
+  "instruction_records_verified": 818,
+  "new_binary_instruction_audit": false,
+  "compiler_input_controls": 271,
+  "editable_paths_outside_inventory": 251,
+  "native_execution_verified": false,
+  "thread_callback_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "command_helper_trial.py": "98657379ba5654531134d73b09ebdac28feb93b53d26e1ff48db5f668bdc1453",
+    "test_command_helper_trial.py": "cda88f1b3d95f76bccf16085c29d7db991f8101aa0762d5243fee0a6c0f113bb",
+    "chat_commands_trial.py": "8a3dcd95376c3d7c16b41cce4d3a0434db37f0c964af2a915d36d8df77d622ad",
+    "chat_commands.py": "ac91692ca6e67ebbee756b47cc4a514d880dda34bb4dd4be752ac9a63806fd1c",
+    "command_helpers.py": "554fc5a1cf04b461448161ed3f2ebe3a9df5bdcc49ac1daaae69a689d1344041",
+    "motion_genie_helpers.py": "c5f5e7a6ccb8d4507f220689646ef58df4b3c1340ff987cb34899b019fec6523",
+    "bot_switch.py": "8606e7bd398cc58fbeea7e8aa1f18ae7ab23bd52c3cea3f478878a0c9bdf464a",
+    "simulation_ui.py": "88a74ef0f1a589b6c86194a39ea04f13ab1220b3b20e3596a4007a67738812b8",
+    "smoke_chat_commands_ui.py": "06e8b2428d2fad45a8b5e530efb104a7c12024bc39af2b20d60e960cc8a61f8d",
+    "smoke_ui.py": "95cc593d480c73891a697ee6bbf946f11df40239831ab1e8ad11cde95c9792ed"
+  },
+  "source_audits": {
+    "FarmexBot_chat_komutlari_kod_kaniti.json": "d74f6a69195b0573ef65fdb4f938d1000ba5cbb90ea52850909e3f46cde651c8",
+    "FarmexBot_komut_yardimcilari_kod_kaniti.json": "255a2c846afd725f5fb206c3c65bd87e085fa08aa59979c1b175c68d3fc67dcd",
+    "FarmexBot_hareket_genie_yardimci_kaniti.json": "21bdb672a41dc3abadcf30ca005b227538e4f051cb94f5e061028f138d39ae5e",
+    "FarmexBot_baslat_durdur_kod_kaniti.json": "9c282d176ec79afc048c351821fea06f3bbefe1b524d761d7c2f7ba60d656a9a"
+  },
+  "audit_sha256": "d74f6a69195b0573ef65fdb4f938d1000ba5cbb90ea52850909e3f46cde651c8",
+  "test_log_sha256": "fa3fb6b65c91e7863a93b5b361f19a2ba16e0a332280e53c03036c1230bc43ef",
+  "additional_logs": {
+    "work/command_helper_ui_smoke.log": "b88eb0805e85831da06327e183cd2a4b7815a38bcc823d35efabae3b0be864ef"
+  }
+}

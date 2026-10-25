@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T16:32:47.350927+00:00",
+  "full_tests": 2586,
+  "full_test_seconds": 7.936,
+  "new_tests": 12,
+  "source_instruction_records_reverified": 552,
+  "skill_index_mappings": 18,
+  "config_and_selector_and_local_frame_API": true,
+  "ui_binding": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "periodic_and_route_gate_consumers_unresolved": true,
+  "full_actor_dword_copied_twice": true,
+  "check_actor_copy_queue_prefix_and_no_duplicate_verified": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "transformation.py": "b23e5bf2d2a3ff7862f1b276cf533cf3577f0c35f80db29b969528f0e8f03e35",
+    "action_queue.py": "01a3be16d4d95837908ec11dde6812317354c29e7d28ff1ed0cd8594dda4aef9",
+    "test_transformation.py": "dfa0aee31f66befcaaf7708fd1ad07eeafe740b5bc5345d2b97f5c3a4fc2b3f6"
+  }
+}

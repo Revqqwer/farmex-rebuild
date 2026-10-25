@@ -1,0 +1,15 @@
+# 32 bit RTL sayı modeli ve Merchant adet karşılaştırması
+
+`rtl_integer32.py`, pinlenmiş RTL `ValLong` yordamının immutable UTF16 değer modelidir. 64 bit parser'a aralık kontrolü eklenerek türetilmedi; source hata konumu ve hata anındaki EAX davranışı farklıdır. Decimal, hex, tek işaret, yalnız baştaki ASCII boşluklar, embedded NUL ve leading zero akışları korunur.
+
+Decimal biriktirmede unsigned0x0ccccccc, hex'te0x0fffffff ön eşikleri kullanılır. Decimal final signed kontrolü vardır; hex tam DWORD bit desenini kabul eder. Böylece decimal `4294967295` hata verirken `$FFFFFFFF` EAXffffffff ile kabul edilir. Negative hex mod32 negation kullanır. Ara hatada işaret her zaman uygulanmaz: `-123x` için ham EAX123 korunur. Final decimal negatif taşmada farklı kısmi değer kalabilir. Boş hex prefix hata konumuna ilave UTF16 adımı da source gibi tutulur.
+
+`merchant_result_compare.compare_merchant_rows(..., use_owned_integer_model=True)` adet sütununda bu modeli kullanabilir. Source gibi birinci adet önce değerlendirilir; parse hatasında ikinci adet ve outparam yazımı tamamlanmış sayılmaz. Raw hata EAX'i başarılı sayı/fallback sıfır yerine kullanılmaz. İki başarılı EAX düşük DWORD çıkarma ile karşılaştırılır; supplied native sonuçlar önceliklidir. Varsayılan observation-only API sözleşmesi korunur. Normal packet üreticisindeki iki adet kaynağı WORD'den genişletilir; geniş parser sınır testleri bu genel helper'ın sözleşmesini denetler, oyunda böyle adetler gözlendiği anlamına gelmez.
+
+Yeni `rtl_integer32_fixture.c`, yalnız kendi initialized x86 sürecinde standart RTL ValLong export'unu çağırır. Mevcut register-call plumbing kullanılır;2000 immutable UTF16 girdisi tek stream'de işlenir. Her girdide native EAX ve Code, Python modeliyle karşılaştırıldı:0 fark.312 kabul/1688 ret ve2000 normal helper dönüşünde stack dengesi doğrulandı. Önceki27 StrToInt native normal/ilk-exception ölçümüyle kabul ve başarılı EAX sonuçları da uyuştu. Bu native ValLong retleri exception değildir; StrToInt wrapper Code!=0 olduğunda ayrı hata yordamını çağırır.
+
+ValLong ve StrToInt gövdelerinde122 talimat, eşik/Code store ve hata dalı operandları diskten denetlendi. Kaynak `StrToInt` başarısızlıkta native hata yordamına gider; model bot CRT exception dispatch/unwind mekanizmasını çalıştırmaz. Kaynak kanıtları ordinary PE/Capstone ve kendi native fixture kayıtlarıdır; yeni başarılı REA Evidence yoktur.
+
+8 yeni Python testiyle toplam4184 test geçti (`work/rtl_integer32_full_tests.log`). Native matrix: `FarmexBot_RTL_Int32_native_model_kaniti.json`; kaynak: `FarmexBot_RTL_Int32_kaynak_kaniti.json`. Metin karşılaştırmaları yeni consumer sürümüyle eski50 native referansa tekrar bağlandı (`FarmexBot_RTL_metin_Int32_sonrasi_kaniti.json`):0 fark. Eski metin kanıtı üzerine yazılmadı.
+
+Native fixture immutable, iyi biçimlenmiş kendi buffer'ları içindir. Malformed pointer/header, eşzamanlı değişim, source bot callback'i, native VCL sıra ve oyun ABI'si sertifikası değildir. Yeni API henüz gerçek Merchant paneline bağlanmadı; son doğrulanmış ZIP4159 testli sürüm olarak saklanıyor.

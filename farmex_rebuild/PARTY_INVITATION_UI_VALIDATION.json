@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T16:54:28.141088+00:00",
+  "full_tests": 2619,
+  "full_test_seconds": 7.604,
+  "new_tests": 8,
+  "full_hidden_ui_passed": true,
+  "ui_controls": 1037,
+  "ui_forms": 11,
+  "ui_main_tabs": 18,
+  "party_invitation_UI_bound": true,
+  "default_samples_unknown": true,
+  "explicit_synthetic_example_only": true,
+  "reached_only_JSON": true,
+  "real_widget_enable_all_list_reject_bug_and_rows_verified": true,
+  "compiler_input_controls": 252,
+  "static_evidence": "Existing1548instruction audit; no new native behavior certified",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "party_invitation.py": "ed5eb77764bdc887bb296f833095105c5c941c92c1da74c1dc080ed154b6677c",
+    "party_invitation_trial.py": "7322b854512ec35bfe4e6a51b0bcfd0db96102d031de60690271c5d5aa6ff76c",
+    "simulation_ui.py": "0257bb3254987154a150273bec76f82fff1d9df25a8b429e7183d7d8ff8e4ee7",
+    "test_party_invitation_trial.py": "a1ba7aaeb1684041d3ee3522a6d03b0900de5d0a841901de5c5a85be0ff044ec",
+    "smoke_party_invitation_ui.py": "b0d7666d74e73105fe3548409f65e458b506c64ad69900e7ebc652d87c670e1b",
+    "smoke_ui.py": "61ac88b399b790a0126166bd4e89acd6d16cfc5802ac4545576228f693c4cc09"
+  }
+}

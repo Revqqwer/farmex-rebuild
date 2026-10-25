@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T03:18:27.777651+00:00",
+  "full_tests": 2709,
+  "full_test_seconds": 6.977,
+  "new_tests": 12,
+  "source_unique_instructions_verified": 818,
+  "command_branches": 8,
+  "panel_controls": 16,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "independent_exact_command_comparisons": true,
+  "disabled_still_compares": true,
+  "distinct_genie_start_stop_guards": true,
+  "center_signed_dword_and_post_FSTP_bits_separate": true,
+  "consumed_prefix_retained": true,
+  "full_handler_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "chat_commands.py": "e37b9f8633d2ddf022860ce0977e83f18f1e252e1c9cd37de1b2fdfbd4af6e20",
+    "test_chat_commands.py": "bcf863d82793cc8a04ed4c28904bc52e536917c0034960d9e2f0d95fab5e0d32"
+  },
+  "audit_sha256": "d74f6a69195b0573ef65fdb4f938d1000ba5cbb90ea52850909e3f46cde651c8",
+  "test_log_sha256": "dfe020431967981108634606508dda8522a6f72dda9c93def0604b83ed78a3ad"
+}

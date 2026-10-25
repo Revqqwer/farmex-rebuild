@@ -1,0 +1,13 @@
+# Merchant özgün ANSI isim → yerel sonuç araması
+
+`MerchantItemMetadata.base_name_ansi`, mevcut `ItemNamePlan.ansi_bytes` gözleminden gelir. Decoder'ın ürettiği görünür Unicode adından encode edilmez. Kaynak ANSI `LStrCat3` ve ASCII suffix literallerine dayanarak `format_scanned_item_ansi` bu özgün baytlara `(+n)` ve ` (Reverse)` son eklerini uygular. `MerchantResultRecord.original_name_ansi` son ham adı sonuç akışında taşır. Eksik ANSI verisi `None` kalır; boş gözlem `b''` ile karıştırılmaz.
+
+`OwnedMerchantResults.rebuild(..., text_policy=WindowsMerchantText(cp))`, saf filtrede query dönüşümü gereken noktaya ulaşılırsa kanıtlanmış kendi Unicode dönüşümünü kullanır. Kayıt adı gerektiğinde özgün baytlar ayrı ANSI uppercase yoluna girer. Sağlanan `normalized_search`/`normalized_name` gözlemleri önceliklidir. Eksik özgün isimde sonraki isimler dönüştürülmez; ilk açık eksik ve hazırlanmış önek korunur. Kaynak kayıtlar değiştirilmez veya dönüşmüş adlar cache'e yazılmaz; her yenileme güncel query ve açık politikayı yeniden tüketir.
+
+Gerçek yerel panel kendi Windows ACP değerini açık query politika girdisi olarak ölçer ve aramaya bağlar. Bu, yüklü oyunun `DefaultSystemCodePage` alanı gözlemi değildir. Harici kaynak query gözlem sağlayıcısı önceliklidir; sağlayıcı `None` döndürürse kendi politika ile sessizce doldurulmaz. Gri placeholder aramayı atlar; siyah/pozitif query için dönüşüm kullanılabilir. Geçersiz yerel CP hatası tabloyu eski başarılı sonuçlarla bırakmaz; açık durum gösterir ve CP düzelince toparlanır. Profil değişimi kendi sonuç oturumunu sıfırlar.
+
+Kaynak kanıtı: iki pinned Richard sürümünde4284 talimat kaydı; item-name çağrısı `004bcaf3 ->00467908`, ANSI concat helper/import ve suffix literalleri. Bu byte kapsamı2068 talimatlık parser'ın bütünü çözüldü anlamına gelmez. Dönüşümün sonlu native referansı385 vaka/0 fark kapsamında korunur; referans kaynakları değişmediği için native deney tekrar yapılmış sayılmaz.
+
+Hedefli gizli GUI testi raw reply→lookup/name gözlemi→metadata→özgün ANSI suffix→query/name dönüşümü→filtre/sıra→gerçek tablo zincirini kullanır. Görünür decoder metni bilerek ham adla farklıdır; böylece display encode ile uydurulmuş ANSI kaydı kabul edilmez. Gerçek seçim/odak/başlık olayları, açık capture override, geçersiz CP/toparlanma ve profil sıfırlama kontrol edilir. Bu kendi veri/gözlem oturumudur; canlı payload yakalama veya kaynak parse normal dönüş sertifikası değildir.
+
+Kalan kapsam: kaynak runtime CP/global kimliği, tam taze okuma/reentrancy/managed lifetime/SEH yolları, PM/GİT hücre eylemleri, scan başlatma/bitirme/dispatch ve gerçek veri üreticisi. Yeni başarılı REA analizi yoktur; mevcut Ghidra/PE kanıtı, kendi normal değer modeli ve kendi native/GUI deneyleri ayrı izlenir.

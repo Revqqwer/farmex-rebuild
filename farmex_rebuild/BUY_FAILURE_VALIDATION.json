@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T03:35:41.294838+00:00",
+  "new_tests": 12,
+  "full_tests": 2475,
+  "full_test_seconds": 6.54,
+  "full_hidden_ui_passed": true,
+  "source_instruction_records_disk_verified": 960,
+  "bank_slot_call_count": 192,
+  "distinct_fresh_failure_inventory": true,
+  "bank_unavailable_stop_before_notification": true,
+  "bmerchant_filename_global": "0x569908",
+  "smerchant_filename_global": "0x5698bc",
+  "bound_runner_api": true,
+  "buy_failure_ui_bound": false,
+  "source_files": {
+    "merchant_buy_failure.py": "1cbfae38159c7ea0ac8dd35ec7553d64be9338e490d32a330ae7029c3500bd00",
+    "merchant_bank_count.py": "4a57e23f310b18d64c77b1442552574116803cc1a8f2d6bcd7a7f280cdd3dcc7",
+    "merchant_bank_route.py": "b20aa98b321cf2aa6f2229b40c8773e3b489ee4de1f13eb1f6b9c443910a4db8",
+    "merchant_sell_failure.py": "187008cc0c7ef25d2245a06b478352ca53578cc2eae465318bf2282438943a74",
+    "operation_engine.py": "f8f93e4d27ceac0acad809ffba3072f585ff8d657744863bc1c5e4bc7783b525",
+    "route_ui.py": "6543f9017db3a4b7a1cbaa7e4c32d550d8a05475995497f11342b5a49422523a",
+    "test_buy_failure.py": "12a95223a2924d43c3596c4e2350d2b3db388fc025d6dc2cf22de2e4677a1807"
+  },
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T16:22:46.903866+00:00",
+  "full_tests": 2821,
+  "full_test_seconds": 6.909,
+  "new_tests": 13,
+  "instruction_records_verified": 482,
+  "scoped_consumer_models": 2,
+  "mage_failure_preserves_rogue_low_level_clears_pending": true,
+  "fresh_rogue_kind_second_read": true,
+  "TEST_clears_CF_before_JC": true,
+  "dword_movement_state": true,
+  "full_EDX_push_separately_observed": true,
+  "direct_lock_before_helper_and_clear_after_normal": true,
+  "generic_full_EAX_nonzero": true,
+  "consumed_prefix_retained": true,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "native_execution_verified": false,
+  "skill_effect_verified": false,
+  "producer_lifecycle_bound": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "chat_skill_consumers.py": "0b8691e0ecac8694ef196673c50bce1f845544841085cb965107dd9fed32b2f6",
+    "test_chat_skill_consumers.py": "26a103118753114aa68771403f90f0b4203a1d1355cb0fbb8d01374432373feb"
+  },
+  "audit_sha256": "20f3798d2b141471176cc65f76d7b57a56a94d9ec3465467750dc84167919828",
+  "test_log_sha256": "8fca244c8eaf282b5404ad8141a35463c0563f3b992d616a1eb1b87dab9fffc9"
+}

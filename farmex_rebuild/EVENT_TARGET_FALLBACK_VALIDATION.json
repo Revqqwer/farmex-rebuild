@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T15:33:25.141997+00:00",
+  "full_tests": 3256,
+  "full_test_seconds": 9.009,
+  "new_tests": 9,
+  "instruction_records_verified": 740,
+  "modeled_fallback_records_both_versions": 154,
+  "binary_evidence_reused": true,
+  "new_binary_coverage": false,
+  "reused_REA_analyses": 2,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "compiler_controls": 303,
+  "scoped_models": 133,
+  "native_execution_verified": false,
+  "memory_writes_verified": false,
+  "allocation_effect_verified": false,
+  "callback_ABI_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "event_target_fallback.py": "d815e599bfc9a11f674e3099a13d1a4dbee4814d3dd7dfd1fd941875ed496894",
+    "event_join.py": "7927ca8d47dedfee1360fcdc43eda1f4a3ff77b8dca982ba43025cbe0a41cd87",
+    "event_join_trial.py": "05cc42480245e8d9a6629f8fdc0396ac5162d4f0761ba6b7f21db7f6eb20dfd4",
+    "test_event_target_fallback.py": "1ae028cff0b912dd16ba8dc1910b94508b9af5b1687f79961126e3f54f114cef",
+    "smoke_event_join_ui.py": "9f9726e04d426f2fef127d00a87f12f063093ab37ca6c82b7ec917b1a8f974d5",
+    "EVENT_TARGET_FALLBACK.md": "b28bc67eba70c83f10c9ff21574bcadf6bcbf16732f2fdbba996095c1b750060",
+    "EVENT_TARGET_PREPARATION.md": "ec7e19c016a46b9be572202540f466c4fa447bf2665d940e5848ab3053ce1204"
+  },
+  "source_audits": {
+    "FarmexBot_etkinlik_hedef_bagi_kaniti.json": "42be9a234c23b097925e96796e77fdb85e3ce3f218c28f48963f3893ab9a8e01",
+    "REA_etkinlik_hedef_yedek_20261021.json": "58ab9d1accc4709709177d7dea70e58e81a51990a2a124d0be7a896f6595ca7d",
+    "REA_etkinlik_katilim_calisma_20261021.json": "8fc7261b7f03866860b779189e1ccc2b53794d22f8cd4e94855fe553b69b0811"
+  },
+  "additional_logs": {
+    "work\\event_fallback_full_ui.log": "6b1805fc16e17a8859c7ef942f5c89f7aad3e08eb1423a25c31f675d35c09eba"
+  },
+  "audit_sha256": "f7eb7cacf2d496a7a3e49c565ada593ea792fbb66800c7fd96a3f91e42ecd258",
+  "test_log_sha256": "099da4d82f7617c496a9a35962b89340d2d535ac3212b1177df246bfd0e53022"
+}

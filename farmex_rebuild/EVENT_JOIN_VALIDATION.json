@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T15:09:03.971388+00:00",
+  "full_tests": 3222,
+  "full_test_seconds": 7.772,
+  "new_tests": 9,
+  "instruction_records_verified": 2962,
+  "worker_records_both_versions": 356,
+  "bounded_producer_records_both_versions": 84,
+  "REA_functions": 3,
+  "new_REA_analyses": 2,
+  "reused_REA_analyses": 1,
+  "scoped_models": 128,
+  "source_controls_mapped": 6,
+  "ui_changed": false,
+  "ui_retested": false,
+  "UI_compiler_bound": false,
+  "native_execution_verified": false,
+  "queue_effect_verified": false,
+  "event_admission_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "event_join.py": "446a42c531d17088ecddc509a10d017b631454d9588bd90f98a678b9209c7d19",
+    "test_event_join.py": "85ec3c037c0087be4679432f7e67f7db3f71d41019ea34699f8397532aa71e15",
+    "EVENT_JOIN.md": "03d8f29a8312a6ec5737b1f1ee1b4e47885729c2a43b2f6d20ca798baa0d2c59"
+  },
+  "source_audits": {
+    "REA_etkinlik_katilim_calisma_20261021.json": "8fc7261b7f03866860b779189e1ccc2b53794d22f8cd4e94855fe553b69b0811",
+    "REA_etkinlik_BDW_callback_20261021.json": "9673bb12b8411086fef68f68101e7324d06cb9f3a36012c1b762d1fd0710f261",
+    "REA_otomatik_stat_skill_ayar_uretici_20261021.json": "779050cf135b75c7f50f0208fe70114cac9e7e9fe432811a2cbcdd98d2c92ebd"
+  },
+  "audit_sha256": "591195b72aa6752155e6aca2fa75c09d959595f11308b695dc021b679dae652f",
+  "test_log_sha256": "60ec2cf0d32beb58c1dd329a64fe2bdd689fa8e72caf8dcacb14a0c4366d536d"
+}

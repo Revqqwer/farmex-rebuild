@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T20:05:31.371635+00:00",
+  "validation_scope": "standalone settings and start-stop snapshot API; no new GUI binding or native execution",
+  "full_tests": 4288,
+  "new_tests": 16,
+  "full_test_seconds": 13.043,
+  "source_files": {
+    "merchant_scan_control.py": "177a061cc37ecb909e31a4a54d223fa3be19b43e4241dc508ea6f41d04e845a4",
+    "test_merchant_scan_control.py": "3811774c44b44320ffde5a5bd978f1d920b7f852e11d98fa2d4b23f57f0dcee9"
+  },
+  "test_log_sha256": "1e5e9b7278df4dbf763463ab4372db8f9002b2f9d50adbd8d2eba2940c2f733e",
+  "audit_sha256": "a064af8bc25a156fe17cda79729ed8a73a0b43d9c1f6810211750218053c66e0",
+  "instruction_records_verified": 1130,
+  "prior_GUI_code_files_unchanged": 773,
+  "prior_GUI_validation_sha256": "4c0ab1c9bbde7ecb90cedc6f17af29cea27dfe076ca2dddf0cb629aa1bc5f96b",
+  "new_GUI_run": false,
+  "stable_package_tests": 4272,
+  "source_helper_execution_verified": false,
+  "live_compatibility_verified": false,
+  "open_work": [
+    "scan session/controller and scheduler binding",
+    "runtime reply provider/dispatch",
+    "native helper internal mutations and SEH",
+    "quick scan and exact TXT export"
+  ]
+}

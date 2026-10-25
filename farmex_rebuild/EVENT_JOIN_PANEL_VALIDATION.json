@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T15:21:11.624378+00:00",
+  "full_tests": 3240,
+  "full_test_seconds": 8.997,
+  "new_tests": 7,
+  "instruction_records_verified": 3276,
+  "binary_evidence_reused": true,
+  "new_binary_coverage": false,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "compiler_controls": 303,
+  "main_tab_compiler_controls": 300,
+  "editable_paths_outside_inventory": 219,
+  "scoped_models": 131,
+  "source_controls_bound": 6,
+  "reached_only_JSON": true,
+  "stable_snapshot_flags": true,
+  "snapshot_bound_example": true,
+  "profile_roundtrip_verified": true,
+  "native_execution_verified": false,
+  "event_admission_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "event_join_trial.py": "a8235f6586b6e6bd1adf200fba3e16c857b7cd65f63a8c7e40314284e90c465a",
+    "test_event_join_trial.py": "7116bee799421fa561f6b59d4eaad08de098ec676a71e271684b21e651011acd",
+    "event_join.py": "24d6f4ad269fa22ca9f79302c64cf30460273c37d4d5c76ba71ab317dedb15c8",
+    "event_packets.py": "0b0a26599b2132f65197a2350b52d83654386db36e76e579f0e16dbf11b126e6",
+    "simulation_ui.py": "ae3925176491715b52e303107cdcb3a08e4af1539977074b0b6cade5f2bf4ce0",
+    "smoke_event_join_ui.py": "04d56511fa00fb25c388549add018bff58b31268ff8aead5ee0c0d9bb82ee0c8",
+    "smoke_ui.py": "02f645631aa3ec9fcff95835d9795b6035a0ec9d5697745642b31e833878f215",
+    "EVENT_JOIN_PANEL.md": "68294c44df9b48f8886b3c4be11604988472faced732264c888d9ae8a975033c",
+    "EVENT_JOIN.md": "5135646617d22de438c40fecb6c639ca8306d165a5179c740ea7a77ca66df2fd",
+    "EVENT_PACKETS.md": "eb052f195eeca8f04006243e5ca3857928aa515d5d05d1c74e2acf6e19ba085b"
+  },
+  "source_audits": {
+    "FarmexBot_etkinlik_katilim_kaniti.json": "591195b72aa6752155e6aca2fa75c09d959595f11308b695dc021b679dae652f",
+    "FarmexBot_etkinlik_kuyruk_bagi_kaniti.json": "ef80fb6611bc8157c0f9220cd54c2dfdb58258ee207ed4e0cd3af458dd4eba30",
+    "FarmexBot_canli_surec_etkinlik_20261021.json": "d982e4fb5ae8e2b5ea25ee3230311b15d083cae40a0f736e3e5c996a5cdd8581"
+  },
+  "additional_logs": {
+    "work\\event_join_panel_full_ui.log": "90b6d9bc39171f3dd04b18b7d0ada13f8b0cc413e868f46c19d4c7d79a9731e1",
+    "work\\event_join_panel_ui_targeted.log": "d101c1ce28bc62c5fc5a41d5026579c60a485aadd569ec809d894fe0aaac09ce"
+  },
+  "audit_sha256": "c6225113b337b0e60db659d3f1fbf0f0d533b94fea7162037e50b669a5dee2fc",
+  "test_log_sha256": "bfcec20c6b71c9598c478caca9495f2aa9616c0bfc9baa22c9c021aa5e7048cf"
+}

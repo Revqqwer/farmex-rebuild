@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T17:00:15.685543+00:00",
+  "full_tests": 2630,
+  "full_test_seconds": 6.496,
+  "new_tests": 11,
+  "source_instruction_records_reverified": 84,
+  "API_only": true,
+  "exact_three_byte_payloads": true,
+  "lazy_reply_after_reached_action": true,
+  "own_enqueue_and_parent_return_and_cleanup_separate": true,
+  "consumed_prefix_cached_without_duplicate": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "party_replies.py": "47e2174e5659eeb323a312838164483b7b81d94e81776a5134e4bf3d94abf155",
+    "party_invitation_frame.py": "c46c0ed4888d6560a7ebbaf77eeefde7a53743ecb3e5e60f995b40d1e3689100",
+    "party_invitation.py": "b649c999ea4123f75a2c87df91c3f8ddf8d45b6277a0c73ae15fa0640a5cf3df",
+    "test_party_replies.py": "586d5eef2bc0d95114d027efb75dc9c47c7fc21625e401af989a6093f0625f7e"
+  }
+}

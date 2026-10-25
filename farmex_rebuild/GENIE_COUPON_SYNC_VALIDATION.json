@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T23:59:17.711228+00:00",
+  "full_tests": 3822,
+  "full_test_seconds": 12.861,
+  "new_tests": 11,
+  "instruction_records_verified": 2582,
+  "scoped_models": 171,
+  "new_scoped_functions": [],
+  "expanded_scope": "004576ec",
+  "ui_changed": false,
+  "ui_retested": false,
+  "retained_ui_controls": 1037,
+  "retained_ui_forms": 11,
+  "retained_ui_tabs": 18,
+  "owned_native_cases": 12,
+  "owned_original_instruction_execution_verified": true,
+  "source_files": {
+    "genie_coupon_sync.py": "b3df19881980e002b14cab4556cd78638346d37c91045323aa3a05cc9cae9df4",
+    "test_genie_coupon_sync.py": "2944e912c0db1825816f93dc8265d4b21162625ac3dcc191deaa9f39578f1264",
+    "genie_settings.py": "fd22fe1898b9b8d63e9451839c428e9d310b17d9795f6eee87ee23d8373e1247",
+    "jail_preload.py": "a265ebd4651563f69691f17def949a8cad50d6cb9a9a6e4200aa3e1b6b298b2d",
+    "jail_protection.py": "818a9476bb1a7667ed0bb1dac5e38db66d31094f64d9b0b7d949b4d2992fc74f",
+    "GENIE_COUPON_SYNC.md": "0a8cf84480362881aae6775b9e30d4899f6b8b8c9e8d0e454a4b361fd327d5f8",
+    "GUARDED_SCALAR_NATIVE.md": "c5e8d0fd961922a76e45c4ee7eea2a41e948f2e0b29b8e77da3aefc542c1ced4",
+    "native/guarded_scalar_fixture.c": "8dfad975f7fd1c5bf306c89377e2d508876c6d6a0b9b04b2b0531690eb82a1d8",
+    "native/build_guarded_scalar_fixture.ps1": "f4edc0f310c2b6ef8235b0d5af4e13ff446d9aa1326c24cb0ac9d8376c77943a",
+    "native/guarded_scalar_templates.h": "4e3339848b1d2e5a2f0084c41e99747ad3360202cedf850972c6c9ccd15f4af4"
+  },
+  "source_audits": {
+    "REA_DC_kontrol_ayar_uretici_20261023.json": "708b97622d171aa93fcc9c2a3cde0c43d4e577e3f5f3b8144aabea17c60d3c57",
+    "FarmexBot_guarded_scalar_template_kaniti.json": "6721cc339f62ce8ba4adc024f9f031e9059532b06ba14aa9646b4ad08e205326",
+    "FarmexBot_canli_metadata_20261022_235700_128397.json": "d2b8963d9962d52384eac56dae9e2f69e08152a71b8f2296d9fccb8b750b61c3",
+    "FarmexBot_fonksiyon_takibi.json": "67ceafead4502d9754cfaeee974e1d126c16cb691f7092eb2efcba62d5a1a594"
+  },
+  "audit_sha256": "71299b5a5f8890979519d8b4469d4b73936bd2dca9068b92864dccd95cd2a78a",
+  "test_log_sha256": "567fc47ae3a7c4fb9fbbd066aa3fa57290815694f0a6b914b58c01b09f078a9a",
+  "additional_logs": {
+    "work/genie_settings_panel_full_ui.log": "73a4ec1d85cac20fb44cdfaf4663be8af5f93b07d0e86994101441f443b9412a",
+    "work/genie_settings_ui_targeted.log": "b0a026dda7b7c52238ca9e5caa5ddd2a0d4eb8fb6efa5bcf64c646d3f3c1a5cc",
+    "work/native_guarded_scalar_fixture/run.log": "5b99a934d77ca6e54d50ecb604fa3bacac0a8472085352936caf80ac1902ab5e"
+  },
+  "new_live_checks_performed": true,
+  "live_check_type": "identity_and_access_metadata_only",
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T17:34:53.061724+00:00",
+  "full_tests": 2924,
+  "full_test_seconds": 7.483,
+  "new_tests": 8,
+  "new_binary_audit": false,
+  "instruction_records_verified": 1844,
+  "instruction_records_note": "Reused producer/published-field audit; not new binary coverage.",
+  "actual_panel_fields_bound": 18,
+  "request_cases_checked": 9,
+  "compiler_input_controls": 289,
+  "editable_paths_outside_inventory": 233,
+  "fresh_panel_snapshot": true,
+  "consumed_prefix_retained": true,
+  "example_preserves_panel": true,
+  "stale_result_cleared": true,
+  "hidden_UI_passed": true,
+  "ui_controls": 1037,
+  "ui_forms": 11,
+  "ui_main_tabs": 18,
+  "ui_changed": true,
+  "ui_retested": true,
+  "native_C_changed": false,
+  "producer_only": true,
+  "consumer_session_UI_bound": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "chat_skills_trial.py": "ca2f614281218db49893e2c661a5ca844dd7db1ce58d8a4b0553cac999526fcf",
+    "test_chat_skills_trial.py": "2a5e132be34af567a3bd5f2ea4f6dbf5b61bbba344ef5685f8cd4939debbfc05",
+    "smoke_chat_skills_ui.py": "a4ce2f5e8e9c52a113d9cd0126d40baf3da5951228aa084a9f0c4268e513ea60",
+    "simulation_ui.py": "4a2036c4a1697a142aa67728e17ece19a39fce92e493a925ee57e86995d5314e",
+    "smoke_ui.py": "e1a69f58bde282bde9704594299c97b8af55e1f3ba2442e5c0e8bfed579b2b5c",
+    "chat_skill_requests.py": "eaa17310827c419845da575e05a7e088a7639976fd6981be51329da1b3d9ca21"
+  },
+  "audit_sha256": "223a07ce78890030151374d0997c3f3912462e050d6c69c977d0a80baf5c4c79",
+  "test_log_sha256": "0427b29990883151746ae223297860169760c065a2bc8af6b07c449d74af2da2",
+  "additional_logs": {
+    "work/chat_skills_ui_smoke.log": "7b8dad32da142ca051660e886e4883e567940481301b8ae144c7c770a7023fcf"
+  }
+}

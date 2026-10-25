@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T15:54:34.050629+00:00",
+  "full_tests": 3293,
+  "full_test_seconds": 7.8,
+  "new_tests": 13,
+  "instruction_records_verified": 1274,
+  "modeled_tail_records_both_versions": 242,
+  "callback_instruction_partitions": [
+    224,
+    44,
+    121
+  ],
+  "retained_REA_analyses": 2,
+  "scoped_models": 133,
+  "ui_changed": false,
+  "ui_retested": false,
+  "UI_callback_bound": false,
+  "explicit_fresh_early_tail_queue_required": true,
+  "whole_callback_verified": false,
+  "callback_ABI_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "callback_tail.py": "8fc97a9bb9cf775088441d6645a4a3db54739013a95cb35a904d5e7055296c91",
+    "source_callback.py": "4ad8b3f65b3fe9d6b31c34e471df173288afa1dd1db4e6c75e201269c7e003b2",
+    "test_callback_tail.py": "3676f6f6f1b1353ced96457ed7dd1d13b913c62d6dbc22ffce72e6925a5e81ec",
+    "main_worker.py": "e0addda835a2544d84d9771861d7ad30536c4028f44dbba32b67afd9806d74ee",
+    "callback_prequeue.py": "cca801e74dd902b17573ae30e8dadf61cc5a279aa08f51abbbffa48b2497d17f",
+    "event_callback.py": "fc0a25e34150b92a5421139216e7f83ec78c544bac1a2e265ba5644c05937231",
+    "CALLBACK_TAIL.md": "a990698c1638c0b5d0c0303d65e7ef981c9b126bd0efcf4de705c5ca8da66eb9"
+  },
+  "source_audits": {
+    "REA_callback_etkinlik_onkosul_20261021.json": "948055d88ece5ded032047267f5d9f9a10aaa8034a26692df7922a83854ef0b1",
+    "REA_ana_worker_MS_cagri_20261021.json": "755e5b345c6d35a6ef3a99ab48b0a0bf4eaed425780090059c9e7c18de6f09d4"
+  },
+  "audit_sha256": "2af8e4e82d6e008849d1bd714c4101040d8da41f9e67045a9c703202e02d3017",
+  "test_log_sha256": "00dd20e40df843cca165e0530488a78acf4a311ddb1030216ff07e173cc83bf6"
+}

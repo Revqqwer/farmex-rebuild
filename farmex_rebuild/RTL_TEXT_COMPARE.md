@@ -1,0 +1,15 @@
+# Merchant metin karşılaştırmaları — pinned RTL ve yerel Windows politikası
+
+`rtl_text_compare.py`, RTL SHA7d98acb8... içindeki `CompareText` gövdesinin iyi biçimlenmiş, değişmez ve sıfır sonlandırılmış UTF16 değer modeli ile `AnsiCompareText` için açık yerel Windows NLS çağrı politikasını sağlar. Merchant API'sinde `use_owned_text_model=True` seçeneğiyle kullanılabilir; varsayılan captured-observation sözleşmesi korunur. Açık native karşılaştırma sonucu verilirse o sonuç önceliklidir.
+
+`CompareText` yalnız ASCII a..z harflerini A..Z'ye katlar. Genel Unicode casefold kullanılmaz: `ö`–`Ö` sonucu32, `ş`–`Ş` sonucu1, `İ`–`i` sonucu231'dir. Kaynak her turda DWORD, yani iki UTF16 birimi okur. Minimum uzunluk tekse kısa string'in sonlandırıcısı ile uzun string'in sonraki birimi de karşılaşır. Bu yüzden `a`–`aa` sonucu-65, `ab`–`abc` sonucu-1, `abc`–`abcd` sonucu-68 olur. Embedded NUL uzunluk sınırı yerine kullanılmaz. Nil/boş ve surrogate birimleri ayrıca korunur. Mutable/native header, alias ve heap sözleşmesi bu modelle kanıtlanmaz.
+
+`AnsiCompareText`, kaynakta `CompareStringW(0x400,1,...,explicitUTF16Lengths)-2` kullanır. Yerel politika aynı API ve parametreleri kendi Python sürecinde çağırır; locale seçmez veya değiştirmez. Kaynak gibi API hata sıfırı için de -2 sonucu korunur. Gerçek oyun runtime'ının/NLS durumunun aynı olduğu iddia edilmez. Gözlenen test ortamı ACP1254, thread/user LCID1055'tir.
+
+Yeni kendi x86 fixture'ı, pinlenmiş standart RTL'yi kendi sürecinde yükleyip Initialize eder. Her vaka ayrı süreçtedir; oyun PID'si veya bot modülü kullanılmaz. CompareText25, AnsiCompareText25 ve StrToInt27 olmak üzere77 vaka çalıştı:63 normal dönüşte stack dengesi korundu,14 geçersiz sayı vakasında ilk Delphi0x0eedfade istisnası kaydedilip kendi süreç kapatıldı. Bot CRT catch/unwind yürütülmedi. Native sayısal ölçümler StrToInt32'nin yüksek unsigned decimal ve hex ayrımını gösterir; genel StrToInt32 algoritması henüz uygulanmadı.
+
+Kayıtlı50 metin native sonucu, kendi pinned model ve yerel Windows politikasıyla yeniden karşılaştırıldı:0 fark. Pinned iki RTL gövdesinde105 talimat ve CompareStringW importu/parametreleri diskten denetlendi. Son konsol özetinde CP1254 yazdırma hatası oluştu; native77 vakası ve rapor yazımı tamamlanmıştı. Konsol escaping düzeltildi, mevcut trace bağımsız doğrulandı; hata yüzünden native çağrılar tekrar edilmedi. Bu ayrım trace doğrulama raporunda saklıdır.
+
+7 yeni Python testiyle toplam4176 test geçti (`work/rtl_text_compare_full_tests.log`). Native kanıtlar: `FarmexBot_RTL_merchant_karsilastirma_native_kaniti.json`, `FarmexBot_RTL_merchant_native_iz_dogrulamasi.json`, `FarmexBot_RTL_metin_model_karsilastirma_kaniti.json`. Bunlar REA Evidence olarak sunulmaz; yeni başarılı REA analizi yoktur. Sonuçlar finite kendi girdileri ve gözlenen ortam içindir; bütün Unicode/locale/native heap durumlarının sertifikası değildir.
+
+Gerçek VCL sıralama sonucu, native bot callback'i ve oyun ABI'si doğrulanmadı. Yeni politika henüz gerçek Merchant paneline bağlı değildir. Çalışma adayı değişti; son kaynak ZIP4159 testli doğrulanmış sürüm olarak korunuyor.

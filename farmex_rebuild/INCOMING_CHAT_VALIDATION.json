@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T16:08:25.846933+00:00",
+  "full_tests": 2796,
+  "full_test_seconds": 6.93,
+  "new_tests": 12,
+  "instruction_records_verified": 476,
+  "positional_checkbox_mapping": true,
+  "whole_handler_before_filter": true,
+  "channel7_exception": true,
+  "fresh_channel_samples": true,
+  "clan_WORD_and_guarded_BYTE_separate": true,
+  "filter_only_low_AL": true,
+  "consumed_prefix_retained": true,
+  "whole_handler_return_opaque": true,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "compiler_input_controls": 271,
+  "editable_paths_outside_inventory": 251,
+  "known_incoming_chat_API_only": 1,
+  "native_execution_verified": false,
+  "packet_delivery_effect_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "incoming_chat.py": "dd96d698a53aa8c6fd2357eb7a3cc6a1ddf4608e0ac9d8bf691a6968eaa53952",
+    "test_incoming_chat.py": "47f508df6c49c7852f3fb5b8e3980d7ec7d1f9765aec420344f3dc09f778e68c"
+  },
+  "audit_sha256": "c842969a8f3f04d8caa0d177447ad46b6e4dad42902ab9af6d0fe60f471f94ac",
+  "test_log_sha256": "a4d80cac3a902d1068f9b586dd14c73b5b5a3befc06968a0ee335934ef9404b3"
+}

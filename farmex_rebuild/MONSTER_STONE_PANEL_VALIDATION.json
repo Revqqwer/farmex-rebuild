@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T09:38:56.867939+00:00",
+  "full_tests": 3119,
+  "full_test_seconds": 8.546,
+  "new_tests": 7,
+  "instruction_records_verified": 1298,
+  "binary_evidence_reused": true,
+  "new_binary_coverage": false,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "compiler_controls": 293,
+  "main_tab_compiler_controls": 290,
+  "editable_paths_outside_inventory": 229,
+  "panel_controls_bound": 4,
+  "source_disabled_all_mob_preserved": true,
+  "profile_roundtrip_verified": true,
+  "derived_WallHack_own_UI_only": true,
+  "separate_activation_returns": true,
+  "reached_only_JSON": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "main_worker_executed": false,
+  "game_actions": 0,
+  "source_files": {
+    "monster_stone_trial.py": "0677908aed781fef0862a540f1259916840b40f92ca2bd19be55d4d9af48a031",
+    "test_monster_stone_trial.py": "251849121b0eee671bda4d392cf8cc9ed0e329fb5b2ff96f104b0b8429c4355e",
+    "smoke_monster_stone_ui.py": "0fad6e6db75f60550120074d7e6f2adbbfa7f2b3d5e24f61efd53a4134ebc5dd",
+    "smoke_ui.py": "4f1f8532c9b86062bb517a36dc4c218108e56364d36fa8940ced9492f677ad14",
+    "simulation_ui.py": "fceab1e5eb074d57ffe8e63cfa6a7d97cb1413eebc1cbdcf8812ceca288b66b4",
+    "monster_stone.py": "8430f90370b3568c2758841c98d7d551985f7d7bbf455791f45d9a17ac4e2db0",
+    "profiles.py": "048752d3f82dc541b0e43b4a5e3cec9ace873419bb5cde919882c603b0ccec44",
+    "panel_ui.py": "c80154151d66ee6f8460aa5993fcd4880cf80e08428247ee0cb07b5b92f40c0b"
+  },
+  "source_audits": {
+    "FarmexBot_MS_panel_bag_kaniti.json": "5e0c3d0270defa12b013eeb9839fa2e6b6d450cb1ff24f8779c86e438f8309cc",
+    "FarmexBot_MS_ayar_etkinlestirme_kaniti.json": "645e733393dfb4b7828aaf2dd8d2bf673df0e5bb8659162400dff2953d6ac2ee"
+  },
+  "additional_logs": {
+    "work\\ms_panel_full_ui.log": "37784b63a36f387c0e31fc56adb028210a9aada5d377ff1b95909e202101add4",
+    "work\\ms_panel_ui_targeted.log": "273cefdf5a67728a238f59108b4f7077f98748c01094d8221e514cea025bc0ef"
+  },
+  "audit_sha256": "5e0c3d0270defa12b013eeb9839fa2e6b6d450cb1ff24f8779c86e438f8309cc",
+  "test_log_sha256": "9901ec677c80da2636e64d1d9b1f7a5fd6c637ce074770476b27f071f6c7a286"
+}

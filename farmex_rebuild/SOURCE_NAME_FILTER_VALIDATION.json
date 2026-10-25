@@ -1,0 +1,15 @@
+{
+  "verification_status": "passed",
+  "date": "2026-10-18",
+  "full_unit_tests": 2276,
+  "full_unit_seconds": 8.069,
+  "focused_tests": 70,
+  "new_tests": 18,
+  "disk_instruction_records": 446,
+  "ui_code_changed": false,
+  "ui_smoke_repeated": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "evidence": "FarmexBot_isim_suzgeci_kod_kaniti.json",
+  "limitations": ["List producer and native conversion/RTL/refcount/exception behavior are unverified.", "Own equality policy is optional and does not supply native helper normal returns."]
+}

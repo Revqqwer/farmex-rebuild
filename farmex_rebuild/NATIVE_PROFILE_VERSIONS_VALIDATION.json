@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T17:36:45.121003+00:00",
+  "full_tests": 2687,
+  "full_test_seconds": 6.778,
+  "new_tests": 10,
+  "instruction_records_verified": 1022,
+  "field_stores_verified": 76,
+  "canonical_helper_roles": 9,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "explicit_source_hash_profile_and_kind": true,
+  "legacy_unversioned_API_preserved": true,
+  "current_source_helper_address_separate_from_canonical_role": true,
+  "wrong_source_helper_or_relabel_rejected": true,
+  "game_image_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "native_profile_versions.py": "f14258f0d5976db72fffa76b250ac08d26903a296b6bc5897d627a4470755944",
+    "test_native_profile_versions.py": "d4d73c4bdadf9d2293814bb724c8b471d2b3a65a4652f240da450693ca86193a",
+    "storage_profiles.py": "9f503fd3956992ef1a2697f8ef6c21a02cb9ed311a031c7dfe61bbb349ba121d",
+    "skill_native_plans.py": "2bfc66b0a8291710e4104027fffbbf42a2bb035e7155a8cd86f5a8625524ba62"
+  },
+  "audit_sha256": "9df98cc9989d7053055daed06a26047f320e47b86ae9f79672253e22ff1e1518",
+  "test_log_sha256": "d8bb84d6c6c328f01e464e13fc511b7033ee3605874ee3a3c10bfd83d9341e2d"
+}

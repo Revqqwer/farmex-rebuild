@@ -1,0 +1,15 @@
+# Monster Stone ayar ve etkinleştirme modeli
+
+`monster_stone.py`, kaynak4c4efcayar üreticisi ve4b0448enablecallbacknormal yollarını modeller. Gerçek kontrol yolları `MS_SETTING_INPUTS`ve`MS_ENABLE_INPUT`içindedir. API-onlybağdır; EnginePageveya widgetcallback'ine henüz bağlanmadı.
+
+Ayar üreticisi önce bossradyosunun düşükALsonucunu okur. Nonzeroise modeDWORD0yazar ve ikinci radyoyu okumaz. BossAL0ise all-mobradyosunu okur; nonzeroise mode1yazar. İkisi de0ise mod değişmez; önceki modeverilmemişse yeni değer uydurulmaz. Sonra ayrı alarmgetter'ınınALbaytı context+4'e yazılır. Context56216c, başlangıçta mode0ve context+5BYTE1yazıldığı kaynakta ayrıca doğrulandı; bu başlangıç yazımları her ayar güncellemesinde tekrar varsayılmaz.
+
+Etkinleştirme callback'i561f55kapısını kullanmaz. EnableALnonzeroise form50Calanındaki `chwh`Checkedsetter'ınaDL1hazırlar. Setter normal döndükten sonra561f5cDWORD1, ardından fiziksel pushsırası `(1,561f34)`olan40ae0cçağrısı gelir. UncheckAL0yolu yalnız561f5cDWORD0yazar. Bu callback içinde BotStopveya WallHackkutusunu geri kapatma çağrısı yoktur. Setter'ın tetikleyebileceği iç event/native etkiler opaque normal sınırıdır; modelde gerçek UIveya oyun değişmez.
+
+İsteğe bağlı `bot_start_inputs`, hazır başarı planı yerine typed `BotSwitchObservation`alır. Childdoğrudan sabitcontext/argümanla üretilir. Eksik child, olumlu üst `bot_start`normal receipt'iyle geçilemez. Childtamamlansa da üst helper dönüşü ayrıdır. `MSFrame`tüketilmiş radyo/getter/normalprefix'ini ve generated childframe'ini korur. Setter/enableprojeksiyonu daha sonraki startbeklemesinde görünür; gerçek belleğe uygulanmaz. Childverilmezse eski opaquehelper sınırı korunur; iç başlatma davranışı doğrulanmış sayılmaz.
+
+Dokuz yeni test; radyo önceliği, ikisi de seçili değilken önceki modun korunması, rawAL/BYTEfarkı, alarmgapdevamı, gerçek kontrol yolları, setter→flag→start sırası, uncheck'in sınırlı etkisi ve ayrı child/parentnormal sınırlarını kapsar. Son tam koşu3039testtir. UI değiştirilmedi/yeniden sınanmadı.
+
+Bu aşamada altı gerçek REAfonksiyon raporu kullanıldı: MSproducer, enablecallback, taş kullanımı4c567c, hareket4c54c8, saldırı girişi4c5468ve ana worker46ee14. İlk ikisi önceki REAbağlantı aşamasında alınmış, dördü bu aşamada eklenmiştir. MSdossier'ları güncel snapshotile ve assemblyexport'uyla eşleştirildi. Eski/güncel dokuz gövde ve üç startup yazımı toplam1298mevcut talimat kaydında disk doğrulandı. Yeni ikili envanter kapsamı veya tüm fonksiyon semantik sertifikası değildir.
+
+Ana worker MSstate1ve diğer kapılarda taş kullanımı ve hareketi ayrı taze activebayrağı okumalarıyla çağırır. Saldırı girişi daha sonraki başka kapılardan ve0x51/52/53karşılaştırmalarından sonra çağrılır; aynı getter tekrarlanır, tek sample'a indirgenmemiştir. Taş kullanımı14..41isim taraması, ayrı freshIDve4ca900yardımcısı içerir. Hareket x87/distancegözlemleri gerektirir. Bu dört işleyici burada pasif kaynak kapsamıdır; bağımsız çalışma zincirine henüz eklenmedi. Özellikle bütün dungeon akışı, taş tüketimi, taşıma/gönderim, hareket ve saldırı başarısı tamamlanmış sayılmaz.

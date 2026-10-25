@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T03:34:31.530078+00:00",
+  "full_tests": 2729,
+  "full_test_seconds": 6.949,
+  "new_tests": 12,
+  "instruction_records_verified": 426,
+  "source_helpers": 5,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "queue_prefix_retained": true,
+  "fixed_town_record_and_stub": true,
+  "normal_thread_helper_return_is_callback_proof": false,
+  "native_execution_verified": false,
+  "thread_callback_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "command_helpers.py": "554fc5a1cf04b461448161ed3f2ebe3a9df5bdcc49ac1daaae69a689d1344041",
+    "chat_commands.py": "2c58222f51ef1fad5c44ba9ea336ba307f09d7a9aa7a4afdb17a5c416cb2b236",
+    "test_command_helpers.py": "6d101a312b8df3b58356650498f35f50f5a9dd32ebeb1602e306c8a6f1d7981b",
+    "action_queue.py": "eadf9393a7a1e2b2ed73a6e5392f222ca0c2a0c99ee79547359876b1633206f5"
+  },
+  "audit_sha256": "255a2c846afd725f5fb206c3c65bd87e085fa08aa59979c1b175c68d3fc67dcd",
+  "test_log_sha256": "c2dae0e41327b7c2f3541ee8bfdc8c03756163f31754d484e051d5c0f4df3a95"
+}

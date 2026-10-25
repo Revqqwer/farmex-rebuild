@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T18:58:28.322951+00:00",
+  "full_tests": 3637,
+  "full_test_seconds": 8.527,
+  "full_tests_rerun": false,
+  "full_tests_are_retained_historical_evidence": true,
+  "new_tests": 0,
+  "owned_native_cases_passed": 10,
+  "model_native_agreements": 10,
+  "owned_native_execution_verified": true,
+  "source_shape_bytes": 302,
+  "relocated_operands": 26,
+  "instruction_records_verified": 204,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 4,
+  "scoped_models": 162,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "source_files": {
+    "native/relog_selection_fixture.c": "392ca490d35d78449985deb27e4e97be6865ca1b716d5e8b480445f283e21ac5",
+    "native/relog_selection_templates.h": "b3a3476e86440dfee12915efd246eed313116f6597403bd5b4fc8dfb08579a44",
+    "native/build_relog_selection_fixture.ps1": "85c3068ee50e87130fe5eb335a00d26288c2f1a7915f2af3f5abb46a53fbb5f6",
+    "relog_selection.py": "b62096077e9f4476cccb13e6715ceac4410f550da3858b4176424f54da8d5719",
+    "jail_preload.py": "a265ebd4651563f69691f17def949a8cad50d6cb9a9a6e4200aa3e1b6b298b2d",
+    "jail_protection.py": "818a9476bb1a7667ed0bb1dac5e38db66d31094f64d9b0b7d949b4d2992fc74f",
+    "RELOG_SELECTION_NATIVE.md": "063f77a234e461e1978c3add33a70e965eb3bdc64bbbd65a80cc63ac5b46f466"
+  },
+  "source_audits": {
+    "REA_relog_birinci_secim_20261022.json": "0fe687482b114af8e2e1788c0f2a815e193190bb82545ff897887638056079e1",
+    "REA_relog_ikinci_secim_20261022.json": "c82f71706b52bde7edfca36cc1d62f3ae2deda7137c2dc31bd07fda3cfbf2d9c",
+    "REA_relog_secim_onayi_20261022.json": "f69454a8b11ad8eba14fb7fa67f017358cc18ec5595e278752967a57297ff810",
+    "REA_relog_asama_ilerletme_20261022.json": "6463efa74a3c62c08b81b10993b97330bcf2309ace0b566f1aab63d67395f5e6",
+    "FarmexBot_relog_secim_fixture_sablonlari.json": "dd94a62bb9d198af7180e6b72adbd86fe52c8e7c8d2467ec70806fe3b2c6accb",
+    "FarmexBot_relog_secim_cagrilari_kaniti.json": "5fc8576395b27e47b1807bec4948760313cd4504888d70b8dbe650591b06698a",
+    "FarmexBot_fonksiyon_takibi.json": "170ea39a673bcb0b57fa75576537b9a389cf9023581ee01be334d40abd027a02"
+  },
+  "additional_logs": {
+    "work/native_relog_selection_fixture/run.log": "8826c3355f08a39e95a6018f1d75852bcbf96e382cd5a35ec717c92dab6a043b"
+  },
+  "audit_sha256": "1835c06551d662f772ef4cce653aec0452b90e57b48bff326ea38d74e63cc106",
+  "test_log_sha256": "8225bc7672f73481eed9a6dd2db28b368e759a720155902e6cd5f2836b21f1d7",
+  "executed_outside_tool_sandbox": true,
+  "windows_uac_not_requested": true,
+  "live_work_deferred_by_user": true,
+  "no_live_or_process_checks_performed": true,
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "game_native_execution_verified": false,
+  "live_compatibility_verified": false
+}

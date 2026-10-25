@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "recorded_at_utc": "2026-10-23T14:43:03.079152+00:00",
+  "full_tests": 4159,
+  "full_test_seconds": 14.068,
+  "test_log": {
+    "path": "work\\merchant_item_metadata_full_tests.log",
+    "sha256": "688993e8d672041187faf3196417ef9d6ae136a1b0ff8c270044dd034faac540"
+  },
+  "source_files": {
+    "flood_selected.py": "10b9768d49b4b874bbf5c644f3fcce34212417b648fb32c26d9f628f6ff00ad8",
+    "test_flood_selected.py": "6edfb3ec9cc543b5a63ca897bf3b852ec1872a8c8a67cebb11aa44d9fecc1eb8",
+    "flood_runtime.py": "1ff40f18e6a8e5202fe29a0e5d1a74f2a8df9085e796ec76fbb459641d20b28f",
+    "panel_ui.py": "dabe66d51ede1f20d5c1c1ac8e2411a808f8328694fb231328ec44842fdab65d",
+    "smoke_flood_selected.py": "19db9c77322cf1702d3affe70091a10c02af6ce1437aabd83a4baf537fb97c43",
+    "smoke_flood_editor.py": "1ca25390874986d4563d973801eb2aff873644e1fd00023b52247d6f6159cf47",
+    "smoke_ui.py": "1ce89f75f99c770a92c6092e770cc7870ed4ad4420b1979cac1c34e77a66d206",
+    "FLOOD_SELECTED.md": "fbd85d84cfaff39296d9ecc43b64bfa77b1024f450e4beb4014e930809ac3984"
+  },
+  "static_audit": {
+    "path": "outputs/FarmexBot_flood_secileni_yaz_kaniti.json",
+    "sha256": "91cba470f43e005946046185dec4957c7e3162569445296e73e11fa048fcaf0c"
+  },
+  "ui_validation_status": "passed",
+  "approval_failure": "Automatic approval review could not be completed due to usage limit; rejected action was not executed. No alternate execution route attempted.",
+  "preserved_release": {
+    "path": "outputs\\Farmex_yeniden_yapim_kod.zip",
+    "sha256": "c534f89fe9357692660c596500a12c83a3d7100e067656bc1f6060b2cef8bbca",
+    "full_tests": 4081
+  },
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "verified_at_utc": "2026-10-23T15:29:37.202841+00:00",
+  "full_ui": {
+    "controls": 1037,
+    "forms": 11,
+    "tabs": 18,
+    "log": "work\\merchant_metadata_full_ui.log",
+    "sha256": "1518315b2d19600a46f177473c3adaa39a219b126c2bc3ac3eb24ba579f70523"
+  },
+  "approval_failure_resolved": "Same normal approval mechanism accepted retry after advertised reset time; action executed and GUI passed."
+}

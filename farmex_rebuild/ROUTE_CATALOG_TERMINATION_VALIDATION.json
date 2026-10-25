@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-18T20:20:14.064536+00:00",
+  "new_tests": 6,
+  "full_tests": 2446,
+  "full_test_seconds": 8.655,
+  "full_hidden_ui_passed": true,
+  "focused_termination_ui_passed": true,
+  "dynamic_combo_count": 10,
+  "source_instruction_records_reverified": 1196,
+  "compiler_input_controls": 244,
+  "source_files": {
+    "route_catalog.py": "cad8f42595445b69725fa30cf3c6a1d1ac1c49702df3c5ec7a3830f9b0f1bc79",
+    "panel_ui.py": "c80154151d66ee6f8460aa5993fcd4880cf80e08428247ee0cb07b5b92f40c0b",
+    "test_route_catalog_termination.py": "0320fef6cdcc0908f6819b6471b2305f1f4cb89fffe1e7f3894b0669f1f7e65c",
+    "test_route_profile_choices.py": "ed54ec5572e1f33d93f2ddef88d093192af81eaa3de7019d03cb08f6c55855ed",
+    "smoke_route_catalog.py": "4e7ba79386a60d2af28ea9ccbd283b3c17aaf937b675877378c5d5b6d8a057b6"
+  },
+  "open_error_policy": "Clear to placeholder; display complete, enumeration unverified",
+  "read_error_policy": "Current matching prefix only; display complete, enumeration unverified",
+  "codec_budget_policy": "Unresolved local limit/conversion, no source termination inferred",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

@@ -1,0 +1,1757 @@
+{
+  "kind": "scoped_UI_compiler_gaps_not_unimplemented_feature_count",
+  "editable_paths_outside_inventory": 144,
+  "source_disabled_paths_outside_inventory": 47,
+  "source_eventless_paths_outside_inventory": 62,
+  "known_follow_API_only": 0,
+  "rows": [
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupSH/chsh",
+      "control_class": "TCheckBox",
+      "caption": "Aktif",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupSH/chsh"
+      ],
+      "source_events": {
+        "OnClick": "chshClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupSH/rdswift",
+      "control_class": "TRadioButton",
+      "caption": "Swift",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupSH/rdswift"
+      ],
+      "source_events": {
+        "OnClick": "rdswiftClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupSH/rdlightfeet",
+      "control_class": "TRadioButton",
+      "caption": "Light Feet",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupSH/rdlightfeet"
+      ],
+      "source_events": {
+        "OnClick": "rdlightfeetClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupSH/rdcustomsh",
+      "control_class": "TRadioButton",
+      "caption": "Özel Hız",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupSH/rdcustomsh"
+      ],
+      "source_events": {
+        "OnClick": "rdcustomshClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupSH/sbSpeedHack",
+      "control_class": "TScrollBar",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "sbSpeedHackChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox12/rdFollowManuelNick",
+      "control_class": "TRadioButton",
+      "caption": "Belirtilien Nick",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdFollowManuelNickClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox11/txtGoXKord",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox11/txtGoYKord",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chwh",
+      "control_class": "TCheckBox",
+      "caption": "Wall Hack",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chwhClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chcharsabitle",
+      "control_class": "TCheckBox",
+      "caption": "Char Sabitle",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chcharsabitleClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chTBLNoCastingFailed",
+      "control_class": "TCheckBox",
+      "caption": "Anti Casting Failed",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chTBLNoCastingFailedClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chHideUsers",
+      "control_class": "TCheckBox",
+      "caption": "Userleri Gizle",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chHideUsersClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chFreeGenie",
+      "control_class": "TCheckBox",
+      "caption": "Free Genie",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chFreeGenieClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chPartyBlock",
+      "control_class": "TCheckBox",
+      "caption": "Party Block",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chPartyBlockClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chCombatBlock",
+      "control_class": "TCheckBox",
+      "caption": "Combat Block",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupBox48/chCombatBlock"
+      ],
+      "source_events": {
+        "OnClick": "chCombatBlockClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chTradeBlock",
+      "control_class": "TCheckBox",
+      "caption": "Trade Block",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chTradeBlockClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chHideMyNT",
+      "control_class": "TCheckBox",
+      "caption": "Kendi Irkını Gizle",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupBox48/chHideMyNT"
+      ],
+      "source_events": {
+        "OnClick": "chHideMyNTClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chHideObject",
+      "control_class": "TCheckBox",
+      "caption": "Objeleri Gizle",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupBox48/chHideObject"
+      ],
+      "source_events": {
+        "OnClick": "chHideObjectClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chClanBlock",
+      "control_class": "TCheckBox",
+      "caption": "Clan Block",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetGenel/GroupBox48/chClanBlock"
+      ],
+      "source_events": {
+        "OnClick": "chClanBlockClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox48/chHideMerchantPre",
+      "control_class": "TCheckBox",
+      "caption": "Merchant Önizlemeleri Gizle",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chHideMerchantPreClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/LwChatBlock",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "LwChatBlockClick"
+      },
+      "scope": "known_incoming_chat_API_only",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/AutoScrollList",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "AutoScrollListClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox3/cmbPusHelmets",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox3/cmbPusPauldrons",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox3/cmbPusPathos1",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox3/cmbPusPathos2",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetGenel/GroupBox3/cmbPusWings",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox5/chcounteratak",
+      "control_class": "TCheckBox",
+      "caption": "Bana Saldırana Saldır",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chcounteratakClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox5/CheckBox29",
+      "control_class": "TCheckBox",
+      "caption": "Obje Varsa Mob Degistir",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetBot/GroupBox5/CheckBox29"
+      ],
+      "source_events": {
+        "OnClick": "CheckBox29Click"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox5/CheckBox28",
+      "control_class": "TCheckBox",
+      "caption": "Hedefi Büyüt :",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetBot/GroupBox5/CheckBox28"
+      ],
+      "source_events": {
+        "OnClick": "CheckBox28Click"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox5/Edit19",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetBot/GroupBox5/Edit19"
+      ],
+      "source_events": {
+        "OnChange": "Edit19Change"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox6/txtaddmob",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/grpSlotSetting/rdMerkezBotStart",
+      "control_class": "TRadioButton",
+      "caption": "Bot Baslattıgım Koordinat",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdMerkezBotStartClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/grpSlotSetting/rdMerkezManuel",
+      "control_class": "TRadioButton",
+      "caption": "Manuel Slot Merkezi :",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdMerkezManuelClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/grpSlotSetting/lblmerkezx",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetBot/grpSlotSetting/lblmerkezx"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/grpSlotSetting/lblmerkezy",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetBot/grpSlotSetting/lblmerkezy"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/grpSlotSetting/chrandommerkezmob",
+      "control_class": "TCheckBox",
+      "caption": "Slot Merkezini Rasgele Degistir Yarıçap :",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chrandommerkezmobClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/grpSlotSetting/txtrandommerkezmob",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtrandommerkezmobChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/grpSlotSetting/chmagetpmerkez",
+      "control_class": "TCheckBox",
+      "caption": "TP Oldugum Koordinatı Merkez Al",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chmagetpmerkezClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox7/RadioButton13",
+      "control_class": "TRadioButton",
+      "caption": "Etrafindan Dolas",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetBot/GroupBox7/RadioButton13"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox7/RadioButton15",
+      "control_class": "TRadioButton",
+      "caption": "Normal",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox34/rdUseNormalSkill",
+      "control_class": "TRadioButton",
+      "caption": "Skilleri Normal Kullan",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdUseNormalSkillClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/chPetAutoFood",
+      "control_class": "TCheckBox",
+      "caption": "Pet ' i Otomatik Besle % ",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chPetAutoFoodClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/chAutoPetCall",
+      "control_class": "TCheckBox",
+      "caption": "Otomatik Pet Cıkart",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chAutoPetCallClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/txtPetAutoFood",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtPetAutoFoodChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetLootMode",
+      "control_class": "TRadioButton",
+      "caption": "Loot Mod",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdPetLootModeClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetGuardMode",
+      "control_class": "TRadioButton",
+      "caption": "Guard Mod",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdPetGuardModeClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox18/rdPetAtackMode",
+      "control_class": "TRadioButton",
+      "caption": "Saldırı Modu",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdPetAtackModeClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetBot/GroupBox33/chkorddolas",
+      "control_class": "TCheckBox",
+      "caption": "Koordinat Listesini Gez",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chkorddolasClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetJob/pnlRogue/GroupBox37/chDisableMinorCD",
+      "control_class": "TCheckBox",
+      "caption": "Minor Bekleme Kaldır ( TBL - Legal )",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chDisableMinorCDClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetJob/pnlRogue/GroupBox37/CheckBox17",
+      "control_class": "TCheckBox",
+      "caption": "Party'e Minor Healing %",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetJob/pnlRogue/GroupBox37/CheckBox17"
+      ],
+      "source_events": {
+        "OnClick": "CheckBox17Click"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetJob/pnlRogue/GroupBox37/Edit5",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetJob/pnlRogue/GroupBox37/Edit5"
+      ],
+      "source_events": {
+        "OnChange": "Edit5Change"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetJob/pnlKurian/PCKurianPorutu/TabSheet11/LwKurianDefence",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "LwKurianDefenceClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetJob/pnlKurian/PCKurianPorutu/TabSheet13/LwKurianMaster",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "LwKurianMasterClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetItem/GroupBox10/chOread",
+      "control_class": "TCheckBox",
+      "caption": "Oreads Peri  (Sadece sizde görünür)",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chOreadClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetItem/txtLootItemSearch",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtLootItemSearchChange",
+        "OnEnter": "txtLootItemSearchEnter",
+        "OnExit": "txtLootItemSearchExit"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetItem/rdLootListItemsAll",
+      "control_class": "TRadioButton",
+      "caption": "Tüm Itemler",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdLootListItemsAllClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetItem/rdLootListItemsInv",
+      "control_class": "TRadioButton",
+      "caption": "Inventory",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdLootListItemsInvClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetTedarik/GroupBox17/cmbaddbuylist",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetTedarik/GroupBox17/txtbuycount",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetTedarik/GroupBox31/rdgeniehammer",
+      "control_class": "TRadioButton",
+      "caption": "Genie Hammer",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdgeniehammerClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetTedarik/GroupBox31/WeaponList",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "WeaponListClick",
+        "OnCompare": "WeaponListCompare"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chDCControlWaitSecond",
+      "control_class": "TCheckBox",
+      "caption": "Bekle (sn) :",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetKontrol/GroupBox32/chDCControlWaitSecond"
+      ],
+      "source_events": {
+        "OnClick": "chDCControlWaitSecondClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chRelogAfterUseManuelRoute",
+      "control_class": "TCheckBox",
+      "caption": "Manuel Rota :",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetKontrol/GroupBox32/chRelogAfterUseManuelRoute"
+      ],
+      "source_events": {
+        "OnClick": "chRelogAfterUseManuelRouteClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox41/chPrisonAlarm",
+      "control_class": "TCheckBox",
+      "caption": "Karakter Hapise Girerse",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox41/chAnyPMAlarm",
+      "control_class": "TCheckBox",
+      "caption": "PM Gelirse Alarm",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chAnyPMAlarmClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox28/chReturnManuelRoute",
+      "control_class": "TCheckBox",
+      "caption": "Manuel Rota Kullan :",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetKontrol/GroupBox28/chReturnManuelRoute"
+      ],
+      "source_events": {
+        "OnClick": "chReturnManuelRouteClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox28/chDeadShutdown",
+      "control_class": "TCheckBox",
+      "caption": "Bilgisayarı Kapat",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chDeadShutdownClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/grpCaptcha/chCapcthaAlarm",
+      "control_class": "TCheckBox",
+      "caption": "Alarm Çal",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chCapcthaAlarmClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/grpCaptcha/chCaptchaTown",
+      "control_class": "TCheckBox",
+      "caption": "Town At",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chCaptchaTownClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/grpCaptcha/chCaptchaScRemove",
+      "control_class": "TCheckBox",
+      "caption": "Captcha Defence Scroll Oto Sil",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chCaptchaScRemoveClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/grpCaptcha/chCaptchaBotStop",
+      "control_class": "TCheckBox",
+      "caption": "Bot Durdur",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chCaptchaBotStopClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/grpCaptcha/chCaptchaNewWindow",
+      "control_class": "TCheckBox",
+      "caption": "Captcha ' yı Oyun Dısında Pencerede Ac",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chCaptchaNewWindowClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/grpGenie/chGenieStartStopNoMob",
+      "control_class": "TCheckBox",
+      "caption": "               sn Mob Secilmez ise Genie Durdur Baslat",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chGenieStartStopNoMobClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetKontrol/grpGenie/txtGenieStartStopNoMob",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtGenieStartStopNoMobChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetDiger/GroupBox30/GroupBox42/txtaddpartylist",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetDiger/GroupBox30/rdListPartyAccept",
+      "control_class": "TRadioButton",
+      "caption": "Sadece Listedekileri Kabul Et",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "rdListPartyAcceptClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetDiger/grpAutoSkillStat/txtAddStat",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetDiger/grpAutoSkillStat/cmbAddStat",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetDiger/grpAutoSkillStat/txtAddSkill",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetDiger/grpAutoSkillStat/cmbAddSkill",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox60/GroupBox52/RadioButton1",
+      "control_class": "TRadioButton",
+      "caption": "Direkt Git",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox60/GroupBox52/RadioButton4",
+      "control_class": "TRadioButton",
+      "caption": "Rotalı Git ( Yakında ! )",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox60/GroupBox52/RadioButton4"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox1",
+      "control_class": "TCheckBox",
+      "caption": "Draki Tower Modu Aktif",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox1"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/RadioButton5",
+      "control_class": "TRadioButton",
+      "caption": "Manuel Kat No :",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/RadioButton5"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/Edit1",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/Edit1"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/RadioButton6",
+      "control_class": "TRadioButton",
+      "caption": "1. Kat",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/RadioButton6"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/RadioButton9",
+      "control_class": "TRadioButton",
+      "caption": "Girebildigim En Yuksek Kat",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox63/RadioButton9"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/RadioButton10",
+      "control_class": "TRadioButton",
+      "caption": "Bot'u Durdur",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/RadioButton10"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/RadioButton11",
+      "control_class": "TRadioButton",
+      "caption": "Oyunu Kapat",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/RadioButton11"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/RadioButton12",
+      "control_class": "TRadioButton",
+      "caption": "Rota Uygula :",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/RadioButton12"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/ComboBox7",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/ComboBox7"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/CheckBox2",
+      "control_class": "TCheckBox",
+      "caption": "Alarm Cal",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/GroupBox64/CheckBox2"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox3",
+      "control_class": "TCheckBox",
+      "caption": "Draki Tower ' da Otomatik Kat Cık",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox3"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox4",
+      "control_class": "TCheckBox",
+      "caption": "Otomatik Draki Tower Gir",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox4"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox5",
+      "control_class": "TCheckBox",
+      "caption": "Belirlenen Kata Gelince Draki ' den  Cık :",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/CheckBox5"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMSDraki/GroupBox16/Edit2",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetMSDraki/GroupBox16/Edit2"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox12",
+      "control_class": "TCheckBox",
+      "caption": "Upgrade scroll bitince satın al",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox12"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox13",
+      "control_class": "TCheckBox",
+      "caption": "Otomatik Item Satın Al",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox13"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/RadioButton7",
+      "control_class": "TRadioButton",
+      "caption": "Set Armor        :",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/RadioButton7"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/RadioButton8",
+      "control_class": "TRadioButton",
+      "caption": "Tek Tür Armor :",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/RadioButton8"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/cmbUpgArmorList2",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/cmbUpgArmorList2"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/ComboBox1",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/ComboBox1"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox14",
+      "control_class": "TCheckBox",
+      "caption": "Otomatik Bankaya Koy Upgrade >=",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox14"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/Edit4",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/Edit4"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox15",
+      "control_class": "TCheckBox",
+      "caption": "Upgrade Limitine Ulasınca Relog At",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox15"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox16",
+      "control_class": "TCheckBox",
+      "caption": "Tam Otomatik Upgrade Aktif",
+      "source_disabled_by": [
+        "frmMain/MainTab/SheetUpgrade/GroupBox54",
+        "frmMain/MainTab/SheetUpgrade/GroupBox54/CheckBox16"
+      ],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetUpgrade/GroupBox23/cmbUpgArmorList",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetMaden/GroupBox51/txtMadenX",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtMadenXChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetMaden/GroupBox51/txtMadenY",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtMadenYChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/SheetMaden/LwMadenDrops",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "LwMadenDropsClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox14/rdGem",
+      "control_class": "TRadioButton",
+      "caption": "Gem - Fragment",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetCrash/GroupBox14/rdGem"
+      ],
+      "source_events": {
+        "OnClick": "rdGemClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox14/rdBox",
+      "control_class": "TRadioButton",
+      "caption": "Box - Chest",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetCrash/GroupBox14/rdBox"
+      ],
+      "source_events": {
+        "OnClick": "rdBoxClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox14/rdNarki",
+      "control_class": "TRadioButton",
+      "caption": "Narki Items",
+      "source_disabled_by": [
+        "frmMain/MainTab/sheetCrash/GroupBox14/rdNarki"
+      ],
+      "source_events": {
+        "OnClick": "rdNarkiClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox20/CheckBox6",
+      "control_class": "TCheckBox",
+      "caption": "Bankaya Konulacak Itemleri Kırma ( Narki )",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox20/CheckBox7",
+      "control_class": "TCheckBox",
+      "caption": "Unique Itemleri Kırma ( Narki )",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox20/CheckBox9",
+      "control_class": "TCheckBox",
+      "caption": "Kırdırma Rotası Bitince Tekrarla",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox20/CheckBox10",
+      "control_class": "TCheckBox",
+      "caption": "Kırdırılacak Item Bitince  Alarm Çal",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetCrash/GroupBox20/CheckBox11",
+      "control_class": "TCheckBox",
+      "caption": "Kırdırma Rotası ile Otomatik Kır ",
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox47/cmbMerchantScanGoster",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "cmbMerchantScanGosterChange"
+      },
+      "scope": "known_merchant_results_partial_UI_outside_compiler",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": true
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox47/cmbScanMerchantItemTur",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "cmbScanMerchantItemTurChange"
+      },
+      "scope": "known_merchant_results_partial_UI_outside_compiler",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox47/txtMerchantScanSearchItemName",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtMerchantScanSearchItemNameChange",
+        "OnEnter": "txtMerchantScanSearchItemNameEnter",
+        "OnExit": "txtMerchantScanSearchItemNameExit"
+      },
+      "scope": "known_merchant_results_partial_UI_outside_compiler",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox47/LwMerchantScan",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "LwMerchantScanClick",
+        "OnColumnClick": "LwMerchantScanColumnClick",
+        "OnCompare": "LwMerchantScanCompare"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox58/chScanBuyMerchant",
+      "control_class": "TCheckBox",
+      "caption": "Buy Pazarları Tara",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chScanBuyMerchantClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": true
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox58/chScanSellMerchant",
+      "control_class": "TCheckBox",
+      "caption": "Sell Pazarları Tara",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chScanSellMerchantClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": true
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox58/chMerchantScanAfterSaveTXT",
+      "control_class": "TCheckBox",
+      "caption": "Tarama Bitince Listeyi Masaüstüne Kaydet",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chMerchantScanAfterSaveTXTClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": true
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox15/PazarTaraKordList",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": true
+    },
+    {
+      "path": "frmMain/MainTab/sheetMerchantScan/GroupBox15/chMerchantScanWithRoute",
+      "control_class": "TCheckBox",
+      "caption": "Tararken Rota Kullan",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chMerchantScanWithRouteClick"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": true
+    },
+    {
+      "path": "frmMain/MainTab/sheetFlood/grpFlood/GroupBox49/cmbAddFloodList",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetFlood/grpFlood/GroupBox49/txtAddFloodList",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetFlood/grpFlood/GroupBox49/txtAddFloodingWait",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetSellMerchant/GroupBox22/txtAddSellMCount",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetSellMerchant/GroupBox22/txtAddSellMPrice",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtAddSellMPriceChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetSellMerchant/GroupBox22/txtAddSellItemID",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetSellMerchant/GroupBox22/txtSellMPriceChange",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtSellMPriceChangeChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetBuyMerchant/GroupBox56/txtAddBuyItemID",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetBuyMerchant/GroupBox56/txtAddBuyMCount",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetBuyMerchant/GroupBox56/txtAddBuyMPrice",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtAddBuyMPriceChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetBuyMerchant/GroupBox56/txtBuyMPriceChange",
+      "control_class": "TEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "txtBuyMPriceChangeChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetInfoLog/memInfoLog",
+      "control_class": "TRichEdit",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetInfoLog/chChatInfoLog",
+      "control_class": "TCheckBox",
+      "caption": "Chat Log",
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "chChatInfoLogClick"
+      },
+      "scope": "known_chat_prelude_API_only",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetQuest/cmbQuestNPCList",
+      "control_class": "TComboBox",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnChange": "cmbQuestNPCListChange"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetQuest/LwZoneQuests",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {
+        "OnClick": "LwZoneQuestsClick",
+        "OnCompare": "LwZoneQuestsCompare"
+      },
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    },
+    {
+      "path": "frmMain/MainTab/sheetQuest/GroupBox53/LwQuestDetails",
+      "control_class": "TListView",
+      "caption": null,
+      "source_disabled_by": [],
+      "source_events": {},
+      "scope": "outside_scoped_UI_compiler_inventory",
+      "feature_completion_determined": false,
+      "known_merchant_scan_partial_UI": false
+    }
+  ],
+  "known_transformation_API_only": 0,
+  "known_party_invite_API_only": 0,
+  "known_chat_party_API_only": 0,
+  "known_chat_commands_API_only": 0,
+  "known_chat_prelude_API_only": 1,
+  "known_incoming_chat_API_only": 1,
+  "known_chat_skill_API_only": 0,
+  "known_ms_settings_API_only": 0,
+  "known_ms_enable_API_only": 0,
+  "known_tp_protection_API_only": 0,
+  "known_protection_settings_API_only": 0,
+  "known_disconnect_settings_API_only": 0,
+  "source_hashes": {
+    "outputs\\farmex_rebuild\\ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89",
+    "outputs\\farmex_rebuild\\profiles.py": "048752d3f82dc541b0e43b4a5e3cec9ace873419bb5cde919882c603b0ccec44",
+    "outputs\\farmex_rebuild\\monster_stone.py": "8430f90370b3568c2758841c98d7d551985f7d7bbf455791f45d9a17ac4e2db0",
+    "outputs\\farmex_rebuild\\teleport_protection.py": "0b23ab48e34da13f731a0e775e5c71f608aef8152841d2d851632a02646b960d",
+    "outputs\\farmex_rebuild\\protection_settings.py": "3f4c2421b9b836cbdd611a0022704232181588ba8be17b08ab4ca69a0a34786a",
+    "outputs\\farmex_rebuild\\disconnect_settings.py": "e199596eb1b13087c4d82baebb572f1abd043521b9b86366edfd46195f09d9b7",
+    "outputs\\farmex_rebuild\\disconnect_panel_trial.py": "ae9315ba3e9cf410b0fd677c4ca06e0d2a7c00b04f33f736c04f9f0079081b13",
+    "outputs\\FarmexBot_koruma_ortak_ayar_kaniti.json": "9f1b41a6778480f6812115ad5753117a07c98dc771260c09c383b409ee7f1fa5",
+    "outputs\\FarmexBot_guncel_ayar_motor_baglari.json": "4408abcfdceec00d80c2ebe6260f3e98bcf71cc55f6c48412d004020b0aa7f73",
+    "outputs\\farmex_rebuild\\merchant_scan_runtime.py": "328fabaa322bf2e51bc89f10ace68fdd2c7ba2a4b8bfb3c2419fb66ff03576f5"
+  },
+  "limitations": [
+    "Controls can be buttons, editors, aliases or existing engine fixtures; missing inventory membership is not proof of no prior model.",
+    "API-only labels describe known models outside this UI compiler inventory; no feature completion percentage is derived.",
+    "DFM disabled/eventless controls are initial source UI states only; runtime enabling or indirect consumption is not excluded."
+  ],
+  "known_merchant_results_API_only": 0,
+  "known_merchant_results_partial_UI_outside_compiler": 3,
+  "known_merchant_scan_partial_UI_outside_compiler": 6
+}

@@ -1,0 +1,70 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T18:54:58.558407+00:00",
+  "validation_scope": "standalone own normal uppercase/codepage API with finite initialized x86 standard-RTL comparisons; no new panel binding",
+  "full_tests": 4214,
+  "new_tests": 7,
+  "full_test_seconds": 13.585,
+  "source_code_precedes_test_run_creation": true,
+  "test_log": {
+    "path": "work\\merchant_upper_full_tests.log",
+    "sha256": "1d2a76f4b026249c0dd147a3864fd9aa1b38a5f1ef378dc513c16cb00e8f8efc"
+  },
+  "source_files": {
+    "merchant_text_normalization.py": "821784eb72db193b1fb22104e38306a980c224bf751e679e5878918f2aa180f4",
+    "name_codec.py": "4a262fa55bc055d148d4858628da688d040ad05fefc4fbf3cb529ea26b547da1",
+    "test_merchant_text_normalization.py": "7eebda5abee3d254799dbe10fe0bd15d7ea3095757ac687a444a4d58e49d2985",
+    "native/rtl_merchant_upper_fixture.c": "3374cacca475fc2ef64d35c854dc231474a7d6fbb16816a28a9a7f9d380ff7dc",
+    "native/build_rtl_merchant_upper_fixture.ps1": "ef57d73595b4e86eb3407cb0d39229f145d7c8e9368b3137c4fd5c7e6752ceb3",
+    "native/rtl_integer_fixture.c": "6eff2a8b83565f126e07820efd18c26f970dd1bb10169c8961ba01e10c19c343",
+    "MERCHANT_TEXT_NORMALIZATION.md": "72b30a4aa9c8fa797a791960da18257e060a3495cd177ebbd7e63905df790e20",
+    "native/RTL_MERCHANT_UPPER_FIXTURE.md": "4693e0a5906f2d70e546aee67e8c9f5831344fa1d02491b810cab53e73c67235"
+  },
+  "evidence": {
+    "outputs\\FarmexBot_merchant_buyuk_harf_native_kaniti.json": "97b4e769b51ef49a7f4638da2df16363ecd803c179d9c23c6ce74c0fdcd4c14f",
+    "outputs\\FarmexBot_merchant_buyuk_harf_kaynak_kaniti.json": "fb273d5bdd3d44690b70e1db18fcbcebbd464e966307ed63b0a1d2ae54a75cec"
+  },
+  "native": {
+    "cases": 385,
+    "query_cases": 93,
+    "ansi_cases": 292,
+    "mismatches": 0,
+    "environment_stamps": [
+      {
+        "acp": 1254,
+        "rtl_default_codepage": 1254,
+        "thread_lcid": 1055,
+        "user_lcid": 1055
+      }
+    ]
+  },
+  "source_instruction_records_verified": 546,
+  "new_successful_REA_analyses": 0,
+  "actual_panel_changed": false,
+  "automatic_query_provider_bound": false,
+  "previous_GUI": {
+    "python_tests": 4207,
+    "controls": 1037,
+    "forms": 11,
+    "tabs": 18,
+    "all_prior_source_files_unchanged": true
+  },
+  "preserved_release": {
+    "path": "outputs\\Farmex_yeniden_yapim_kod.zip",
+    "sha256": "8c2768c42f10a0b0baceb514ee16a430f7e745792c14d5d9e3eb105d28c663d4",
+    "python_tests": 4207,
+    "every_archive_member_matches_embedded_manifest": true,
+    "current_worktree_parity_claimed": false
+  },
+  "source_bot_helper_executed": false,
+  "source_runtime_codepage_verified": false,
+  "live_compatibility_verified": false,
+  "open_work": [
+    "bind proven own policy to actual panel provider",
+    "carry original ANSI name bytes from metadata producer",
+    "source loaded runtime codepage/global identity",
+    "native lifetimes/errors/managed aliasing",
+    "PM/GIT and scan runtime",
+    "remaining feature scopes"
+  ]
+}

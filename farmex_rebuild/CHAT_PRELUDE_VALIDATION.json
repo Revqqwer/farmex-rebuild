@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T16:01:32.717147+00:00",
+  "full_tests": 2784,
+  "full_test_seconds": 7.162,
+  "new_tests": 12,
+  "instruction_records_verified": 966,
+  "normal_CFG_reaches_command_entry": true,
+  "channel6_label_empty": true,
+  "separate_log_snapshot_sink_cleanup": true,
+  "prelude_gates_command_observation_consumption": true,
+  "consumed_prefix_retained": true,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "compiler_input_controls": 271,
+  "editable_paths_outside_inventory": 251,
+  "known_chat_prelude_API_only": 1,
+  "native_execution_verified": false,
+  "full_handler_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "chat_prelude.py": "be185bf49590d1d9f0e0f410c91e91f051b97827598cc9e640b0388b6bd9fd70",
+    "test_chat_prelude.py": "d342468853e2197bba7e64e7c087135f6bd5b33b8d9cfc780f55cb279a437723",
+    "chat_commands.py": "ac91692ca6e67ebbee756b47cc4a514d880dda34bb4dd4be752ac9a63806fd1c",
+    "chat_party_invite.py": "85dbde45a316f9d041f3cfd7fa54b10a0e0ea0e5c1a955b784425c2f0aec7cd8"
+  },
+  "audit_sha256": "37ff838dd01af8f20dd72f646e37f118141ddc9fb33d10f85601c370cb6ee0f3",
+  "test_log_sha256": "c8f8d0d02705989c0a2e130dc41eb1c76e1c9ac1b8d6ed82d01d0c5b26f49f68"
+}

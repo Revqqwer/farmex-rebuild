@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T17:29:02.818276+00:00",
+  "new_binary_probe": true,
+  "instruction_records_verified": 38,
+  "new_tests": 0,
+  "full_tests_rerun": false,
+  "last_full_tests": 2916,
+  "previous_runtime_validation_sha256": "47a406079c285fb8882163a4bc21d7fdfa2ab1e356abfec783a37c4095cfeb07",
+  "previous_recorded_runtime_sources_unchanged": true,
+  "source_files": {
+    "game_provider.py": "253e6fbd6b616bd2bf9cf39f314811024e863c1376683bb0c29471e3ba0541c4",
+    "native_sender.py": "73797778c2789acea887f4e722ba4afd04ceaf090a833c25ac267543d57da513",
+    "native_ipc.py": "f0fd5630e757094b96cf7541dbcabac4a6746c66ce1aee0a267ae9335cf05dfd"
+  },
+  "source_audits": {
+    "Ghidra_guncel_oyun_gonderim_probe.json": "82642d4c12f825e139378ee49405fcc94131d0937b9358153082f9ae35599d96"
+  },
+  "audit_sha256": "2c73f16bce24da86fb236080b1e031ddc40fe1368a8d7b1258b7470d068bb26a",
+  "test_log_sha256": "63aee9b0f0529cc2cca58b4b54d887f167d3d9cd302b822d3cd2bceeaec74c66",
+  "additional_logs": {
+    "work/current_send_probe_headless.log": "65242fe34de42c6e48cdcbd6bba232b13bb56571e7dc7c82a487173f77fdc6d9",
+    "work/ghidra_scripts/ProbeCurrentSendTarget.java": "baafc0d7be847bc63aeb359a3227c82378189655653f034f9390da157936e875",
+    "outputs/FarmexBot_canli_onkontrol_20261020_1724.json": "9abc18c9c7c7a05e85c0376d7d705ebf70bf1d29d7c88f43696719246b6b604e"
+  },
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "target_executions": 0,
+  "native_execution_verified": false,
+  "stack_ABI_verified": false,
+  "packet_delivery_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

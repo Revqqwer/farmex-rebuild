@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "validation_scope": "pinned immutable UTF16 scalar/current local NLS policy and finite own x86 standard RTL observations only",
+  "verified_at_utc": "2026-10-23T15:47:57.422645+00:00",
+  "full_tests": 4176,
+  "new_tests": 7,
+  "full_test_seconds": 16.839,
+  "test_log": {
+    "path": "work\\rtl_text_compare_full_tests.log",
+    "sha256": "30943dd6f8283a5dfc39b44de0cbb5dd4ae770c2dae1c250ee7546628f1a29b9"
+  },
+  "source_files": {
+    "rtl_text_compare.py": "7e65f2a80a802476aa9f0618a1f47118c0c1208fa424557cead84d5594d1335f",
+    "test_rtl_text_compare.py": "d7bc52aa3838eb0846ec359e152860cf72fbd6e0f74bd0819b8acab6f00f5853",
+    "merchant_result_compare.py": "656480dfb67639c01f695e906e4078c4c3b3d0dc8b920d02d4ce2e0eee96fc53",
+    "native/rtl_merchant_compare_fixture.c": "0ad5cfa6258e0e37bf58ed0164882e1c22e833dadac2477805ed70e2762d4e84",
+    "native/build_rtl_merchant_compare_fixture.ps1": "4b5d80105decb87d85eda275c7b8a25496a45624ff8b774dcab9583795b9a46a",
+    "native/rtl_integer_fixture.c": "6eff2a8b83565f126e07820efd18c26f970dd1bb10169c8961ba01e10c19c343",
+    "RTL_TEXT_COMPARE.md": "6bbfbd4d5a3d702c511de8835d21f68c083c9b963759dcca0cd40dc5fafdde7a",
+    "native/RTL_MERCHANT_COMPARE_FIXTURE.md": "8d055cf9d5d001542f304a81f50418c4df2d07862dda9197b43e954f63aead7e"
+  },
+  "evidence": {
+    "outputs\\FarmexBot_RTL_merchant_karsilastirma_native_kaniti.json": "103c7efe93ff6f7f6f60cac2bf1d019188f7b1646f289a2d21e77e67e2c2f02a",
+    "outputs\\FarmexBot_RTL_merchant_native_iz_dogrulamasi.json": "844d8aa64eb60bc07120ee58b6f24057dea30f405ba711059da7ce836c315b78",
+    "outputs\\FarmexBot_RTL_metin_model_karsilastirma_kaniti.json": "cc06f014bb6b61f6509469acf11de201390807984fde684a28c36fb76d2e54d3"
+  },
+  "native_fixture_cases": 77,
+  "normal_stacks_balanced": 63,
+  "first_Delphi_exceptions": 14,
+  "model_native_reference_cases": 50,
+  "model_mismatches": 0,
+  "new_REA_analyses": 0,
+  "source_bot_callback_executed": false,
+  "native_game_abi_verified": false,
+  "live_compatibility_verified": false,
+  "actual_panel_changed": false,
+  "release_updated": false,
+  "preserved_release": {
+    "python_tests": 4159,
+    "controls": 1037,
+    "forms": 11,
+    "tabs": 18,
+    "sha256": "35b14ff542b37f44d283de6f691075171ef2fc7173a472b769a0491576992d8e"
+  }
+}

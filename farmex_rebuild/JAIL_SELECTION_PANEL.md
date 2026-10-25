@@ -1,0 +1,13 @@
+# DC–Hapis seçili başlıklarının arayüz denemesi
+
+Karar Motorları → **DC–Hapis Listesi** alanı, kendi `frmDCWindow/GroupBox1/bancloselist` satırlarını0046ce04 kaydetme modeline bağlar. Satır başlığı ve checkbox değeri mevcut profil/list yapılandırmasından okunur. Alt sütundaki karakter metni bu üreticide okunmadığından snapshot'a dahil edilmez. Rotalar bölümündeki açık Windows kod sayfası snapshot'ın parçasıdır.
+
+Varsayılan örnek `{}` kaynağın açık entry gözlemini bekler. Kullanıcı sentetik örnek düğmesine bastığında **kendi sabit satırlarımız**, boş reset varsayımı, local Windows dönüşümü ve açık normal-return/vector gözlemleriyle örnek üretilir. Sentetik vector pointer değerleri kendi fixture etiketleridir; native allocation veya yazma değildir. Normal gözlem, reset içeriği ve ANSI HEX kullanıcı tarafından ayrıca verilebilir.
+
+Count ve Checked sonuçları gerçek kendi satırlarından türetilir. JSON içindeki bunlarla çelişen veya bool tipindeki sahte scalar değerler reddedilir. Unchecked satırın metin/ANSI kaydı okunmaz; kullanılmayan geçersiz kayıt kaynakta ulaşılmayan alanı etkilemez. Checked satırların ANSI byte'ları sıra korunarak yerel kayıtlı başlık listesine aktarılır. Kaynak Unicode/ANSI RTL dönüşümü kanıtlanmış sayılmaz; gerçek yakalanmış bytes için explicit HEX yolu vardır.
+
+Snapshot satır sırası, başlık, checked ve codepage içerir. Bu alanlardan biri değişince yeni invocation başlar; eski snapshot hash'ine bağlı örnek reddedilir. Önceki yerel kayıtlar ancak reset içeriği kabul edildiğinde değişir. Aynı frame tekrar ilerletildiğinde insertion çoğalmaz. Geç bir invalid HEX geldiğinde `last` geçersiz olur fakat daha önce kabul edilmiş satır öneki korunur. Profil roundtrip'i başlık, alt sütun ve checked verilerini korur; kaynak vektörün runtime lifetime'ı varsayılmaz.
+
+8 unit test ve gizli arayüz denemesi; actual caption/checked görüntüsü ve sıra, Unicode1254/UTF8 own dönüşüm, cleanup kesintisi/resume, stale snapshot reddi, profile roundtrip ve geç capture hatasında önek korunmasını denetler. Kaynak denetimi eski/güncel Richard görüntülerinde1928 instruction kaydını ve yedi mevcut REA çıktısını yeniden doğrular. Envanterde bağlı kontrol354→355 olur. Bu liste frmMain dışında olduğu için frmMain'e sınırlı168 envanter dışı alan sayısı değişmez.
+
+Yeni bağlantı kendi Karar Motorları denemesidir. Orijinal Kaydet/Kapat düğmesinin gerçek VCL dispatch'i, preload/discovery verilerinin canlı pencerelerden gelmesi, native vektör/ABI/SEH/heap etkileri ve canlı oyun uyumluluğu doğrulanmadı. Gerçek süreç/pencere işlemi veya oyun belleği erişimi yapılmaz. Kanıt: `outputs/FarmexBot_koruma_pencere_panel_bagi_kaniti.json`.

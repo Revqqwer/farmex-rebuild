@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T03:23:34.862204+00:00",
+  "full_tests": 2717,
+  "full_test_seconds": 8.931,
+  "new_adapter_tests": 8,
+  "full_hidden_ui_passed": true,
+  "hidden_ui_controls": 1037,
+  "hidden_ui_forms": 11,
+  "hidden_ui_main_tabs": 18,
+  "real_flag_and_text_widgets_exercised": true,
+  "fresh_panel_snapshot": true,
+  "same_snapshot_resumes_one_frame": true,
+  "invalid_reached_data_clears_stale_frame": true,
+  "UI_compiler_input_controls": 271,
+  "editable_paths_outside_inventory": 251,
+  "previous_source_instruction_records": 818,
+  "full_chat_handler_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "chat_commands.py": "e37b9f8633d2ddf022860ce0977e83f18f1e252e1c9cd37de1b2fdfbd4af6e20",
+    "chat_commands_trial.py": "f73f955d42bc6e0adfe06030d5f79b9faad739526b727d4d8cc95eea86b41bc9",
+    "test_chat_commands_trial.py": "474f5a802c82620b3da179e308e570b3aa9fcdf916b1426c5b5f581ce5172b09",
+    "simulation_ui.py": "2310c56a620e041b70511d802ab44ea57cac5d1db4c3d8457460fdad178a0e9a",
+    "smoke_chat_commands_ui.py": "78dd638b85a60e0bf910118e91af1b510ed226e27cbc2cf079e99f7818335243",
+    "smoke_ui.py": "95cc593d480c73891a697ee6bbf946f11df40239831ab1e8ad11cde95c9792ed"
+  },
+  "source_audit_sha256": "d74f6a69195b0573ef65fdb4f938d1000ba5cbb90ea52850909e3f46cde651c8",
+  "log_sha256": {
+    "chat_commands_ui_full_tests.log": "a63904e5f3d5b77e1582aa29bb5c5fc0a04c190c6ec5842e92463b07f55c1d4e",
+    "chat_commands_ui_smoke.log": "f7bd6ef1a6cda58c98d259b775dca55ac0798a0acd7b20a5124f1ff905a5444e"
+  }
+}

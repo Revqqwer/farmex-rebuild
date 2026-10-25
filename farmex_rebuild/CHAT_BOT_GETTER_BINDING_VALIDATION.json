@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T21:39:52.283816+00:00",
+  "full_tests": 2986,
+  "full_test_seconds": 7.403,
+  "new_tests": 10,
+  "new_binary_audit": false,
+  "instruction_records_verified": 184,
+  "instruction_records_note": "Existing getter/source caller audits reused; no new coverage claimed.",
+  "additional_getter_call_sites_bound": 4,
+  "known_worker_chat_bot_bound_sites": 11,
+  "exact_helper_and_fullEAX": true,
+  "separate_outer_normal": true,
+  "incomplete_child_blocks_later_effect_plans": true,
+  "reached_only_identity_checks": true,
+  "consumed_child_prefix_retained": true,
+  "completed_child_retained": true,
+  "typed_getter_UI": false,
+  "ui_changed": false,
+  "ui_retested": true,
+  "UI_regression_passed": true,
+  "ui_controls": 1037,
+  "ui_forms": 11,
+  "ui_main_tabs": 18,
+  "native_C_changed": false,
+  "nested_action_caller_source_identity_globally_unified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "chat_commands.py": "a404927826eba99d34c473200ba503830e6705dfad05849c37df85359190a749",
+    "bot_switch.py": "96cc9f606ed075a833d7f5519b4b24e53533ad70233ca4d5273e486376126431",
+    "genie_getters.py": "dff021df115c17de0f66967ed7fe7fe84b6d56b6e96967833af4c1b588591056",
+    "test_chat_bot_getter_binding.py": "5635198667907a53146849fde49e61c5c65540d41aa7c0e727fe25cbe09e721a",
+    "chat_commands_trial.py": "8a3dcd95376c3d7c16b41cce4d3a0434db37f0c964af2a915d36d8df77d622ad",
+    "command_helper_trial.py": "98657379ba5654531134d73b09ebdac28feb93b53d26e1ff48db5f668bdc1453"
+  },
+  "audit_sha256": "f1e06473b915d31c4a22fc80a36b75c69b34fec93040c8d5353ae3eb91bd6696",
+  "test_log_sha256": "65466f88bff2bd1ae5c159232ef75de8258be1a0942d37d2cdd623ad31674cbc",
+  "source_audits": {
+    "FarmexBot_chat_komutlari_kod_kaniti.json": "d74f6a69195b0573ef65fdb4f938d1000ba5cbb90ea52850909e3f46cde651c8",
+    "FarmexBot_baslat_durdur_kod_kaniti.json": "9c282d176ec79afc048c351821fea06f3bbefe1b524d761d7c2f7ba60d656a9a"
+  },
+  "additional_logs": {
+    "work/chat_bot_getter_binding_ui_smoke.log": "7b8dad32da142ca051660e886e4883e567940481301b8ae144c7c770a7023fcf"
+  }
+}

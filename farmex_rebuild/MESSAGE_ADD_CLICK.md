@@ -1,0 +1,13 @@
+# Flood ekleme düğmesi çağrı zinciri
+
+`message_add_click.py`, REA `004b1558`108 kayıtlık normal gövdesinin SEH kurulumundan sonraki `004b156f…004b168d` aralığını kendi gözlem modeliyle birleştirir. Her iki ikilide bu adresin `btnAddFloodListClick` published method kaydı tekil doğrulandı. Çağrı zinciri artık integer dönüşümü → satır ekleme → liste derleme typed child'larını içerir. Gerçek VCL/UI/game çağrısı gerçekleştirmez.
+
+Alanlar: `txtAddFloodingWait` form+bb4; `txtAddFloodList` form+bb0; `cmbAddFloodList` form+bac. Gecikme Text getter'ından sonra `SourceIntegerFrame(text,10)` kullanılır; parserın normal veya catch landing yolu açık gözlemdir. Varsayılan10, yanlış metinden Python ile çıkarılmaz. QWORD sonucun yalnız düşük DWORD'u ilk physical push'tur. Yüksek DWORD aktarılmaz. Dönüş ayrı çağıran normal receipt'i gerektirir.
+
+Mesaj Unicode Text'i ANSI yardımcısına verilir ve dönen temp'in DWORD handle'ı ayrı yakalanır. ComboBox strings slot adresi indeks getter'ından önce saklanır, strings object'i getter'dan sonra okunur. Model bu ikinci okumayı ancak indeks getter'ı normal döndüğünde kabul eder. Raw index EAX (negatif değerin DWORD gösterimi dahil) virtual+0c item getter'ına aktarılır; kaynakta görülmeyen clamp veya boş seçim kontrolü eklenmedi. Item Unicode çıktısı ANSI yardımcısına verilir ve channel handle ayrı yakalanır.
+
+`0045ca20` physical pushes: `(delay_low_dword, message_handle, channel_handle, 00569910)`. Satır ekleme modeli channel/message handle'larıyla kurulur. Child'ın kopya yordamlarından sonraki gecikme okuması ayrı bir yakalamadır; native yardımcıların belleği değiştirmediği varsayılmaz. Caller'ın Unicode/ANSI içeriği ile child'ın yeni conversion sonuçları veya yeniden derlenen UI listesi zorla eşitlenmez. Stable-own-UI binding başka bir aşamadır.
+
+Tamamlanmış add child'ından sonra üst çağrının normal dönüşü ayrıca gerekir. Ardından temizlik sırası channel ANSI, channel Unicode, message ANSI, message Unicode, delay Unicode'dur. Son sınır FS restore/epilog öncesidir; whole-function/native sertifikası değildir. Default gözlem yoksa plan bekler; parser çıktısı/metin/handle uydurmaz. Önceden kabul edilmiş captures ve child prefix sonraki beklemelerde korunur.
+
+11 yeni test: low/high DWORD ayrımı, explicit fallback10, parser/üst dönüş boşlukları, raw seçim indeksi, taze strings object okuması, argüman sırası, typed add ve beş cleanup, prefix koruma ve kabul edilen tam yerel child zinciri. Gerçek Unicode/ANSI algoritması, VCL virtual method davranışı, exception/heap/native yaşam döngüsü, ekleme düğmesinin gerçek UI bağlantısı ve canlı uyumluluk doğrulanmamıştır.

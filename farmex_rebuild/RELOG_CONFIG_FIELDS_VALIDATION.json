@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T22:50:57.952904+00:00",
+  "full_tests": 3712,
+  "full_test_seconds": 11.947,
+  "new_tests": 0,
+  "full_tests_rerun": false,
+  "runtime_python_unchanged": true,
+  "runtime_python_files_matched_previous_manifest": 600,
+  "instruction_records_verified": 2000,
+  "new_REA_analyses": 1,
+  "reused_REA_analyses": 0,
+  "scoped_models": 167,
+  "new_scoped_functions": [],
+  "source_fields_inventoried": 15,
+  "loader_implemented": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "source_files": {
+    "relog_config_fields.json": "31f9a4b5afc6d68997b7673a95093be7304115b31ca71cadf1894e666741d089",
+    "RELOG_CONFIG_FIELDS.md": "9578dc4d7412d467990c177358b5eb3bc45e064cc8ff12946eae7847e6420d46"
+  },
+  "source_audits": {
+    "REA_relog_ayar_yukleme_20261022.json": "d9378f3fed8f405c54fb5369d965e2fe487d8ecf3e3429f108e4eb936e8591e6",
+    "FarmexBot_relog_baslangic_zinciri_kaniti.json": "08384398474268beb10e5d69f0af1a780115a77bb7f21a5bb1b1e95990546f6c",
+    "FarmexBot_fonksiyon_takibi.json": "9f84abfa9d45aadde2fa9af31a550d424f726b3005a8f463c886e7c49ae92350"
+  },
+  "audit_sha256": "046c3c9ce536d2acfafebe49f7faee1cefbfa8e7bee53734cceac841c17e6a5a",
+  "test_log_sha256": "8ae211f45d26148796ade09f04dc2c8ed684ce09c47ceee85915b31ae531b645",
+  "config_files_opened": 0,
+  "credentials_read": false,
+  "new_live_checks_performed": false,
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "external_actions_executed": 0
+}

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T10:49:03.063400+00:00",
+  "full_tests": 3205,
+  "full_test_seconds": 7.519,
+  "new_tests": 10,
+  "instruction_records_verified": 846,
+  "query_records_both_versions": 592,
+  "REA_functions": 2,
+  "scoped_models": 127,
+  "ui_changed": false,
+  "ui_retested": false,
+  "panel_detailed_query_children_bound": false,
+  "native_execution_verified": false,
+  "string_runtime_verified": false,
+  "name_pointer_identity_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "allocation_queries.py": "32726002969ab6a0f1f43f5f8f5291cc6719d1f506dbf95f627c6dd9a0d6797d",
+    "auto_allocation.py": "105fcb0f5c13e97da376cbd26fc9585a35b1742425a54e3805772abd03dd7110",
+    "test_allocation_queries.py": "93edd3a8d02d9c29261c0384d1707454cddd8525998a406c9869883423a1759d",
+    "ALLOCATION_QUERIES.md": "9ae3e1f0b931455bcf93246a748f4fad832171dbd8ed007c37c21b751a154886"
+  },
+  "source_audits": {
+    "REA_dagitim_stat_sorgu_alani_20261021.json": "a8e3b7a6de76c64307395411ba7c9e02d45f2907669b2b00813e60e381e99d50",
+    "REA_dagitim_skill_sorgu_alani_20261021.json": "b6caa404be5a7ef410efc9fb264631c6410e6aa7024f55aa4c2d82820ede7a43"
+  },
+  "audit_sha256": "799e6731cf85b259b2012d29c882a1c6098049a4595d76ea05fdc94f585ea602",
+  "test_log_sha256": "64667d26dc54c3f27f96528b4c9e566cb638bdbf3b545feafd4935af79a8a1ac"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T15:26:54.582628+00:00",
+  "full_tests": 3247,
+  "full_test_seconds": 9.14,
+  "new_tests": 7,
+  "instruction_records_verified": 740,
+  "modeled_target_helper_records_both_versions": 60,
+  "new_REA_analyses": 2,
+  "reused_REA_analyses": 2,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "compiler_controls": 303,
+  "scoped_models": 132,
+  "target_payload_length": 10,
+  "target_field_offset": 2,
+  "target_field_width": 4,
+  "native_execution_verified": false,
+  "event_admission_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "event_join.py": "9280e026666c88080602e24ead2474f9f104d776d8789a9b486fd8d62a064f62",
+    "event_packets.py": "abd259d4369ac3f53a46d34b15907e12915e6e24b2aa41535982abdfb7e7c271",
+    "event_join_trial.py": "90ea0d07f322d6103fe2e2966abd8e5aca6b1a6ef010ae33ff9cc831e64f65f6",
+    "test_event_target_prepare.py": "fe33cd966d436a19aa3050d9367e532ca552cce0804d75768346d2ea62a01084",
+    "test_event_join_trial.py": "14923e2302b212edc0478c137122d678a2b4bfb721311a427f9547cfda8132ae",
+    "smoke_event_join_ui.py": "cc599f22c7c803960f3320897e6a99094ada0d7e5d114d1328fe3cad5c2fe853",
+    "EVENT_TARGET_PREPARATION.md": "4ac4856d2c5a871c51804cd7ca3b2b111be29d54f9c0546255dbc84f4d7d81df",
+    "EVENT_PACKETS.md": "a6a206e74e890460508eddb3f9a3f1e037232e5a996e3ae08de80e4875bcf31a"
+  },
+  "source_audits": {
+    "REA_etkinlik_hedef_hazirlama_20261021.json": "1606a15301964829cf0e5ee293182bad2a5869e52ea800c2fc8e0ebf3bfa8415",
+    "REA_etkinlik_hedef_yedek_20261021.json": "58ab9d1accc4709709177d7dea70e58e81a51990a2a124d0be7a896f6595ca7d",
+    "REA_etkinlik_katilim_calisma_20261021.json": "8fc7261b7f03866860b779189e1ccc2b53794d22f8cd4e94855fe553b69b0811",
+    "REA_ortak_kuyruk_ekleme_sirasi_20261021.json": "7cd1ac2a0c8145390e9f6bcf8f446048cde6d557a28c27afbc8f7fe180ca1365"
+  },
+  "additional_logs": {
+    "work\\event_target_full_ui.log": "fbefddf27049346bb32f5052e29db60931e2ff4b06568338f69f4af6042b8788"
+  },
+  "audit_sha256": "42be9a234c23b097925e96796e77fdb85e3ce3f218c28f48963f3893ab9a8e01",
+  "test_log_sha256": "95d9d7a249ff9c791a2769f5efaef9dd35d36bb9b1bc636df266da27b3aab308"
+}

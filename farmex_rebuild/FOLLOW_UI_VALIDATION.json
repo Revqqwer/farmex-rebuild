@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T04:28:26.790516+00:00",
+  "full_tests": 2574,
+  "full_test_seconds": 7.305,
+  "new_tests": 10,
+  "full_hidden_ui_passed": true,
+  "ui_controls": 1037,
+  "ui_forms": 11,
+  "ui_main_tabs": 18,
+  "follow_UI_bound": true,
+  "default_sample_empty": true,
+  "example_explicit_synthetic": true,
+  "reached_only_parser": true,
+  "real_widget_leader_manual_name_and_enable_checked": true,
+  "source_static_scope": "Existing572instruction audit; no newly certified native behavior",
+  "compiler_inputs": 247,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "follow_engine.py": "135441892a5249f5175d7bdf5dcb7835a7171b93ac1fc87f8d03747aa5d0b23d",
+    "follow_trial.py": "99b73dc7f4e05d6fee00e65fbb8b431fb2baa1a5f67ea78df97f9fcf9686927f",
+    "simulation_ui.py": "94365af3d1bb27b1797231f87654006124b9e3cdfd59b7bea3e215c5d57789bb",
+    "test_follow_trial.py": "bc29aac02737a43e6563e9736eda4b11c47e0296a430bf1837345f872b06aaeb",
+    "smoke_follow_ui.py": "cf1f61dce1d01a02b9960e5f5d6b44856298816fd7b74b663b9cb53b8f00e7d5",
+    "smoke_ui.py": "4538c2dd5e18ecfb9e84fdededf0750e9be28b848381e476d59c88bbc284ddfa"
+  }
+}

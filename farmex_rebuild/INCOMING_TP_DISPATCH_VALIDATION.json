@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T20:38:33.147736+00:00",
+  "full_tests": 3364,
+  "full_test_seconds": 8.508,
+  "new_tests": 8,
+  "instruction_records_verified": 2246,
+  "prefix_exit_records_included": 182,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 1,
+  "scoped_models": 145,
+  "scoped_model_count_increased": false,
+  "earlier_opcode_count": 14,
+  "child_entry_derived": true,
+  "normal_source_return": 1,
+  "source_ret_pop_bytes": 4,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "incoming_tp_dispatch.py": "af1d21575e964ad9714cdda1d58c1e02703699c2cff03a104f3c6cf5e7d310bf",
+    "test_incoming_tp_dispatch.py": "b283f359893743610948ac60749d8d3d90cd717453b659a4db89cb6dfec328ce",
+    "INCOMING_TP_DISPATCH.md": "cb4aed22efa9aa8fb73c5cd113bd027b78e6f359403802b36695ef057e1fc337",
+    "teleport_protection.py": "0b23ab48e34da13f731a0e775e5c71f608aef8152841d2d851632a02646b960d"
+  },
+  "source_audits": {
+    "REA_TP_koruma_gelen_olay_20261021.json": "5d97425241debe30fef7e698193d824201456c9ee8eb1c8e2be2a4a6edc1ac6e",
+    "FarmexBot_TP_koruma_kod_kaniti.json": "fc7d0854ba731727aa93f880b1b5d79b468fcf0f56bbfd6984a9bd531e8d5d90",
+    "REA_TP_koruma_ayar_uretici_20261021.json": "6ced206f36a4ea33d43836677bbfeeee779cda8516bd51d47e03b7ef5e260b99",
+    "REA_TP_koruma_panel_callback_20261021.json": "53899a6875769f507bdef5e48c16dbd7c3f41f4183ee2ae40a38da6cfed741d9",
+    "REA_TP_koruma_dc_yardimci_20261021.json": "7527250c9b8b4ee48d4f2a4504679d610348a3bf18c6dcb5217267eb70e3ba07"
+  },
+  "audit_sha256": "b70787326866fd8e13d1446c62458b8cae77be5567b3c53d346d3ef87d027094",
+  "test_log_sha256": "2895d73f364dab3c72d27ad9f44f6eb469fce76a482932e38a6800846b42c1c4"
+}

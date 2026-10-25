@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T05:01:55.585834+00:00",
+  "full_tests": 3051,
+  "full_test_seconds": 7.402,
+  "new_tests": 12,
+  "instruction_records_verified": 356,
+  "new_binary_coverage": false,
+  "REA_functions_used": 2,
+  "new_this_stage_REA_functions": 1,
+  "signedQWORD_cooldown": true,
+  "three_fresh_area_samples": true,
+  "full28slot_absence_required": true,
+  "first_match_ID0_attempts_helper": true,
+  "sixbyte_fullID_record": true,
+  "no_duplicate_queue": true,
+  "exhaustion_order_and_fresh_alarm": true,
+  "generated_stop_child_bound": true,
+  "default_Genie_behavior_preserved": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "MonsterStone_effect_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "monster_stone_use.py": "d538fabbf01fd45e8ba9600259d3da3a0ac3341baf76d114acf7e91a6a46b970",
+    "test_monster_stone_use.py": "945c26d6decb680cd52c7f37ca92ce377695e3839c2cc6957b405dce27943c37",
+    "genie_recovery.py": "8a0a58631a25953a586e2528bfe03f5400a0e159a158fd7c4f30959aefacb0fe",
+    "inventory_getter_frames.py": "b5120ff18ffe5fbac01b88bda57c4bf52cba7120f43a3c34afc1ac55a9331b0c",
+    "action_queue.py": "eadf9393a7a1e2b2ed73a6e5392f222ca0c2a0c99ee79547359876b1633206f5",
+    "direct_chat_packets.py": "d00ab25249041a6998985924fbadaaeb9aa22dbcfd3421d7ef3891ea9e95b25b",
+    "bot_switch.py": "96cc9f606ed075a833d7f5519b4b24e53533ad70233ca4d5273e486376126431"
+  },
+  "source_audits": {
+    "FarmexBot_MS_tas_kullanimi_kaniti.json": "1e089eef72cd856806be4a648ae9e22376ea9aa370268d49274681fc79fe56db",
+    "REA_MS_tas_kullanimi_20261021.json": "6a0fc6bcfb264c786348c26331a92cccba6a0b1811fd1971e9bb3f3e22cf8f1c",
+    "REA_MS_esya_kullan_yardimci_20261021.json": "b7620ed2825f4a358efabdcb4f2c998b66da628d99e2e558d888a8f8dff5fffd"
+  },
+  "audit_sha256": "1e089eef72cd856806be4a648ae9e22376ea9aa370268d49274681fc79fe56db",
+  "test_log_sha256": "af07aada2b448ffe73e2703cbb54e5c19cb2166ca8730eba9fa8b976a8d3ee92"
+}

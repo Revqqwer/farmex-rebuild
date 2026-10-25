@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T04:05:54.795759+00:00",
+  "full_tests": 2526,
+  "full_test_seconds": 7.348,
+  "new_tests": 17,
+  "full_hidden_ui_passed": true,
+  "ui_controls": 1037,
+  "ui_forms": 11,
+  "ui_main_tabs": 18,
+  "new_ordered_sample_ui_binding": false,
+  "source_instruction_records_reverified": 598,
+  "source_scopes_overlap_prior_audits": true,
+  "helper_roles": 6,
+  "fresh_same_address_samples_supported": true,
+  "helper_normal_return_separate": true,
+  "legacy_stable_maps_preserved": true,
+  "quantity_text_write_helper_newly_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "storage_action_operands.py": "6de9ef465a56a498adebb52da37ec7f2ec76269789698b577576851b002d55b5",
+    "storage_native_plans.py": "49f1c58dfbe36e318d82036f6dc54ae18c69c566714bd15033c61d378ec552e2",
+    "storage_items.py": "d5532614d26bbb59325c0dbbbee8cfd3bc3f12880872a982992618858857ff76",
+    "storage_workers.py": "b8a5067bb62a6bf1e7e761eab110347ad247067f97ee1150ee2dab12cc0e30f5",
+    "test_storage_action_operands.py": "2bb02f9a426e260126c86177174aad97c37536df5b615d4a8e0341db68d2210b"
+  }
+}

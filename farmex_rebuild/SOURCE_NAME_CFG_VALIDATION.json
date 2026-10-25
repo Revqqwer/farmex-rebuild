@@ -1,0 +1,19 @@
+{
+  "verification_status": "passed",
+  "date": "2026-10-18",
+  "full_unit_tests": 2313,
+  "full_unit_seconds": 11.481,
+  "focused_tests": 30,
+  "new_tests": 8,
+  "disk_instruction_records": 470,
+  "disk_bpl_vmt_export_identities_verified": true,
+  "runtime_method_bytes_verified": true,
+  "full_runtime_semantics_verified": false,
+  "file_format_verified": false,
+  "ui_code_changed": false,
+  "ui_smoke_repeated": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "evidence": "FarmexBot_isim_CFG_caller_kod_kaniti.json",
+  "limitations": ["Installed runtime disk tables are not bound to actual loaded/private-class dispatch.", "RTL scope completed and704 instruction bytes were verified separately; full method semantics are not certified.", "Text/BOM submodels were added separately; active codec and CFG adapter remain unverified."]
+}

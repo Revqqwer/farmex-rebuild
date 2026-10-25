@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T10:44:29.916198+00:00",
+  "full_tests": 3195,
+  "full_test_seconds": 9.516,
+  "new_tests": 8,
+  "instruction_records_verified": 3314,
+  "binary_evidence_reused": true,
+  "new_binary_coverage": false,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_UI_controls": 1037,
+  "full_UI_forms": 11,
+  "full_UI_main_tabs": 18,
+  "compiler_controls": 297,
+  "scoped_models": 125,
+  "panel_detailed_action_children_bound": true,
+  "reached_only_JSON": true,
+  "produced_flag_threshold_action_consistency": true,
+  "native_vector_identity_verified": false,
+  "native_execution_verified": false,
+  "allocation_effect_verified": false,
+  "callback_ABI_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "allocation_consumer_trial.py": "1766b0433383e32bcb1368517a6113d7934160eac574b7c9bfead8396b97a7fb",
+    "allocation_panel_trial.py": "cfdecf0061883e6157460d27a00b139a949be5380bd0a9404426404f9b474eaf",
+    "auto_allocation.py": "6733d7a0bc7ef754106005d6f56ea0b8c86359c49d1eb260fabe11ecf7c7e0ff",
+    "allocation_actions.py": "f952a7dab2899d0895bc24125988eb0f4a9477c1ac04aa3dab69b751e02c432c",
+    "simulation_ui.py": "a8e5229d0535de1e724f90cbfab1010f2a76c13c8466e7ad9e529ca3f75fba59",
+    "test_allocation_consumer_trial.py": "9bf44fcabbf2f25490d99c694bd22984494201e0afda6fbda54ec918dc64340a",
+    "smoke_allocation_panel_ui.py": "26642f1360b4f17fa57daf10c3981f6c4d04164289ddcdcb98065f0d57e78ab7",
+    "ALLOCATION_CONSUMER_PANEL.md": "30112d4254a1232c31e27d726e20464cb539af0aa239157ccb3ea515050ec68d",
+    "ALLOCATION_ACTIONS.md": "b86412bae48a10288e45ae65e73ea412d2abc269c20f5a3b532ee4938f8c76d5"
+  },
+  "source_audits": {
+    "FarmexBot_otomatik_dagitim_satir_uretici_kaniti.json": "f52773e9c1bbda7d3772d6ff6a0727f8b7993d81bc1577943726befac2dcc628",
+    "FarmexBot_dagitim_eylem_operand_kaniti.json": "7dd545661e1863c621c69ae4469608337209948ed226aeb33e3f9a621631ac9e"
+  },
+  "additional_logs": {
+    "work\\allocation_consumer_panel_full_ui.log": "6c082587207c26649bc68e74671d7e5785d356845360db60815a85353060ad2f"
+  },
+  "audit_sha256": "0492fe881df9c84ff8135e7e6c5d723e423c4973eec77d421d400a0443df5b18",
+  "test_log_sha256": "501d23cf86c0f5cb6ba165efd30f7208bcb93ea1f198cebe0c719920cfdca386"
+}

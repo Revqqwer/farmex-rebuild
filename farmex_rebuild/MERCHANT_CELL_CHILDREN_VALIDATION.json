@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T19:26:18.291881+00:00",
+  "validation_scope": "own prefix-cached click parent and typed PM request/motion children, separate parent normal returns; no UI/native action execution",
+  "full_tests": 4258,
+  "new_tests": 9,
+  "full_test_seconds": 14.412,
+  "source_code_precedes_test_creation": true,
+  "source_files": {
+    "merchant_cell_actions.py": "10cafb93bfdc6ca35b29d87ac7d9777268b9e1243d1bc78d492f4a5b4bc8db91",
+    "test_merchant_cell_actions.py": "221c77e23af045ac358314b33d95918c8144000395b12e008c65ef3c5299693c",
+    "private_chat_request.py": "79adabf26f4040fc6a60d17002072cf768fbb6a36110864cae1957e860e18d59",
+    "test_private_chat_request.py": "47fac1a23e1448c0a1ee79b81d643484db9711e81dc6977e6541f18283d5b0e5",
+    "event_packets.py": "abd259d4369ac3f53a46d34b15907e12915e6e24b2aa41535982abdfb7e7c271",
+    "action_queue.py": "eadf9393a7a1e2b2ed73a6e5392f222ca0c2a0c99ee79547359876b1633206f5",
+    "direct_chat_packets.py": "d00ab25249041a6998985924fbadaaeb9aa22dbcfd3421d7ef3891ea9e95b25b",
+    "test_merchant_cell_frame.py": "bde63a870da7587796eed98182f3db71e4e436da06f6bb5a895e44643111608d",
+    "motion_genie_helpers.py": "c5f5e7a6ccb8d4507f220689646ef58df4b3c1340ff987cb34899b019fec6523",
+    "MERCHANT_CELL_CHILDREN.md": "1f897bcd71e3f82ddc82b3d8492e8c6ef7412a883a2ce77ea0a4133f1eeeaa2e",
+    "MERCHANT_CELL_ACTIONS.md": "61bbc78ee78f74e7d7c603a461bbc2264f85a13799910186f1e9c05c560214c4",
+    "PRIVATE_CHAT_REQUEST.md": "2a13a5cf6eb7c819946ed689dcb8bc4395ef9f210b940a8168dcdb332f75a614"
+  },
+  "test_log": {
+    "path": "work\\merchant_cell_children_full_tests.log",
+    "sha256": "eaa52283574847a424b5108db846d8667d08c983759a1af0d67e95c950c0ca01"
+  },
+  "evidence": {
+    "path": "outputs\\FarmexBot_merchant_hucre_alt_akislari_kaniti.json",
+    "sha256": "2eaaa7b2e65b17882e7c7e040afc361739f1fa5ba504b142610b6c479ff922e0",
+    "instruction_records": 981
+  },
+  "checks": [
+    "PM child handle/entry required independently of parent receipt",
+    "child cleanup ->parent normal ->parent cleanup resumes without duplicate own record",
+    "consumed selection/cursor/converted text/float bits stay fixed across changed snapshots",
+    "motion child write/call completion and parent normal return separate",
+    "unused child paths skipped; explicit opaque mode does not claim child execution"
+  ],
+  "actual_UI_changed": false,
+  "parent_child_binding_complete_for_bounded_own_model": true,
+  "previous_GUI": {
+    "python_tests": 4223,
+    "controls": 1037,
+    "forms": 11,
+    "tabs": 18,
+    "all_prior_source_files_unchanged": true
+  },
+  "preserved_release": {
+    "path": "outputs\\Farmex_yeniden_yapim_kod.zip",
+    "sha256": "174b740bbef1b77921f127bc17a77cdebfa7b01d9b82eff4b403083277d59145",
+    "python_tests": 4223,
+    "every_member_matches_embedded_manifest": true,
+    "current_worktree_parity_claimed": false
+  },
+  "function_inventory": {
+    "scoped": 216,
+    "full_certificates": 0,
+    "live_certificates": 0
+  },
+  "new_successful_REA_analyses": 0,
+  "actual_messages_sent": 0,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "open_work": [
+    "real own cell UI binding",
+    "source cursor/form/DPI/runtime CP and native object identity",
+    "native float/string/heap/SEH and delivery",
+    "scan session/runtime/dispatch data producer",
+    "remaining feature scopes"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "validation_scope": "own stable raw-data/explicit metadata/record/filter/column composition only",
+  "verified_at_utc": "2026-10-23T15:13:55.795104+00:00",
+  "full_tests": 4141,
+  "new_tests": 10,
+  "full_test_seconds": 13.477,
+  "test_log": {
+    "path": "work\\merchant_scan_results_full_tests.log",
+    "sha256": "83e16de3e6b1105aeaf9f467a061a0a45a54fffdba753b1eb84ff19ef10c874a"
+  },
+  "source_files": {
+    "merchant_scan_results.py": "a3a35f73a9f6cce253caad0ce8caa8e3a90bcde52cf1acc03f25db7e171d53e6",
+    "test_merchant_scan_results.py": "e0722e89dc19958dec1a4704591c57d61db2244115cdf87dfdd9a013c8503ccb",
+    "merchant_scan_reply_data.py": "cd03c2b622b7fefbbad81e0412f021df2d053fe1a17a99b7fe375f8e6194853e",
+    "merchant_result_rows.py": "eea6d1e83e5233be6484a33cdbf3bbde432c133d6da34a5dafe06963566d082b",
+    "merchant_result_filter.py": "dea97b182fdb2cd79f195d5183bd1769f384c1d4d8999530eb66e4a9257b0516",
+    "MERCHANT_SCAN_RESULTS.md": "b146f52ef00681bc62dbfa0a2d4422c1e43d27b21b9e25a38a690bf045c41180"
+  },
+  "source_audit": {
+    "path": "outputs\\FarmexBot_merchant_yanit_sonuc_bagi_kaniti.json",
+    "sha256": "e324afa8e0e8c2d68af993c0cd816b828a64c5abbfd022f62886451a99ee90c4"
+  },
+  "scoped_models": 208,
+  "new_REA_analyses": 0,
+  "native_execution_verified": false,
+  "source_parser_return_verified": false,
+  "ui_changed": false,
+  "release_updated": false,
+  "preserved_release_sha256": "c534f89fe9357692660c596500a12c83a3d7100e067656bc1f6060b2cef8bbca",
+  "full_GUI_candidate_status": "pending_selected_message_UI_due_to_approval_review_usage_limit"
+}

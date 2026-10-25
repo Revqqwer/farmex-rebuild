@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T04:20:48.694438+00:00",
+  "full_tests": 3860,
+  "full_test_seconds": 13.136,
+  "new_tests": 17,
+  "instruction_records_verified": 5880,
+  "scoped_models": 173,
+  "new_scoped_functions": [
+    "004e3144"
+  ],
+  "expanded_scopes": [
+    "004576ec",
+    "004d82a4"
+  ],
+  "new_REA_analyses": 1,
+  "reused_REA_analyses": 1,
+  "ui_changed": false,
+  "ui_retested": false,
+  "retained_ui_controls": 1037,
+  "retained_ui_forms": 11,
+  "retained_ui_tabs": 18,
+  "source_files": {
+    "town_request.py": "c0df2bfe9dd648957eca8211dafd37efebb9f9bc35d015364a8dc498fc7c6350",
+    "control_stop_binding.py": "6344c9b9a0b1e8e251fd88ed509c191204da88b6cac92f7e4a9a4e781232eff5",
+    "test_town_request.py": "332441154f7b2954d0634563662b7d6ce9328c683d3c45cbb9335c6b62b38282",
+    "test_control_stop_binding.py": "3df9519ae18393723caf71109174aa2aedaa5c82d198ffc9c4c2dea14879b062",
+    "teleport_protection.py": "0b23ab48e34da13f731a0e775e5c71f608aef8152841d2d851632a02646b960d",
+    "incoming_tp_dispatch.py": "af1d21575e964ad9714cdda1d58c1e02703699c2cff03a104f3c6cf5e7d310bf",
+    "control_settings.py": "b658140b529bcb8e4968956eedb827b0e9f86d8cfd504fcee455fdf8c2ee973d",
+    "CONTROL_STOP_BINDING.md": "af365ad8ff4975f031daee37b3430ad156681cd180b74df2bb7a766e8bc76395",
+    "LIVE_ACCESS_METADATA_22908.md": "dd255adafa566d27aa23c1cb4f28f7ca73cf1986ef88366d7ebc5c69705029c9"
+  },
+  "source_audits": {
+    "FarmexBot_TP_dispatch_bagi_kaniti.json": "b70787326866fd8e13d1446c62458b8cae77be5567b3c53d346d3ef87d027094",
+    "FarmexBot_kontrol_ayar_uretici_kaniti.json": "1e1b9ecee0e1930428b823c3c0644572c9cfd2bcd0f72e9c80b7db29cc34c0ed",
+    "FarmexBot_guncel_ayar_motor_baglari.json": "8e95a3b999b4cdfcde76b5578dc42970090f2498603d89d7c8b57d63817e82b0",
+    "FarmexBot_admin_erisim_metadata_22908_once.json": "1f8546720321a50cc0a037dc21905184687111c36df29cf34303ba9ac8ea1b4b",
+    "FarmexBot_canli_metadata_20261023_041525_919271.json": "62ee3e7136d3ed7b1cf10576e309637a66f1a8e149492f485ff90c1d6267f67b",
+    "REA_Town_istek_isleyici_20261023.json": "d9fd77d84a02768904b1a89d8eed090457be9f96166c29cb4ff3594b9d999c55",
+    "REA_TP_koruma_gelen_olay_20261021.json": "5d97425241debe30fef7e698193d824201456c9ee8eb1c8e2be2a4a6edc1ac6e",
+    "FarmexBot_fonksiyon_takibi.json": "c7c81e0bc50aa70007d03e48b53930ac542001df066d3cffea4492ca9a6b2cde"
+  },
+  "audit_sha256": "b7b82bdda0d4598f9c33e146a22fb85a4ca5d560698b4100f059434b77a685bf",
+  "test_log_sha256": "3658788b43047a9378db98baa804747e7b862195ceefbf2a88311925ae423ab8",
+  "additional_logs": {
+    "work/control_settings_panel_full_ui.log": "e22298d1a7bdeaf42d82158bd991fda5349db43cc7bca72a98da25979d5c2768",
+    "work/control_settings_ui_targeted.log": "262a04b71af7cd9da9e1a55b4a2de0c344e4481d5ce56663885605bac773f940"
+  },
+  "approved_admin_metadata_test_performed": true,
+  "access_metadata": {
+    "pid": 22908,
+    "administrator_token": true,
+    "vm_read_handle_opened": true,
+    "vm_read_granted_access": 0,
+    "memory_bytes_read": 0,
+    "memory_writes": 0
+  },
+  "auxiliary_files": {
+    "work/elevated_access_metadata_22908_once.py": "e2c693b0ad4cf114b4165824f9e31620ec391eec972ed9909eecaf7187879210",
+    "outputs/farmex_rebuild/process_access.py": "ab45bd239e39e1358f14dea6f92cf35443c783a68c18ab92f2ab79536c26b8d2"
+  },
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

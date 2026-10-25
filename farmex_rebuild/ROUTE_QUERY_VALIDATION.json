@@ -1,0 +1,18 @@
+{
+  "verification_status": "passed",
+  "date": "2026-10-18",
+  "full_unit_tests": 2258,
+  "full_unit_seconds": 7.98,
+  "focused_tests": 52,
+  "new_query_tests": 23,
+  "disk_instruction_records": 586,
+  "ui_code_changed": false,
+  "ui_smoke_repeated": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "evidence": "FarmexBot_rota_aday_sorgu_kod_kaniti.json",
+  "notes": [
+    "Original General panel screenshot captured with supported screen tool; not own live integration proof.",
+    "Name-filter internals remain observed AL inputs."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T04:15:47.683866+00:00",
+  "full_tests": 2551,
+  "full_test_seconds": 6.539,
+  "new_tests": 10,
+  "ui_changed": false,
+  "ui_retested": false,
+  "new_ui_binding": false,
+  "source_instruction_records_reverified": 222,
+  "source_scope_previously_counted": true,
+  "ten_and_eleven_byte_operand_replay": true,
+  "explicit_initial_pointer_and_spill_reads_required": true,
+  "missing_spill_stops_before_destination_writes": true,
+  "observed_copied_bytes_distinct_from_format_text": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "storage_quantity_operands.py": "1433a9e286a5cf1e662d324a9ee382b07c95a31b2576854ab21024ee41cb1b48",
+    "storage_native_plans.py": "001aeebe518b7caa39636c10805a8e6762cd07664fee1eebb73bd2de4db73a03",
+    "storage_items.py": "d5532614d26bbb59325c0dbbbee8cfd3bc3f12880872a982992618858857ff76",
+    "test_storage_quantity_spill.py": "0faa7aabb2aa9b808c5a1d2cafe8cfe1923ab27ee04440103025ecb677d7a158"
+  }
+}

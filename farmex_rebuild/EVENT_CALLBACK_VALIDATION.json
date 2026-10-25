@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T15:40:15.485930+00:00",
+  "full_tests": 3267,
+  "full_test_seconds": 8.438,
+  "new_tests": 11,
+  "instruction_records_verified": 1134,
+  "modeled_callback_span_records_both_versions": 88,
+  "new_REA_analyses": 1,
+  "reused_REA_analyses": 1,
+  "scoped_models": 133,
+  "ui_changed": false,
+  "ui_retested": false,
+  "UI_callback_bound": false,
+  "explicit_post_drain_entry_required": true,
+  "whole_callback_verified": false,
+  "callback_return_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "event_callback.py": "fc0a25e34150b92a5421139216e7f83ec78c544bac1a2e265ba5644c05937231",
+    "test_event_callback.py": "95978aff6a6b9098a91171c2193a64063a78414f4cc83f07b0f3a3cfead1b331",
+    "event_join.py": "7927ca8d47dedfee1360fcdc43eda1f4a3ff77b8dca982ba43025cbe0a41cd87",
+    "EVENT_CALLBACK.md": "8e92cc32a51ec9857208713769e460a8da7bd4fe56e19383a42844b63f3339d8"
+  },
+  "source_audits": {
+    "REA_callback_etkinlik_onkosul_20261021.json": "948055d88ece5ded032047267f5d9f9a10aaa8034a26692df7922a83854ef0b1",
+    "REA_etkinlik_katilim_calisma_20261021.json": "8fc7261b7f03866860b779189e1ccc2b53794d22f8cd4e94855fe553b69b0811"
+  },
+  "audit_sha256": "c0fa6f47807e597dcda40e11ada8f1f987fa5bc08d66753d20b160d734cdb525",
+  "test_log_sha256": "5784dcedd8de3bbb16287f115427b4cf0f01361735dd779fc3664010b0821794"
+}

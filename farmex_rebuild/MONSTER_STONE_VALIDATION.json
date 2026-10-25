@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T04:54:17.636065+00:00",
+  "full_tests": 3039,
+  "full_test_seconds": 7.679,
+  "new_tests": 9,
+  "instruction_records_verified": 1298,
+  "new_binary_coverage": false,
+  "MS_functions_modeled": 2,
+  "REA_functions_used": 6,
+  "new_this_stage_REA_functions": 4,
+  "boss_priority_and_neither_preserve": true,
+  "enable_setter_flag_start_order": true,
+  "off_only_clears_MS": true,
+  "generated_start_child_bound": true,
+  "consumed_prefix_retained": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "MonsterStone_effect_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "monster_stone.py": "8430f90370b3568c2758841c98d7d551985f7d7bbf455791f45d9a17ac4e2db0",
+    "test_monster_stone.py": "f0c8e9c6068a1d8d1989fc311d81478b2d19a0af15ad437df356925ed42923ab",
+    "bot_switch.py": "96cc9f606ed075a833d7f5519b4b24e53533ad70233ca4d5273e486376126431",
+    "test_bot_switch.py": "d7e11a72d016c49eb096c16fa75f84c7c24658e1fbd17f8f80a614cabf866925",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89"
+  },
+  "source_audits": {
+    "FarmexBot_MS_ayar_etkinlestirme_kaniti.json": "645e733393dfb4b7828aaf2dd8d2bf673df0e5bb8659162400dff2953d6ac2ee",
+    "FarmexBot_panel_bag_eksikleri.json": "e9fea3d169a970a313116e727b1a163aef96370207f8a558f898abab6eacde35",
+    "REA_MS_ayar_uretici_20261021.json": "a4c32ec9bdba3d1afe9fe39f783d02c33f6fcb2cf4fbb950f65435b89b6098c0",
+    "REA_MS_etkinlestirme_20261021.json": "da5a896104430642844498cd30ebbdb2e8e7260ff961d963ae7e47c2a63bd0e6",
+    "REA_MS_tas_kullanimi_20261021.json": "6a0fc6bcfb264c786348c26331a92cccba6a0b1811fd1971e9bb3f3e22cf8f1c",
+    "REA_MS_hareket_20261021.json": "0a4c1a66c85a88e902a7b598bbdfa95336a4405060c69ded20710da30f230381",
+    "REA_MS_saldiri_girisi_20261021.json": "0696486bee759c24c272dbe983a5e6da3fd488bad009a3a3047d19ca1c524485",
+    "REA_ana_worker_MS_cagri_20261021.json": "755e5b345c6d35a6ef3a99ab48b0a0bf4eaed425780090059c9e7c18de6f09d4"
+  },
+  "audit_sha256": "645e733393dfb4b7828aaf2dd8d2bf673df0e5bb8659162400dff2953d6ac2ee",
+  "test_log_sha256": "0ba0ab6738724e14bd1a8133cf453f7563804be2a62e5189d9053df553774dd9"
+}

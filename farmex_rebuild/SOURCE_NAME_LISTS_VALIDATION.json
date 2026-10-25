@@ -1,0 +1,17 @@
+{
+  "verification_status": "passed",
+  "date": "2026-10-18",
+  "full_unit_tests": 2292,
+  "full_unit_seconds": 7.648,
+  "focused_tests": 57,
+  "new_tests": 16,
+  "disk_instruction_records": 1444,
+  "published_fields_verified_per_version": 4,
+  "published_methods_verified_per_version": 4,
+  "ui_code_changed": false,
+  "ui_smoke_repeated": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "evidence": "FarmexBot_isim_liste_uretici_kod_kaniti.json",
+  "limitations": ["Own byte-list projection does not certify opaque vector helper/allocator effects.", "Stable-codec filter binding is explicit and does not infer native codepage or helper returns.", "Own panel event integration and live compatibility remain incomplete."]
+}

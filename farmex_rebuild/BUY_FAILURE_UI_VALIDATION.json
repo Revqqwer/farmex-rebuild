@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T03:45:51.554410+00:00",
+  "new_tests": 8,
+  "full_tests": 2483,
+  "full_test_seconds": 6.945,
+  "full_hidden_ui_passed": true,
+  "source_instruction_records_reverified": {
+    "buy_failure": 960,
+    "panel_producer": 1082
+  },
+  "instruction_scopes_may_overlap": true,
+  "compiler_input_controls": 244,
+  "buy_failure_ui_bound": true,
+  "enabled_by_default": false,
+  "local_simulator_handoff": true,
+  "separate_setup_failure_counts_observed": [
+    28,
+    0
+  ],
+  "parent_role_and_global_match_required": true,
+  "repeat_missing_file_without_reset_passed": true,
+  "ui_bank_count_source": "Explicit raw helper EAX/normal-return fixture;192slot counter remains typed API",
+  "source_files": {
+    "merchant_buy_failure.py": "225b3292f207a5e72eb5bc251f186597440e529cbf6cfb3f765e8baf4c509508",
+    "operation_engine.py": "907364398093ad1ad9d4228f79b8f4872875f59b083293eaa800b2adcbf20248",
+    "simulation_ui.py": "cce5780d4bf729b546a5b0f17e66be3b190209b3306b59dd05fcdb288beb5660",
+    "route_ui.py": "43ed58a47669a5add6fc67c802444936ab339944ed8eb73dbbbfdc273622e067",
+    "app.py": "4112bd601da6352e2f0695162d46e660349ec3a593aca72c3aa7e573ad3429c1",
+    "test_buy_failure_binding.py": "4354b66580e6501d2b650df1ce572a5fb0454cc73a5860c8574a912edde2eb5d",
+    "smoke_buy_bank_route.py": "8f2bd210c8d25b731d51e2dea3bac0fec3596a181b452aefd688aa98d2a1d4e6",
+    "smoke_ui.py": "c89b6646edb5e6f2ebb8e3d3d206ee2e05c6ca0db8b44f68bde162bf5b4c4d8f"
+  },
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

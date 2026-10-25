@@ -1,0 +1,13 @@
+# Tara düğmesi ve yerel tablo bağlantısı
+
+Gerçek Tara düğmesi önce kendi sonuç kayıtlarını ve görünen tabloyu temizler, ardından `merchant_quick_provider` üzerinden açık `QuickScanSnapshot` veya lower-level `QuickSourceSnapshot` ister. İkinci tür, final metadata yerine lookup/read/copy gözlemlerinden kaynak üreticilerini çalıştırır. Varsayılan sağlayıcı yoktur; boş lookup uydurulmaz ve başarılı0 kayıt sonucu bildirilmez. Snapshot içindeki mapping ve alt gözlemler immutable'dır. Her actor1..5000 gözlemi ve kullanılan item girdileri ayrı verilmelidir.
+
+`prepare_quick_table` önce source-shaped dört-cache veri projeksiyonunu tamamlar. Eksik bir lookup/alan varsa raw record öneki `quick_values.records` içinde kalır, final tablo rebuild'i yapılmaz. Bütün kayıt değerleri tamamlandıktan sonra isimler açık kod sayfasıyla own Windows codec'te çözülür. Boş ve tamamlanmış tarama için isim/codepage gerekmeyebilir; nonempty sonuçta yerel ACP fallback'i yoktur. Decoder hatasında kendi decoded öneği saklanır, görünür tabloya eksik başarı commit edilmez.
+
+Satıcı/item Unicode değerleri, özgün item ANSI byte'ları, ham direction/category, X/Y ve source0 miktar/fiyat alanları mevcut ortak filtre/sıralama/tablo oturumuna bağlanır. Tek taramanın kategori1 ad kuralı normal yanıt modeliyle değiştirilmez. Son filtre/arama/sıralama sonucu `merchant_result_update` ile ayrıca izlenir; core preparation `complete` olması bu ayrı son adımın geçtiği anlamına gelmez. Kendi decode-before-commit politikası kaynak interleaved VCL/exception davranışı sertifikası değildir.
+
+Tara, aktif/busy/rota alanlarını sıfırlamaz. Normal tarama başladığında Tara kapalı, durdurulduğunda yeniden açıktır. Profil yüklenince quick sağlayıcı ve son sonuç temizlenir; panelin yeniden çizilmesi mevcut sağlayıcıyı ve tabloyu korur. İsim çözümleme kod sayfası ile ortak arama query politikası farklı açık yerel girdilerdir; oyunun DefaultSystemCodePage globali bu alanlardan türetilmez.
+
+Lower-level kaynak üreticileri lookup/copy/ftol gözlemlerini sırasıyla tüketerek snapshot alanlarını türetir; native helper normal dönüşlerini kendiliğinden üretmez. Gerçek oyun veri edinimi henüz bağlı değildir. UI doğrulaması kendi açık snapshot fixture'larıyla yapılır ve oyun verisi olarak sunulmaz. Native source helper/SEH/lifetime/capacity eşliği, canlı güncel istemci kimliği ve gerçek veri edinimi açık kalır. Güncel üretici kapsamı MERCHANT_QUICK_SOURCE.md ve MERCHANT_QUICK_SOURCE_VALIDATION.json içindedir.
+
+Kaynak referansı `FarmexBot_merchant_tek_tarama_kod_kaniti.json`; own binding `FarmexBot_merchant_tek_tarama_arayuz_kaniti.json`; güncel Python/GUI kapsamı `MERCHANT_QUICK_TABLE_VALIDATION.json` ile ayrıca kaydedilir.

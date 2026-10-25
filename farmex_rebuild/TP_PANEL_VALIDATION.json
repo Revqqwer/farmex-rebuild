@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T20:45:16.268051+00:00",
+  "full_tests": 3372,
+  "full_test_seconds": 10.302,
+  "new_tests": 8,
+  "instruction_records_verified": 3582,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 4,
+  "scoped_models": 145,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_ui_controls": 1037,
+  "full_ui_forms": 11,
+  "main_tabs": 18,
+  "compiled_control_count": 310,
+  "editable_controls_outside_inventory": 212,
+  "stable_configuration_fixture": true,
+  "real_incoming_hook_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "tp_protection_trial.py": "ddd9322d2282b84efc2d73a1fa6602d788de6d00ca48981328d3ffbcd79d853e",
+    "test_tp_protection_trial.py": "c77a1284d7c2b66254afb96bd2f3776a224d1540a8c602d5995d4b00abb59d7d",
+    "smoke_tp_protection_ui.py": "6edbeafcf57111f23a7b1567d8546af1fdec14d32190336fde192cec87cfde9b",
+    "simulation_ui.py": "237e3775f197c84a2222df7bfadb3cccf4f2f9f8fdd1b7a97019048eac735064",
+    "smoke_ui.py": "0e4c95b9a7a2d2c739760f19084cfb9ec95256f1bfc81df9fbd0a8d5c42010a5",
+    "TP_PROTECTION_PANEL.md": "9ee78dec52d8774a65b408ef3ea6e709e8c13234f06b4e67c56e1dfe5572532f",
+    "teleport_protection.py": "0b23ab48e34da13f731a0e775e5c71f608aef8152841d2d851632a02646b960d",
+    "incoming_tp_dispatch.py": "af1d21575e964ad9714cdda1d58c1e02703699c2cff03a104f3c6cf5e7d310bf",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89"
+  },
+  "source_audits": {
+    "REA_TP_koruma_ayar_uretici_20261021.json": "6ced206f36a4ea33d43836677bbfeeee779cda8516bd51d47e03b7ef5e260b99",
+    "REA_TP_koruma_gelen_olay_20261021.json": "5d97425241debe30fef7e698193d824201456c9ee8eb1c8e2be2a4a6edc1ac6e",
+    "REA_TP_koruma_panel_callback_20261021.json": "53899a6875769f507bdef5e48c16dbd7c3f41f4183ee2ae40a38da6cfed741d9",
+    "REA_TP_koruma_dc_yardimci_20261021.json": "7527250c9b8b4ee48d4f2a4504679d610348a3bf18c6dcb5217267eb70e3ba07",
+    "FarmexBot_TP_koruma_kod_kaniti.json": "fc7d0854ba731727aa93f880b1b5d79b468fcf0f56bbfd6984a9bd531e8d5d90",
+    "FarmexBot_TP_dispatch_bagi_kaniti.json": "b70787326866fd8e13d1446c62458b8cae77be5567b3c53d346d3ef87d027094",
+    "FarmexBot_canli_surec_TP_panel_20261021.json": "e4906c3af5f09dd81b208182db18a96efe071703935db0b7987aaadc938d80e4"
+  },
+  "additional_logs": {
+    "work/tp_panel_full_ui.log": "88e11edae80369f211d2f2b69f56748109c178c43afa9bd78b69495f3bd66d00",
+    "work/tp_panel_smoke.log": "398bc26ae3a09c4d01055733566e4593908eb4341af03ee9c6b98b7341e97454"
+  },
+  "audit_sha256": "563817b853876fa86c5bd366cb0a584b56ddc2869d793c7908ab3909d5afa2ed",
+  "test_log_sha256": "67a2345522726363a9bca9652854654e06c60f901b96ea18e77d8aca909bd192"
+}

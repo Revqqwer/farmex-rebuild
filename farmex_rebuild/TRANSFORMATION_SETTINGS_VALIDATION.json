@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T09:56:29.194116+00:00",
+  "full_tests": 3140,
+  "full_test_seconds": 8.11,
+  "new_tests": 7,
+  "instruction_records_verified": 1465,
+  "modeled_TS_span_records": 274,
+  "new_binary_coverage": false,
+  "REA_functions_used": 4,
+  "bounded_entry_receipt_required": true,
+  "early_enabled_rearm_prefix": true,
+  "wait_store_before_cleanup": true,
+  "raw_StrToInt32": true,
+  "StrToInt64_fallback_substituted": false,
+  "exception_unwind_verified": false,
+  "candidate_500700_binding_rejected": true,
+  "known_candidate_context": "568320",
+  "TS_context": "562050",
+  "periodic_consumer_verified": false,
+  "whole_producer_verified": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "transformation_settings.py": "38911fe56a0336c5de91c4ded91cd92504c9b52022414c51663512018a4e7103",
+    "test_transformation_settings.py": "dc9d315b46d4035c202a046b4a1fed7c93118a08b12237c14fcb98773f76f98b",
+    "transformation.py": "ee15f541ed964a023e4491869ea8a6ae162bf908125f32620d8e56940824d642"
+  },
+  "source_audits": {
+    "FarmexBot_transformation_uretici_ve_tuketici_arastirmasi.json": "0681768575cc20fd79723f7075dfdb37c95ce8e2e7b8499322335affd98cd01c",
+    "REA_Transformation_ayar_uretici_20261021.json": "55e4acb014232ddb63610e1647285dc7c9712d2511b4227d178595b90c47748a",
+    "REA_Transformation_beceri_secici_20261021.json": "9806fe299645bf99e0e53113fc6a175d083a3ea7991ce31e5bda43d4d975b039",
+    "REA_Transformation_etkinlestirme_callback_20261021.json": "ea111c1fdf66d3aa26d85884cd22c9dd324553f0f98eef6b3910f4bf87a47d45",
+    "REA_Transformation_periodik_aday_20261021.json": "785adc37dfcd912416add18cd6809a01de2e0d0dbbf3a316a80287616b8fb6b7"
+  },
+  "audit_sha256": "0681768575cc20fd79723f7075dfdb37c95ce8e2e7b8499322335affd98cd01c",
+  "test_log_sha256": "89a5b6d9e43587ccccfd52f46e6ee48072fb71cacc0e20c5426d047e311b1692"
+}

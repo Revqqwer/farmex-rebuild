@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T17:42:47.560225+00:00",
+  "full_tests": 2697,
+  "full_test_seconds": 7.0,
+  "new_tests": 10,
+  "isolated_import_checks": 4,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "source_identity_preserved_in_potion_item_worker_results": true,
+  "separate_versioned_storage_normal_return_required": true,
+  "reached_mixed_identity_rejected": true,
+  "unreached_identity_mismatch_not_consumed": true,
+  "source_prefix_counter_retained": true,
+  "existing_binary_evidence_referenced": true,
+  "new_binary_behavior_claimed": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "native_profile_versions.py": "58356c89de1a150b9000997d9662e1e5cb3cf826cde6c4ffff19bb9a53b1e2c1",
+    "potion_packets.py": "ce3a9cc8f00edbb28d4fa81ceee6a5f9248ac4a76b596a7dc4608c1b9392a997",
+    "storage_items.py": "2c76295df017741c1f997b2ddcf6efda497a95a0566b3f280f827399fea277e4",
+    "storage_workers.py": "0f71912c46f7b4d25b5bda8f717a81907b8c5b5b97b79f5f3a2fd5e2ed6a567d",
+    "test_versioned_native_consumers.py": "908b7e999c745383df4fdcab3acef9e448c170f811ef2ee2cfb975d7ad7571f9"
+  },
+  "previous_source_evidence_sha256": "9df98cc9989d7053055daed06a26047f320e47b86ae9f79672253e22ff1e1518",
+  "isolated_import_report_sha256": "3355f84a6ca188d3d460ef98e86e18f138f7ecdcee754b40a09c27e3b25f3b5a",
+  "test_log_sha256": "6f00434737bd73336ebff1c8222e05c42ecca7ef387aa591a814fc9b2ee37a8f"
+}

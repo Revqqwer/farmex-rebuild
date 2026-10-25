@@ -1,0 +1,85 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-25T07:06:11.272344+00:00",
+  "versions": [
+    {
+      "binary": "Richard_decoded.bin",
+      "sha256": "12f3e2dd13836b4f9ffec77c71cf04e505e7e92a2d5a527abf78aa566f359a54",
+      "instruction_counts": {
+        "004b4848": 17,
+        "004d5738": 254,
+        "00407360": 20,
+        "0045f7f4": 41
+      },
+      "imports": {
+        "column_get": {
+          "dll": "vcl260.bpl",
+          "name": "@Vcl@Comctrls@TListColumns@GetItem$qqri"
+        },
+        "column_caption": {
+          "dll": "vcl260.bpl",
+          "name": "@Vcl@Comctrls@TListColumn@SetCaption$qqrx20System@UnicodeString"
+        }
+      },
+      "literal_hex": {
+        "0x54a078": "4c6576656c203a20",
+        "0x54a081": "4e50433a",
+        "0x54a086": "2d",
+        "0x54a088": "47f6726576",
+        "0x54a08e": "2d",
+        "0x54a090": "d664fc6c"
+      }
+    },
+    {
+      "binary": "Richard_febdac805f370fb3_decoded.bin",
+      "sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "instruction_counts": {
+        "004b4848": 17,
+        "004d5738": 254,
+        "00407360": 20,
+        "0045f7f4": 41
+      },
+      "imports": {
+        "column_get": {
+          "dll": "vcl260.bpl",
+          "name": "@Vcl@Comctrls@TListColumns@GetItem$qqri"
+        },
+        "column_caption": {
+          "dll": "vcl260.bpl",
+          "name": "@Vcl@Comctrls@TListColumn@SetCaption$qqrx20System@UnicodeString"
+        }
+      },
+      "literal_hex": {
+        "0x54a078": "4c6576656c203a20",
+        "0x54a081": "4e50433a",
+        "0x54a086": "2d",
+        "0x54a088": "47f6726576",
+        "0x54a08e": "2d",
+        "0x54a090": "d664fc6c"
+      }
+    }
+  ],
+  "instruction_records_disk_verified": 664,
+  "source_files": {
+    "quest_details.py": "65148c4274fc26855c7725c3645caa0bf7ec0849705622de2336909b3dea14d2",
+    "test_quest_details.py": "2283188f80a639a17fb4e3ebed3fff06627afe392a81ddfd28272bf5c7b9465f",
+    "panel_ui.py": "5c674d991f9d5e3643b36b4d35910c72042f47d5b1f7460791d0d7499358f421",
+    "smoke_quest_details_ui.py": "f97196a975f2e6339df6a2a93a79474e82451e2759eb06516dafa30fff1032c5",
+    "smoke_ui.py": "a68d917ae424e0de51f956d09fd10c14081b1d140306ee602fdccb64b95de1e7"
+  },
+  "facts": [
+    "negative selection exits; visible caption StrToInt is the record index",
+    "column0 Level prefix and column1 display name are assigned before row Clear",
+    "GetItem/SetCaption imports belong to TListColumns/TListColumn, not detail rows",
+    "NPC row, task-label row, blank row and reward-label row are added in that order",
+    "record fields are read at distinct level/display/NPC conversion call sites"
+  ],
+  "limits": [
+    "literal and record codepages, native formatting/getter/string/SEH effects remain explicit or opaque",
+    "label rows do not establish actual quest requirement/reward lookup results",
+    "actual detail-click binding requires separate GUI evidence; this audit only checks retained bytes",
+    "no new decompilation or live execution"
+  ],
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}

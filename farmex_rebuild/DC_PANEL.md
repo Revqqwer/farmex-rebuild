@@ -1,0 +1,15 @@
+# DC Koruma arayüz denemesi
+
+Karar Motorları → **DC Koruma**, kendi Koruma bölümümüzdeki `chdckapat` ve `chdchkapatlist` checkbox'larını dört katmanlı DC kontrol modeline bağlar. İki değer gerçek panel/profil kaynağından alınır. Native ayar üreticisinde fieldB1C→contextB9 veB20→contextBA; context5690f8 için5691b1/5691b2 flag'leriyle ilişki önceki kaynak kanıtından doğrulanmıştır.
+
+Varsayılan `{}` açık kaynak entry gözlemini bekler. `parent` içindeki enabled/list-only raw değerleri ulaşıldığında panelden türetilir. JSON ile bunları değiştirmek veya bool tipinde sahte scalar vermek reddedilir. Diğer gözlemler açık kalır: context+6e, tick/stamp, süreç sonuçları, string/remote read değerleri ve normal helper/return receipt'leri. Yalnız o anda ulaşılan nested bölüm parse edilir. Disabled yolunda kullanılmayan bozuk consumer verisi akışı değiştirmez.
+
+“Panele bağlı boş kaynak örneği” düğmesi kendi sabit checkbox snapshot'ı, context/tick fixture'ı ve liste modunda boş vector veya tarama modunda snapshot=-1 gözlemiyle **sentetik** örnek üretir. Bu örnek native oyunda listenin gerçekten boş veya snapshot'ın başarısız olduğu iddiası değildir; otomatik süreç okuması yapmaz. İstenirse `consumer` ve `transfers/rowN.send` altında daha ayrıntılı captured değerler verilebilir. Yeni UI örneği tek invocation'dır; aynı final frame tekrar ilerletilince ek çağrı kaydı oluşmaz.
+
+Snapshot iki checkbox'tan oluşur. Başka bir panel alanı değişince invocation gereksiz yere başlamaz. İlgili checkbox değişince eski snapshot hash'li örnek reddedilir; yeni frame'in current prefix'i boş giriş durumundadır. Önceden kabul edilmiş timestamp projeksiyonu yerel shadow state olarak kalır; gerçek game/global değeri sayılmaz. Geç invalid capture `last` sonucunu geçersiz kılar fakat frame'in daha önce ulaştığı payload/write öneki korunur. Parent post_tick tamamlanmadan yeni timestamp store oluşmaz.
+
+7 yeni unit test kapalı/liste/tarama seçimi, actual flag override reddi, stale örnek, dört katman wait/resume/idempotence, geç hata öneki ve ilgisiz panel alanı değişimini denetler. Gizli UI smoke gerçek iki checkbox widget'ına invoke uygular; boş liste/tarama örneği, sender wait kesintisi/resume, invalid capture ve profile roundtrip'i denetler. Testler kullanıcı masaüstünü öne getirmez.
+
+Kaynak denetimi önceki1946instruction DC union'ına bağımsız607instruction ayar üreticisini her iki sürüm için ekler: toplam3160kayıt. Dokuz mevcut REA çıktısı ve source field metadata/profil path'leri doğrulandı. İki kontrol zaten önceki ortak Koruma bağlantısında envantere dahil olduğundan bağlı kontrol sayısı355olarak kaldı; yeni tamamlanma yüzdesi üretilmedi. Kanıt: `outputs/FarmexBot_DC_panel_bagi_kaniti.json`.
+
+Bu kendi yerel karar/çağrı planı denemesidir. Kaynak callback'in gerçekten çalışması, helper kaynak global değişimleri, native ayar/reader/sender işlemleri, ABI/RTL/SEH ve canlı oyun uyumluluğu açık kalır. İleri katmanlardaki write/thread kayıtları gerçek Win32 çağrıları değildir. Orijinal oyun veya bot çalıştırılmadı; remote operasyon uygulanmadı.

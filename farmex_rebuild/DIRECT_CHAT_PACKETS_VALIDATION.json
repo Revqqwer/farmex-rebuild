@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T17:03:42.473394+00:00",
+  "full_tests": 2881,
+  "full_test_seconds": 7.076,
+  "new_tests": 12,
+  "instruction_records_verified": 446,
+  "source_helpers": 4,
+  "exact_tp48_34_priest48_26": true,
+  "delays_0_1500": true,
+  "priest_WORD_guard_after_getters": true,
+  "source_field_widths_preserved": true,
+  "independent_enqueues": true,
+  "first_record_retained": true,
+  "enqueue_normal_separate": true,
+  "no_duplicate_copy": true,
+  "consumed_prefix_retained": true,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "direct_consumer_binding": false,
+  "host_metadata_preflight": {
+    "captured_utc": "2026-10-20T16:52:46.3298369Z",
+    "observer": "host_process_metadata_only",
+    "process_count": 274,
+    "matches": [],
+    "memory_reads": 0,
+    "memory_writes": 0,
+    "game_actions": 0,
+    "observer_windows_admin": false,
+    "token_checked_utc": "2026-10-20T16:53:52.9033708Z",
+    "live_compatibility_verified": false
+  },
+  "native_execution_verified": false,
+  "packet_delivery_verified": false,
+  "helper_EAX_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "direct_chat_packets.py": "53cbb4a729e60ec53f02cd79bb3f18115202a8e2636381a02807cbe41f163b99",
+    "test_direct_chat_packets.py": "827b2dc500bab02ea7267ca821531b9b218fd6f4bad8c04f8044f04775e40202",
+    "action_queue.py": "eadf9393a7a1e2b2ed73a6e5392f222ca0c2a0c99ee79547359876b1633206f5"
+  },
+  "audit_sha256": "85bc91aedc5d6dfb14f6da3f1f2ee4d90c2a371991c04d6d2236747c70d3a220",
+  "test_log_sha256": "1f8ad5b2d6b607b65ba353bfd371725bf19e60fac6dafbaa4c199e5ded300e3b",
+  "additional_logs": {
+    "outputs/FarmexBot_canli_oturum_20261020.json": "d169219ff80cbfca4403a6ee022c10f42ae5d582a70b4a740685d9ee10a547fe"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T04:12:27.347355+00:00",
+  "full_tests": 2541,
+  "full_test_seconds": 7.402,
+  "new_tests": 15,
+  "existing_ui_regression_passed": true,
+  "ui_controls": 1037,
+  "ui_forms": 11,
+  "ui_main_tabs": 18,
+  "ui_scope": "Legacy UI paths passed; no UI consumes new typed quantity samples. Nine-byte API extension is covered by final full unit run.",
+  "source_instruction_records_reverified": 222,
+  "source_scopes_overlap_prior_audits": true,
+  "typed_quantity_item_binding": true,
+  "format_and_copy_and_cleanup_receipts_separate": true,
+  "outer_helper_return_separate": true,
+  "ninth_byte_final_pointer_spill_modeled": true,
+  "ten_and_eleven_byte_paths_unresolved": true,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "storage_quantity_operands.py": "f62cf9db70578b55636315f6e6c00cc37490927c681cbadc06392c8c3b476881",
+    "storage_native_plans.py": "001aeebe518b7caa39636c10805a8e6762cd07664fee1eebb73bd2de4db73a03",
+    "storage_items.py": "d5532614d26bbb59325c0dbbbee8cfd3bc3f12880872a982992618858857ff76",
+    "test_storage_quantity_operands.py": "2ba1e49b17f950bc481d51bf6d97e85b220feba6a14b0554bca658eeae9e7875"
+  }
+}

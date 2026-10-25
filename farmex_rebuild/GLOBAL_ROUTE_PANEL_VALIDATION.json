@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "new_tests": 4,
+  "full_tests": 2440,
+  "full_test_seconds": 9.384,
+  "full_hidden_ui_passed": true,
+  "dynamic_combo_count": 10,
+  "source_producers_new": 8,
+  "published_events_verified": 16,
+  "field_records_verified": 8,
+  "instruction_records_disk_verified": 1082,
+  "compiler_input_controls": 244,
+  "catalog_controls": 1037,
+  "forms": 11,
+  "main_tabs": 18,
+  "source_files": {
+    "route_catalog.py": "de4b0cfb432d9825a4dbf2cafe05425516c17b74a1dfbf6fc2c7f75c6083a982",
+    "global_route_choices.py": "4a755c630a63d1fb6a7071626720c12bbd869d2cd084e3abf7ada42a26fb3611",
+    "route_ui.py": "5c272e7671be81abf5fe71a35a74069cdd7f7ae7c385a3a37392cb416d5b5ef1",
+    "smoke_route_catalog.py": "37988478170094cc752ecb675afb1601c5354b1a1ae965d71ab695c9c33d914a",
+    "test_panel_global_route_names.py": "2a610e8b464fcd1df569386c9c55247721345485ac0e7e644e11516edac3c971"
+  },
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

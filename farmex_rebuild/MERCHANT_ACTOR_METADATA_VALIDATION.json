@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "validation_scope": "own captured actor/coordinate/name and reply-value composition only",
+  "verified_at_utc": "2026-10-23T15:35:50.978162+00:00",
+  "full_tests": 4169,
+  "new_tests": 10,
+  "full_test_seconds": 13.489,
+  "test_log": {
+    "path": "work\\merchant_actor_metadata_full_tests.log",
+    "sha256": "ab0a7f56770d3d2993a0e197dd548f04b2e6e8223dab7fc35babc80a4f17448a"
+  },
+  "source_files": {
+    "merchant_actor_metadata.py": "ca1ada668fbb2252ca6786adb53c0ab69ef49c8f216d68949099f8f5d08159b2",
+    "test_merchant_actor_metadata.py": "cea5eb5ba0efac6364b12692770c4b8f8c52b67e5fc06ffd9c4676635d484275",
+    "game_text.py": "1f8d77d2aee73a4a3abc8c46aa1d79237cb32c0d0b4c745b3b448aa9f19004b8",
+    "merchant_item_metadata.py": "ee4dfe59f6795bc8f908b4afb12b0f3c5495ee4d8d3ca5da72128f0d921cc1a9",
+    "merchant_scan_results.py": "a3a35f73a9f6cce253caad0ce8caa8e3a90bcde52cf1acc03f25db7e171d53e6",
+    "MERCHANT_ACTOR_METADATA.md": "f5f01b643ae3a89ee669020597dc849c3165221b7892023ce11ccbbaa31c15e6"
+  },
+  "source_audit": {
+    "path": "outputs\\FarmexBot_merchant_actor_metadata_kaniti.json",
+    "sha256": "a69f19a6431865ef50892b226242064266171351ffa1afe4906a17b333e70728"
+  },
+  "scoped_models": 212,
+  "new_REA_analyses": 0,
+  "native_execution_verified": false,
+  "native_text_conversion_verified": false,
+  "source_parser_return_verified": false,
+  "ui_changed": false,
+  "last_GUI_release_python_files_unchanged": true,
+  "release_updated": false,
+  "preserved_release": {
+    "python_tests": 4159,
+    "controls": 1037,
+    "forms": 11,
+    "tabs": 18,
+    "sha256": "35b14ff542b37f44d283de6f691075171ef2fc7173a472b769a0491576992d8e"
+  }
+}

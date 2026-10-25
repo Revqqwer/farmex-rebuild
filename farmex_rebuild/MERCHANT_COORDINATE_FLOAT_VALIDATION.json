@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-23T19:49:40.549889+00:00",
+  "validation_scope": "own canonical signed32 column nearest-even float model only",
+  "full_test_tree_at_validation": 4272,
+  "coordinate_tests": 6,
+  "native_cases": 4110,
+  "mismatches": 0,
+  "measured_profiles": [
+    {
+      "x87_control_word": 4991,
+      "acp": 1254,
+      "thread_lcid": 1055,
+      "user_lcid": 1055
+    }
+  ],
+  "general_StrToFloat_implemented": false,
+  "source_files": {
+    "merchant_coordinate_float.py": "43409f0149d7cde7758c2c93b2c9c81275368a32a9567d5d10f539b3ca13fa7d",
+    "test_merchant_coordinate_float.py": "c7207c8d052af7c02fe370ce6acd10a1e57a4c8844a0298b0fb7326e0409c006",
+    "merchant_result_rows.py": "eea6d1e83e5233be6484a33cdbf3bbde432c133d6da34a5dafe06963566d082b",
+    "native/rtl_coordinate_float_fixture.c": "39be64ccabe0033ff212cdef981e2381149076898c5507d91f065ecfbdbdbc9e",
+    "native/build_rtl_coordinate_float_fixture.ps1": "ebb15b63827417ebdd4a02214b1b7785a9fd20a5339af573fb61977208a96326",
+    "native/rtl_integer_fixture.c": "6eff2a8b83565f126e07820efd18c26f970dd1bb10169c8961ba01e10c19c343"
+  },
+  "evidence": {
+    "path": "outputs\\FarmexBot_merchant_koordinat_float_native_kaniti.json",
+    "sha256": "02798ae9af76aa590829d6a87588cb2fc4435e0cee84648eee02960ad3b9d6fa"
+  },
+  "outside_probe_scope": "8 native successes and4 first exceptions all outside own canonical subset",
+  "source_runtime_FPU_control_verified": false,
+  "live_compatibility_verified": false
+}

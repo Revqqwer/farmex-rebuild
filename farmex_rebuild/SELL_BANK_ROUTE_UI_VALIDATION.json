@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T03:25:25.834580+00:00",
+  "new_tests": 9,
+  "full_tests": 2463,
+  "full_test_seconds": 6.704,
+  "full_hidden_ui_passed": true,
+  "focused_final_parent_gate_ui_passed": true,
+  "failed_repeat_without_reset_passed": true,
+  "source_instruction_records_reverified": {
+    "failure_caller": 498,
+    "route_caller": 3076
+  },
+  "instruction_scopes_may_overlap": true,
+  "bank_route_ui_dispatch_bound": true,
+  "enabled_by_default": false,
+  "local_simulator_handoff": true,
+  "outer_parent_plan_required": true,
+  "lazy_failure_and_route_input_factories": true,
+  "compiler_input_controls": 244,
+  "source_files": {
+    "operation_engine.py": "80999b78752c22bb0e5dcd85efbca0880d6f73ac9cbed9c4ecf5552335374815",
+    "merchant_sell_failure.py": "50eaa565a88a6da3974481d3cf6242c06254d9f4ed0373255af9ade328e89113",
+    "simulation_ui.py": "998a734faf2caba659dfe8666a08e35d14896612f27fd1c81d6ebbac579d2ed1",
+    "route_ui.py": "50dfd4bc7b7a41beaee49941aab9d04dcce1c4bb8d2c62148d54cbc39ceb20f0",
+    "app.py": "2502fa2ea86e9003d5db5095ebeb821a12d4eb0634c424462e194dffaa1b0c8d",
+    "test_sell_failure_binding.py": "05fad177c245cb84b14c4e4f99cdc221926292a02f94a7c3989e38ea3d770645",
+    "smoke_sell_bank_route.py": "3eb67ec0cca3a63651c9be89cdbb83827dd5de20d40eb14b3d4d9e45a0feb80f",
+    "smoke_ui.py": "7cf774846d490acf4abe103b21b3869fa8866a21c34e272e205a19b07c19cfe4"
+  },
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

@@ -1,0 +1,102 @@
+{
+  "source_function": "004576ec",
+  "entry": "00457d02",
+  "exit": "004580ac",
+  "fields": [
+    {
+      "slot": "0x828",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chDCControl",
+      "kind": "flag",
+      "context_offset": "0x8a"
+    },
+    {
+      "slot": "0x82c",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/dcDCControlAlarm",
+      "kind": "flag",
+      "context_offset": "0x8b"
+    },
+    {
+      "slot": "0x838",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chDCControlProc",
+      "kind": "flag",
+      "context_offset": "0x8c"
+    },
+    {
+      "slot": "0x83c",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/cmbDCControlProcIndex",
+      "kind": "index",
+      "context_offset": "0x90"
+    },
+    {
+      "slot": "0x834",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/txtDCAutoLoginWaitSeconds",
+      "kind": "number",
+      "context_offset": "0x94"
+    },
+    {
+      "slot": "0x840",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chDCControlStartBot",
+      "kind": "flag",
+      "context_offset": "0x98"
+    },
+    {
+      "slot": "0x844",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chRelogAfterReturnSlot",
+      "kind": "flag",
+      "context_offset": "0x99"
+    },
+    {
+      "slot": "0x84c",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/cmbRelogAfterReturnRouteName",
+      "kind": "string",
+      "context_offset": "0x9c"
+    },
+    {
+      "slot": "0x850",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chRelogAfterSendChat",
+      "kind": "flag",
+      "context_offset": "0xa0"
+    },
+    {
+      "slot": "0x854",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/txtRelogAfterChatText",
+      "kind": "string",
+      "context_offset": "0xa4"
+    },
+    {
+      "slot": "0xeb8",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/cmbRelogAfterSendChat",
+      "kind": "index",
+      "context_offset": "0xa8"
+    },
+    {
+      "slot": "0x858",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/chRelogAfterSendPM",
+      "kind": "flag",
+      "context_offset": "0xac"
+    },
+    {
+      "slot": "0x85c",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/txtRelogAfterPMNick",
+      "kind": "string",
+      "context_offset": "0xb0"
+    },
+    {
+      "slot": "0x860",
+      "path": "frmMain/MainTab/SheetKontrol/GroupBox32/txtRelogAfterPMText",
+      "kind": "string",
+      "context_offset": "0xb4"
+    }
+  ],
+  "unread_slots": [
+    "0x830",
+    "0x848"
+  ],
+  "constant_stores": [
+    {
+      "offset": "0x9a",
+      "width": 1,
+      "value": 1
+    }
+  ]
+}

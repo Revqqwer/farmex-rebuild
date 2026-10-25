@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "validation_scope": "own stable filter API and pinned source comparisons only; not release validation",
+  "verified_at_utc": "2026-10-23T14:48:30.673933+00:00",
+  "full_tests": 4100,
+  "new_tests": 9,
+  "full_test_seconds": 12.786,
+  "test_log": {
+    "path": "work\\merchant_result_filter_full_tests.log",
+    "sha256": "3b84d5502fe6d824992b0572f4ce062a3445b6a6cae338377c884a519e3561aa"
+  },
+  "source_files": {
+    "merchant_result_filter.py": "dea97b182fdb2cd79f195d5183bd1769f384c1d4d8999530eb66e4a9257b0516",
+    "test_merchant_result_filter.py": "d24c0c48071345bacc144979ef82864cd63b2b58cd98265e40aaa973573ae54e",
+    "MERCHANT_RESULT_FILTER.md": "4217e949d75d03070e69d9e31a94b91310f6a5998ccded85ecd4adc1d6cc836c"
+  },
+  "source_audit": {
+    "path": "outputs\\FarmexBot_merchant_filtre_giris_kaniti.json",
+    "sha256": "bedf0dc6c72ab28e8dcd570558a79bb3549867fd1ec5a4d0c75fb554accf6abe"
+  },
+  "new_REA_analyses": 0,
+  "ui_changed": false,
+  "merchant_result_UI_implemented": false,
+  "full_GUI_candidate_status": "pending_selected_message_UI_due_to_approval_review_usage_limit",
+  "release_updated": false,
+  "preserved_release_sha256": "c534f89fe9357692660c596500a12c83a3d7100e067656bc1f6060b2cef8bbca",
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false
+}

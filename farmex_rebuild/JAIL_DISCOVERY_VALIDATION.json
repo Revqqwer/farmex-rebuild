@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T03:09:24.371804+00:00",
+  "full_tests": 3446,
+  "full_test_seconds": 7.998,
+  "new_tests": 14,
+  "instruction_records_verified": 1268,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 6,
+  "scoped_models": 150,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 354,
+  "editable_controls_outside_inventory": 168,
+  "typed_preload_outer_return_separate": true,
+  "source_files": {
+    "jail_discovery.py": "543d56695f4c57b6561f6793b5010fc625ca97ea01d5cbc99c0f6bf9081e238c",
+    "test_jail_discovery.py": "2f6b73a9ddf7f42007428d09224890572097c98decf85d32034305f199a5d5de",
+    "jail_preload.py": "a265ebd4651563f69691f17def949a8cad50d6cb9a9a6e4200aa3e1b6b298b2d",
+    "jail_protection.py": "818a9476bb1a7667ed0bb1dac5e38db66d31094f64d9b0b7d949b4d2992fc74f",
+    "JAIL_DISCOVERY.md": "11dc5afcde1df26c896076d1ce104a3ba8e9f82f48db9cdfcc3609f49f92d997"
+  },
+  "source_audits": {
+    "REA_koruma_pencere_liste_yenile_20261022.json": "ca6766477f9c2ae3e3571452279c5112e4f37cf6f172736c93b2970c033930e7",
+    "REA_koruma_pencere_yenile_on_islem_20261022.json": "5d13ad8e8b0213fce812a8af4052c96e1e32d890f1307df6b17432fce33948a2",
+    "REA_koruma_uzak_dword_okuma_20261022.json": "519f527594ac742739cde25b6c882e185b5edb3ccb6ded9cbeaca31461b3117e",
+    "REA_koruma_jail_handle_metni_20261022.json": "700e865b50b7acc011b3f893313df96c646ff9fd984bba5e6142a9659ba41420",
+    "REA_koruma_pencere_esitlik_20261022.json": "0ec82116c5c23620e9cbc31ebc79f5f7716bf2ba0df3404769c16bdcd02301c8",
+    "REA_koruma_jail_metin_karsilastirma_20261022.json": "002640adeef7388484b3c8bc8a856ead1581a517cce818482f9d551cb0971f16",
+    "FarmexBot_koruma_pencere_yenile_kaniti.json": "b0ac02b1c3a84ba279d09a6c908e4df9dbe5d6b86c6a9122d8f1b0516db67e85"
+  },
+  "additional_logs": {},
+  "audit_sha256": "279533c70e8d7266a7b2559f6160184b074811b12f9cedb773ebc77bd733177e",
+  "test_log_sha256": "47209c22d9add39b5720a022cd2cb2d33f7a5d5b1e82729b8b8c33c08e78b915",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

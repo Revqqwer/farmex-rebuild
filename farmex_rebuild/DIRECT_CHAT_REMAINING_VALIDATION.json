@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-20T17:12:10.315058+00:00",
+  "full_tests": 2887,
+  "full_test_seconds": 7.079,
+  "new_tests": 6,
+  "instruction_records_verified": 590,
+  "source_helpers": 3,
+  "total_direct_helpers": 7,
+  "Str_full_DWORD_guard_and_copy": true,
+  "SW_WORD_copy_without_zero_guard": true,
+  "Wolf_no_target_argument": true,
+  "Wolf_both_records_XZY": true,
+  "Wolf_delay_1700": true,
+  "source_templates_preserved": true,
+  "consumed_prefix_retained": true,
+  "no_duplicate_enqueue": true,
+  "separate_enqueue_and_outer_normal": true,
+  "API_only": true,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_C_changed": false,
+  "direct_consumer_binding": false,
+  "native_execution_verified": false,
+  "packet_delivery_verified": false,
+  "helper_EAX_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "direct_chat_packets.py": "7b6e2682a78222ca6c38c84129447094dd50fc043c655aa4a01d57030ab3b001",
+    "test_direct_chat_packets.py": "27af0d45335fa21caa15a8fd7ad1676a79e9d5eab510edb00eece1a604214060",
+    "action_queue.py": "eadf9393a7a1e2b2ed73a6e5392f222ca0c2a0c99ee79547359876b1633206f5"
+  },
+  "audit_sha256": "a3d49ddc69e198ee50d9091aa81eb746d9f80a46ad5619ba1e403711ce35ece5",
+  "test_log_sha256": "c855e8bbf101e5041282eda8837f19a63a3df1c48c730c46013b101d31a30850",
+  "source_audits": {
+    "FarmexBot_dogrudan_chat_paket_kaniti.json": "85bc91aedc5d6dfb14f6da3f1f2ee4d90c2a371991c04d6d2236747c70d3a220"
+  }
+}

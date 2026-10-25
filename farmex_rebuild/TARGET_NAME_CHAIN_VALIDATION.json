@@ -1,0 +1,16 @@
+{
+  "verification_status": "passed",
+  "date": "2026-10-18",
+  "full_unit_tests": 2368,
+  "full_unit_seconds": 7.165,
+  "focused_tests": 35,
+  "new_tests": 29,
+  "disk_instruction_records": 990,
+  "ui_code_changed": false,
+  "ui_smoke_repeated": false,
+  "target_parent_state_implemented": false,
+  "live_target_button_adapter_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "evidence": "FarmexBot_hedef_isim_ve_UI_sorgu_kod_kaniti.json"
+}

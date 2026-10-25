@@ -1,0 +1,81 @@
+{
+  "verification_status": "passed",
+  "verified_at_utc": "2026-10-21T16:37:12.738605+00:00",
+  "current_module_analysis_still_source_bound": true,
+  "installed_damon_richard_decoded_identical": true,
+  "installed_files_modified": false,
+  "target_executions": 0,
+  "game_memory_reads": 0,
+  "game_memory_writes": 0,
+  "network_requests": 0,
+  "live_compatibility_verified": false,
+  "limitations": [
+    "Disk snapshots do not prove loaded image identity, profile, ABI or live values.",
+    "Process metadata is a name/PID-only observation at its own timestamp, not a persistent game-state claim.",
+    "Unchanged source bytes preserve existing evidence scope; they do not certify any unresolved behavior."
+  ],
+  "evidence_file": "FarmexBot_guncel_analiz_kaynak_saglamasi.json",
+  "evidence_sha256": "565ce5355ee302cd660daad9ef6f1de50a361968c3cc2981093db5fce00959a0",
+  "process_metadata": {
+    "observed_at_utc": "2026-10-21T16:36:07.0818958Z",
+    "scope": "process name and PID only",
+    "processes": [],
+    "memory_access": false,
+    "game_actions": 0
+  },
+  "source_identities": [
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\FarmexUS_ST_Loader.exe",
+      "size": 4850688,
+      "sha256": "97d946ddec5df814e0042384b78b711c029f136aa6c43701910fd21cef5a0775",
+      "last_write_utc": "2026-10-13T06:14:10.575178+00:00",
+      "role": "loader",
+      "matches_analysis_pin": true
+    },
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\Data\\Damon.slv",
+      "size": 2024448,
+      "sha256": "ffbe8ad8f8aa06728d6059443eb76b3bc88badbc1e29ffa201549ad50efd26ad",
+      "last_write_utc": "2026-10-18T03:44:50.049747+00:00",
+      "role": "Damon",
+      "matches_analysis_pin": true,
+      "matches_preserved_raw_bytes": true,
+      "decoded_sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "decoded_matches_preserved_bytes": true,
+      "aligned_marker_replacements": 19903
+    },
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\Data\\Richard.slv",
+      "size": 2024448,
+      "sha256": "ffbe8ad8f8aa06728d6059443eb76b3bc88badbc1e29ffa201549ad50efd26ad",
+      "last_write_utc": "2026-10-18T03:44:50.329362+00:00",
+      "role": "Richard",
+      "matches_analysis_pin": true,
+      "matches_preserved_raw_bytes": true,
+      "decoded_sha256": "febdac805f370fb3ecc1ba5bf76482eb1f3d9b52c080113eb1dc9f12d2e45759",
+      "decoded_matches_preserved_bytes": true,
+      "aligned_marker_replacements": 19903
+    },
+    {
+      "path": "C:\\Users\\90546\\Desktop\\FarmexBot\\Data\\Stephan.slv",
+      "size": 4870144,
+      "sha256": "f2864fc683a5517b6f1fee6a68138fdcb4337a3fa4780339039e577468161944",
+      "last_write_utc": "2026-10-18T03:44:49.768929+00:00",
+      "role": "Stephan",
+      "matches_analysis_pin": true,
+      "matches_preserved_raw_bytes": true,
+      "decoded_sha256": "c3610fbe55bdc69a9e146887487f9103a78ac71b219ceffd2a9cd0b35dbab012",
+      "decoded_matches_preserved_bytes": true,
+      "aligned_marker_replacements": 31606
+    },
+    {
+      "path": "C:\\NTTGame\\KnightOnlineEn\\KnightOnLine.exe",
+      "size": 7008392,
+      "sha256": "ca69cecebdefd82b409ca8cf041655da53cb97113b068a086c5f7a6ef7e952a9",
+      "last_write_utc": "2026-10-15T06:50:46+00:00",
+      "role": "game",
+      "matches_analysis_pin": true,
+      "matches_preserved_bytes": true
+    }
+  ]
+}

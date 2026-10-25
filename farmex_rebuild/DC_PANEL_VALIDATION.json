@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T18:06:48.631236+00:00",
+  "full_tests": 3503,
+  "full_test_seconds": 10.245,
+  "new_tests": 7,
+  "instruction_records_verified": 3160,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 9,
+  "scoped_models": 155,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_ui_controls": 1037,
+  "full_ui_forms": 11,
+  "main_tabs": 18,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "stable_owned_checkbox_snapshot": true,
+  "source_files": {
+    "dc_panel_trial.py": "a6bf9965d7fcccf090b6ae1b97c6e65bc6a7dfb0a103494ff17bd7d1ce8d5b29",
+    "test_dc_panel_trial.py": "46e29cb2569d2f2aea0fb047812719ec63aa0cb63b042a4bc19cca4ecfa08f94",
+    "smoke_dc_panel_ui.py": "7460f49e6e1830a3c2083af59bf76c3dd0207dcbf007d2a6c425c4ef197cf41e",
+    "dc_full_chain.py": "25b5fbbdf3dc52cfd5e7a8b4b554d8c1771268338a45b43e370fc27e3eed64c0",
+    "simulation_ui.py": "33bb941a3cf08130587712c6c7d81460daba6869c3b7afd6fcd7e8dafcfa3c5e",
+    "smoke_ui.py": "4b48aeff504c41c054a0ddd59760d85c251b05e84e9857ed60114a3c3cea37f4",
+    "protection_fields.json": "d7ce7da0217a177140696ff99200e7ccddc0f91357b7c17815e03744fa8a2c77",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89",
+    "DC_PANEL.md": "449ac690f8145e246a456aa05013eb33d2205fe785cabf3300000efb10a25fd5"
+  },
+  "source_audits": {
+    "REA_koruma_DC_cagiran_20261022.json": "9c0c49324a65bb0579b548d6456847a0da44e7fec20f5a1f21e6fba203764154",
+    "REA_koruma_dc_olay_aday_20261022.json": "f4a6dd45464b986329d9287ef88b980e3a484a83351650e5c43f1ed201ac4eb3",
+    "REA_koruma_liste_uretici_aday_20261022.json": "c50c1975564ce05c069504846cd0ff4f280413d46fba22ad37cfc9d660a162a0",
+    "REA_koruma_DC_eylem_yardimcisi_20261022.json": "479387e3308daa280747d69f7fc5d679093c860bfa5e3dd351e728abea661a3b",
+    "REA_koruma_DC_thread_yardimcisi_20261022.json": "25e18f23a3ec175b878c6217e24f86c895630e98eeb11a269ec6f1ee18eaf4b4",
+    "REA_koruma_uzak_byte_okuma_20261022.json": "89f39974c9399a812a0b4b95e8dcc8966f92437a6b88b4ba2bb44b0bf4d53ee3",
+    "REA_koruma_uzak_dword_okuma_20261022.json": "519f527594ac742739cde25b6c882e185b5edb3ccb6ded9cbeaca31461b3117e",
+    "REA_TP_koruma_dc_yardimci_20261021.json": "7527250c9b8b4ee48d4f2a4504679d610348a3bf18c6dcb5217267eb70e3ba07",
+    "REA_TP_koruma_ayar_uretici_20261021.json": "6ced206f36a4ea33d43836677bbfeeee779cda8516bd51d47e03b7ef5e260b99",
+    "FarmexBot_koruma_ortak_ayar_kaniti.json": "9f1b41a6778480f6812115ad5753117a07c98dc771260c09c383b409ee7f1fa5",
+    "FarmexBot_DC_koruma_cagri_zinciri_kaniti.json": "271893baf0f927676812630a85ddbd5a2e36a9226f59b1f57ee0e8f5fe279ca8"
+  },
+  "additional_logs": {
+    "work/dc_panel_full_ui.log": "e1c8a5adf8b2d973d71bae0c6c76ab433e7b76a91fafa11401c897c1c6a4b5e2",
+    "work/dc_panel_smoke.log": "9ad6f8c3fea74b814962c044410e764c4018998775f4f34cf483157cd7846d8c"
+  },
+  "audit_sha256": "0bb7e48fd8f8df7ec83321d2b3719483f1552b65f7f79e2834a1aa110a832658",
+  "test_log_sha256": "1cdc42382419d798202818415093b49edfcac75662b905459367c2409e4aee6b",
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0
+}

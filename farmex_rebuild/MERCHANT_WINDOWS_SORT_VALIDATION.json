@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "validation_scope": "own hidden Windows sorting backend only",
+  "verified_at_utc": "2026-10-23T18:32:30.176680+00:00",
+  "full_tests_at_backend_stage": 4193,
+  "test_log": {
+    "path": "work/merchant_windows_sort_full_tests.log",
+    "sha256": "4607f5ad20eab567246fbabf032bfb6936706f3433760fbd68c6de759ba9f8b4"
+  },
+  "source_files": {
+    "merchant_windows_sort.py": "44355d1bd074749dd7bc3dce06129a313fc2c2a14d0ee179ee96b03e361e6a26",
+    "test_merchant_windows_sort.py": "8b74431643bc2595c02bcb3b1b5f2a6c5c568c88dc0a1141da6d40be1551813f",
+    "merchant_result_compare.py": "f59d305a998f08f35bf73cec13c094c55956c085ac6cbec657c9efe2e7f6111f",
+    "rtl_text_compare.py": "7e65f2a80a802476aa9f0618a1f47118c0c1208fa424557cead84d5594d1335f",
+    "rtl_integer32.py": "af0defffbf6b921b04c90ba656ffb92682cd5a0cd1eeff64ea95fe008f9df94c",
+    "rtl_integer.py": "2f77d266a970c3871a7bedd278c5d79b9c72fa609f5d55a47dcbf067a1469e87",
+    "native/merchant_list_sort_fixture.c": "e87d83baa14d6137bdf531354c9edf7aa4d72cbe82b5fc77c1d9dd6d12526b8b",
+    "native/build_merchant_list_sort_fixture.ps1": "5ba32b246ed0ac8e9d376a9c4b2fbf28d6e3f4a0c79e9222c89de94d54332ba6",
+    "native/rtl_integer_fixture.c": "6eff2a8b83565f126e07820efd18c26f970dd1bb10169c8961ba01e10c19c343"
+  },
+  "native_reference": {
+    "path": "outputs\\FarmexBot_merchant_Windows_sira_native_kaniti.json",
+    "sha256": "adfde41fd01d565299bfd17cb97b27c925df3bea03ec8c826bd0bb37033fbed3",
+    "cases": 35,
+    "normal_orders": 31,
+    "boundaries": 4,
+    "order_mismatches": 0
+  },
+  "source_VCL_callback_executed": false,
+  "live_compatibility_verified": false
+}

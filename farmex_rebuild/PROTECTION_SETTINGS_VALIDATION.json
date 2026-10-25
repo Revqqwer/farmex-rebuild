@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T20:55:46.810874+00:00",
+  "full_tests": 3384,
+  "full_test_seconds": 8.166,
+  "new_tests": 12,
+  "instruction_records_verified": 1310,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 2,
+  "scoped_models": 145,
+  "source_form_members": 50,
+  "number_fields": 4,
+  "string_fields": 4,
+  "no_default_enum_groups": 4,
+  "common_protection_API_only_controls": 44,
+  "scoped_model_count_increased": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "whole_producer_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "protection_settings.py": "502157d14998641f94c32db32be7e886e9dcf96079b9d3425040dc7b1b167d8d",
+    "test_protection_settings.py": "ec2a2b1c14270a8ceed37dbb1f3ceb642bfd9a4d02f71bdee1b246c82c90417e",
+    "PROTECTION_SETTINGS.md": "f938bd56297545ec3d6932983d3a14ee207e2e1a9bb1ecf94e225ccaa6c0ac1b",
+    "source_integer.py": "9ad0a4623715e4e35eed1d35a95215827da980923adc9a4b84a34bb21da9f238"
+  },
+  "source_audits": {
+    "REA_TP_koruma_ayar_uretici_20261021.json": "6ced206f36a4ea33d43836677bbfeeee779cda8516bd51d47e03b7ef5e260b99",
+    "REA_otomatik_dagitim_sayi_donusumu_20261021.json": "0b1cfd7e56757f34f177bacf84d8d03bf6035f28dde2ce0aab809d566255e52b",
+    "FarmexBot_form_alan_eslemesi.json": "4420b57a75f0818ecd76b2e4776a074a52206013c96ad8e2f07821af26ca095e"
+  },
+  "audit_sha256": "9f1b41a6778480f6812115ad5753117a07c98dc771260c09c383b409ee7f1fa5",
+  "test_log_sha256": "98ed1076c242d0098dfb19f9df5ea4a2d5aa9bb4b0033faf4a7d1d4577cc7d76"
+}

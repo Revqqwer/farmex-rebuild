@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T03:15:50.339652+00:00",
+  "full_tests": 3454,
+  "full_test_seconds": 9.785,
+  "new_tests": 8,
+  "instruction_records_verified": 1928,
+  "new_REA_analyses": 0,
+  "reused_REA_analyses": 7,
+  "scoped_models": 150,
+  "ui_changed": true,
+  "ui_retested": true,
+  "full_ui_controls": 1037,
+  "full_ui_forms": 11,
+  "main_tabs": 18,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "source_RTL_conversion_verified": false,
+  "original_button_dispatch_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "jail_selection_trial.py": "75c30b000eb6591883ba63506e6a16fed2aaa4fd4ea9c2d5bc4ae59500419796",
+    "test_jail_selection_trial.py": "9949fcaf8f459a72d670516d8d005edbd1ee620a90bac33656a754f15dfa1700",
+    "smoke_jail_selection_ui.py": "26ca770c1e463d24e9c1f1c87c4293e3fe39a0df9b134340331d4de689a9cfa8",
+    "jail_selection.py": "cbcfe788d32b4e486e767faf8b1874d389508356d722e500c1f83b213a2f7996",
+    "simulation_ui.py": "ffad3a7aa21379b867a318fe0999eb47c222d6fa50477b310fad528d7a964f7a",
+    "smoke_ui.py": "a8aea47a259266a42d289ccc8d49044e181e1d894d73fdc77c196b69e5af56b1",
+    "JAIL_SELECTION_PANEL.md": "7b6c514687b84e6ecc7473c108845ca4bdced09af7217a747cc672ec2a6e303a",
+    "ui_model.json": "527dae5141c3f048d313369ef2d1e28b2d8b858c034fb39cd50c15a77f67ec89"
+  },
+  "source_audits": {
+    "REA_koruma_liste_uretici_aday_20261022.json": "c50c1975564ce05c069504846cd0ff4f280413d46fba22ad37cfc9d660a162a0",
+    "REA_koruma_dc_olay_aday_20261022.json": "f4a6dd45464b986329d9287ef88b980e3a484a83351650e5c43f1ed201ac4eb3",
+    "REA_koruma_pencere_yenile_callback_20261022.json": "75ed5cc93129ca4a6bace1f38ff0a373436c396bd18f2c549fc67317cc35c1fd",
+    "REA_koruma_pencere_kaydet_callback_20261022.json": "dc8a9392fde1ee34f13f80c09fdb213516525bbef36c66251530befbbe832d53",
+    "REA_koruma_pencere_liste_uretici_20261022.json": "4d883391b90dab67e5843aac001265bc1ea494a43edf76739076bd0430315af7",
+    "REA_koruma_pencere_liste_yenile_20261022.json": "ca6766477f9c2ae3e3571452279c5112e4f37cf6f172736c93b2970c033930e7",
+    "REA_koruma_jail_ikinci_20261022.json": "90b221d67cacd957544aead8796827b86d827e9650fd530c594c0c839a592d63",
+    "FarmexBot_koruma_pencere_liste_kaniti.json": "a6ea8d44f3081b56778f7bd8a2e26ccf2c81ae853e422d3f47ea6c779a514ab1"
+  },
+  "additional_logs": {
+    "work/jail_selection_panel_full_ui.log": "87fbce5cb707f1cf2e6801b7ad3efdfcfdbac51dd1302cc4dea79bccf4614dd5",
+    "work/jail_selection_panel_smoke.log": "c3d13d850c1276ca5c57a663bc285fcab7faf04d39479e1674016d14dea02dad"
+  },
+  "audit_sha256": "30f00e0ba6922c66eb9701e7062794079ffbb7a8b771876eed54778904b61b0e",
+  "test_log_sha256": "328d01c6a3a5d62e9601d6894cb8b7b2aa67c7718cd886afb437e6776b9a4995"
+}

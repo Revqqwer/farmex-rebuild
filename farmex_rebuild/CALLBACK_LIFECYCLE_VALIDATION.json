@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T16:21:03.282841+00:00",
+  "full_tests": 3308,
+  "full_test_seconds": 7.689,
+  "new_tests": 12,
+  "instruction_records_verified": 1032,
+  "lifecycle_helper_records_both_versions": 254,
+  "new_REA_analyses": 4,
+  "reused_REA_analyses": 1,
+  "scoped_models": 140,
+  "ui_changed": false,
+  "ui_retested": false,
+  "SleepEx_identity_verified": true,
+  "generated_prelude_children": 3,
+  "native_execution_verified": false,
+  "memory_effects_verified": false,
+  "live_compatibility_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "callback_lifecycle.py": "95ea8c294a1e36fddb935b183d5dd902774cea4ea4939da776cab2ebf169e69d",
+    "callback_prequeue.py": "8c6b58641d17bed74a742e88dafbe21ad37a9f9bd4f84751b06a4011ca20131f",
+    "test_callback_lifecycle.py": "18f2e0c94a0ffb583b12f1a4a22268f2963234838a3445f30095c65038c4e676",
+    "CALLBACK_LIFECYCLE.md": "8ffc91d97cb24b97bbbf6b7cdd199923cb81880a7f5f8810acb8b76db06d3ef2"
+  },
+  "source_audits": {
+    "REA_callback_hazirlik_kosulu_20261021.json": "8dcceb82f0b2c589014abab2aab5008f216a303bd4d7cebbdee403a6838afeb4",
+    "REA_callback_hazirlik_bayrak_20261021.json": "1404295f36e8236c21368b51374b6e605ca5f9630e59c1aac509464cfeb52485",
+    "REA_callback_yasam_dongusu_gecis_20261021.json": "3d757b7c0907f5c5ba82c85961d850f5e5ee10f0c084a77954d28b783872d219",
+    "REA_callback_gecis_kosulu_20261021.json": "b511c428c30ef97c1225f99b2b7bc5753c7e120a869774060bd277681ce27891",
+    "REA_callback_pointer_degisim_20261021.json": "09129770ccac0bb51aa79671fae570dcc1d579ceabbb6892c9de21b7d916fe19"
+  },
+  "audit_sha256": "3ad8d5a1bc57243a34998bb3a2c05d318a8572e5ba6c8915247cad3ddbfebe9f",
+  "test_log_sha256": "b6c13fcbd17116fb54f023fbe118868398e8875e4aa1613a00364a5f17e18914"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "validation_scope": "own stable result column/normal DWORD formatting API only",
+  "verified_at_utc": "2026-10-23T14:52:09.681237+00:00",
+  "full_tests": 4107,
+  "new_tests": 7,
+  "full_test_seconds": 12.896,
+  "test_log": {
+    "path": "work\\merchant_result_rows_full_tests.log",
+    "sha256": "9617bb9bd92ba1acc49d78c778f8f3a175b1326d7e7079b7a6b2bd430b1abcd4"
+  },
+  "source_files": {
+    "merchant_result_rows.py": "381856ed7e196f0adb418f27a80c044e09031f401b2c277f86dfe2fb1e9bea37",
+    "test_merchant_result_rows.py": "22d34bfff2dafaec728f1fc6c1fe4b69748e5de2b70ac4359bd7fdbef9bf4a51",
+    "merchant_result_filter.py": "dea97b182fdb2cd79f195d5183bd1769f384c1d4d8999530eb66e4a9257b0516",
+    "MERCHANT_RESULT_ROWS.md": "a78d81b2efb7f360b8330017ee9f47158d01c43bedea4a475bf6dad2240ec22f"
+  },
+  "source_audit": {
+    "path": "outputs\\FarmexBot_merchant_sonuc_sutun_kaniti.json",
+    "sha256": "c0453067459955efd57a8ae189fb5096b65861789991c23288e703792158b96d"
+  },
+  "new_REA_analyses": 0,
+  "ui_changed": false,
+  "sorting_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "release_updated": false,
+  "preserved_release_sha256": "c534f89fe9357692660c596500a12c83a3d7100e067656bc1f6060b2cef8bbca",
+  "full_GUI_candidate_status": "pending_selected_message_UI_due_to_approval_review_usage_limit"
+}

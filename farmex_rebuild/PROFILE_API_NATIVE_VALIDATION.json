@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-22T23:03:04.941207+00:00",
+  "full_tests": 3738,
+  "full_test_seconds": 11.664,
+  "new_tests": 0,
+  "full_tests_rerun": false,
+  "runtime_python_unchanged": true,
+  "runtime_python_files_matched_previous_manifest": 603,
+  "instruction_records_verified": 558,
+  "new_REA_analyses": 3,
+  "reused_REA_analyses": 0,
+  "scoped_models": 168,
+  "new_scoped_functions": [],
+  "native_case_count": 15,
+  "owned_native_execution_verified": true,
+  "original_wrappers_native_execution_verified": false,
+  "managed_rtl_verified": false,
+  "windows_uac_requested": false,
+  "host_elevation_measured": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "compiled_control_count": 355,
+  "editable_controls_outside_inventory": 168,
+  "source_files": {
+    "native/profile_api_fixture.c": "d283b320142d47399da5745d3b4107703d0ce755f46f2cd09f777298a91e704f",
+    "native/build_profile_api_fixture.ps1": "1f7a2843681931591afc7294415f7b87aad255d86f79b34d4e0cf2ab88a11c65",
+    "PROFILE_API_NATIVE.md": "a6454cdf2e84fd86f5a4d9314bb857a5999d4577ef3bfa0e8e7f3e9a0c209da2",
+    "RELOG_CONFIG_FIELDS.md": "41d5c8e5f548e0de1ece398cfdf4dff1e0ff5d892834702e359057f190ab381f"
+  },
+  "source_audits": {
+    "REA_relog_ini_boolean_20261023.json": "ff88a46e2cfcfb5c089783a0f0730c3ece6286f9e4e36440cea55659d60b72a3",
+    "REA_relog_ini_dword_20261023.json": "167ca6985f065b3c26f514131e28be072144d6d4cddb7323b0e865a11b17acad",
+    "REA_relog_ini_string_20261023.json": "374915e9e4d7a35828b0f39b570dfead6a6bbe58c06957fe1a2b26ae5da7f342",
+    "FarmexBot_relog_ayar_alanlari_kaniti.json": "046c3c9ce536d2acfafebe49f7faee1cefbfa8e7bee53734cceac841c17e6a5a",
+    "FarmexBot_fonksiyon_takibi.json": "47abfd697517ff94c0666fb3a505aff4e7bf6603f3bd597f6ff6d84877f31746"
+  },
+  "audit_sha256": "ccef96b0cb5ba071790b5d2c371b16af5a9476e0ca58dd0871de85742b5bf07f",
+  "test_log_sha256": "f8c308c32a9fa68cf6bde5432047a7ca3fbdf49d08eaf377cc4ede686f6db963",
+  "additional_logs": {
+    "work/native_profile_api_fixture/run.log": "44dad115ad24a5418d62ae107eb3e93256a54c1a30075372ae450d0d70211e3b",
+    "work/native_profile_api_fixture/rea5134.tmp": "a37adb00397db8a9b7641b5b7bcc71ce60ec3db7ede1ba1808f10017d9a08869",
+    "work/native_profile_api_fixture/profile_api_fixture.exe": "5451670939355784ae97a43b2efd4952eb375a5c929a7bb1f5e3978f23536c23",
+    "work/toolchain/tinycc-win32/tcc/tcc.exe": "11b86934bb2833f57fa0453a605ca342aee9207e193faea9b973baa2b2b4c35b"
+  },
+  "original_config_files_opened": 0,
+  "credentials_read": false,
+  "new_live_checks_performed": false,
+  "whole_function_verified": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "external_game_actions_executed": 0
+}

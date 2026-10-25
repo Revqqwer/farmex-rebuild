@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-21T10:02:43.043155+00:00",
+  "full_tests": 3148,
+  "full_test_seconds": 7.305,
+  "new_tests": 8,
+  "instruction_records_verified": 1618,
+  "new_binary_coverage": false,
+  "REA_functions_used": 5,
+  "generated_main_Genie_child": true,
+  "reached_only_Notice_tail": true,
+  "child_and_main_outer_returns_separate": true,
+  "shared_own_MS_Genie_queue": true,
+  "source_enqueue_context": "561ef8",
+  "committed_prefix_not_duplicated": true,
+  "retroactive_recovery_binding_rejected": true,
+  "whole_worker_verified": false,
+  "ui_changed": false,
+  "ui_retested": false,
+  "native_execution_verified": false,
+  "live_compatibility_verified": false,
+  "delivery_verified": false,
+  "game_actions": 0,
+  "source_files": {
+    "main_worker.py": "8d5824a4c14bdcebedaf82befda9e3a268bb6f054f32fcb6e021c2becd506ae2",
+    "genie_worker.py": "3c11b121dca3ea5cf9681b90ca7289cd4acc959a21a3620790c166ec85bd342b",
+    "genie_recovery.py": "8a0a58631a25953a586e2528bfe03f5400a0e159a158fd7c4f30959aefacb0fe",
+    "notice_genie_window.py": "6fabd9ee9b7ce10e3373327d97c05f30f00ef01c95440f92b59690733c052653",
+    "test_main_genie_binding.py": "3df5048cca6293cfcaa17dcf6503cfd2e71bbffcfca86701564643f0e079b9bb",
+    "test_genie_worker.py": "7f0b3f2c84cad4cefc646e515ed4a6708621c5c04f9d5c582e2487b16aa6c7a4",
+    "test_genie_worker_recovery.py": "47b7dfe13174c5dec753378c1d736d7d698562d0642f7408e40d2b72c3f6329f"
+  },
+  "source_audits": {
+    "FarmexBot_ana_worker_Genie_bagi_kaniti.json": "73d75b0fcbb141586001f4fbdcbe5c678b7a12350c59cb69432fa0352878bfe2",
+    "REA_ana_worker_MS_cagri_20261021.json": "755e5b345c6d35a6ef3a99ab48b0a0bf4eaed425780090059c9e7c18de6f09d4",
+    "REA_ana_worker_Genie_alt_govde_20261021.json": "ba79a55182a2b408466658010c75192faf8ff1d2a16e64661c088dbf4b83ee32",
+    "REA_ana_worker_Genie_yenileme_20261021.json": "cc32e744deabf154af3c1d26e4a8d9b2ce6ca2568ca4e1922ccefa164eb5bcc0",
+    "REA_MS_tas_kullanimi_20261021.json": "6a0fc6bcfb264c786348c26331a92cccba6a0b1811fd1971e9bb3f3e22cf8f1c",
+    "REA_MS_esya_kullan_yardimci_20261021.json": "b7620ed2825f4a358efabdcb4f2c998b66da628d99e2e558d888a8f8dff5fffd"
+  },
+  "audit_sha256": "73d75b0fcbb141586001f4fbdcbe5c678b7a12350c59cb69432fa0352878bfe2",
+  "test_log_sha256": "9e36ebf521b66166c364aa42ae6e1f4bb0172a4af6b7f36cb608a164e01464d6"
+}
