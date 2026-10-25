@@ -43,6 +43,6 @@ Son frame aşaması: tek scheduler invocation'ında yalnız tüketilen değerler
 4. Kaynak nesne/global kimlikleri, initialization gate, gerçek form/DPI/cursor/CP/FPU ve native gönderim/hareket etkileri.
 5. Bunlardan ayrı gerçek oyun bağlantısı, güncel istemci ve özelliklerin oyunda uçtan uca doğrulanması.
 
-Güncel Python/API kaydı QUEST_RECORD_VALIDATION.json dosyasıdır;4744 tam GUI closure/hash kaydı korunur. QUEST_RECORD.md kapsamı ve FarmexBot_gorev_kayit_uretimi_kaniti.json kaynak bağını açıklar. Güncel paket denetimi FarmexBot_gorev_kayit_paket_dogrulamasi.json içindedir. Önceki koordinat/NPC ve diğer doğrulama dosyaları tarihsel aşamalardır; eski source hashleri güncel kod eşliği iddiası değildir.
+Güncel Python/GUI kaydı QUEST_LOOKUP_COMPOSITION_VALIDATION.json dosyasıdır:4933 test ve yeni tam GUI. Görev arama/Al-Ver kaynak bağı FarmexBot_gorev_arama_birlesimi_kaniti.json, güncel paket denetimi FarmexBot_gorev_arama_birlesimi_paket_dogrulamasi.json içindedir. QUEST_RECORD_VALIDATION.json ve4744 GUI closure/hash kaydı önceki kayıt üretimi aşamasına aittir. Yukarıdaki eski Merchant/kayıt ve diğer doğrulama notları tarihsel aşamalardır; eski source hashleri güncel kod eşliği iddiası değildir.
 
 Fonksiyon/arayüz envanterleri: FarmexBot_fonksiyon_takibi.json, FarmexBot_guncel_ayar_motor_baglari.json ve FarmexBot_panel_bag_eksikleri.json. Bu aşamada yeni başarılı REA decompile çağrısı yoktur; mevcut Ghidra/PE kanıtları ve kendi standart-runtime fixture'ları kullanılmıştır.

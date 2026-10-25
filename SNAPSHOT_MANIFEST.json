@@ -743,8 +743,8 @@
     },
     {
       "path": "farmex_rebuild/CURRENT_STATUS.md",
-      "size": 8753,
-      "sha256": "740174fa882ec836a874072cd5a47f3005f933224aa4e78814620bf3c6f81c16"
+      "size": 8854,
+      "sha256": "27af3839276236b0a8983b1882edf77a3ac4a8bd489cd5aee8efe16dc0efea39"
     },
     {
       "path": "farmex_rebuild/DC_FULL_CHAIN.md",
@@ -7564,7 +7564,7 @@
     {
       "path": "analysis/FarmexBot_gorev_arama_birlesimi_paket_dogrulamasi.json",
       "size": 658,
-      "sha256": "af23daa87a7d1e82297c3c61b4dac516a4d72d64d8588857d167f651192f67a1"
+      "sha256": "6a23d1b07257f6a398135f0db3f259b39fd0b12584c5a401e0958329ed4eac70"
     },
     {
       "path": "analysis/FarmexBot_guncel_ayar_motor_baglari.json",
